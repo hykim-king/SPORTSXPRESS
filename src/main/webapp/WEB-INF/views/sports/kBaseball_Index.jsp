@@ -878,7 +878,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <span class="image"><img width="194" height="112" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20230609_228/16862803183487gsTn_JPEG/%BC%F6%C1%A4.jpg&amp;type=sports_nf750_432" onerror="imageOnError(this);" alt=""></span>
           </div>
           <div class="text_area">
-            <span class="title">'마! 클래식하게 한판 붙어보자! ' </span>
+            <span class="title">${videos[1].title}</span>
           </div>
         </a>
     </li>
