@@ -893,7 +893,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                             <em class="state">
                                 
                                     
-                                        18:30
+                                        ${matches[0].time}
                                     
                                     
                                 

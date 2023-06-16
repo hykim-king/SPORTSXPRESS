@@ -49,15 +49,6 @@ public class BaseballController {
 	public BaseballController() {
 		System.out.println("default SportsController()");
 	}
-
-	@RequestMapping(value = "/baseball_Match.do", method = RequestMethod.GET)
-	public String getMatchInfo(BaseballMatchVO getMatch, Model model) throws SQLException {
-		getMatch.setBaseno(10000); // 특정 경기 번호 설정
-	    List<BaseballMatchVO> matchList = baseballMatchService.getMatchInfo(getMatch);
-	    model.addAttribute("matches", matchList);
-	  
-	    return "sports/baseball_Match";
-	}
 	
 	@RequestMapping(value = "/tusu_Info.do", method = RequestMethod.GET)
 	public String getTusuInfo(TusuInfoVO getMatch, Model model) throws SQLException {
@@ -81,29 +72,27 @@ public class BaseballController {
 	//기사, 팀, 비디오 서비스 주입 및 메서드
 	//-------------------------------------------------------------------------//
 	@RequestMapping(value = "/kBaseball_Index.do")
-	public String ArticleInfo(ArticleVO getArticle, Model model) throws SQLException {
+	public String ArticleInfo(ArticleVO getArticle,VideoVO getVideo, Model model) throws SQLException {
 		getArticle.setSports_nm("야구");
 	    List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 	    model.addAttribute("articles", articleList);
-	  
-	    return "sports/kBaseball_Index";
-	}
-	
-	@RequestMapping(value = "/baseball_Team.do", method = RequestMethod.GET)
-	public String TeamInfo(TeamVO getTeam, Model model) throws SQLException {
-	    List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
-	    model.addAttribute("teams", TeamList);
-	  
-	    return "sports/team";
-	}
-	
-	@RequestMapping(value = "/kBaseball_Video.do", method = RequestMethod.GET)
-	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
-		getVideo.setSports_nm("야구");
+	    getVideo.setSports_nm("야구");
 	    List<VideoVO> VideoList = videoService.getVideoInfo(getVideo);
 	    model.addAttribute("videos", VideoList);
 	  
 	    return "sports/kBaseball_Index";
+	}
+	
+	@RequestMapping(value = "/kBaseball_Schedule.do", method = RequestMethod.GET)
+	public String ScheduleInfo(BaseballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
+		List<BaseballMatchVO> matchList = baseballMatchService.getMatchInfo(getMatch);
+	    model.addAttribute("matches", matchList);
+	    getTeam.setLname("KBO");
+		List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
+	    model.addAttribute("teams", TeamList);
+	   
+	  
+	    return "sports/kBaseball_Schedule";
 	}
 	
 	//-------------------------------------------------------------------------//
