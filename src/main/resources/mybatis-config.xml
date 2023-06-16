@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<settings>
+		<setting name="logImpl" value="LOG4J2" />
+	</settings>
+
+
+
+	<typeAliases>
+		<typeAlias type="com.pcwk.ehr.sportsxpress.ArticleVO"
+			alias="ArticleVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Baseball_MatchVO"
+			alias="Baseball_MatchVO" />
+		<typeAlias
+			type="com.pcwk.ehr.sportsxpress.Basketball_InfoVO"
+			alias="Basketball_InfoVO" />
+		<typeAlias
+			type="com.pcwk.ehr.sportsxpress.Basketball_MatchVO"
+			alias="Basketball_MatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Football_InfoVO"
+			alias="Football_InfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Football_MatchVO"
+			alias="Football_MatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Golf_MatchVO"
+			alias="Golf_MatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Golf_RankVO"
+			alias="Golf_RankVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Taja_InfoVO"
+			alias="Taja_InfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.TeamVO"
+			alias="TeamVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.Tusu_InfoVO"
+			alias="Tusu_InfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VideoVO"
+			alias="VideoVO" />
+		<typeAlias
+			type="com.pcwk.ehr.sportsxpress.Volleyball_InfoVO"
+			alias="Volleyball_InfoVO" />
+		<typeAlias
+			type="com.pcwk.ehr.sportsxpress.Volleyball_MatchVO"
+			alias="Volleyball_MatchVO" />
+
+
+	</typeAliases>
+
+</configuration>
