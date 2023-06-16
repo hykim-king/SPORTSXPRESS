@@ -657,7 +657,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/09/PYH2023060912790001300_P4_20230609145506381.jpg&amp;type=sports_nf160_95" alt="재활 중인 구창모, 항저우AG 와일드카드…고교생 장현석 발탁(종합)" onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">재활 중인 구창모, 항저우AG 와일드카드…고교생 장현석 발탁(종합)</span>
+        <span class="title">${articles[1].title})</span>
         <span class="press">연합뉴스</span>
       </div>
   </a>

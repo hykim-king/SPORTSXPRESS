@@ -18,24 +18,7 @@
 
             <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/baseball_gamecenter.css">
 
-        
-        
-
-        
-        
-    
-    
-        
-        
-        
-        
             <title>기록/순위, 야구 : 네이버 스포츠</title>
-        
-        
-        
-        
-        
-    
 
     <script></script>
 
