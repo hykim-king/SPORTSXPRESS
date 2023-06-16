@@ -451,55 +451,55 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    <a href="#" class="link_lnb" role="menuitem">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    <a href="${CP}/resources/kBaseball/kBaseball_Index.jsp" class="link_lnb" role="menuitem">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
+    <a href="${CP}/resources/wBaseball/wBaseball_Index.jsp" class="link_lnb" role="menuitem">해외야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/kfootball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="${CP}/resources/kFootball/kFootball_Index.jsp" class="link_lnb" role="menuitem" aria-current="true">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
+    <a href="${CP}/resources/wFootball/wFootball_Index.jsp" class="link_lnb" role="menuitem">해외축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    <a href="${CP}/resources/basketball/basketball_index.jsp" class="link_lnb" role="menuitem">농구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    <a href="${CP}/resources/volleyball/volleyball_Index.jsp" class="link_lnb" role="menuitem">배구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    <a href="${CP }/resources/golf/golf_Index.jsp" class="link_lnb" role="menuitem">골프</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
+    <a href="#" class="link_lnb" role="menuitem">일반</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
+    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem">e스포츠</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
+    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem">연재</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
+    <a href="#" class="link_lnb" role="menuitem">오늘의 경기</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+    <a href="#" class="link_lnb" role="menuitem">랭킹</a>
   </li>
 </ul>
 

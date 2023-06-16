@@ -21,8 +21,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.support.BindingAwareModelMap;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.pcwk.ehr.sportsxpress.Baseball_MatchVO;
-import com.pcwk.ehr.sportsxpress.service.Baseball_MatchService;
+import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
+import com.pcwk.ehr.sportsxpress.service.BaseballService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "file:src/main/webapp/WEB-INF/spring/root-context.xml",
@@ -36,7 +36,7 @@ public class Baseball_MatchControllerTest {
 	MockMvc mockMvc;
 
 	@Autowired
-	Baseball_MatchService baseball_MatchService;
+	BaseballService baseball_MatchService;
 	Model model;
 
 	@Before
@@ -47,12 +47,12 @@ public class Baseball_MatchControllerTest {
 
 	@Test
 	public void testGetMatchInfo() throws Exception {
-		Baseball_MatchVO getMatch = new Baseball_MatchVO();
+		BaseballMatchVO getMatch = new BaseballMatchVO();
 		getMatch.setBaseno(1); // 특정 경기 번호 설정
-		List<Baseball_MatchVO> match = baseball_MatchService.getMatchInfo(getMatch);
+		List<BaseballMatchVO> match = baseball_MatchService.getMatchInfo(getMatch);
 		System.out.println("뭐가 들어있는거야" + match);
 
-		for (Baseball_MatchVO matches : match) {
+		for (BaseballMatchVO matches : match) {
 			System.out.println("경기번호: " + matches.getBaseno());
 			System.out.println("하이퍼링크: " + matches.getMlink());
 			// 필요한 정보 출력

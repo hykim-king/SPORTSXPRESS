@@ -8,41 +8,39 @@
 		<setting name="logImpl" value="LOG4J2" />
 	</settings>
 
-
-
 	<typeAliases>
-		<typeAlias type="com.pcwk.ehr.sportsxpress.ArticleVO"
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.ArticleVO"
 			alias="ArticleVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Baseball_MatchVO"
-			alias="Baseball_MatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO"
+			alias="BaseballMatchVO" />
 		<typeAlias
-			type="com.pcwk.ehr.sportsxpress.Basketball_InfoVO"
-			alias="Basketball_InfoVO" />
+			type="com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO"
+			alias="BasketballInfoVO" />
 		<typeAlias
-			type="com.pcwk.ehr.sportsxpress.Basketball_MatchVO"
-			alias="Basketball_MatchVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Football_InfoVO"
-			alias="Football_InfoVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Football_MatchVO"
-			alias="Football_MatchVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Golf_MatchVO"
-			alias="Golf_MatchVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Golf_RankVO"
-			alias="Golf_RankVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Taja_InfoVO"
-			alias="Taja_InfoVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.TeamVO"
+			type="com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO"
+			alias="BasketballMatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.FootballInfoVO"
+			alias="FootballInfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.FootballMatchVO"
+			alias="FootballMatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.GolfMatchVO"
+			alias="GolfMatchVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.GolfRankVO"
+			alias="GolfRankVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.TajaInfoVO"
+			alias="TajaInfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.TeamVO"
 			alias="TeamVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.Tusu_InfoVO"
-			alias="Tusu_InfoVO" />
-		<typeAlias type="com.pcwk.ehr.sportsxpress.VideoVO"
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.TusuInfoVO"
+			alias="TusuInfoVO" />
+		<typeAlias type="com.pcwk.ehr.sportsxpress.VO.VideoVO"
 			alias="VideoVO" />
 		<typeAlias
-			type="com.pcwk.ehr.sportsxpress.Volleyball_InfoVO"
-			alias="Volleyball_InfoVO" />
+			type="com.pcwk.ehr.sportsxpress.VO.VolleyballInfoVO"
+			alias="VolleyballInfoVO" />
 		<typeAlias
-			type="com.pcwk.ehr.sportsxpress.Volleyball_MatchVO"
-			alias="Volleyball_MatchVO" />
+			type="com.pcwk.ehr.sportsxpress.VO.VolleyballMatchVO"
+			alias="VolleyballMatchVO" />
 
 
 	</typeAliases>

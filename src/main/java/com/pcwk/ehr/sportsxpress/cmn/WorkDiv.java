@@ -3,7 +3,7 @@ package com.pcwk.ehr.sportsxpress.cmn;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.pcwk.ehr.sportsxpress.Baseball_MatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
 
 /**
  *

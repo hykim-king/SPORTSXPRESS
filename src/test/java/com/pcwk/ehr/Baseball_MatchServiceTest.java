@@ -10,9 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.pcwk.ehr.sportsxpress.Baseball_MatchVO;
-import com.pcwk.ehr.sportsxpress.dao.Baseball_MatchDao;
-import com.pcwk.ehr.sportsxpress.service.Baseball_MatchServiceImpl;
+import com.pcwk.ehr.sportsxpress.service.impl.BaseballServiceImpl;
 
 @RunWith(SpringJUnit4ClassRunner.class)  //스프링 테스트 컨텍스 프레임워크의 JUnit확장 기능 지정
 @ContextConfiguration(locations = {
@@ -22,13 +20,9 @@ import com.pcwk.ehr.sportsxpress.service.Baseball_MatchServiceImpl;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)  //@Test 메소드를 오름차순으로 정렬한 순서대로 실행
 public class Baseball_MatchServiceTest {
 	final Logger  LOG = LogManager.getLogger(getClass());
-	
-	    @Autowired
-	    Baseball_MatchDao baseball_MatchDao;
-	    Baseball_MatchVO baseball_MatchVO;
-	    
-	    @Autowired
-	    Baseball_MatchServiceImpl baseball_MatchServiceImpl;
+		
+		@Autowired
+	    BaseballServiceImpl baseballServiceImpl;
 
 	    @Before
 	    public void setup() {

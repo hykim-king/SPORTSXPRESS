@@ -3,8 +3,7 @@ package com.pcwk.ehr.sportsxpress.dao;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.pcwk.ehr.sportsxpress.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VideoVO;
+import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 
 public interface VideoDao {
 
