@@ -641,11 +641,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     
       <div class="image_area">
         <span class="common_playicon"><span class="blind">동영상</span></span>
-        <span class="common_video_length"><span class="blind">재생시간</span>04:38</span>
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20230609_8/1686292031496UksVs_JPEG/%B3%AA%BF%EC%BD%E6%B3%DA-%C7%D7%C0%FA%BF%EC-230609.jpg&amp;type=sports_nf160_95" alt="AG 야구 대표팀 최종 엔트리 발표… '고교 투수' 장현석 포함" onerror="imageOnError(this);"></span>
+        <span class="common_video_length"><span class="blind">재생시간</span>${articles[0].views}</span>
+        <span class="image"><img src= ${articles[0].hyperlink} alt=${articles[0].title} onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">AG 야구 대표팀 최종 엔트리 발표… '고교 투수' 장현석 포함</span>
+        <span class="title">${articles[0].title}</span>
         <span class="press">국내야구</span>
       </div>
   </a>

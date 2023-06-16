@@ -33,7 +33,7 @@ public class ArticleController {
 		List<ArticleVO> articleList = article_Service.getArticleInfo(getArticle);
 		model.addAttribute("articles", articleList);
 
-		return "sports/article";
+		return "sports/kBaseball_Index";
 	}
 
 	@Autowired

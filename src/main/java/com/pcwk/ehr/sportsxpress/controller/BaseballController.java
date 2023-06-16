@@ -80,13 +80,13 @@ public class BaseballController {
 	
 	//기사, 팀, 비디오 서비스 주입 및 메서드
 	//-------------------------------------------------------------------------//
-	@RequestMapping(value = "/baseball_Article.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/kBaseball_Index.do")
 	public String ArticleInfo(ArticleVO getArticle, Model model) throws SQLException {
 		getArticle.setSports_nm("야구");
 	    List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 	    model.addAttribute("articles", articleList);
 	  
-	    return "sports/article";
+	    return "sports/kBaseball_Index";
 	}
 	
 	@RequestMapping(value = "/baseball_Team.do", method = RequestMethod.GET)
@@ -97,13 +97,13 @@ public class BaseballController {
 	    return "sports/team";
 	}
 	
-	@RequestMapping(value = "/baseball_Video.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/kBaseball_Video.do", method = RequestMethod.GET)
 	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
 		getVideo.setSports_nm("야구");
 	    List<VideoVO> VideoList = videoService.getVideoInfo(getVideo);
 	    model.addAttribute("videos", VideoList);
 	  
-	    return "sports/video";
+	    return "sports/kBaseball_Index";
 	}
 	
 	//-------------------------------------------------------------------------//
