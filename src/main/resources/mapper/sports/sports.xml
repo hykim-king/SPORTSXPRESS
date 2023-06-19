@@ -277,5 +277,21 @@
 		FROM
 		  football_match
 	</select>
+	
+	<select id="recordInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
+		SELECT     
+		    B1.hname AS hname,
+		    T1.LOGO AS logo,
+		    COUNT(B1.hscore) AS hscore,
+		    COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) AS win,
+		    <![CDATA[COUNT(CASE WHEN B1.hscore < B1.ascore THEN NULL ELSE 1 END) AS lose,]]>	    
+		    COUNT(CASE WHEN B1.hscore = B1.ascore THEN 1 ELSE NULL END) AS draw,
+		    ROUND(COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) / COUNT(B1.hscore), 2) AS winrate
+		FROM baseball_match B1
+		JOIN team T1 ON T1.tname = B1.hname
+		GROUP BY B1.hname, T1.logo
+		ORDER BY winrate desc
+	</select>
+	
 
 </mapper>

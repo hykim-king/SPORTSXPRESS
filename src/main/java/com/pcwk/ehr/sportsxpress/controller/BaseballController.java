@@ -11,12 +11,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
 import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.RecordVO;
 import com.pcwk.ehr.sportsxpress.VO.TajaInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.TusuInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
 import com.pcwk.ehr.sportsxpress.service.BaseballService;
+import com.pcwk.ehr.sportsxpress.service.RecordService;
 import com.pcwk.ehr.sportsxpress.service.TajaService;
 import com.pcwk.ehr.sportsxpress.service.TeamService;
 import com.pcwk.ehr.sportsxpress.service.TusuService;
@@ -45,6 +47,9 @@ public class BaseballController {
 
 	@Autowired
 	ArticleService articleService;
+	
+	@Autowired
+	RecordService recordService;
 
 	public BaseballController() {
 		System.out.println("default SportsController()");
@@ -83,16 +88,15 @@ public class BaseballController {
 	    return "sports/kBaseball_Index";
 	}
 	
-	@RequestMapping(value = "/kBaseball_Schedule.do", method = RequestMethod.GET)
-	public String ScheduleInfo(BaseballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
-		List<BaseballMatchVO> matchList = baseballMatchService.getMatchInfo(getMatch);
-	    model.addAttribute("matches", matchList);
-	    getTeam.setLname("KBO");
-		List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
-	    model.addAttribute("teams", TeamList);
-	   
-	  
-	    return "sports/kBaseball_Schedule";
+	
+	@RequestMapping(value = "/kBaseball_Record.do", method = RequestMethod.GET)
+	public String ScheduleInfo(RecordVO getRecord, Model model) throws SQLException {
+		
+		//야구 매칭 기록을 서비스를 통해 가져옴
+		List<RecordVO> matchList = recordService.getRecordInfo(getRecord);
+	    model.addAttribute("records", matchList);
+
+	    return "sports/kBaseball_Record";
 	}
 	
 	//-------------------------------------------------------------------------//
