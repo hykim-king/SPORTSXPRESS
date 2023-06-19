@@ -54,6 +54,8 @@ public class FootballController {
 		return "sports/football_news";
 
 	}
+	
+	
 
 	// -------------------------------------------------------------------------//
 
