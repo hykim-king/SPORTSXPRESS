@@ -14,5 +14,6 @@ public interface BaseballDao {
 	 * @throws SQLException
 	 */
 	List<BaseballMatchVO> selectBaseballMatchInfo(BaseballMatchVO getMatch) throws SQLException;
-	
+
+	List<BaseballMatchVO> selectBaseballRecord(BaseballMatchVO getMatch) throws SQLException;
 }

@@ -20,5 +20,11 @@ public class BaseballServiceImpl implements BaseballService {
 	public List<BaseballMatchVO> getMatchInfo(BaseballMatchVO getMatch) throws SQLException {
 		return baseballDao.selectBaseballMatchInfo(getMatch);
 	}
+
+	@Override
+	public List<BaseballMatchVO> getSelectBaseballRecord(BaseballMatchVO getMatch) throws SQLException {
+		return baseballDao.selectBaseballRecord(getMatch);
+	}
+
 	
 }

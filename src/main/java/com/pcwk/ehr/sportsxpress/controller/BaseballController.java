@@ -10,17 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.TajaInfoVO;
-import com.pcwk.ehr.sportsxpress.VO.TeamVO;
-import com.pcwk.ehr.sportsxpress.VO.TusuInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
 import com.pcwk.ehr.sportsxpress.service.BaseballService;
-import com.pcwk.ehr.sportsxpress.service.TajaService;
 import com.pcwk.ehr.sportsxpress.service.TeamService;
-import com.pcwk.ehr.sportsxpress.service.TusuService;
 import com.pcwk.ehr.sportsxpress.service.VideoService;
+
 
 @RequestMapping(value = "/sportsxpress")
 @Controller // controller bean 등록
@@ -28,13 +23,9 @@ public class BaseballController {
 
 	@Autowired
 	BaseballService baseballMatchService;
+	
 
-	@Autowired
-	TusuService tusuInfoService;
-
-	@Autowired
-	TajaService tajaInfoService;
-
+	
 	@Autowired
 	VideoService videoService;
 
@@ -44,9 +35,11 @@ public class BaseballController {
 	@Autowired
 	ArticleService articleService;
 
+
 	public BaseballController() {
 		System.out.println("default SportsController()");
 	}
+
 
 	// 한국 야구 (최신 뉴스, 영상 등 한 화면에 필요한 DATA를 부르는 Controller 제작)
 	// -------------------------------------------------------------------------//
@@ -66,6 +59,5 @@ public class BaseballController {
 	}
 
 
-	// -------------------------------------------------------------------------//
-
+	
 }

@@ -13,5 +13,5 @@ public interface ArticleDao {
 	 * @return
 	 * @throws SQLException
 	 */
-	List<ArticleVO> ArticleInfo(ArticleVO getMatch) throws SQLException;
+	List<ArticleVO> ArticleInfo(ArticleVO getRecord) throws SQLException;
 }

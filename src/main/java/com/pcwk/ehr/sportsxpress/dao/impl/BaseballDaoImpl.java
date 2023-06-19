@@ -47,10 +47,23 @@ public class BaseballDaoImpl implements BaseballDao {
 	}
 
 
-
-
-
-
-
+	@Override
+	public List<BaseballMatchVO> selectBaseballRecord(BaseballMatchVO getMatch) throws SQLException {
+		List<BaseballMatchVO> outList =  new ArrayList<>();
+		
+		String temp = null;
+		String statement = this.NAMESPACE+DOT+"selectBaseballRecord";
+		LOG.debug("-------------------------------------");
+		LOG.debug("-statement-"+statement);
+		LOG.debug("-------------------------------------");
+		LOG.debug("2. param="+getMatch);
+		outList = this.sqlSessionTemplate.selectList(statement, temp);
+		
+		for(BaseballMatchVO vo:outList) {
+			LOG.debug("=3. vo="+vo);
+		}
+		return outList;
+	}
+	
 
 }

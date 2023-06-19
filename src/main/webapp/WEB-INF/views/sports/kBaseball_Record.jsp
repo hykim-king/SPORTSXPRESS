@@ -868,7 +868,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                                 <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                             
                         
-                        <span id="team_SK">SSG</span>
+                        <span id="team_SK">${records[0].hname}</span>
                     </div>
                 </td>
                 <td><span>54</span></td>
