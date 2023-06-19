@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pcwk.ehr.sportsxpress">
+
+	<select id="ArticleInfo" parameterType="ArticleVO" resultType="ArticleVO">
+		SELECT
+			articleno,
+			thumbnail,
+			sports_nm,
+			title,
+			reg_id,
+			reg_dt,
+			hyperlink,
+			views
+		FROM
+		  article
+		<where>
+      <![CDATA[sports_nm = #{sports_nm}]]>
+		</where>
+	</select>
+
+	<select id="TeamInfo" parameterType="TeamVO" resultType="TeamVO">
+		SELECT
+			season,
+			lname,
+			location,
+			tname,
+			logo
+		FROM
+		  team
+	</select>
+
+	<select id="VideoInfo" parameterType="VideoVO" resultType="VideoVO">
+		SELECT
+			videono,
+			sports_nm,
+			title,
+			reg_id,
+			reg_dt,
+			hyperlink,
+			views
+		FROM
+		  video
+		<where>
+      <![CDATA[sports_nm = #{sports_nm}]]>
+		</where>
+	</select>
+
+	<select id="selectTajaInfo" parameterType="TajaInfoVO" resultType="TajaInfoVO">
+		SELECT
+			name,
+			avg,
+			played,
+			hits,
+			safety,
+			b2,
+			b3,
+			hr,
+			rbi,
+			score,
+			steal,
+			ball4,
+			k,
+			obp,
+			slg,
+			ops,
+			isop,
+			babip,
+			woba,
+			wrc,
+			wpa,
+			war
+		FROM taja_info
+		WHERE lname = 'KBO'
+		ORDER BY AVG desc
+	</select>
+
+	<select id="selectTusuInfo" parameterType="TusuInfoVO" resultType="TusuInfoVO">
+		SELECT
+			tusuid,
+			name,
+			eravg,
+			played,
+			inning,
+			win,
+			lose,
+			save,
+			hold,
+			k,
+			ob,
+			ohr,
+			r,
+			ball4,
+			bb,
+			wper,
+			whip,
+			k9,
+			bb9,
+			kbb,
+			kper,
+			bbper,
+			wpa,
+			war
+		FROM tusu_info
+		ORDER by eravg asc
+	</select>
+
+	<select id="selectBaseballMatchInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
+		SELECT
+			baseno,
+			season,
+			lname,
+			TO_CHAR(time,'yyyy-mm-dd HH24MISS') as time,
+			location,
+			hname,
+			hscore,
+			ateam,
+			ascore,
+			mlink,
+			vlink
+		FROM
+		  baseball_match
+	<!-- <where> <![CDATA[ baseno <= #{baseno}]]> </where> -->
+	</select>
+
+	<select id="selectBasketballPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
+		SELECT
+			basketid,
+			lname,
+			name,
+			profile,
+			played,
+			score,
+			assists,
+			rebound,
+			steal,
+			blocking,
+			point2,
+			point3,
+			ftr,
+			success_yato,
+			success_3p,
+			success_ftr
+		FROM
+		  basketball_info
+	<!-- <where> <![CDATA[ basketid <= #{basketid}]]> </where> -->
+	</select>
+
+	<select id="selectBasketballMatchInfo" parameterType="BasketballMatchVO" resultType="BasketballMatchVO">
+		SELECT
+		basketno,
+		season,
+		lname,
+		time,
+		location,
+		hname,
+		hscore,
+		ateam,
+		ascore,
+		mlink,
+		vlink
+		FROM
+		basketball_match
+		<!-- <where> <![CDATA[ basketno <= #{basketno}]]> </where> -->
+	</select>
+
+	<select id="selectGolfPlayerInfo" parameterType="GolfRankVO" resultType="GolfRankVO">
+		SELECT
+			golfid,
+			lname,
+			name,
+			profile,
+			nation,
+			ernings,
+			point,
+			savg,
+			ddavg,
+			appgrn,
+			pavg,
+			fhit,
+			top10f
+		FROM
+		  golf_rank
+		<!-- <where> <![CDATA[ golfid <= #{golfid}]]> </where> -->
+	</select>
+
+	<select id="selectGolfMatchInfo" parameterType="GolfMatchVO" resultType="GolfMatchVO">
+		SELECT
+			golfno,
+			lname,
+			cname,
+			sdate,
+			edate,
+			winner,
+			score
+		FROM
+		  golf_match
+	<!-- <where> <![CDATA[ golfno <= #{golfno}]]> </where> -->
+	</select>
+
+	<select id="selectVolleyballPlayerInfo" parameterType="VolleyballInfoVO" resultType="VolleyballInfoVO">
+		SELECT
+			volleyid,
+			name,
+			profile,
+			score,
+			attack_sr,
+			sub,
+			blocking,
+			defense,
+			sets,
+			recieve_ef
+		FROM
+		  volleyball_info
+	<!-- <where> <![CDATA[ volleyid <= #{volleyid}]]> </where> -->
+	</select>
+
+	<select id="selectVolleyballMatchInfo" parameterType="VolleyballMatchVO" resultType="VolleyballMatchVO">
+		SELECT
+			volleyno,
+			season,
+			lname,
+			time,
+			location,
+			hname,
+			hscore,
+			ateam,
+			ascore,
+			mlink,
+			vlink
+		FROM
+		  volleyball_match
+	<!-- <where> <![CDATA[ volleyno <= #{volleyno}]]> </where> -->
+	</select>
+
+	<select id="selectSoccerInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
+		SELECT
+			footid
+			, lname
+			, name
+			, profile
+			, score
+			, assists
+			, points
+			, played
+			, plravg
+			, mvp
+			, best11
+			, shots
+			, shotsont
+			, gpers
+			, gperg
+			, cfouls
+			, dfouls
+			, yellow
+			, red
+			, corners
+			, pkick
+			, offsides
+			, ptime
+		FROM football_info
+	</select>
+
+	<select id="selectSoccerMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
+		SELECT
+			footno
+			, season
+			, lname
+			, time
+			, location
+			, hname
+			, hscore
+			, ateam
+			, ascore
+			, mlink
+			, vlink
+		FROM
+		  football_match
+	</select>
+	
+	<select id="recordInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
+		SELECT     
+		    B1.hname AS hname,
+		    T1.LOGO AS logo,
+		    COUNT(B1.hscore) AS hscore,
+		    COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) AS win,
+		    <![CDATA[COUNT(CASE WHEN B1.hscore < B1.ascore THEN NULL ELSE 1 END) AS lose,]]>	    
+		    COUNT(CASE WHEN B1.hscore = B1.ascore THEN 1 ELSE NULL END) AS draw,
+		    ROUND(COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) / COUNT(B1.hscore), 2) AS winrate
+		FROM baseball_match B1
+		JOIN team T1 ON T1.tname = B1.hname
+		GROUP BY B1.hname, T1.logo
+		ORDER BY winrate desc
+	</select>
+	
+
+</mapper>
