@@ -36,30 +36,30 @@
 					<td>WAR</td>
 				</tr>
 				
-				<c:forEach var="player" items="${players}">	<!--var : 변수,  items :  -->
+				<c:forEach var="taja" items="${taja}">	<!--var : 변수,  items :  -->
 					<tr>
-						<td>${player.name}</td>
-						<td>${player.avg}</td>
-						<td>${player.played}</td>
-						<td>${player.hits}</td>
-						<td>${player.safety}</td>
-						<td>${player.b2}</td>
-						<td>${player.b3}</td>
-						<td>${player.hr}</td>
-						<td>${player.rbi}</td>
-						<td>${player.score}</td>
-						<td>${player.steal}</td>
-						<td>${player.ball4}</td>
-						<td>${player.k}</td>
-						<td>${player.obp}</td>
-						<td>${player.slg}</td>
-						<td>${player.ops}</td>
-						<td>${player.isop}</td>
-						<td>${player.babip}</td>
-						<td>${player.woba}</td>
-						<td>${player.wrc}</td>
-						<td>${player.wpa}</td>
-						<td>${player.war}</td>
+						<td>${taja.name}</td>
+						<td>${taja.avg}</td>
+						<td>${taja.played}</td>
+						<td>${taja.hits}</td>
+						<td>${taja.safety}</td>
+						<td>${taja.b2}</td>
+						<td>${taja.b3}</td>
+						<td>${taja.hr}</td>
+						<td>${taja.rbi}</td>
+						<td>${taja.score}</td>
+						<td>${taja.steal}</td>
+						<td>${taja.ball4}</td>
+						<td>${taja.k}</td>
+						<td>${taja.obp}</td>
+						<td>${taja.slg}</td>
+						<td>${taja.ops}</td>
+						<td>${taja.isop}</td>
+						<td>${taja.babip}</td>
+						<td>${taja.woba}</td>
+						<td>${taja.wrc}</td>
+						<td>${taja.wpa}</td>
+						<td>${taja.war}</td>
 						
 						<!-- 필요한 다른 정보들 추가 -->
 					</tr>

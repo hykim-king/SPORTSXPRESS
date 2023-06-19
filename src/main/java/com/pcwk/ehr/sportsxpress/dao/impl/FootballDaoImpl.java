@@ -12,10 +12,10 @@ import org.springframework.stereotype.Repository;
 
 import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
-import com.pcwk.ehr.sportsxpress.dao.SoccerDao;
+import com.pcwk.ehr.sportsxpress.dao.FootballDao;
 
 @Repository
-public class SoccerDaoImpl implements SoccerDao {
+public class FootballDaoImpl implements FootballDao {
 
 	final String NAMESPACE = "com.pcwk.ehr.sportsxpress";
 	final String DOT = ".";
@@ -25,18 +25,18 @@ public class SoccerDaoImpl implements SoccerDao {
 
 	private final Logger lg = LogManager.getLogger(getClass());
 	
-	public SoccerDaoImpl() {}
+	public FootballDaoImpl() {}
 
 	@Override
-	public List<FootballInfoVO> selectSoccerInfo(FootballInfoVO playerInfo) throws SQLException {
+	public List<FootballInfoVO> selectFootballInfo(FootballInfoVO getplayer) throws SQLException {
 		List<FootballInfoVO> outList = new ArrayList<>();
 
 		String statement = this.NAMESPACE + DOT + "selectSoccerInfo";
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
-		lg.debug("2. param=" + playerInfo);
-		outList = this.sqlSessionTemplate.selectList(statement, playerInfo);
+		lg.debug("2. param=" + getplayer);
+		outList = this.sqlSessionTemplate.selectList(statement, getplayer);
 
 		for (FootballInfoVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
@@ -46,15 +46,15 @@ public class SoccerDaoImpl implements SoccerDao {
 	}
 
 	@Override
-	public List<FootballMatchVO> selectSoccerMatchInfo(FootballMatchVO matchInfo) throws SQLException {
+	public List<FootballMatchVO> selectFootballMatchInfo(FootballMatchVO getMatch) throws SQLException {
 		List<FootballMatchVO> outList = new ArrayList<>();
 
 		String statement = this.NAMESPACE + DOT + "selectSoccerMatchInfo";
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
-		lg.debug("2. param=" + matchInfo);
-		outList = this.sqlSessionTemplate.selectList(statement, matchInfo);
+		lg.debug("2. param=" + getMatch);
+		outList = this.sqlSessionTemplate.selectList(statement, getMatch);
 
 		for (FootballMatchVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
