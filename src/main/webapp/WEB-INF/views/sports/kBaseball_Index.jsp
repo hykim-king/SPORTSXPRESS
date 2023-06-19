@@ -638,27 +638,28 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       <h2 class="blind">헤드라인</h2>
       <div class="headline_list">
       <div class="headline_item">
-  <a href="/video?id=1078215" class="link_headline" onclick="clickcr(this, 'hdl.videocont1', '', '', event);">
+  	
+	<a href="${articles[0].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.videocont1', '', '', event);">
     
       <div class="image_area">
         <span class="common_playicon"><span class="blind">동영상</span></span>
-        <span class="common_video_length"><span class="blind">재생시간</span>${art.views}</span>
-        <span class="image"><img src= ${art.hyperlink} alt=art} onerror="imageOnError(this);"></span>
+        <span class="common_video_length"><span class="blind">재생시간</span>${articles[0].views}</span>
+        <span class="image"><img src= ${articles[0].thumbnail} width="100%" alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">${art.title}</span>
-        <span class="press">국내야구</span>
+        <span class="title">${articles[0].title}</span>
+        <span class="press">${articles[0].reg_id}</span>
       </div>
   </a>
   
-  <a href="/news?oid=001&amp;aid=0013992648" class="link_headline" onclick="clickcr(this, 'hdl.cont2', '', '', event);">
+  <a href="${articles[1].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont2', '', '', event);">
     
       <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/09/PYH2023060912790001300_P4_20230609145506381.jpg&amp;type=sports_nf160_95" alt="재활 중인 구창모, 항저우AG 와일드카드…고교생 장현석 발탁(종합)" onerror="imageOnError(this);"></span>
+        <span class="image"><img src=${articles[1].thumbnail} alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">${articles[1].title})</span>
-        <span class="press">연합뉴스</span>
+        <span class="title">${articles[1].title}</span>
+        <span class="press">${articles[1].reg_id}</span>
       </div>
   </a>
 </div>
@@ -666,50 +667,53 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
 <div class="headline_item">
-  <a href="/news?oid=410&amp;aid=0000942786" class="link_headline" onclick="clickcr(this, 'hdl.cont3', '', '', event);">
+  <a href="${articles[2].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont3', '', '', event);">
     
       <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/410/2023/06/09/0000942786_001_20230609145101401.jpg&amp;type=sports_nf160_95" alt="사이드암 1명? 전문 외야 단 3명? 류중일 감독 답했다 “우영·명근 중 경험 선택, 백호·혜성·지찬 임시 외야 가능”" onerror="imageOnError(this);"></span>
+        <span class="image"><img src=${articles[2].thumbnail} alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">사이드암 1명? 전문 외야 단 3명? 류중일 감독 답했다 “우영·명근 중 경험 선택, 백호·혜성·지찬 임시 외야 가능”</span>
-        <span class="press">MK스포츠 </span>
+       <span class="title">${articles[2].title}</span>
+       <span class="press">${articles[2].reg_id}</span>
       </div>
   </a>
 
-  <a href="/news?oid=109&amp;aid=0004866699" class="link_headline" onclick="clickcr(this, 'hdl.cont4', '', '', event);">
+  <a href="${articles[3].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont4', '', '', event);">
     
       <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/109/2023/06/09/0004866699_001_20230609141604795.jpeg&amp;type=sports_nf160_95" alt="우승 에이스 컴백! ‘슐서 방출’ KT, 45만 달러에 쿠에바스 전격 영입 [오피셜]" onerror="imageOnError(this);"></span>
+        <span class="image"><img src=${articles[3].thumbnail} alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">우승 에이스 컴백! ‘슐서 방출’ KT, 45만 달러에 쿠에바스 전격 영입 [오피셜]</span>
-        <span class="press">OSEN</span>
+        <span class="title">${articles[3].title}</span>
+       <span class="press">${articles[3].reg_id}</span>
       </div>
   </a>
 </div><div class="headline_item">
-  <a href="/news?oid=421&amp;aid=0006856658" class="link_headline" onclick="clickcr(this, 'hdl.cont5', '', '', event);">
+  <a href="${articles[4].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont5', '', '', event);">
     
       <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856658_001_20230609142917279.jpg&amp;type=sports_nf160_95" alt="대한민국 야구대표팀, 항저우 아시안게임 명단 24인 확정" onerror="imageOnError(this);"></span>
+        <span class="image"><img src=${articles[4].thumbnail} alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">대한민국 야구대표팀, 항저우 아시안게임 명단 24인 확정</span>
-        <span class="press">뉴스1</span>
+        <span class="title">${articles[4].title}</span>
+       <span class="press">${articles[4].reg_id}</span>
       </div>
   </a>
 
-  <a href="/news?oid=468&amp;aid=0000950916" class="link_headline" onclick="clickcr(this, 'hdl.cont6', '', '', event);">
+  <a href=""${articles[5].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont6', '', '', event);">
     
       <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/468/2023/06/09/0000950916_001_20230609135302019.jpg&amp;type=sports_nf160_95" alt="병역혜택 후 프로 입단? 눈앞에 황금길 펼쳐진 21세기 고교 최고투수 장현석[SS시선집중]" onerror="imageOnError(this);"></span>
+        <span class="image"><img src=${articles[5].thumbnail} alt=art onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">병역혜택 후 프로 입단? 눈앞에 황금길 펼쳐진 21세기 고교 최고투수 장현석[SS시선집중]</span>
-        <span class="press">스포츠서울</span>
+        <span class="title">${articles[5].title}</span>
+       <span class="press">${articles[5].reg_id}</span>
       </div>
   </a>
-</div><div class="headline_item">
+</div>
+
+<!-- 오픈톡  -->
+<div class="headline_item">
   <a href="https://m.sports.naver.com/community/opentalk/index?section=kbaseball&amp;category=kbo&amp;team=SK#section" class="link_headline" onclick="clickcr(this, 'hdl.cont7', '', '', event);">
     
       <div class="image_area">
@@ -737,22 +741,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </div>
 
 
+
     <script>
 
     </script>
-  
-
-
-            
 
             </div>
             <div class="feature_side">
                 
-
-
-
-
-
 
 
 <div class="good_news" style="display:block;">
