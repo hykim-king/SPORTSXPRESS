@@ -37,31 +37,31 @@
 					<td>WAR</td>
 				</tr>
 				
-				<c:forEach var="player" items="${players}">	<!--var : 변수,  items :  -->
+				<c:forEach var="tusu" items="${tusu}">	<!--var : 변수,  items :  -->
 					<tr>
-						<td>${player.name}</td>
-						<td>${player.eravg}</td>
-						<td>${player.played}</td>
-						<td>${player.inning}</td>
-						<td>${player.win}</td>
-						<td>${player.lose}</td>
-						<td>${player.save}</td>
-						<td>${player.hold}</td>
-						<td>${player.k}</td>
-						<td>${player.ob}</td>
-						<td>${player.ohr}</td>
-						<td>${player.r}</td>
-						<td>${player.ball4}</td>
-						<td>${player.bb}</td>
-						<td>${player.wper}</td>
-						<td>${player.whip}</td>
-						<td>${player.k9}</td>
-						<td>${player.bb9}</td>
-						<td>${player.kbb}</td>
-						<td>${player.kper}</td>
-						<td>${player.bbper}</td>
-						<td>${player.wpa}</td>
-						<td>${player.war}</td>
+						<td>${tusu.name}</td>
+						<td>${tusu.eravg}</td>
+						<td>${tusu.played}</td>
+						<td>${tusu.inning}</td>
+						<td>${tusu.win}</td>
+						<td>${tusu.lose}</td>
+						<td>${tusu.save}</td>
+						<td>${tusu.hold}</td>
+						<td>${tusu.k}</td>
+						<td>${tusu.ob}</td>
+						<td>${tusu.ohr}</td>
+						<td>${tusu.r}</td>
+						<td>${tusu.ball4}</td>
+						<td>${tusu.bb}</td>
+						<td>${tusu.wper}</td>
+						<td>${tusu.whip}</td>
+						<td>${tusu.k9}</td>
+						<td>${tusu.bb9}</td>
+						<td>${tusu.kbb}</td>
+						<td>${tusu.kper}</td>
+						<td>${tusu.bbper}</td>
+						<td>${tusu.wpa}</td>
+						<td>${tusu.war}</td>
 						
 						<!-- 필요한 다른 정보들 추가 -->
 					</tr>

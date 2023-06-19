@@ -3,8 +3,6 @@ package com.pcwk.ehr.sportsxpress.controller;
 import java.sql.SQLException;
 import java.util.List;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,24 +10,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
-import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfRankVO;
+import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
+import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
-import com.pcwk.ehr.sportsxpress.service.GolfService;
+import com.pcwk.ehr.sportsxpress.service.FootballService;
 import com.pcwk.ehr.sportsxpress.service.TeamService;
 import com.pcwk.ehr.sportsxpress.service.VideoService;
 
 @RequestMapping(value = "/sportsxpress")
 @Controller
-public class GolfController {
-	final Logger LOG = LogManager.getLogger(getClass());
+public class KFootballController {
 
 	@Autowired
-	GolfService golfService;
+	FootballService FootballService;
 
 	@Autowired
 	VideoService videoService;
@@ -40,14 +35,14 @@ public class GolfController {
 	@Autowired
 	ArticleService articleService;
 
-	public GolfController() {
+	public KFootballController() {
 
 	}
 
 	// -------------------------------------------------------------------------//
 
 	// 최신 뉴스
-	@RequestMapping(value = "/golf_Index.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/kFootball_Index.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
 
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
@@ -56,50 +51,52 @@ public class GolfController {
 		model.addAttribute("articles", articleList);
 		model.addAttribute("videos", videoList);
 
-		return "sports/golf_Index";
+		return "sports/kFootball_Index";
 
 	}
 
 	// 영상
-	@RequestMapping(value = "/golf_Video.do")
+	@RequestMapping(value = "/kFootball_Video.do")
 	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
 		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
 
 		model.addAttribute("videos", videoList);
 
-		return "sports/golf_Video";
+		return "sports/kFootball_Video";
 	}
 
 	// 생생화보
-	@RequestMapping(value = "/golf_Photocenter.do")
+	@RequestMapping(value = "/footballl_Photocenter.do")
 	public String PhotocenterInfo() throws SQLException {
 		// 어느걸 넣어야 될지 모르겠음.
 		return "";
 	}
 
 	// 일정 결과
-	@RequestMapping(value = "/golf_Schedule.do", method = RequestMethod.GET)
-	public String ScheduleInfo(GolfMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
+	@RequestMapping(value = "/kFootball_Schedule.do", method = RequestMethod.GET)
+	public String ScheduleInfo(FootballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 
-		List<GolfMatchVO> matchList = golfService.getMatchInfo(getMatch);
+		List<FootballMatchVO> matchList = FootballService.getFootballMatchInfo(getMatch);
 		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
 
 		model.addAttribute("matches", matchList);
 		model.addAttribute("teams", teamList);
 
-		return "sports/golf_Schedule";
+		return "sports/kFootball_Schedule";
 	}
 
 	// 기록/순위
-	@RequestMapping(value = "/golf_Recode.do")
-	public String RecodeInfo(TeamVO getTeam, GolfRankVO getPlayer, Model model) throws SQLException {
+	@RequestMapping(value = "/football_Recode.do")
+	public String RecodeInfo(TeamVO getTeam, FootballInfoVO getPlayer, Model model) throws SQLException {
 		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-		List<GolfRankVO> playerList = golfService.getPlayerInfo(getPlayer);
+		List<FootballInfoVO> playerList = FootballService.getPlayerInfo(getPlayer);
 
 		model.addAttribute("teams", teamList);
 		model.addAttribute("players", playerList);
 
-		return "sports//golf_Recode";
+		return "sports//football_Recode";
 	}
+
 	// -------------------------------------------------------------------------//
+
 }

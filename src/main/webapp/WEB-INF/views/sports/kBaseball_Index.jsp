@@ -633,6 +633,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
  
 </script>
 
+  <c:forEach var="art" items="${articles}">
     <div class="headline">
       <h2 class="blind">헤드라인</h2>
       <div class="headline_list">
@@ -641,15 +642,15 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     
       <div class="image_area">
         <span class="common_playicon"><span class="blind">동영상</span></span>
-        <span class="common_video_length"><span class="blind">재생시간</span>${articles[0].views}</span>
-        <span class="image"><img src= ${articles[0].hyperlink} alt=${articles[0].title} onerror="imageOnError(this);"></span>
+        <span class="common_video_length"><span class="blind">재생시간</span>${art.views}</span>
+        <span class="image"><img src= ${art.hyperlink} alt=art} onerror="imageOnError(this);"></span>
       </div>
       <div class="text_area">
-        <span class="title">${articles[0].title}</span>
+        <span class="title">${art.title}</span>
         <span class="press">국내야구</span>
       </div>
   </a>
-
+  
   <a href="/news?oid=001&amp;aid=0013992648" class="link_headline" onclick="clickcr(this, 'hdl.cont2', '', '', event);">
     
       <div class="image_area">
@@ -660,7 +661,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <span class="press">연합뉴스</span>
       </div>
   </a>
-</div><div class="headline_item">
+</div>
+
+
+
+<div class="headline_item">
   <a href="/news?oid=410&amp;aid=0000942786" class="link_headline" onclick="clickcr(this, 'hdl.cont3', '', '', event);">
     
       <div class="image_area">
@@ -726,7 +731,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <span class="press">마이데일리</span>
       </div>
   </a>
-</div></div>
+</div>
+</c:forEach>
+</div>
     </div>
 
 
@@ -878,7 +885,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <span class="image"><img width="194" height="112" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20230609_228/16862803183487gsTn_JPEG/%BC%F6%C1%A4.jpg&amp;type=sports_nf750_432" onerror="imageOnError(this);" alt=""></span>
           </div>
           <div class="text_area">
-            <span class="title">'마! 클래식하게 한판 붙어보자! ' </span>
+            <span class="title">${videos[1].title}</span>
           </div>
         </a>
     </li>
