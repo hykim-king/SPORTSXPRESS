@@ -24,7 +24,7 @@ import com.pcwk.ehr.sportsxpress.service.VideoService;
 
 @RequestMapping(value = "/sportsxpress")
 @Controller // controller bean 등록
-public class KBaseballController {
+public class BaseballController {
 
 	@Autowired
 	BaseballService baseballMatchService;
@@ -44,7 +44,7 @@ public class KBaseballController {
 	@Autowired
 	ArticleService articleService;
 
-	public KBaseballController() {
+	public BaseballController() {
 		System.out.println("default SportsController()");
 	}
 
@@ -52,62 +52,19 @@ public class KBaseballController {
 	// -------------------------------------------------------------------------//
 
 	// 최신 뉴스
-	@RequestMapping(value = "/kBaseball_Index.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/baseball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
-
+		getArticle.setSports_nm("야구");
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
+		
 
 		model.addAttribute("articles", articleList);
-		model.addAttribute("videos", videoList);
+		
 
-		return "sports/kBaseball_Index";
+		return "sports/baseball_news";
 
 	}
 
-	// 영상
-	@RequestMapping(value = "/kBseball_Video.do")
-	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
-
-		model.addAttribute("videos", videoList);
-
-		return "sports/kBaseball_Video";
-	}
-
-	// 생생화보
-	@RequestMapping(value = "/kBseball_Photocenter.do")
-	public String PhotocenterInfo() throws SQLException {
-		// 어느걸 넣어야 될지 모르겠음.
-		return "";
-	}
-
-	// 일정 결과
-	@RequestMapping(value = "/kBaseball_Schedule.do", method = RequestMethod.GET)
-	public String ScheduleInfo(BaseballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
-
-		List<BaseballMatchVO> matchList = baseballMatchService.getMatchInfo(getMatch);
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-
-		model.addAttribute("matches", matchList);
-		model.addAttribute("teams", teamList);
-
-		return "sports/kBaseball_Schedule";
-	}
-
-	// 기록/순위
-	@RequestMapping(value = "/kBseball_Recode.do")
-	public String RecodeInfo(TeamVO getTeam, TajaInfoVO getTaja, TusuInfoVO getTusu, Model model) throws SQLException {
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-		List<TajaInfoVO> tajaList = tajaInfoService.getTajaInfo(getTaja);
-		List<TusuInfoVO> tusuList = tusuInfoService.getTusuInfo(getTusu);
-
-		model.addAttribute("teams", teamList);
-		model.addAttribute("taja", tajaList);
-		model.addAttribute("tusu", tusuList);
-
-		return "sports//kBaseball_Recode";
-	}
 
 	// -------------------------------------------------------------------------//
 

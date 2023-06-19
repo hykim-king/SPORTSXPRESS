@@ -43,59 +43,17 @@ public class BasketballController {
 
 //-----------------------------------------------------------------------------//
 	// 최신 뉴스
-	@RequestMapping(value = "/basketball_Index.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/basketball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
-
+		getArticle.setSports_nm("농구");
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
-
+		
 		model.addAttribute("articles", articleList);
-		model.addAttribute("videos", videoList);
+		
 
-		return "sports/basketball_Index";
+		return "sports/basketball_news";
 
 	}
 
-	// 영상
-	@RequestMapping(value = "/basketball_Video.do")
-	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
-
-		model.addAttribute("videos", videoList);
-
-		return "sports/Football_Video";
-	}
-
-	// 생생화보
-	@RequestMapping(value = "/basketball_Photocenter.do")
-	public String PhotocenterInfo() throws SQLException {
-		// 어느걸 넣어야 될지 모르겠음.
-		return "";
-	}
-
-	// 일정 결과
-	@RequestMapping(value = "/basketball_Schedule.do", method = RequestMethod.GET)
-	public String ScheduleInfo(BasketballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
-
-		List<BasketballMatchVO> matchList = basketballService.getMatchInfo(getMatch);
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-
-		model.addAttribute("matches", matchList);
-		model.addAttribute("teams", teamList);
-
-		return "sports/basketball_Schedule";
-	}
-
-	// 기록/순위
-	@RequestMapping(value = "/basketball_Recode.do")
-	public String RecodeInfo(TeamVO getTeam, BasketballInfoVO getPlayer, Model model) throws SQLException {
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-		List<BasketballInfoVO> playerList = basketballService.getPlayerInfo(getPlayer);
-
-		model.addAttribute("teams", teamList);
-		model.addAttribute("players", playerList);
-
-		return "sports//basketball_Recode";
-	}
 //---------------------------------------------------------------------------//
 }

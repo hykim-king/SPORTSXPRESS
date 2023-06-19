@@ -45,16 +45,17 @@ public class VolleyballController {
 	// -------------------------------------------------------------------------//
 
 	// 최신 뉴스
-	@RequestMapping(value = "/volleyball_Index.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/volleyball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
-
+		getArticle.setSports_nm("배구");
+		
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
+		
 
 		model.addAttribute("articles", articleList);
-		model.addAttribute("videos", videoList);
+		
 
-		return "sports/volleyball_Index";
+		return "sports/volleyball_news";
 
 	}
 
