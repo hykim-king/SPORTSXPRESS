@@ -23,9 +23,7 @@ public class BaseballController {
 
 	@Autowired
 	BaseballService baseballMatchService;
-	
 
-	
 	@Autowired
 	VideoService videoService;
 
@@ -34,6 +32,8 @@ public class BaseballController {
 
 	@Autowired
 	ArticleService articleService;
+	
+
 
 
 	public BaseballController() {
@@ -48,15 +48,20 @@ public class BaseballController {
 	@RequestMapping(value = "/baseball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
 		getArticle.setSports_nm("야구");
+		getVideo.setSports_nm("야구");
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
+		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
 		
-
+		model.addAttribute("viedoes",videoList);
 		model.addAttribute("articles", articleList);
 		
 
 		return "sports/baseball_news";
 
 	}
+	
+	
+	
 
 
 	
