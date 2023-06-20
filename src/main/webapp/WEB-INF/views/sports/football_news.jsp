@@ -794,67 +794,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                  ${art.title}</span></a></li>
          </c:forEach>
           
-            <li><a href="/news?oid=477&amp;aid=0000433526" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              '더티 축구' 이탈리아, 20년 전과 달라진 게 없다…손•팔꿈치 쓰며 파울만 26개</span></a></li>
-          
-            <li><a href="/news?oid=001&amp;aid=0013991510" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span><b>
-              [U20월드컵] '주장' 이승원 "아직 대회 끝난 게 아냐…고개 들라 했다"</b></span></a></li>
-          
-            <li><a href="/news?oid=001&amp;aid=0013991454" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              [U20월드컵] 아직 끝난 게 아니다…이스라엘과 최종전서 3위 도전</span></a></li>
-          
-            <li><a href="/news?oid=018&amp;aid=0005504317" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              '팔꿈치 가격은 기본' 이탈리아 거친 파울에도 눈감아준 심판</span></a></li>
-          
-            <li><a href="/news?oid=109&amp;aid=0004866569" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              전북, '루마니아 레전드' 단 페트레스쿠 감독 선임... 구단 역대 두 번째 외국인 감독[공식발표]</span></a></li>
-          
-            <li><a href="/news?oid=477&amp;aid=0000433582" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              벤제마 시급 3200만원…"캉테도 간다"</span></a></li>
-          
-            <li><a href="/news?oid=022&amp;aid=0003821342" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span><b>
-              “찬스 못 살려서 동료들에 미안해” 아쉬운 석패… 이영준·이승원의 눈물</b></span></a></li>
-          
-            <li><a href="/news?oid=117&amp;aid=0003737933" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              [MD현장] "심판 똑바로 봐라!" 광화문 채운 1천명, 이탈리아전 판정에 울고 웃고</span></a></li>
-          
-            <li><a href="/news?oid=001&amp;aid=0013992178" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              루마니아 출신 페트레스쿠, K리그1 전북 사령탑 확정</span></a></li>
-          
-        </ul>
-        <ul class="aside_news_list" id="_ranking_news_list_1" style="display:none;">
-          
-            <li><a href="/news?oid=468&amp;aid=0000950917" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              LG 키움 NC 3명 가득 승선·SSG 롯데도 핵심 출전, 시즌 막바지 대혼전 예고[SS포커스]</span></a></li>
-          
-            <li><a href="/news?oid=421&amp;aid=0006855821" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              [U20 월드컵] 이탈리아 감독 "탄탄했던 한국…배준호 굉장히 훌륭한 선수"</span></a></li>
-          
-            <li><a href="/news?oid=109&amp;aid=0004866654" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span><b>
-              '맨유-뉴캐슬 영입 줄다리기' 김민재, "김민재 대체 2명의 日선수, 능력 안된다" 이탈리아 현지 매체 냉철한 분석</b></span></a></li>
-          
-            <li><a href="/news?oid=139&amp;aid=0002184352" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              SON 파트너로 계속 남아줬으면 좋겠어...토트넘의 요청, ‘이적료 깎아줘’</span></a></li>
-          
-            <li><a href="/news?oid=477&amp;aid=0000433526" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              '더티 축구' 이탈리아, 20년 전과 달라진 게 없다…손•팔꿈치 쓰며 파울만 26개</span></a></li>
-          
-            <li><a href="/news?oid=117&amp;aid=0003737931" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              “꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’</span></a></li>
-          
-            <li><a href="/news?oid=410&amp;aid=0000942762" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              [단독] 브랜든 이어 쿠에바스도 KBO 컴백 초읽기, ‘탈꼴찌’ KT도 승부수 던졌다</span></a></li>
-          
-            <li><a href="/news?oid=108&amp;aid=0003158254" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span><b>
-              'KIM 영입 확률' 뉴캐슬＞맨유, 판 바뀌었다... "코드명 '김민재 사냥'-681억 하이재킹 준비"</b></span></a></li>
-          
-            <li><a href="/news?oid=241&amp;aid=0003280809" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              입장권 가격 1034%↑…마이애미 흔드는 '메시 효과'</span></a></li>
-          
-            <li><a href="/news?oid=001&amp;aid=0013991510" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              [U20월드컵] '주장' 이승원 "아직 대회 끝난 게 아냐…고개 들라 했다"</span></a></li>
-          
-        </ul>
+           
 
         <script>
 
