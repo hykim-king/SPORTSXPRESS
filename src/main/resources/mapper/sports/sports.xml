@@ -269,7 +269,7 @@
 			footno
 			, season
 			, lname
-			, DATE_FORMAT(TIME, '%H:%i') AS time
+			, TO_CHAR(time, 'HH24:MI') AS time
 			, location
 			, hname
 			, hscore
