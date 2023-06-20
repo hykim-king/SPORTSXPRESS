@@ -620,7 +620,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 				
 				<script>
 	 
-	</script>
+				</script>
 	
 				<c:forEach var="art" items="${articles}">
 					<div class="headline">
