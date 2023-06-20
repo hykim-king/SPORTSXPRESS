@@ -2966,7 +2966,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 								<ul>
 									<!-- 20개씩 기사가 출력되게 -->
-									<c:forEach var="art" items="${articles}" begin="0" end="19">
+									<c:forEach var="art" items="${list}">
 										<li><a href="${art.hyperlink}" class="thmb"
 											onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
 												width="140" src="${art.thumbnail}"
@@ -2987,8 +2987,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 							<div class="paginate" id="_pageList" style="">
 
-								<strong>1</strong> <a href="#" data-id="2"
-									onclick="clickcr(this, 'nwl.paging', '', '', event);">2</a> <a
+								<strong>1</strong> 
+								<a href="#" data-id="2" onclick="clickcr">2</a> <a
 									href="#" data-id="3"
 									onclick="clickcr(this, 'nwl.paging', '', '', event);">3</a> <a
 									href="#" data-id="4"
@@ -3004,9 +3004,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									href="#" data-id="9"
 									onclick="clickcr(this, 'nwl.paging', '', '', event);">9</a> <a
 									href="#" data-id="10"
-									onclick="clickcr(this, 'nwl.paging', '', '', event);">10</a> <a
-									href="#" class="next"
-									onclick="clickcr(this, 'nwl.paging', '', '', event);"><span
+									onclick="clickcr(this, 'nwl.paging', '', '', event);">10</a> 
+									<a href="#" class="next" onclick="clickcr(this, 'nwl.paging', '', '', event);">
+									<span
 									class="blind">다음</span></a>
 							</div>
 							<div class="paginate_day" id="_bottomDateList">
