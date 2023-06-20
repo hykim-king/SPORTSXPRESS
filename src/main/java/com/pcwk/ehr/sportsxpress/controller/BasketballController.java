@@ -46,10 +46,13 @@ public class BasketballController {
 	@RequestMapping(value = "/basketball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
 		getArticle.setSports_nm("농구");
+		getVideo.setSports_nm("농구");
+
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
-		
+		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
+
 		model.addAttribute("articles", articleList);
-		
+		model.addAttribute("videos",videoList);
 
 		return "sports/basketball_news";
 

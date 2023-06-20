@@ -49,10 +49,11 @@ public class BaseballController {
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
 		getArticle.setSports_nm("야구");
 		getVideo.setSports_nm("야구");
+		
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
 		
-		model.addAttribute("viedoes",videoList);
+		model.addAttribute("viedos",videoList);
 		model.addAttribute("articles", articleList);
 		
 
