@@ -2790,7 +2790,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 			<script>
 
-  };
+
 </script>
 
 			<script>
@@ -3102,9 +3102,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									<div class="aside_vod_best2">
 										<ul class="aside_vod_list2">
 
-											<li class="best"><a href="${video.hyperlink}"
+											<li class="best"><a href="${video[0].hyperlink}"
 												onclick="clickcr(this, 'aec*b.video', '', '', event);"
-												title="${video.title}">
+												title="${video[0].title}">
 													<div class="thmb">
 														<b class="rank_num">1</b> <span class="mask"></span> <img
 															width="260" height="156"
@@ -3114,7 +3114,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 															alt="image" onerror="imageOnError(this);">
 													</div>
 													<div class="text">
-														<span class="title"><span>${video.title} </span></span>
+														<span class="title"><span>${video[0].title} </span></span>
 														<div class="info">
 															<span class="play"><span class="ico">재생수</span>75,636</span>
 
