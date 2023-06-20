@@ -47,13 +47,13 @@
 
 
 <script>
-
+	
 </script>
 
 
 <script>
-
-    </script>
+	
+</script>
 <style id="gnb_style" type="text/css">
 @charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
@@ -2203,8 +2203,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				</div>
 
 				<script>
- 
-</script>
+					
+				</script>
 				<!-- GNB -->
 				<div class="tool_area">
 					<div class="gnb_one" id="gnb">
@@ -2656,8 +2656,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 			<script>
- 
-</script>
+				
+			</script>
 
 			<nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
 				<h2 class="blind">메인 메뉴</h2>
@@ -2781,27 +2781,26 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 			</nav>
 
 			<script>
- 
-</script>
+				
+			</script>
 
 			<script>
-
-</script>
-
-			<script>
-
-
-</script>
+				
+			</script>
 
 			<script>
+				
+			</script>
 
-</script>
+			<script>
+				
+			</script>
 
 		</header>
 		<script></script>
 		<script>
-      
-    </script>
+			
+		</script>
 
 
 		<div id="container">
@@ -3091,9 +3090,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 								</ul>
 
 								<script>
-         
-
-</script>
+									
+								</script>
 
 								<div id="news_vod" class="aside_inner">
 									<div class="aside_head">
@@ -3114,7 +3112,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 															alt="image" onerror="imageOnError(this);">
 													</div>
 													<div class="text">
-														<span class="title"><span>${video[0].title} </span></span>
+														<span class="title"><span>${video[0].title}
+														</span></span>
 														<div class="info">
 															<span class="play"><span class="ico">재생수</span>75,636</span>
 
@@ -3256,8 +3255,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 								<script>
-
-</script>
+									
+								</script>
 
 								<div id="ranking1" class="aside_inner">
 									<div class="aside_head">
@@ -3683,8 +3682,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									</div>
 									<a href="/kbaseball/record/index" class="more"><span>더보기</span></a>
 									<script>
-       
-      </script>
+										
+									</script>
 
 
 
@@ -3708,9 +3707,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									</div>
 								</div>
 
-								<script>  
- 
-  </script>
+								<script>
+									
+								</script>
 
 
 							</div>
@@ -3898,8 +3897,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 							</div>
 
 							<script>
-
-  </script>
+								
+							</script>
 
 
 						</div>
@@ -3908,23 +3907,23 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 				<script>
-
-</script>
+					
+				</script>
 				<script></script>
 
 				<script>
-
-</script>
+					
+				</script>
 
 				<script>
-
-</script>
+					
+				</script>
 				<script>
-
-</script>
+					
+				</script>
 				<script>
-
-</script>
+					
+				</script>
 
 			</div>
 
@@ -4006,14 +4005,15 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				charset="UTF-8"></script>
 
 			<script type="text/javascript">
-
-</script>
+				
+			</script>
 		</div>
-		<script type="text/javascript">
-    
-  </script>
+	</div>
+	<script type="text/javascript">
+		
+	</script>
 
 
-		<script></script>
+	<script></script>
 </body>
 </html>
