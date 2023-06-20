@@ -36,5 +36,30 @@
 			</c:forEach>
 		</table>
 	</div>
+  <c:forEach var="art" items="${articles}">
+    <ul>
+    <li><a href="${art.hyperlink}" class="thmb"
+      onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
+        width="140" src="${art.thumbnail}" lazy-src="${art.thumbnail}"
+        alt=${art.title }
+                      class="lazyLoadImage">
+        <span class="mask"></span>
+    </a>
+      <div class="text">
+        <a href="${art.hyperlink}" class="title"
+          onclick="clickcr(this, 'nwl.title', '', '', event);"><span>${art.title}</span></a>
+        <div class="source">
+          <span class="press">${art.reg_id}</span> <span class="time"><span
+            class="bar"></span>${art.reg_dt}</span>
+
+        </div>
+      </div></li>
+    </ul>
+  </c:forEach>
+  
+  <li><a href="${art.hyperlink}"
+                    class="${art.title}"
+                    onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
+                        ${art.title}</span></a></li>
 </body>
 </html>
