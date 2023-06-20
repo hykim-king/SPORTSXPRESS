@@ -41,19 +41,8 @@ public class FootballController {
 
 	// -------------------------------------------------------------------------//
 
-	// 최신 뉴스
-	@RequestMapping(value = "/football_news.do", method = RequestMethod.GET)
-	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
-		getArticle.setSports_nm("축구");
-		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
-		
 
-		model.addAttribute("articles", articleList);
-		
-
-		return "sports/football_news";
-
-	}
+	
 	
 	
 
