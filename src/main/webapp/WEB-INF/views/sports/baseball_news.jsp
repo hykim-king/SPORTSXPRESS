@@ -2790,7 +2790,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 			<script>
 
-  };
+
 </script>
 
 			<script>
