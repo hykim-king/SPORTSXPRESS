@@ -57,26 +57,27 @@ public class BaseballController {
 		ArticleVO getArticle = new ArticleVO();
 		VideoVO getVideo = new VideoVO();
 		
-		getArticle.setSports_nm("야구");
+//		getArticle.setSports_nm("야구");
 		getVideo.setSports_nm("야구");
 		
-		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
+//		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
 		
 		model.addAttribute("viedos",videoList);
-		model.addAttribute("articles", articleList);
+//		model.addAttribute("articles", articleList);
 		
 		
 		//페이징을 위한 메서드 추가;
-		int pageSize = 20; // 페이지당 게시물 수
+		int pageSize = 10; // 페이지당 게시물 수
 		
 		int totalCount = mapper.getCount(); //전체 게시글 수
 		
 		PageVO page = new PageVO(pageNo,pageSize,totalCount);
 		
-		Map<String,Integer> map = new HashMap<>();
+		Map<String,Object> map = new HashMap<>();
 		map.put("startNo", page.getStartNo());
 		map.put("endNo", page.getEndNo());
+		map.put("sports_nm", "야구"); // "야구"인 게시글만 가져오기 위한 조건 추가
 		List<ArticleVO> list = mapper.getPageList(map);
 		
 		model.addAttribute("page",page);

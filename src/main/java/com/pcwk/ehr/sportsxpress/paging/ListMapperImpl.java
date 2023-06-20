@@ -13,7 +13,7 @@ public class ListMapperImpl implements ListMapper {
     ListMapper mapper;
     
 	@Override
-	public List<ArticleVO> getPageList(Map<String, Integer> map) {
+	public List<ArticleVO> getPageList(Map<String, Object> map) {
 		return mapper.getPageList(map);
 	}
 
