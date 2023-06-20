@@ -2663,6 +2663,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<h2 class="blind">메인 메뉴</h2>
 				<ul id="lnb_list" class="lnb_list" role="menubar">
 
+					<li class="lnb_item" role="presentation"><a href="/index"
+						class="link_lnb" role="menuitem"
+						onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠
+							홈</a></li>
 
 					<li class="lnb_item" role="presentation"><a
 						href="/kbaseball/index" class="link_lnb" role="menuitem"
@@ -2692,10 +2696,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
 					</li>
 
-					<!-- 					<li class="lnb_item" role="presentation"><a href="/index"
-						class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠
-							홈</a></li> -->
 
 					<!-- 					<li class="lnb_item" role="presentation"><a
 						href="/wbaseball/index" class="link_lnb" role="menuitem"
