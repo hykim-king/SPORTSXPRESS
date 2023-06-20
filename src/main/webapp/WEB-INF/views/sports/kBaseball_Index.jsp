@@ -597,158 +597,139 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
     </div>
 </div>
-<div class="cms_side_banner" id="_cms_side_banner">
-</div>
+<div class="cms_side_banner" id="_cms_side_banner"></div>
 <div id="content">
-    <div class="home_wrap">
+	<div class="home_wrap">
         <div class="home_feature">
             <script>
 
             </script>
             <div class="feature_main">
-                
-            
-            
 
-
-
-
-
-
-
-
-<script>
-  
-</script>
-
-<script>
- 
-</script>
-
-<script>
-
-</script>
-
-<script>
- 
-</script>
-
-  <c:forEach var="art" items="${articles}">
-    <div class="headline">
-      <h2 class="blind">헤드라인</h2>
-      <div class="headline_list">
-      <div class="headline_item">
-  	
-	<a href="${articles[0].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.videocont1', '', '', event);">
-    
-      <div class="image_area">
-        <span class="common_playicon"><span class="blind">동영상</span></span>
-        <span class="common_video_length"><span class="blind">재생시간</span>${articles[0].views}</span>
-        <span class="image"><img src= ${articles[0].thumbnail} width="100%" alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">${articles[0].title}</span>
-        <span class="press">${articles[0].reg_id}</span>
-      </div>
-  </a>
-  
-  <a href="${articles[1].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont2', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src=${articles[1].thumbnail} alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">${articles[1].title}</span>
-        <span class="press">${articles[1].reg_id}</span>
-      </div>
-  </a>
-</div>
-
-
-
-<div class="headline_item">
-  <a href="${articles[2].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont3', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src=${articles[2].thumbnail} alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-       <span class="title">${articles[2].title}</span>
-       <span class="press">${articles[2].reg_id}</span>
-      </div>
-  </a>
-
-  <a href="${articles[3].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont4', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src=${articles[3].thumbnail} alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">${articles[3].title}</span>
-       <span class="press">${articles[3].reg_id}</span>
-      </div>
-  </a>
-</div><div class="headline_item">
-  <a href="${articles[4].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont5', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src=${articles[4].thumbnail} alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">${articles[4].title}</span>
-       <span class="press">${articles[4].reg_id}</span>
-      </div>
-  </a>
-
-  <a href=""${articles[5].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont6', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src=${articles[5].thumbnail} alt=art onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">${articles[5].title}</span>
-       <span class="press">${articles[5].reg_id}</span>
-      </div>
-  </a>
-</div>
-
-<!-- 오픈톡  -->
-<div class="headline_item">
-  <a href="https://m.sports.naver.com/community/opentalk/index?section=kbaseball&amp;category=kbo&amp;team=SK#section" class="link_headline" onclick="clickcr(this, 'hdl.cont7', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20221224_211/1671841088471OK5xf_PNG/SSG.png&amp;type=sports_nf160_95" alt="[팀 오픈톡] SSG 랜더스 팬 여러분! 오픈톡에서 대화해요!" onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">[팀 오픈톡] SSG 랜더스 팬 여러분! 오픈톡에서 대화해요!</span>
-        <span class="press">네이버 스포츠 오픈톡</span>
-      </div>
-  </a>
-
-  <a href="/news?oid=117&amp;aid=0003737931" class="link_headline" onclick="clickcr(this, 'hdl.cont8', '', '', event);">
-    
-      <div class="image_area">
-        <span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/117/2023/06/09/202306090318202241_1_20230609134004301.jpg&amp;type=sports_nf160_95" alt="“꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’" onerror="imageOnError(this);"></span>
-      </div>
-      <div class="text_area">
-        <span class="title">“꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’</span>
-        <span class="press">마이데일리</span>
-      </div>
-  </a>
-</div>
-</c:forEach>
-</div>
-    </div>
-
-
-
-    <script>
-
-    </script>
-
-            </div>
+				<script>
+				  
+				</script>
+				
+				<script>
+				 
+				</script>
+				
+				<script>
+				
+				</script>
+				
+				<script>
+	 
+	</script>
+	
+				<c:forEach var="art" items="${articles}">
+					<div class="headline">
+						<h2 class="blind">헤드라인</h2>
+						<div class="headline_list">
+							<div class="headline_item">
+								<a href="${articles[0].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.videocont1', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src= ${articles[0].thumbnail} width="100%" alt=art onerror="imageOnError(this);"></span>
+									</div>
+								<div class="text_area">
+									<span class="title">${articles[0].title}</span>
+									<span class="press">${articles[0].reg_id}</span>
+								</div>
+								</a>
+				
+								<a href="${articles[1].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont2', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src=${articles[1].thumbnail} alt=art onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">${articles[1].title}</span>
+										<span class="press">${articles[1].reg_id}</span>
+									</div>
+								</a>
+							</div>
+				
+				
+							<div class="headline_item">
+								<a href="${articles[2].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont3', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src=${articles[2].thumbnail} alt=art onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">${articles[2].title}</span>
+										<span class="press">${articles[2].reg_id}</span>
+									</div>
+								</a>
+				
+								<a href="${articles[3].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont4', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src=${articles[3].thumbnail} alt=art onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">${articles[3].title}</span>
+										<span class="press">${articles[3].reg_id}</span>
+									</div>
+								</a>
+							</div>
+							
+							
+							<div class="headline_item">
+								<a href="${articles[4].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont5', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src=${articles[4].thumbnail} alt=art onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">${articles[4].title}</span>
+										<span class="press">${articles[4].reg_id}</span>
+									</div>
+								</a>
+				
+								<a href="${articles[5].hyperlink}" class="link_headline" onclick="clickcr(this, 'hdl.cont5', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src=${articles[5].thumbnail} alt=art onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">${articles[5].title}</span>
+										<span class="press">${articles[5].reg_id}</span>
+									</div>
+								</a>
+							</div>
+							
+							<div class="headline_item">
+								<a href="https://m.sports.naver.com/community/opentalk/index?section=kbaseball&amp;category=kbo&amp;team=SK#section" class="link_headline" onclick="clickcr(this, 'hdl.cont7', '', '', event);">
+				
+									<div class="image_area">
+										an class="image"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20221224_211/1671841088471OK5xf_PNG/SSG.png&amp;type=sports_nf160_95" alt="[팀 오픈톡] SSG 랜더스 팬 여러분! 오픈톡에서 대화해요!" onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">[팀 오픈톡] SSG 랜더스 팬 여러분! 오픈톡에서 대화해요!</span>
+										<span class="press">네이버 스포츠 오픈톡</span>
+									</div>
+								</a>
+				
+								<a href="/news?oid=117&amp;aid=0003737931" class="link_headline" onclick="clickcr(this, 'hdl.cont8', '', '', event);">
+									<div class="image_area">
+										<span class="image"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/117/2023/06/09/202306090318202241_1_20230609134004301.jpg&amp;type=sports_nf160_95" alt="“꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’" onerror="imageOnError(this);"></span>
+									</div>
+									<div class="text_area">
+										<span class="title">“꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’</span>
+										<span class="press">마이데일리</span>
+									</div>
+								</a>
+							</div>
+				</c:forEach>
+			</div>
+		</div>
+	    <script>
+	
+	    </script>
+	</div>
             <div class="feature_side">
                 
+
+
+
+
+
 
 
 <div class="good_news" style="display:block;">
@@ -881,7 +862,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <span class="image"><img width="194" height="112" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/20230609_228/16862803183487gsTn_JPEG/%BC%F6%C1%A4.jpg&amp;type=sports_nf750_432" onerror="imageOnError(this);" alt=""></span>
           </div>
           <div class="text_area">
-            <span class="title">${videos[1].title}</span>
+            <span class="title">'마! 클래식하게 한판 붙어보자! ' </span>
           </div>
         </a>
     </li>
@@ -3815,4 +3796,5 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
 
-</body></html>
+</body>
+</html>
