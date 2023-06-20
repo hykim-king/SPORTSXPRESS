@@ -28,6 +28,9 @@
 			logo
 		FROM
 		  team
+    <where>
+      <![CDATA[lname = #{lname}]]>
+    </where>
 	</select>
 
 	<select id="VideoInfo" parameterType="VideoVO" resultType="VideoVO">
@@ -266,7 +269,7 @@
 			footno
 			, season
 			, lname
-			, time
+			, TO_CHAR(time, 'HH24:MI') AS time
 			, location
 			, hname
 			, hscore
@@ -276,6 +279,9 @@
 			, vlink
 		FROM
 		  football_match
+		<where>
+      <![CDATA[lname = #{lname}]]>
+    </where>
 	</select>
 	
 	<select id="recordInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
