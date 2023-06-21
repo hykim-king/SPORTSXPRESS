@@ -76,16 +76,15 @@ public class VolleyballController {
 	}
 
 	// 일정 결과
-	@RequestMapping(value = "/volleyball_schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/volleyball_Schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(VolleyballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
-
 		List<VolleyballMatchVO> matchList = volleyballService.getMatchInfo(getMatch);
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
-
 		model.addAttribute("matches", matchList);
+		getTeam.setLname("프로배구");
+		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
 		model.addAttribute("teams", teamList);
 
-		return "sports/volleyball/ballvolleyball_Schedule";
+		return "sports/volleyball/volleyball_schedule";
 	}
 
 	// 기록/순위

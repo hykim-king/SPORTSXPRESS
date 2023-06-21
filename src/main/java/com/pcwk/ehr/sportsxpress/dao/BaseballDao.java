@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BaseballRecordVO;
 
 public interface BaseballDao {
 
@@ -16,4 +17,6 @@ public interface BaseballDao {
 	List<BaseballMatchVO> selectBaseballMatchInfo(BaseballMatchVO getMatch) throws SQLException;
 
 	List<BaseballMatchVO> selectBaseballRecord(BaseballMatchVO getMatch) throws SQLException;
+	
+	List<BaseballRecordVO> baseballRecordInfo(BaseballRecordVO getMatch) throws SQLException;
 }

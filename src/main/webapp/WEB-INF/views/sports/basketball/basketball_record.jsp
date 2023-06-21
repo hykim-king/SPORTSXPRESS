@@ -18,39 +18,8 @@
             <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/volleyball_gamecenter.css">
 
         
-        
-        
-
-        
-        
-    
-    
-        
-        
-        
             <title>기록/순위, 농구 : 네이버 스포츠</title>
-        
-        
-        
-        
-        
-        
-    
 
-    <script></script>
-
-    <script></script>
-
-    
-
-<script>
- 
-</script>
-
-<script ></script>
-<script>
-
-</script>
 <style id="gnb_style" type="text/css">@charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
 a.gnb_my, .gnb_icon, #gnb .gnb_my_interface, .gnb_my_li .gnb_my_content .gnb_membership, #gnb .gnb_ico_num .gnb_ico_new, #gnb .gnb_ico_num .gnb_ico_new .gnb_count, .gnb_lst .ico_arrow, a.gnb_my .filter_mask, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_my_li .gnb_my_content .gnb_edit_lst li, .gnb_notice_li .gnb_notice_lyr, .gnb_notice_li .svc_list .gnb_ico_mail, .gnb_notice_li .svc_list .gnb_btn_remove span, .gnb_notice_li .svc_list .gnb_btn_remove i, .gnb_notice_li .gnb_error .gnb_ico_error, .gnb_ly_alert .gnb_btn_close i, .gnb_first_visit, .gnb_search_box, .gnb_search_box .gnb_del_txt, .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new, .gnb_svc_more .svc_btnwrp button { background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v14.png) no-repeat -999px -999px;   background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v15.png?v=2006) no-repeat -999px -999px; /* background: url(../img/sp_gnb_v15.png) no-repeat -999px -999px; */}
@@ -400,7 +369,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                 
 
   
-  
     <header id="header" class="sports_header_pc">
       <div class="sports_gnb" role="banner">
         
@@ -435,16 +403,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <!-- 추후 제거, lnbMenuInfoList 를 받아오기 위하여 사용중 -->
 
             
-            
-
-
-
-
-<script>
-  
-</script>
-
-            
 
 
 <nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
@@ -452,138 +410,111 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/baseball_index.do" class="link_lnb" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/soccer_info.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/basketball_index.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    <a href="/basketball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
   </li>
 
+  <li class="lnb_item" role="presentation">
+    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+  </li>
 </ul>
+
   
   
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   
 </nav>
 <nav class="sports_lnb_sub">
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/basketball/news/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/basketball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
+    <span class="menu">영상</span>
+    </a>
+  </li>
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/photocenter/albumList?category=kbasketball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
+    <span class="menu">생생화보</span>
+    </a>
+  </li>
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/basketball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
+    <a href="/basketball/record/index?category=kbl" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
     <span class="menu">기록/순위</span>
     </a>
   </li>
-
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/basketball/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
+    <span class="menu">구단/협회</span>
+    </a>
+  </li>
 </ul>
 </nav>
-
-<script>
- 
-</script>
-
-<script>
- 
-</script>
-
-<script>
-  
-</script>
-
-<script>
-  
-</script>
-
     </header>
-    <script></script>
-    <script>
-     
-    </script>
-  
 
                     <div id="container">
                         <div class="cms_side_banner" id="_cms_side_banner"></div>
-                        
-<script>
-  
-</script>
+
                         <div id="content">
                             
-                                
-                                
-                                
-                                    
-
-
-
-
 
 
 <div class="tab_event">
-    <ul class="list" id="_categoryList">
-        
-            
-            
-                
-                    
-                        
-                        
-                            
-                        
-                    
-                    <li class="selected"><a href="/basketball/record/index?category=kbl" data-category="kbl"><span class="menu">프로농구</span></a></li>
-                
-                    
-                        
-                            
-                        
-                        
-                    
-                    <li><a href="/basketball/record/index?category=nba" data-category="nba"><span class="menu">NBA</span></a></li>
-                
-                    
-                        
-                        
-                            
-                        
-                    
-                    <li><a href="/basketball/record/index?category=wkbl" data-category="wkbl"><span class="menu">여자프로농구</span></a></li>
-                
-            
-        
-     </ul>
+    <ul class="list" id="_categoryList">     
+           <li class="selected"><a href="/basketball/record/index?category=kbl" data-category="kbl"><span class="menu">프로농구</span></a></li>
+    </ul>
 </div>
 <div class="sch_volleyball tb_k_w">
   
@@ -619,113 +550,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       <ul class="option_list" role="listbox" id="_yearList">
         <!-- [D] 선텍된 button.btn_option 에 aria-selected="true" 를 적용 해 주세요. -->
         <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
-        
-          
-          
+       
           <li class="list" role="presentation">
             <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2023'">2022-23</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2022'">2021-22</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2021'">2020-21</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2020'">2019-20</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2019'">2018-19</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2018'">2017-18</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2017'">2016-17</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2016'">2015-16</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2015'">2014-15</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2014'">2013-14</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2013'">2012-13</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2012'">2011-12</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2011'">2010-11</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2010'">2009-10</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2009'">2008-09</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2008'">2007-08</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2007'">2006-07</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2006'">2005-06</button>
           </li>
         
       </ul>
@@ -733,21 +560,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
     <!-- [D] 비활성화 되어야 하는 button.btn_move_date 에 disabled 속성을 추가 해 주세요. -->
     
-      
-      
-        <button class="btn_move_date prev" type="button" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2022'"><span class="blind">이전 시즌으로 이동</span></button>
-      
-    
-    
-      
-        <button class="btn_move_date next" type="button" disabled=""><span class="blind">다음 시즌으로 이동</span></button>
-      
-      
+
     
   </div>
-  <div class="now_date_area">
-    <button class="btn_now_date" type="button" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2023'">현재<span class="blind">시즌으로 이동</span></button>
-  </div>
+
 </div>
 </div>
 <div class="tbl_box">
@@ -758,261 +574,39 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><div class="rank"><strong><span class="blind">순위</span></strong></div></th>
         <th><div class="team"><strong><span class="blind">팀</span></strong></div></th>
         <th><div class="gcnt"><strong><span class="blind">경기수</span></strong></div></th>
-        <th><div class="wnrt"><a href="javaScript:sortByColumn('regularTeamRecordList','winRate');"><strong id="regularTeamRecordList_winRate" class="sort"><span class="blind">승</span></strong></a></div></th>
-        <th><div class="wpnt"><a href="javaScript:sortByColumn('regularTeamRecordList','win');"><strong id="regularTeamRecordList_win"><span class="blind">승</span></strong></a></div></th>
-        <th><div class="lpnt"><a href="javaScript:sortByColumn('regularTeamRecordList','lose');"><strong id="regularTeamRecordList_lose"><span class="blind">패</span></strong></a></div></th>
-        <th><div class="wlpnt"><a href="javaScript:sortByColumn('regularTeamRecordList','winDiff');"><strong id="regularTeamRecordList_winDiff"><span class="blind">승차</span></strong></a></div></th>
-        <th><div class="score"><a href="javaScript:sortByColumn('regularTeamRecordList','scoreAvg');"><strong id="regularTeamRecordList_scoreAvg"><span class="blind">득점</span></strong></a></div></th>
-        <th><div class="as"><a href="javaScript:sortByColumn('regularTeamRecordList','assistAvg');"><strong id="regularTeamRecordList_assistAvg"><span class="blind">AS</span></strong></a></div></th>
-        <th><div class="rbd"><a href="javaScript:sortByColumn('regularTeamRecordList','reboundAvg');"><strong id="regularTeamRecordList_reboundAvg"><span class="blind">리바운드</span></strong></a></div></th>
-        <th><div class="stl"><a href="javaScript:sortByColumn('regularTeamRecordList','stealAvg');"><strong id="regularTeamRecordList_stealAvg"><span class="blind">스틸</span></strong></a></div></th>
-        <th><div class="block"><a href="javaScript:sortByColumn('regularTeamRecordList','blockAvg');"><strong id="regularTeamRecordList_blockAvg"><span class="blind">블록</span></strong></a></div></th>
-        <th><div class="sht_3"><a href="javaScript:sortByColumn('regularTeamRecordList','point3Avg');"><strong id="regularTeamRecordList_point3Avg"><span class="blind">3점슛</span></strong></a></div></th>
-        <th><div class="sht_f"><a href="javaScript:sortByColumn('regularTeamRecordList','freeThrowAvg');"><strong id="regularTeamRecordList_freeThrowAvg"><span class="blind">자유투</span></strong></a></div></th>
-        <th><div class="sht_fss"><a href="javaScript:sortByColumn('regularTeamRecordList','freeThrowRate');"><strong id="regularTeamRecordList_freeThrowRate"><span class="blind">자유투성공</span></strong></a></div></th>
+        <th><div class="wnrt"><strong id="regularTeamRecordList_winRate" class="sort"><span class="blind">승률</span></strong></a></div></th>
+        <th><div class="wpnt"><strong id="regularTeamRecordList_win"><span class="blind">승</span></strong></a></div></th>
+        <th><div class="lpnt"><strong id="regularTeamRecordList_lose"><span class="blind">패</span></strong></a></div></th>
+        <th><div class="score"><strong id="regularTeamRecordList_scoreAvg"><span class="blind">득점</span></strong></a></div></th>
     </tr>
 </thead>
 <tbody id="regularTeamRecordList_table">
-    
-    <tr class="on">
-        <th><strong>1</strong></th>
+  <c:forEach var="records" items="${records}" varStatus="loop">
+    <c:choose>
+      <c:when test="${loop.count >= 1 && loop.count <= 6}">
+        <tr class="on">
+      </c:when>
+      <c:otherwise>
+        <tr>
+      </c:otherwise>
+    </c:choose>
+      <th><strong>${loop.count}</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/70.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_70">안양 KGC</span>
+                <span class="emblem"><img src="${records.logo}" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span id="team_70">${records.tname}</span>
             </div>
         </td>
-        <td><span>54</span></td>
-        <td><strong>0.685</strong></td>
-        <td><span>37</span></td>
-        <td><span>17</span></td>
-        <td><span>0.0</span></td>
-        <td><span>82.0</span></td>
-        <td><span>18.3</span></td>
-        <td><span>40.0</span></td>
-        <td><span>6.1</span></td>
-        <td><span>3.2</span></td>
-        <td><span>8.9</span></td>
-        <td><span>10.4</span></td>
-        <td class="last"><span>72.39</span></td>
+        <td style="text-align: left; padding-left: 2.4em;"><span>${records.games}</span></td>
+        <td style="text-align: left; padding-left: 2.2em;"><strong>${records.winrate}</strong></td>
+        <td style="text-align: left; padding-left: 2.2em;"><span>${records.win}</span></td>
+        <td style="text-align: left; padding-left: 2.2em;"><span>${records.lose}</span></td>
+        <td style="text-align: left; padding-left: 2.2em;"><span>${records.score}</span></td>
     </tr>
-    
-    <tr class="on">
-        <th><strong>2</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/50.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_50">창원 LG</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.667</strong></td>
-        <td><span>36</span></td>
-        <td><span>18</span></td>
-        <td><span>1.0</span></td>
-        <td><span>80.1</span></td>
-        <td><span>17.6</span></td>
-        <td><span>40.2</span></td>
-        <td><span>7.5</span></td>
-        <td><span>2.2</span></td>
-        <td><span>6.7</span></td>
-        <td><span>12.2</span></td>
-        <td class="last"><span>67.94</span></td>
-    </tr>
-    
-    <tr class="on">
-        <th><strong>3</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/55.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_55">서울 SK</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.667</strong></td>
-        <td><span>36</span></td>
-        <td><span>18</span></td>
-        <td><span>1.0</span></td>
-        <td><span>84.8</span></td>
-        <td><span>18.3</span></td>
-        <td><span>38.4</span></td>
-        <td><span>7.3</span></td>
-        <td><span>2.6</span></td>
-        <td><span>6.6</span></td>
-        <td><span>13.0</span></td>
-        <td class="last"><span>71.73</span></td>
-    </tr>
-    
-    <tr class="on">
-        <th><strong>4</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/10.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_10">울산 현대모비스</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.630</strong></td>
-        <td><span>34</span></td>
-        <td><span>20</span></td>
-        <td><span>3.0</span></td>
-        <td><span>82.8</span></td>
-        <td><span>19.2</span></td>
-        <td><span>40.6</span></td>
-        <td><span>6.9</span></td>
-        <td><span>2.2</span></td>
-        <td><span>7.8</span></td>
-        <td><span>11.6</span></td>
-        <td class="last"><span>72.15</span></td>
-    </tr>
-    
-    <tr class="on">
-        <th><strong>5</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/73.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_73">고양 캐롯</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.519</strong></td>
-        <td><span>28</span></td>
-        <td><span>26</span></td>
-        <td><span>9.0</span></td>
-        <td><span>81.3</span></td>
-        <td><span>15.7</span></td>
-        <td><span>34.4</span></td>
-        <td><span>7.4</span></td>
-        <td><span>2.4</span></td>
-        <td><span>11.5</span></td>
-        <td><span>11.5</span></td>
-        <td class="last"><span>78.58</span></td>
-    </tr>
-    
-    <tr class="on">
-        <th><strong>6</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/60.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_60">전주 KCC</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.444</strong></td>
-        <td><span>24</span></td>
-        <td><span>30</span></td>
-        <td><span>13.0</span></td>
-        <td><span>78.3</span></td>
-        <td><span>17.2</span></td>
-        <td><span>37.8</span></td>
-        <td><span>5.4</span></td>
-        <td><span>2.0</span></td>
-        <td><span>7.5</span></td>
-        <td><span>12.8</span></td>
-        <td class="last"><span>76.91</span></td>
-    </tr>
-    
-    <tr>
-        <th><strong>7</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/16.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_16">원주 DB</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.407</strong></td>
-        <td><span>22</span></td>
-        <td><span>32</span></td>
-        <td><span>15.0</span></td>
-        <td><span>78.1</span></td>
-        <td><span>18.1</span></td>
-        <td><span>39.9</span></td>
-        <td><span>6.2</span></td>
-        <td><span>2.5</span></td>
-        <td><span>6.1</span></td>
-        <td><span>9.7</span></td>
-        <td class="last"><span>70.00</span></td>
-    </tr>
-    
-    <tr>
-        <th><strong>8</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/06.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_06">수원 KT</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.389</strong></td>
-        <td><span>21</span></td>
-        <td><span>33</span></td>
-        <td><span>16.0</span></td>
-        <td><span>78.0</span></td>
-        <td><span>17.1</span></td>
-        <td><span>38.3</span></td>
-        <td><span>6.3</span></td>
-        <td><span>2.4</span></td>
-        <td><span>8.4</span></td>
-        <td><span>11.8</span></td>
-        <td class="last"><span>74.42</span></td>
-    </tr>
-    
-    <tr>
-        <th><strong>9</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/64.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_64">대구 한국가스공사</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.333</strong></td>
-        <td><span>18</span></td>
-        <td><span>36</span></td>
-        <td><span>19.0</span></td>
-        <td><span>80.0</span></td>
-        <td><span>16.9</span></td>
-        <td><span>37.6</span></td>
-        <td><span>7.1</span></td>
-        <td><span>2.2</span></td>
-        <td><span>7.2</span></td>
-        <td><span>11.7</span></td>
-        <td class="last"><span>71.33</span></td>
-    </tr>
-    
-    <tr>
-        <th><strong>10</strong></th>
-        <td class="tm">
-            <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/35.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
-                <span id="team_35">서울 삼성</span>
-            </div>
-        </td>
-        <td><span>54</span></td>
-        <td><strong>0.259</strong></td>
-        <td><span>14</span></td>
-        <td><span>40</span></td>
-        <td><span>23.0</span></td>
-        <td><span>74.3</span></td>
-        <td><span>15.4</span></td>
-        <td><span>38.7</span></td>
-        <td><span>5.4</span></td>
-        <td><span>2.1</span></td>
-        <td><span>6.5</span></td>
-        <td><span>12.6</span></td>
-        <td class="last"><span>74.24</span></td>
-    </tr>
-    
+  </c:forEach>
 </tbody>
 </table>
-<div class="h_ln"></div>
-<div class="wnrt_on" id="regularTeamRecordList_ColumnChecker">
-    <span class="bl" style="height:352px"></span>
-    <span class="bt"></span>
-    <span class="br" style="height:352px"></span>
-    <span class="bb" style="top:351px"></span>
-</div>
+
 </div>
       
 
@@ -1147,559 +741,52 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <th><div class="sht_3ss"><a href="javaScript:sortByPlayerColumn('point3Rate');"><strong id="player_point3Rate"><span class="blind">3점슛성공</span></strong></a></div></th>
             <th><div class="sht_fss"><a href="javaScript:sortByPlayerColumn('freeThrowRate');"><strong id="player_freeThrowRate"><span class="blind">자유투성</span></strong></a></div></th>
         </tr></thead>
-        <tbody id="playerRecordTable">
-        
-    
-        
-            
-                
-                    <tr class="on ">
-                        <th><strong class="high">1</strong></th>
+        <tbody id="playerRecordTable">       
+           <c:forEach var="players" items="${players}" varStatus="loop">
+           <c:choose>
+              <c:when test="${loop.count >= 1 && loop.count <= 4}">
+                <tr class="on">
+              </c:when>
+              <c:when test="${loop.count %5 == 0 && loop.count != 5}">
+                <tr class="dv">
+              </c:when>
+              <c:when test="${loop.count == 5}">
+                <tr class="dv on">
+              </c:when>
+              <c:otherwise>
+                <tr class="">
+              </c:otherwise>
+            </c:choose>
+            <c:choose>
+              <c:when test="${loop.count >= 1 && loop.count <= 5}">
+                <th><strong class="high">${loop.count}</strong></th>
+              </c:when>
+              <c:otherwise>
+                <th><strong>${loop.count}</strong></th>
+              </c:otherwise>
+            </c:choose>
                         <td class="ply">
                             <div>
                                 <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/55.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>자밀 워니<span>(SK)</span></span>
+                                <span>${players.name}</span>
                             </div>
                         </td>
-                        <td><span>54</span></td>
-                        <td><strong>24.22</strong></td>
-                        <td><span>3.15</span></td>
-                        <td><span>11.19</span></td>
-                        <td><span>1.28</span></td>
-                        <td><span>0.94</span></td>
-                        <td><span>9.98</span></td>
-                        <td><span>0.41</span></td>
-                        <td><span>3.04</span></td>
-                        <td><span>51.52</span></td>
-                        <td><span>24.72</span></td>
-                        <td class="last"><span>66.40</span></td>
+                        <td><span>${players.played}</span></td>
+                        <td><strong>${players.score}</strong></td>
+                        <td><span>${players.assists}</span></td>
+                        <td><span>${players.rebound}</span></td>
+                        <td><span>${players.steal}</span></td>
+                        <td><span>${players.blocking}</span></td>
+                        <td><span>${players.point2}</span></td>
+                        <td><span>${players.point3}</span></td>
+                        <td><span>${players.ftr}</span></td>
+                        <td><span>${players.success_yato}</span></td>
+                        <td><span>${players.success_3p}</span></td>
+                        <td class="last"><span>${players.success_ftr}</span></td>
                     </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="on ">
-                        <th><strong class="high">2</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/70.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>오마리 스펠맨<span>(KGC)</span></span>
-                            </div>
-                        </td>
-                        <td><span>51</span></td>
-                        <td><strong>19.86</strong></td>
-                        <td><span>2.39</span></td>
-                        <td><span>9.94</span></td>
-                        <td><span>0.80</span></td>
-                        <td><span>1.10</span></td>
-                        <td><span>4.67</span></td>
-                        <td><span>2.76</span></td>
-                        <td><span>2.24</span></td>
-                        <td><span>44.59</span></td>
-                        <td><span>35.88</span></td>
-                        <td class="last"><span>69.51</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="on ">
-                        <th><strong class="high">3</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/73.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>디드릭 로슨<span>(캐롯)</span></span>
-                            </div>
-                        </td>
-                        <td><span>51</span></td>
-                        <td><strong>18.73</strong></td>
-                        <td><span>3.31</span></td>
-                        <td><span>9.53</span></td>
-                        <td><span>1.24</span></td>
-                        <td><span>1.08</span></td>
-                        <td><span>6.16</span></td>
-                        <td><span>1.22</span></td>
-                        <td><span>2.76</span></td>
-                        <td><span>52.73</span></td>
-                        <td><span>30.69</span></td>
-                        <td class="last"><span>79.66</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="on ">
-                        <th><strong class="high">4</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/10.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>게이지 프림<span>(현대모비스)</span></span>
-                            </div>
-                        </td>
-                        <td><span>54</span></td>
-                        <td><strong>18.67</strong></td>
-                        <td><span>2.30</span></td>
-                        <td><span>10.70</span></td>
-                        <td><span>1.41</span></td>
-                        <td><span>0.76</span></td>
-                        <td><span>7.46</span></td>
-                        <td><span>0.07</span></td>
-                        <td><span>3.52</span></td>
-                        <td><span>56.14</span></td>
-                        <td><span>30.77</span></td>
-                        <td class="last"><span>74.22</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="dv on ">
-                        <th><strong class="high">5</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/64.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>이대성<span>(한국가스공사)</span></span>
-                            </div>
-                        </td>
-                        <td><span>51</span></td>
-                        <td><strong>18.12</strong></td>
-                        <td><span>4.12</span></td>
-                        <td><span>3.14</span></td>
-                        <td><span>1.33</span></td>
-                        <td><span>0.29</span></td>
-                        <td><span>5.22</span></td>
-                        <td><span>1.31</span></td>
-                        <td><span>3.75</span></td>
-                        <td><span>44.58</span></td>
-                        <td><span>31.16</span></td>
-                        <td class="last"><span>86.82</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">6</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/06.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>재로드 존스<span>(KT)</span></span>
-                            </div>
-                        </td>
-                        <td><span>32</span></td>
-                        <td><strong>18.06</strong></td>
-                        <td><span>2.56</span></td>
-                        <td><span>7.81</span></td>
-                        <td><span>1.13</span></td>
-                        <td><span>0.81</span></td>
-                        <td><span>4.31</span></td>
-                        <td><span>2.44</span></td>
-                        <td><span>2.13</span></td>
-                        <td><span>45.19</span></td>
-                        <td><span>37.86</span></td>
-                        <td class="last"><span>86.08</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">7</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/73.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>전성현<span>(캐롯)</span></span>
-                            </div>
-                        </td>
-                        <td><span>50</span></td>
-                        <td><strong>17.62</strong></td>
-                        <td><span>2.62</span></td>
-                        <td><span>1.94</span></td>
-                        <td><span>1.06</span></td>
-                        <td><span>0.06</span></td>
-                        <td><span>2.50</span></td>
-                        <td><span>3.42</span></td>
-                        <td><span>2.36</span></td>
-                        <td><span>39.95</span></td>
-                        <td><span>37.50</span></td>
-                        <td class="last"><span>83.69</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">8</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/60.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>라건아<span>(KCC)</span></span>
-                            </div>
-                        </td>
-                        <td><span>54</span></td>
-                        <td><strong>17.48</strong></td>
-                        <td><span>1.94</span></td>
-                        <td><span>11.78</span></td>
-                        <td><span>0.37</span></td>
-                        <td><span>0.83</span></td>
-                        <td><span>6.04</span></td>
-                        <td><span>0.89</span></td>
-                        <td><span>2.74</span></td>
-                        <td><span>54.36</span></td>
-                        <td><span>39.02</span></td>
-                        <td class="last"><span>83.15</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">9</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/55.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>김선형<span>(SK)</span></span>
-                            </div>
-                        </td>
-                        <td><span>54</span></td>
-                        <td><strong>16.28</strong></td>
-                        <td><span>6.76</span></td>
-                        <td><span>2.67</span></td>
-                        <td><span>1.37</span></td>
-                        <td><span>0.39</span></td>
-                        <td><span>4.94</span></td>
-                        <td><span>1.17</span></td>
-                        <td><span>2.89</span></td>
-                        <td><span>48.32</span></td>
-                        <td><span>32.14</span></td>
-                        <td class="last"><span>73.93</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="dv ">
-                        <th><strong class="">10</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/60.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>허웅<span>(KCC)</span></span>
-                            </div>
-                        </td>
-                        <td><span>40</span></td>
-                        <td><strong>15.68</strong></td>
-                        <td><span>4.28</span></td>
-                        <td><span>2.63</span></td>
-                        <td><span>1.05</span></td>
-                        <td><span>0.00</span></td>
-                        <td><span>2.88</span></td>
-                        <td><span>2.25</span></td>
-                        <td><span>3.18</span></td>
-                        <td><span>43.25</span></td>
-                        <td><span>37.66</span></td>
-                        <td class="last"><span>84.67</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">11</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/06.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>하윤기<span>(KT)</span></span>
-                            </div>
-                        </td>
-                        <td><span>51</span></td>
-                        <td><strong>15.29</strong></td>
-                        <td><span>1.59</span></td>
-                        <td><span>6.35</span></td>
-                        <td><span>0.57</span></td>
-                        <td><span>0.61</span></td>
-                        <td><span>6.22</span></td>
-                        <td><span>0.00</span></td>
-                        <td><span>2.86</span></td>
-                        <td><span>58.60</span></td>
-                        <td><span>0.00</span></td>
-                        <td class="last"><span>74.87</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">12</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/73.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>이정현<span>(캐롯)</span></span>
-                            </div>
-                        </td>
-                        <td><span>52</span></td>
-                        <td><strong>15.02</strong></td>
-                        <td><span>4.23</span></td>
-                        <td><span>2.60</span></td>
-                        <td><span>1.69</span></td>
-                        <td><span>0.06</span></td>
-                        <td><span>2.88</span></td>
-                        <td><span>2.12</span></td>
-                        <td><span>2.90</span></td>
-                        <td><span>42.14</span></td>
-                        <td><span>34.16</span></td>
-                        <td class="last"><span>82.97</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">13</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/50.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>아셈 마레이<span>(LG)</span></span>
-                            </div>
-                        </td>
-                        <td><span>54</span></td>
-                        <td><strong>14.96</strong></td>
-                        <td><span>2.04</span></td>
-                        <td><span>12.48</span></td>
-                        <td><span>1.81</span></td>
-                        <td><span>0.39</span></td>
-                        <td><span>6.07</span></td>
-                        <td><span>0.00</span></td>
-                        <td><span>2.81</span></td>
-                        <td><span>57.95</span></td>
-                        <td><span>0.00</span></td>
-                        <td class="last"><span>52.41</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">14</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/70.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>변준형<span>(KGC)</span></span>
-                            </div>
-                        </td>
-                        <td><span>53</span></td>
-                        <td><strong>14.08</strong></td>
-                        <td><span>5.04</span></td>
-                        <td><span>2.68</span></td>
-                        <td><span>0.92</span></td>
-                        <td><span>0.17</span></td>
-                        <td><span>3.89</span></td>
-                        <td><span>1.47</span></td>
-                        <td><span>1.89</span></td>
-                        <td><span>48.71</span></td>
-                        <td><span>34.67</span></td>
-                        <td class="last"><span>71.94</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="dv ">
-                        <th><strong class="">15</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/10.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>론제이 아바리엔토스<span>(현대모비스)</span></span>
-                            </div>
-                        </td>
-                        <td><span>51</span></td>
-                        <td><strong>13.57</strong></td>
-                        <td><span>4.78</span></td>
-                        <td><span>2.94</span></td>
-                        <td><span>1.43</span></td>
-                        <td><span>0.16</span></td>
-                        <td><span>1.86</span></td>
-                        <td><span>2.75</span></td>
-                        <td><span>1.61</span></td>
-                        <td><span>39.10</span></td>
-                        <td><span>34.74</span></td>
-                        <td class="last"><span>82.83</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">16</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/50.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>이재도<span>(LG)</span></span>
-                            </div>
-                        </td>
-                        <td><span>54</span></td>
-                        <td><strong>13.41</strong></td>
-                        <td><span>4.22</span></td>
-                        <td><span>3.69</span></td>
-                        <td><span>1.02</span></td>
-                        <td><span>0.09</span></td>
-                        <td><span>3.43</span></td>
-                        <td><span>1.46</span></td>
-                        <td><span>2.17</span></td>
-                        <td><span>42.65</span></td>
-                        <td><span>32.24</span></td>
-                        <td class="last"><span>80.69</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">17</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/16.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>이선 알바노<span>(DB)</span></span>
-                            </div>
-                        </td>
-                        <td><span>53</span></td>
-                        <td><strong>13.34</strong></td>
-                        <td><span>5.08</span></td>
-                        <td><span>3.47</span></td>
-                        <td><span>1.40</span></td>
-                        <td><span>0.13</span></td>
-                        <td><span>3.62</span></td>
-                        <td><span>1.45</span></td>
-                        <td><span>1.74</span></td>
-                        <td><span>41.51</span></td>
-                        <td><span>34.38</span></td>
-                        <td class="last"><span>81.42</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">18</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/70.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>오세근<span>(KGC)</span></span>
-                            </div>
-                        </td>
-                        <td><span>52</span></td>
-                        <td><strong>13.12</strong></td>
-                        <td><span>2.17</span></td>
-                        <td><span>6.38</span></td>
-                        <td><span>0.56</span></td>
-                        <td><span>0.40</span></td>
-                        <td><span>4.52</span></td>
-                        <td><span>0.73</span></td>
-                        <td><span>1.88</span></td>
-                        <td><span>50.46</span></td>
-                        <td><span>40.00</span></td>
-                        <td class="last"><span>73.13</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="">
-                        <th><strong class="">19</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/06.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>양홍석<span>(KT)</span></span>
-                            </div>
-                        </td>
-                        <td><span>53</span></td>
-                        <td><strong>12.62</strong></td>
-                        <td><span>2.77</span></td>
-                        <td><span>5.87</span></td>
-                        <td><span>0.87</span></td>
-                        <td><span>0.21</span></td>
-                        <td><span>3.25</span></td>
-                        <td><span>1.53</span></td>
-                        <td><span>1.55</span></td>
-                        <td><span>42.03</span></td>
-                        <td><span>29.89</span></td>
-                        <td class="last"><span>84.54</span></td>
-                    </tr>
-                
-                
-            
-        
-            
-                
-                    <tr class="dv ">
-                        <th><strong class="">20</strong></th>
-                        <td class="ply">
-                            <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/64.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                                <span>이대헌<span>(한국가스공사)</span></span>
-                            </div>
-                        </td>
-                        <td><span>47</span></td>
-                        <td><strong>12.40</strong></td>
-                        <td><span>1.57</span></td>
-                        <td><span>3.64</span></td>
-                        <td><span>0.81</span></td>
-                        <td><span>0.09</span></td>
-                        <td><span>4.02</span></td>
-                        <td><span>0.96</span></td>
-                        <td><span>1.49</span></td>
-                        <td><span>54.55</span></td>
-                        <td><span>36.89</span></td>
-                        <td class="last"><span>64.22</span></td>
-                    </tr>
-                
-                
-            
-        
+            </c:forEach>
         </tbody>
     </table>
-    <div class="h_ln"></div>
-    <div class="score_on" id="playerRecordColumnChecker">
-        <span class="bl" id="player_hbl" style="height:672px"></span>
-        <span class="bt"></span>
-        <span class="br" id="player_hbr" style="height:672px"></span>
-        <span class="bb" id="player_hbb" style="top:671px"></span>
-    </div>
 </div>
 
     

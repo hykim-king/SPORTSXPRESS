@@ -41,6 +41,15 @@
 		<typeAlias
 			type="com.pcwk.ehr.sportsxpress.VO.VolleyballMatchVO"
 			alias="VolleyballMatchVO" />
+		<typeAlias
+            type="com.pcwk.ehr.sportsxpress.VO.BaseballRecordVO"
+            alias="BaseballRecordVO" />
+        <typeAlias
+            type="com.pcwk.ehr.sportsxpress.VO.FootballRecordVO"
+            alias="FootballRecordVO" />    
+        <typeAlias
+            type="com.pcwk.ehr.sportsxpress.VO.BasketballRecordVO"
+            alias="BasketballRecordVO" />
  
   
 	</typeAliases>

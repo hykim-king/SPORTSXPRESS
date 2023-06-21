@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="CP" value="${pageContext.request.contextPath}"></c:set>
+<c:set var="CP" value="${pageContext.request.contextPath }"></c:set>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,54 +11,15 @@
     <meta property="og:image" content="https://imgsports.pstatic.net/images/mobile/common/NAVERsports.png">
     <meta property="og:title" content="네이버 스포츠">
     <meta property="og:description" content="스포츠의 시작과 끝!">
-    <meta property="og:url" content="sports.news.naver.com/kfootball/record/index?category=kleague&amp;tab=team">
+    <meta property="og:url" content="sports.news.naver.com/wfootball/record/index?category=epl&amp;league=100&amp;tab=team">
     
+      
+            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/nsports.css">
+       
         
-            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/sports.css">
-
-            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/soccer_schedule.css">
-
-            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/legacy/layout.css">
-
-            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/player_goal.css">
-
-            <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/common_loose_new.css">
-
-        
-        
-        
+            <title>기록/순위, 해외축구 : 네이버 스포츠</title>
         
 
-        
-        
-    
-    
-        
-        
-        
-        
-        
-        
-            <title>기록/순위, 축구 : 네이버 스포츠</title>
-        
-        
-        
-    
-
-    <script></script>
-
-    <script></script>
-
-    
-
-<script>
-
-</script>
-
-<script></script>
-<script>
-
-</script>
 <style id="gnb_style" type="text/css">@charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
 a.gnb_my, .gnb_icon, #gnb .gnb_my_interface, .gnb_my_li .gnb_my_content .gnb_membership, #gnb .gnb_ico_num .gnb_ico_new, #gnb .gnb_ico_num .gnb_ico_new .gnb_count, .gnb_lst .ico_arrow, a.gnb_my .filter_mask, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_my_li .gnb_my_content .gnb_edit_lst li, .gnb_notice_li .gnb_notice_lyr, .gnb_notice_li .svc_list .gnb_ico_mail, .gnb_notice_li .svc_list .gnb_btn_remove span, .gnb_notice_li .svc_list .gnb_btn_remove i, .gnb_notice_li .gnb_error .gnb_ico_error, .gnb_ly_alert .gnb_btn_close i, .gnb_first_visit, .gnb_search_box, .gnb_search_box .gnb_del_txt, .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new, .gnb_svc_more .svc_btnwrp button { background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v14.png) no-repeat -999px -999px;   background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v15.png?v=2006) no-repeat -999px -999px; /* background: url(../img/sp_gnb_v15.png) no-repeat -999px -999px; */}
@@ -88,7 +49,7 @@ a.gnb_my, .gnb_icon{position:relative}
 #gnb .gnb_ico_num .gnb_ico_new .plus{margin:1px -1px 0 2px;font-size:8px;display:inline-block;color:#fff;vertical-align:top}
 :root #gnb .gnb_pad_lyr{opacity:1 !important;/* background:#fff */}
 .gnb_lst{margin:0;padding:0;zoom:1}
-.gnb_lst:after{display:block;clear:both;content:''}
+.gnb_lst:{display:block;clear:both;content:''}
 .gnb_lst ul{margin:0;padding:0}
 .gnb_lst .ico_arrow{display:none;position:absolute;left:50%;top:27px;width:10px;height:8px;margin-left:-5px;background-position:-175px -10px}
 .gnb_lyr_opened .gnb_my_lyr, .gnb_lyr_opened .gnb_service_lyr, .gnb_lyr_opened .gnb_notice_lyr, .gnb_lyr_opened .ico_arrow{display:block !important}
@@ -105,7 +66,7 @@ a.gnb_my, .gnb_icon{position:relative}
 .gnb_account .gnb_txt{width:53px}
 .gnb_my_li{margin-right:7px}
 .gnb_my_namebox{padding:2px 9px 0 0;background-repeat:no-repeat;background-position:100% 50%;zoom:1}
-.gnb_my_namebox:after{display:block;clear:both;content:''}
+.gnb_my_namebox:{display:block;clear:both;content:''}
 a.gnb_my{float:left;display:block;font-size:12px;vertical-align:middle}
 a.gnb_my .filter_mask {position: absolute; top: -1px; left: -1px; z-index: 1; width: 28px; height: 28px; background-position: -260px -60px;}
 a.gnb_my img{vertical-align:top;border-radius:16px}
@@ -123,7 +84,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_my_lyr.gnb_longid1{/*width:318px;*/ /*background-position:-2px -1118px;*/}
 .gnb_my_lyr.gnb_longid2{width:348px;background-position:-2px -926px}
 .gnb_my_li .gnb_my_content{zoom:1;height:91px;padding:15px 0 10px 15px}
-.gnb_my_li .gnb_my_content:after{display:block;clear:both;content:''}
+.gnb_my_li .gnb_my_content:{display:block;clear:both;content:''}
 .gnb_my_li .gnb_my_content .gnb_img_area{float:left;position:relative;display:block;width:80px;margin: 1px 0 0 1px;}
 .gnb_my_li .gnb_my_content .gnb_img_area img{vertical-align:top}
 .gnb_my_li .gnb_my_content .gnb_mask{position:absolute;top:0;left:0;display:block;width:80px;height:80px;background-position:-70px -60px}
@@ -137,7 +98,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_my_li .gnb_my_content .gnb_name a{display:inline-block;vertical-align:top;font-weight:bold;color:#222 !important}
 .gnb_my_li .gnb_my_content a.gnb_mail_address{margin-left:1px;font-family:tahoma;color:#666 !important;font-size:12px}
 .gnb_my_li .gnb_my_content .gnb_edit_lst{zoom:1;margin-top:7px !important}
-.gnb_my_li .gnb_my_content .gnb_edit_lst:after{display:block;clear:both;content:''}
+.gnb_my_li .gnb_my_content .gnb_edit_lst:{display:block;clear:both;content:''}
 .gnb_my_li .gnb_my_content .gnb_edit_lst li{float:left;padding-left:6px;margin-left:5px;background-position:-290px -25px}
 .gnb_my_li .gnb_my_content .gnb_edit_lst li.gnb_info{padding-left:0;margin-left:0;background:none}
 .gnb_my_li .gnb_my_content .gnb_edit_lst a{color:#666 !important;letter-spacing:-1px}
@@ -150,7 +111,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_my_li .gnb_my_content .gnb_pay_check strong{font-family:tahoma;letter-spacing:0;vertical-align:top;}
 .gnb_my_li .gnb_my_content .gnb_pay_check a, .gnb_my_li .gnb_my_content .gnb_pay_check span, .gnb_my_li .gnb_my_content .gnb_pay_check strong{font-size:12px;color:#222 !important}
 #gnb .gnb_my_li .gnb_my_community{clear:both;zoom:1}
-#gnb .gnb_my_li .gnb_my_community:after{display:block;clear:both;content:''}
+#gnb .gnb_my_li .gnb_my_community:{display:block;clear:both;content:''}
 #gnb .gnb_my_li .gnb_my_community a{float:left;width:106px;margin-right: 0;border-right:1px solid #ebebeb}
 #gnb .gnb_my_li .gnb_my_community a.gnb_pay{width:102px;border-right:0;line-height:0}
 #gnb .gnb_my_li .gnb_my_community a.gnb_pay span{display:inline-block;width:41px;height:16px;background: url(https://ssl.pstatic.net/static/common/gnb/one/ico_gnb_pay.png) no-repeat !important; background-size: 41px 16px !important;margin:11px auto 0;font-size:0;line-height:0}
@@ -236,7 +197,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_first_visit{position:absolute;top:0;left:0;width:293px;height:92px;background-position:0 -310px;z-index:200}
 .gnb_first_visit .gnb_close{position:absolute;top:0;right:0;display:block;width:32px;height:32px}
 .gnb_favorite_lst{zoom:1}
-.gnb_favorite_lst:after{display:block;clear:both;content:''}
+.gnb_favorite_lst:{display:block;clear:both;content:''}
 .gnb_favorite_lst li{float:left;width:65px;text-align:center;white-space:nowrap}
 .gnb_favorite_lst a{display:inline-block;text-align:center;font-weight:bold}
 .gnb_favorite_lst .gnb_add a{display:block;test-align:center;}
@@ -256,7 +217,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_search_box .gnb_pop_lst a{display:block;padding:6px 0 6px 10px;font-weight:bold}
 .gnb_search_box .gnb_pop_lst .on{background-color:#f5f5f5}
 .gnb_search_lstwrp{zoom:1;height:118px;padding-left:12px}
-.gnb_search_lstwrp:after{display:block;clear:both;content:''}
+.gnb_search_lstwrp:{display:block;clear:both;content:''}
 .gnb_search_lstwrp .gnb_search_lst{float:left;width:69px;border-left:1px solid #eaeaea}
 .gnb_search_lstwrp .gnb_search_lst.gnb_first{width:64px;border:0}
 .gnb_search_lstwrp li{padding:12px 0 0 8px}
@@ -267,7 +228,7 @@ a.gnb_my .ico_arrow{top:25px;margin-left:8px}
 .gnb_linkwrp{padding:0 4px 4px;background-position:-602px 0}
 a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.gnb_service_all:focus{text-decoration:none}
 .gnb_svc_more{display:none;position:absolute;top:4px;right:303px;width:589px;overflow:hidden;zoom:1;z-index:1000}
-.gnb_svc_more:after{display:block;clear:both;content:''}
+.gnb_svc_more:{display:block;clear:both;content:''}
 .gnb_response .gnb_svc_more{right:2px}
 .gnb_bg_top{height:6px;background:url(https://ssl.pstatic.net/static/common/gnb/2014/bg_svclyr1_v2.png) no-repeat}
 .gnb_bg_btm{position:relative;height:6px;background:url(https://ssl.pstatic.net/static/common/gnb/2014/bg_svclyr1_v2.png) no-repeat -1282px 0}
@@ -276,7 +237,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 .gnb_svc_more .gnb_svc_hd .link{position:absolute;top:14px;right:19px;font-size:12px;color:#444}
 .gnb_svc_more .gnb_svc_hd .link a{color:#444 !important;line-height:16px !important}
 .gnb_svc_more .gnb_svc_lstwrp{position:relative;height:283px;overflow:hidden;padding:15px 15px 0 20px;letter-spacing:-1px;background:url(https://ssl.pstatic.net/static/common/gnb/2014/bg_svclyr1_v2.png) repeat-y -641px 0;zoom:1}
-.gnb_svc_more .gnb_svc_lstwrp:after{display:block;clear:both;content:''}
+.gnb_svc_more .gnb_svc_lstwrp:{display:block;clear:both;content:''}
 .gnb_svc_more .gnb_svc_lstwrp li{height:15px;margin-bottom:5px;color:#6b6d70;white-space:nowrap;line-height:15px}
 .gnb_svc_more .gnb_svc_lstwrp li.gnb_event label{color:#444;font-weight:bold}
 .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new{display:inline-block;width:11px;height:11px;background-position:-215px 0px;margin:2px 0 0 4px;font-size:0;line-height:0;vertical-align:top}
@@ -289,7 +250,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 .gnb_svc_more .gnb_svc_lst1 ul{float:left;width:102px;min-height:260px;padding:5px 0 0 10px;border-left:1px solid #eee}
 .gnb_svc_more .gnb_svc_lst1 ul.gnb_first{padding-left:0;border:0}
 .gnb_svc_more .svc_lst2{float:left;position:relative;width:221px;border:1px solid #eee;background:#fbfbfb;zoom:1}
-.gnb_svc_more .svc_lst2:after{display:block;clear:both;content:''}
+.gnb_svc_more .svc_lst2:{display:block;clear:both;content:''}
 .gnb_svc_more .svc_spc{float:left;position:relative;width:100px;min-height:254px;padding:9px 0 0 10px}
 .gnb_svc_more .svc_spc.gnb_first{border-right:1px solid #eee}
 .gnb_svc_more .svc_spc strong{height:20px;color:#2f3743;line-height:16px}
@@ -395,7 +356,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_ico_new,
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_count {background: #e1523a;}
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_ico_new {border-radius: 13px 0 0 13px;}
-#gnb.gnb_one_pwe .gnb_ico_num .gnb_count {border-radius: 0 13px 13px 0;}</style><script></script><script></script></head>
+#gnb.gnb_one_pwe .gnb_ico_num .gnb_count {border-radius: 0 13px 13px 0;}</style><script type="text/javascript" id="undefined" src="https://ssl.pstatic.net/static/common/js/cs_ops_webncc.js"></script><script src="https://ssl.pstatic.net/static.gn/js/clickcrD.js" id="gnb_clickcrD" charset="utf-8"></script></head>
         <body>
             
 <div id="u_skip">
@@ -409,7 +370,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
   
   
-    <header id="header" class="sports_header_pc">
+    <header id="header" class="sports_header_pc type_wfootball">
       <div class="sports_gnb" role="banner">
         
 
@@ -431,7 +392,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </script>
         <!-- GNB -->
         <div class="tool_area">
-          <div class="gnb_one" id="gnb"><strong class="blind">사용자 링크</strong><ul class="gnb_lst" id="gnb_lst" style="display: block;"><li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;"><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fkfootball%2Frecord%2Findex" id="gnb_login_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li><li class="gnb_my_li" id="gnb_my_layer" style="display:none"><div class="gnb_my_namebox" id="gnb_my_namebox" style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);"><a href="javascript:;" id="gnb_my" class="gnb_my" onclick="gnbUserLayer.clickToggle(); return false;"><img id="gnb_profile_img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="26" height="26" alt="내 프로필 이미지"><span id="gnb_profile_filter_mask" class="filter_mask"></span> <span class="gnb_name" id="gnb_name1"></span><em class="blind">내정보 보기</em><span class="ico_arrow"></span></a><a href="#" class="gnb_emp" id="gnb_emp">(임직원혜택)</a></div><div class="gnb_my_lyr" id="gnb_my_lyr"><div class="gnb_my_content"><div class="gnb_img_area"><span class="gnb_mask"></span><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="80" height="80" alt="프로필 이미지"><a href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType" class="gnb_change"><span class="blind">프로필 사진 변경</span></a></div><div class="gnb_txt_area"><p class="gnb_account"><span class="gnb_name" id="gnb_name2"><a class="gnb_nick" href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType">_</a>님</span><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fsports.news.naver.com%2Fkfootball%2Frecord%2Findex" id="gnb_logout_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그아웃</span></a></p><a href="https://mail.naver.com" class="gnb_mail_address">@naver.com</a><ul class="gnb_edit_lst"><li class="gnb_info"><a href="https://nid.naver.com/user2/help/myInfo?menu=home">네이버ID</a></li><li class="gnb_secure" id="gnb_secure_lnk"><a href="https://nid.naver.com/user2/help/myInfo?m=viewSecurity&amp;menu=security">보안설정</a></li><li class="gnb_cert" id="gnb_cert_lnk"><a href="https://nid.naver.com/user2/eSign/v1/home/land" id="gnb_cert_lnk_a">내인증서</a></li></ul><div class="gnb_pay_check" id="gnb_pay_check"><p class="gnb_membership" style="display: none;" id="gnb_membership"><a href="https://nid.naver.com/membership/my" class="gnb_my_membership" id="gnb_my_membership"><i class="blind">네이버 멤버쉽</i></a></p><em>N Pay</em><a href="https://pay.naver.com" id="gnb_pay_point"><span style="display: none">내 페이포인트</span></a></div></div></div><div class="gnb_my_community"><a href="https://blog.naver.com/MyBlog.naver" class="gnb_blog">내 블로그</a><a href="https://section.cafe.naver.com" class="gnb_cafe">가입한 카페</a><a href="https://pay.naver.com" class="gnb_pay" id="gnb_pay_banner_membership" style="display: block;"><span>N Pay</span></a><a href="https://nid.naver.com/membership/join" class="gnb_pay" id="gnb_pay_banner_newbie" style="display: none;"><i>네이버 멤버십 최대 5% 적립</i></a></div><a href="#" class="gnb_my_interface" style="display:none"><span class="blind">환경설정</span></a></div><iframe id="gnb_my_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li><li class="gnb_notice_li" id="gnb_notice_layer" style="display:none"><a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;"><span class="blind">알림</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_me_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a><div class="gnb_notice_lyr" id="gnb_notice_lyr"><div class="svc_noti svc_panel"><div class="svc_scroll"><div class="svc_head"><strong class="gnb_tit">전체 알림</strong><div class="task_right"><button onclick="gnbNaverMeLayer.deleteReadList(this, event);" id="gnb_btn_read_noti_del">읽은 알림 삭제</button><button onclick="gnbNaverMeLayer.showDeleteAlert();" id="gnb_btn_all_noti_del">모두 삭제</button></div></div><div class="svc_body" id="gnb_naverme_layer"></div></div><div class="gnb_ly_alert" id="gnb_ly_alert" style="display: none;"><p class="gnb_msg"><strong>알림을 모두 삭제하시겠습니까?</strong></p><div class="gnb_btns"><button id="ly_alert_confirm" onclick="gnbNaverMeLayer.deleteAllList(this, event);">확인</button><button onclick="gnbNaverMeLayer.hideDeleteAlert();">취소</button></div><button class="gnb_btn_close" onclick="gnbNaverMeLayer.hideDeleteAlert();"><i>레이어 닫기</i></button></div><a href="https://m.notify.naver.com" class="gnb_notice_all">내 알림 전체보기</a></div></div><iframe id="gnb_notice_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li><li class="mail_li" id="gnb_mail_layer" style="display:none"><a href="https://mail.naver.com" class="gnb_mail"><span class="blind">메일</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_mail_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span></em></a></li><li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;"><a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a><div class="gnb_service_lyr" id="gnb_service_lyr"><div class="gnb_favorite_search" id="gnb_favorite_search"><div class="gnb_favorite_area"><div class="gnb_favorite_lstwrp"><div class="gnb_first_visit" style="display:none"><span class="blind">나만의 즐겨찾기를 추가해 보세요!</span><a href="#" class="gnb_close"><span class="blind">닫기</span></a></div><strong class="blind">즐겨찾는 서비스</strong><ul class="gnb_favorite_lst" id="gnb_favorite_lst"><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li></ul><a href="#" class="gnb_my_interface" onclick="gnbMoreLayer.clickToggleWhole(); return false;"><span class="blind">즐겨찾기 설정</span></a></div></div><div class="gnb_search_area"><div class="gnb_search_box" onmouseover="gnb_search.mouseOver(this);" onmouseout="gnb_search.mouseOut(this);"><input id="gnb_svc_search_input" type="text" title="서비스 검색" value="더 많은 서비스를 간편하게 시작하세요!" onfocus="gnb_search.clearInput(this);" onblur="gnb_search.resetInput(this);" onkeydown="gnb_search.keyDown(event);" onkeyup="gnb_search.keyUp(event);"><a href="#" class="gnb_del_txt" id="gnb_del_txt" style="display:none"><span class="blind">삭제</span></a><div class="gnb_pop_input" id="gnb_pop_input" tabindex="0" onfocus="gnb_search.searchPopOnMouse = true; return false;" onfocusout="gnb_search.searchPopOnMouse = false; return false;" onmouseover="gnb_search.searchPopOnMouse = true; return false;" onmouseout="gnb_search.searchPopOnMouse = false; return false;" style="display:none"><ul class="gnb_pop_lst"></ul></div></div><div id="gnb_search_lstwrp" class="gnb_search_lstwrp"><ul class="gnb_search_lst gnb_first"><li class="gnb_first"><a id="gnb_search_lst_first_item" href="https://cafe.naver.com/">카페</a></li><li><a href="https://news.naver.com/">뉴스</a></li><li><a href="https://map.naver.com/">지도</a></li><li><a href="https://sports.news.naver.com/">스포츠</a></li><li><a href="https://game.naver.com/">게임</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://section.blog.naver.com/">블로그</a></li><li><a href="https://post.naver.com/main.nhn">포스트</a></li><li><a href="https://dict.naver.com/">사전</a></li><li><a href="https://kin.naver.com/">지식iN</a></li><li><a href="https://weather.naver.com/">날씨</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://mail.naver.com/">메일</a></li><li><a href="https://stock.naver.com/">증권</a></li><li><a href="https://land.naver.com/">부동산</a></li><li><a href="https://vibe.naver.com/today/">VIBE</a></li><li><a href="https://book.naver.com">책</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://shopping.naver.com/">쇼핑</a></li><li><a href="https://comic.naver.com/">웹툰</a></li><li><a href="https://movie.naver.com/">영화</a></li><li><a href="https://mybox.naver.com/">MYBOX</a></li><li><a href="https://novel.naver.com/webnovel/weekday">웹소설</a></li></ul></div></div><div class="gnb_banner"><a href="https://campaign.naver.com/npay/rediret/index.nhn" class="gnb_service_event"><img id="gnb_promo" alt="N페이, 이벤트 참여하면 포인트 적립!" width="265" height="47" src="https://ssl.pstatic.net/static/common/gnb/banner/promo_npay_200108.png"></a></div><div class="gnb_linkwrp"><a href="https://www.naver.com/more.html" class="gnb_service_all" id="gnb_service_all">전체 서비스 보기</a></div></div><div class="gnb_svc_more" id="gnb_svc_more" style=""><strong class="blind">네이버 주요 서비스</strong><div class="gnb_bg_top"></div><div class="gnb_svc_hd" id="gnb_svc_hd" tabindex="0"><strong class="gnb_svc_tit">바로가기 설정</strong><span class="link"><a href="https://www.naver.com/more.html">전체 서비스 보기</a></span></div><div class="gnb_svc_lstwrp"><div class="gnb_svc_lst1"><ul class="gnb_first"><li><input type="checkbox" id="nsvc_game" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_game">게임</label></li><li><input type="checkbox" id="nsvc_weather" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_weather">날씨</label></li><li><input type="checkbox" id="nsvc_shopping" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_shopping">네이버쇼핑</label></li><li><input type="checkbox" id="nsvc_navercast" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navercast">네이버캐스트</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_naverpay" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_naverpay">네이버페이<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_mybox" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mybox">네이버 MYBOX</label></li><li><input type="checkbox" id="nsvc_news" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_news">뉴스</label></li><li><input type="checkbox" id="nsvc_comic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_comic">웹툰</label></li><li><input type="checkbox" id="nsvc_memo" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_memo">메모</label></li><li><input type="checkbox" id="nsvc_mail" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mail">메일</label></li><li><input type="checkbox" id="nsvc_land" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_land">부동산</label></li><li><input type="checkbox" id="nsvc_bookmark" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_bookmark">북마크</label></li><li><input type="checkbox" id="nsvc_blog" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_blog">블로그</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_dic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dic">사전</label></li><li><input type="checkbox" id="nsvc_smartboard" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_smartboard">스마트보드</label></li><li><input type="checkbox" id="nsvc_sports" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_sports">스포츠</label></li><li><input type="checkbox" id="nsvc_series" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_series">시리즈</label></li><li><input type="checkbox" id="nsvc_serieson" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_serieson">시리즈on</label></li><li><input type="checkbox" id="nsvc_movie" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_movie">영화</label></li><li><input type="checkbox" id="nsvc_office" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_office">오피스</label></li><li><input type="checkbox" id="nsvc_novel" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_novel">웹소설</label></li><li><input type="checkbox" id="nsvc_contact" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_contact">주소록</label></li><li><input type="checkbox" id="nsvc_finance" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_finance">증권(금융)</label></li><li><input type="checkbox" id="nsvc_map" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_map">지도</label></li><li><input type="checkbox" id="nsvc_kin" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_kin">지식iN</label></li><li><input type="checkbox" id="nsvc_terms" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_terms">지식백과</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_book" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_book">책</label></li><li><input type="checkbox" id="nsvc_cafe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cafe">카페</label></li><li><input type="checkbox" id="nsvc_calendar" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_calendar">캘린더</label></li><li><input type="checkbox" id="nsvc_navertv" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navertv">네이버TV</label></li></ul></div><div class="svc_lst2"><div class="svc_spc gnb_first"><strong><a href="https://dict.naver.com/">어학사전</a></strong><ul class=""><li><input type="checkbox" id="nsvc_krdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_krdic">국어사전</label></li><li><input type="checkbox" id="nsvc_endic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_endic">영어/영영사전</label></li><li><input type="checkbox" id="nsvc_hanja" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_hanja">한자사전</label></li><li><input type="checkbox" id="nsvc_jpdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_jpdic">일어사전</label></li><li><input type="checkbox" id="nsvc_cndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cndic">중국어사전</label></li><li><input type="checkbox" id="nsvc_frdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_frdic">프랑스어사전</label></li><li><input type="checkbox" id="nsvc_dedic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dedic">독일어사전</label></li><li><input type="checkbox" id="nsvc_rudic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_rudic">러시아어사전</label></li><li><input type="checkbox" id="nsvc_vndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vndic">베트남어사전</label></li><li><input type="checkbox" id="nsvc_spdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_spdic">스페인어사전</label></li><li><input type="checkbox" id="nsvc_papago" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_papago">파파고</label></li></ul></div><div class="svc_spc"><strong>인기/신규서비스</strong><ul class=""><li><input type="checkbox" id="nsvc_grafolio" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_grafolio">그라폴리오</label></li><li><input type="checkbox" id="nsvc_post" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_post">포스트</label></li><li><input type="checkbox" id="nsvc_band" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_band">밴드</label></li><li><input type="checkbox" id="nsvc_line" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_line">라인</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_vibe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vibe">VIBE<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_pcontents" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_pcontents">프리미엄콘텐츠</label></li></ul></div></div></div><div class="svc_btnwrp"><div class="svc_btns"><button class="gnb_save" onclick="if(gnbFavorite.addService()){gnbMoreLayer.clickToggleWhole()} return false;"><strong class="blind">확인</strong></button><button class="gnb_close" onclick="gnbFavorite.cancel(); return false;"><span class="blind">취소</span></button><button class="gnb_return" onclick="gnbFavorite.resetService(); return false;"><span class="blind">초기 설정으로 변경</span></button></div></div><div class="gnb_bg_btm"></div></div></div><iframe id="gnb_service_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 311px; width: 585px; height: 385px; opacity: 0;"></iframe><iframe id="gnb_svc_more_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 10px; width: 295px; height: 385px; opacity: 0;"></iframe></li></ul></div>
+          <div class="gnb_one" id="gnb"><strong class="blind">사용자 링크</strong><ul class="gnb_lst" id="gnb_lst" style="display: block;"><li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;"><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Frecord%2Findex" id="gnb_login_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li><li class="gnb_my_li" id="gnb_my_layer" style="display:none"><div class="gnb_my_namebox" id="gnb_my_namebox" style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);"><a href="javascript:;" id="gnb_my" class="gnb_my" onclick="gnbUserLayer.clickToggle(); return false;"><img id="gnb_profile_img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="26" height="26" alt="내 프로필 이미지"><span id="gnb_profile_filter_mask" class="filter_mask"></span> <span class="gnb_name" id="gnb_name1"></span><em class="blind">내정보 보기</em><span class="ico_arrow"></span></a><a href="#" class="gnb_emp" id="gnb_emp">(임직원혜택)</a></div><div class="gnb_my_lyr" id="gnb_my_lyr"><div class="gnb_my_content"><div class="gnb_img_area"><span class="gnb_mask"></span><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="80" height="80" alt="프로필 이미지"><a href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType" class="gnb_change"><span class="blind">프로필 사진 변경</span></a></div><div class="gnb_txt_area"><p class="gnb_account"><span class="gnb_name" id="gnb_name2"><a class="gnb_nick" href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType">_</a>님</span><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Frecord%2Findex" id="gnb_logout_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그아웃</span></a></p><a href="https://mail.naver.com" class="gnb_mail_address">@naver.com</a><ul class="gnb_edit_lst"><li class="gnb_info"><a href="https://nid.naver.com/user2/help/myInfo?menu=home">네이버ID</a></li><li class="gnb_secure" id="gnb_secure_lnk"><a href="https://nid.naver.com/user2/help/myInfo?m=viewSecurity&amp;menu=security">보안설정</a></li><li class="gnb_cert" id="gnb_cert_lnk"><a href="https://nid.naver.com/user2/eSign/v1/home/land" id="gnb_cert_lnk_a">내인증서</a></li></ul><div class="gnb_pay_check" id="gnb_pay_check"><p class="gnb_membership" style="display: none;" id="gnb_membership"><a href="https://nid.naver.com/membership/my" class="gnb_my_membership" id="gnb_my_membership"><i class="blind">네이버 멤버쉽</i></a></p><em>N Pay</em><a href="https://pay.naver.com" id="gnb_pay_point"><span style="display: none">내 페이포인트</span></a></div></div></div><div class="gnb_my_community"><a href="https://blog.naver.com/MyBlog.naver" class="gnb_blog">내 블로그</a><a href="https://section.cafe.naver.com" class="gnb_cafe">가입한 카페</a><a href="https://pay.naver.com" class="gnb_pay" id="gnb_pay_banner_membership" style="display: block;"><span>N Pay</span></a><a href="https://nid.naver.com/membership/join" class="gnb_pay" id="gnb_pay_banner_newbie" style="display: none;"><i>네이버 멤버십 최대 5% 적립</i></a></div><a href="#" class="gnb_my_interface" style="display:none"><span class="blind">환경설정</span></a></div><iframe id="gnb_my_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li><li class="gnb_notice_li" id="gnb_notice_layer" style="display:none"><a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;"><span class="blind">알림</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_me_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a><div class="gnb_notice_lyr" id="gnb_notice_lyr"><div class="svc_noti svc_panel"><div class="svc_scroll"><div class="svc_head"><strong class="gnb_tit">전체 알림</strong><div class="task_right"><button onclick="gnbNaverMeLayer.deleteReadList(this, event);" id="gnb_btn_read_noti_del">읽은 알림 삭제</button><button onclick="gnbNaverMeLayer.showDeleteAlert();" id="gnb_btn_all_noti_del">모두 삭제</button></div></div><div class="svc_body" id="gnb_naverme_layer"></div></div><div class="gnb_ly_alert" id="gnb_ly_alert" style="display: none;"><p class="gnb_msg"><strong>알림을 모두 삭제하시겠습니까?</strong></p><div class="gnb_btns"><button id="ly_alert_confirm" onclick="gnbNaverMeLayer.deleteAllList(this, event);">확인</button><button onclick="gnbNaverMeLayer.hideDeleteAlert();">취소</button></div><button class="gnb_btn_close" onclick="gnbNaverMeLayer.hideDeleteAlert();"><i>레이어 닫기</i></button></div><a href="https://m.notify.naver.com" class="gnb_notice_all">내 알림 전체보기</a></div></div><iframe id="gnb_notice_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li><li class="mail_li" id="gnb_mail_layer" style="display:none"><a href="https://mail.naver.com" class="gnb_mail"><span class="blind">메일</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_mail_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span></em></a></li><li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;"><a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a><div class="gnb_service_lyr" id="gnb_service_lyr"><div class="gnb_favorite_search" id="gnb_favorite_search"><div class="gnb_favorite_area"><div class="gnb_favorite_lstwrp"><div class="gnb_first_visit" style="display:none"><span class="blind">나만의 즐겨찾기를 추가해 보세요!</span><a href="#" class="gnb_close"><span class="blind">닫기</span></a></div><strong class="blind">즐겨찾는 서비스</strong><ul class="gnb_favorite_lst" id="gnb_favorite_lst"><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li></ul><a href="#" class="gnb_my_interface" onclick="gnbMoreLayer.clickToggleWhole(); return false;"><span class="blind">즐겨찾기 설정</span></a></div></div><div class="gnb_search_area"><div class="gnb_search_box" onmouseover="gnb_search.mouseOver(this);" onmouseout="gnb_search.mouseOut(this);"><input id="gnb_svc_search_input" type="text" title="서비스 검색" value="더 많은 서비스를 간편하게 시작하세요!" onfocus="gnb_search.clearInput(this);" onblur="gnb_search.resetInput(this);" onkeydown="gnb_search.keyDown(event);" onkeyup="gnb_search.keyUp(event);"><a href="#" class="gnb_del_txt" id="gnb_del_txt" style="display:none"><span class="blind">삭제</span></a><div class="gnb_pop_input" id="gnb_pop_input" tabindex="0" onfocus="gnb_search.searchPopOnMouse = true; return false;" onfocusout="gnb_search.searchPopOnMouse = false; return false;" onmouseover="gnb_search.searchPopOnMouse = true; return false;" onmouseout="gnb_search.searchPopOnMouse = false; return false;" style="display:none"><ul class="gnb_pop_lst"></ul></div></div><div id="gnb_search_lstwrp" class="gnb_search_lstwrp"><ul class="gnb_search_lst gnb_first"><li class="gnb_first"><a id="gnb_search_lst_first_item" href="https://cafe.naver.com/">카페</a></li><li><a href="https://news.naver.com/">뉴스</a></li><li><a href="https://map.naver.com/">지도</a></li><li><a href="https://sports.news.naver.com/">스포츠</a></li><li><a href="https://game.naver.com/">게임</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://section.blog.naver.com/">블로그</a></li><li><a href="https://post.naver.com/main.nhn">포스트</a></li><li><a href="https://dict.naver.com/">사전</a></li><li><a href="https://kin.naver.com/">지식iN</a></li><li><a href="https://weather.naver.com/">날씨</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://mail.naver.com/">메일</a></li><li><a href="https://stock.naver.com/">증권</a></li><li><a href="https://land.naver.com/">부동산</a></li><li><a href="https://vibe.naver.com/today/">VIBE</a></li><li><a href="https://book.naver.com">책</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://shopping.naver.com/">쇼핑</a></li><li><a href="https://comic.naver.com/">웹툰</a></li><li><a href="https://movie.naver.com/">영화</a></li><li><a href="https://mybox.naver.com/">MYBOX</a></li><li><a href="https://novel.naver.com/webnovel/weekday">웹소설</a></li></ul></div></div><div class="gnb_banner"><a href="https://campaign.naver.com/npay/rediret/index.nhn" class="gnb_service_event"><img id="gnb_promo" alt="N페이, 이벤트 참여하면 포인트 적립!" width="265" height="47" src="https://ssl.pstatic.net/static/common/gnb/banner/promo_npay_200108.png"></a></div><div class="gnb_linkwrp"><a href="https://www.naver.com/more.html" class="gnb_service_all" id="gnb_service_all">전체 서비스 보기</a></div></div><div class="gnb_svc_more" id="gnb_svc_more" style=""><strong class="blind">네이버 주요 서비스</strong><div class="gnb_bg_top"></div><div class="gnb_svc_hd" id="gnb_svc_hd" tabindex="0"><strong class="gnb_svc_tit">바로가기 설정</strong><span class="link"><a href="https://www.naver.com/more.html">전체 서비스 보기</a></span></div><div class="gnb_svc_lstwrp"><div class="gnb_svc_lst1"><ul class="gnb_first"><li><input type="checkbox" id="nsvc_game" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_game">게임</label></li><li><input type="checkbox" id="nsvc_weather" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_weather">날씨</label></li><li><input type="checkbox" id="nsvc_shopping" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_shopping">네이버쇼핑</label></li><li><input type="checkbox" id="nsvc_navercast" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navercast">네이버캐스트</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_naverpay" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_naverpay">네이버페이<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_mybox" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mybox">네이버 MYBOX</label></li><li><input type="checkbox" id="nsvc_news" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_news">뉴스</label></li><li><input type="checkbox" id="nsvc_comic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_comic">웹툰</label></li><li><input type="checkbox" id="nsvc_memo" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_memo">메모</label></li><li><input type="checkbox" id="nsvc_mail" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mail">메일</label></li><li><input type="checkbox" id="nsvc_land" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_land">부동산</label></li><li><input type="checkbox" id="nsvc_bookmark" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_bookmark">북마크</label></li><li><input type="checkbox" id="nsvc_blog" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_blog">블로그</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_dic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dic">사전</label></li><li><input type="checkbox" id="nsvc_smartboard" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_smartboard">스마트보드</label></li><li><input type="checkbox" id="nsvc_sports" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_sports">스포츠</label></li><li><input type="checkbox" id="nsvc_series" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_series">시리즈</label></li><li><input type="checkbox" id="nsvc_serieson" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_serieson">시리즈on</label></li><li><input type="checkbox" id="nsvc_movie" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_movie">영화</label></li><li><input type="checkbox" id="nsvc_office" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_office">오피스</label></li><li><input type="checkbox" id="nsvc_novel" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_novel">웹소설</label></li><li><input type="checkbox" id="nsvc_contact" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_contact">주소록</label></li><li><input type="checkbox" id="nsvc_finance" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_finance">증권(금융)</label></li><li><input type="checkbox" id="nsvc_map" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_map">지도</label></li><li><input type="checkbox" id="nsvc_kin" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_kin">지식iN</label></li><li><input type="checkbox" id="nsvc_terms" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_terms">지식백과</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_book" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_book">책</label></li><li><input type="checkbox" id="nsvc_cafe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cafe">카페</label></li><li><input type="checkbox" id="nsvc_calendar" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_calendar">캘린더</label></li><li><input type="checkbox" id="nsvc_navertv" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navertv">네이버TV</label></li></ul></div><div class="svc_lst2"><div class="svc_spc gnb_first"><strong><a href="https://dict.naver.com/">어학사전</a></strong><ul class=""><li><input type="checkbox" id="nsvc_krdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_krdic">국어사전</label></li><li><input type="checkbox" id="nsvc_endic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_endic">영어/영영사전</label></li><li><input type="checkbox" id="nsvc_hanja" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_hanja">한자사전</label></li><li><input type="checkbox" id="nsvc_jpdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_jpdic">일어사전</label></li><li><input type="checkbox" id="nsvc_cndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cndic">중국어사전</label></li><li><input type="checkbox" id="nsvc_frdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_frdic">프랑스어사전</label></li><li><input type="checkbox" id="nsvc_dedic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dedic">독일어사전</label></li><li><input type="checkbox" id="nsvc_rudic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_rudic">러시아어사전</label></li><li><input type="checkbox" id="nsvc_vndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vndic">베트남어사전</label></li><li><input type="checkbox" id="nsvc_spdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_spdic">스페인어사전</label></li><li><input type="checkbox" id="nsvc_papago" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_papago">파파고</label></li></ul></div><div class="svc_spc"><strong>인기/신규서비스</strong><ul class=""><li><input type="checkbox" id="nsvc_grafolio" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_grafolio">그라폴리오</label></li><li><input type="checkbox" id="nsvc_post" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_post">포스트</label></li><li><input type="checkbox" id="nsvc_band" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_band">밴드</label></li><li><input type="checkbox" id="nsvc_line" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_line">라인</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_vibe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vibe">VIBE<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_pcontents" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_pcontents">프리미엄콘텐츠</label></li></ul></div></div></div><div class="svc_btnwrp"><div class="svc_btns"><button class="gnb_save" onclick="if(gnbFavorite.addService()){gnbMoreLayer.clickToggleWhole()} return false;"><strong class="blind">확인</strong></button><button class="gnb_close" onclick="gnbFavorite.cancel(); return false;"><span class="blind">취소</span></button><button class="gnb_return" onclick="gnbFavorite.resetService(); return false;"><span class="blind">초기 설정으로 변경</span></button></div></div><div class="gnb_bg_btm"></div></div></div><iframe id="gnb_service_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 311px; width: 585px; height: 385px; opacity: 0;"></iframe><iframe id="gnb_svc_more_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 10px; width: 295px; height: 385px; opacity: 0;"></iframe></li></ul></div>
         </div>
         <!-- GNB -->
       </div>
@@ -460,31 +421,39 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/baseball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/soccer_info.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/basketball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    <a href="/wfootball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
+    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
   </li>
 
   <li class="lnb_item" role="presentation">
@@ -496,13 +465,16 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
+    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
   </li>
 </ul>
+
+  
+  
   
   
   
@@ -518,33 +490,33 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/wfootball/news/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
+    <a href="/wfootball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
     <span class="menu">영상</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
+    <a href="/photocenter/albumList?category=wfootball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
     <span class="menu">생생화보</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_match.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/wfootball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
+    <a href="/wfootball/record/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
     <span class="menu">기록/순위</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
+    <a href="https://m.sports.naver.com/wfootball/predict" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.predict', 'predict', '', event);  javascript:lnbOpenPopup(this.href); return false; ">
+    <span class="menu">승부예측</span>
     </a>
   </li>
 </ul>
@@ -558,7 +530,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 </script>
 
-<script>
+<script type="text/javascript">
 
 </script>
 
@@ -583,3000 +555,380 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                             
                                 
                                 
-                                
                                     
 
 
-<div class="rr_wrap">
-<h2 class="rr_h2">축구 순위/기록</h2>
+
+<div class="tab_event">
+    <ul class="list">
+        <li class="selected">
+            <a href="/wfootball/record/index?category=epl&amp;league=100&amp;tab=team">
+                <span class="menu" style="font-size: 1.2em;">팀 순위<span class="blind">선택됨</span></span>
+            </a>
+        </li>
+    </ul>
+</div>
 
 
 
-  
-    
-    
-    
-    
-  
-  
+
+<div class="record_tab">
+    <ul class="list">
+        
+       
+            
+        <li class="selected">
+            <a href="/wfootball/record/index?category=epl&amp;tab=team">
+                <span class="menu">
+                    
+                    <img src="https://imgsports.pstatic.net/images/2020/pc/common/league/epl_on.png" height="23" alt="프리미어리그" onerror="imageOnError(this);">
+                    <span class="title">프리미어리그</span>
+                    
+                        <span class="blind">선택됨</span>
+                    
+                </span>
+            </a>
+        </li>
+            
+        
+            
+            
+            
+        <li>
+            <a href="/wfootball/record/index?category=primera&amp;tab=team">
+                <span class="menu">
+                    
+                    <img src="https://imgsports.pstatic.net/images/2020/pc/common/league/primera.png" height="23" alt="라리가" onerror="imageOnError(this);">
+                    <span class="title">라리가</span>
+                    
+                </span>
+            </a>
+        </li>
+            
+        
+            
+            
+            
+        <li>
+            <a href="/wfootball/record/index?category=bundesliga&amp;tab=team">
+                <span class="menu">
+                    
+                    <img src="https://imgsports.pstatic.net/images/2020/pc/common/league/bundesliga.png" height="23" alt="분데스리가" onerror="imageOnError(this);">
+                    <span class="title">분데스리가</span>
+                    
+                </span>
+            </a>
+        </li>
+            
+        
+            
+            
+            
+        <li>
+            <a href="/wfootball/record/index?category=seria&amp;tab=team">
+                <span class="menu">
+                    
+                    <img src="https://imgsports.pstatic.net/images/2020/pc/common/league/seria.png" height="23" alt="세리에 A" onerror="imageOnError(this);">
+                    <span class="title">세리에 A</span>
+                    
+                </span>
+            </a>
+        </li>
+            
+        
+            
+            
+            
+        <li>
+            <a href="/wfootball/record/index?category=ligue1&amp;tab=team">
+                <span class="menu">
+                    
+                    <img src="https://imgsports.pstatic.net/images/2020/pc/common/league/ligue1.png" height="23" alt="리그 1" onerror="imageOnError(this);">
+                    <span class="title">리그 1</span>
+                    
+                </span>
+            </a>
+        </li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </ul>
+</div>
 
 
-<ul class="league_choice_tab" role="tablist">
-  <li class="classic is_selected" role="presentation" aria-selected="true">
-    <a href="/kfootball/record/index?category=kleague&amp;year=2023" role="tab"><span class="name">K리그 1</span></a>
-  </li>
-  <!-- [D] 탭 선택 시 li 요소에 "is_selected" 클래스 추가 및 aria-selected="true"로 변경해주세요 -->
-  <li class="challenge" role="presentation" aria-selected="false">
-    <a href="/kfootball/record/index?category=kleague2&amp;year=2023" role="tab"><span class="name">K리그 2</span></a>
-  </li>
-  <li class="k3" role="presentation" aria-selected="false">
-    <a href="https://www.kfa.or.kr/competition/k3_k4.php" target="_blank" role="tab"><span class="name">K3리그</span></a>
-  </li>
-  <li class="wk" role="presentation" aria-selected="false">
-    <a href="https://www.kwff.or.kr/wkleague" target="_blank" role="tab"><span class="name">WK리그</span></a>
-  </li>
-</ul>
-<!-- [D] tab 관련 접근성 개선을 위한 래핑 요소를 추가했습니다. div.tit_box 요소를 포함한 형제 요소들을 div.league_choice_panel로 묶어주세요 -->
-<div class="league_choice_panel" role="tabpanel">
-    
 
-
-<script>
-
-</script>
-
-<div class="tit_box imply_date">
-  
+<div class="record_sub_title with_combo_box">
+    
+    <h4 class="record_h"><span>2022/23 시즌</span> 팀 순위</h4>
     
     
-      <h3 class="tr_h3" id="defaultTitle">정규 라운드 팀별 순위</h3>
-    
-  
-    
-<div class="date_select_nav type_year_month">
-  <span class="blind">종목별 경기 날짜 및 시즌 선택</span>
-  <!-- [D] 날짜 및 시즌 선택 컴포넌트 인 경우 div.select_box_area 에 .type_date 클래스를 추가 해 주세요. -->
-  <div class="select_box_area type_date">
-    <div class="select_box">
-      <!-- [D]
+</div>
+<div class="date_select_nav type_season">
+    <span class="blind">종목별 경기 날짜 및 시즌 선택</span>
+    <!-- [D] 날짜 및 시즌 선택 컴포넌트 인 경우 div.select_box_area 에 .type_date 클래스를 추가 해 주세요. -->
+    <div class="select_box_area type_date">
+        <div class="select_box">
+            <!-- [D]
         ul.option_list 가 닫혀있다면 aria-expanded="false"
         ul.option_list 가 열려있다면 aria-expanded="true" 로 적용 해 주세요.
        -->
-      <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="시즌 선택" id="_currentYearButton" onclick="toggleYearList();">
-        <em class="now_selected"><span class="blind">선택된 시즌</span>2023</em>
-      </button>
-      <!-- [D] ul.option_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
-      <ul class="option_list" role="listbox" id="_yearList">
-        <!-- [D] 선텍된 button.btn_option 에 aria-selected="true" 를 적용 해 주세요. -->
-        <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
+            
+            
+
+            <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="시즌 선택" id="_currentYearButton" onclick="toggleYearList();">
+                <em class="now_selected"><span class="blind">선택된 시즌</span>2022<span class="dash">-</span>23</em>
+            </button>
+            <!-- [D] ul.option_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
+            <ul class="option_list" role="listbox" id="_yearList">
+                <!-- [D] 선텍된 button.btn_option 에 aria-selected="true" 를 적용 해 주세요. -->
+                <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
+                
+                    <li class="list" role="presentation">
+                        <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/wfootball/record/index?category=epl&amp;year=2022&amp;tab=team'">2022-23</button>
+                    </li>
+
+            </ul>
+        </div>
+
+        <!-- [D] 비활성화 되어야 하는 button.btn_move_date 에 disabled 속성을 추가 해 주세요. -->
         
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2023'">2023</button>
-          </li>
+            
         
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2022'">2022</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2021'">2021</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2020'">2020</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2019'">2019</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2018'">2018</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2017'">2017</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2016'">2016</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2015'">2015</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2014'">2014</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2013'">2013</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2012'">2012</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2011'">2011</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2010'">2010</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2009'">2009</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2008'">2008</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2007'">2007</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2006'">2006</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2005'">2005</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2004'">2004</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2003'">2003</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2002'">2002</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2001'">2001</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2000'">2000</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1999'">1999</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1998'">1998</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1997'">1997</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1996'">1996</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1995'">1995</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1994'">1994</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1993'">1993</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1992'">1992</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1991'">1991</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1990'">1990</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1989'">1989</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1988'">1988</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1987'">1987</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1986'">1986</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1985'">1985</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1984'">1984</button>
-          </li>
-        
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=1983'">1983</button>
-          </li>
-        
-      </ul>
     </div>
 
-    <!-- [D] 비활성화 되어야 하는 button.btn_move_date 에 disabled 속성을 추가 해 주세요. -->
-    
-      
-      
-        <button class="btn_move_date prev" type="button" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2022'"><span class="blind">이전 시즌으로 이동</span></button>
-      
-    
-    
-      
-        <button class="btn_move_date next" type="button" disabled=""><span class="blind">다음 시즌으로 이동</span></button>
-      
-      
-    
-  </div>
-  <div class="now_date_area">
-    <button class="btn_now_date" type="button" onclick="location.href='/kfootball/record/index?category=kleague&amp;year=2023'">현재<span class="blind">시즌으로 이동</span></button>
-  </div>
-</div>
 </div>
 
+    
 
-<div class="tbl_box " id="regular">
-  <table cellspacing="0" cellpadding="0">
-    <caption>팀별순위 테이블</caption>
+<div class="record_tbl" id="wfootballTeamRecordBody">
+    <table summary="팀 순위" cellspacing="0">
+    <caption>팀 순위</caption>
     <colgroup>
-      <col width="46"><col width="153"><col width="76"><col width="76"><col width="76"><col width="76">
-      <col width="76"><col width="76">  <col width="76"><col width="76"><col width="76"><col width="76">
+        <col width="45">
+        <col width="*">
+        <col width="80">
+        <col width="80">
+        <col width="80">
+        <col width="80">
+        <col width="80">
+        <col width="80">
+        <col width="80">
+        <col width="80">
     </colgroup>
-    <thead><tr>
-      <th><div class="rank"><strong><span class="blind">순위</span></strong></div></th>
-      <th><div class="team">  <strong><span class="blind">팀명</span></strong></div></th>
-      <th><div class="gcnt"><strong><span class="blind">경기수</span></strong></div></th>
-      <th><div class="gpnt"><a href="javaScript:sortByColumn('regularGroup','gainPoint');"><strong id="regularGroup_gainPoint" class="sort"><span class="blind">승점</span></strong></a></div></th> 
-      <th><div class="wpnt">  <a href="javaScript:sortByColumn('regularGroup','win');"><strong id="regularGroup_win"><span class="blind">승</span></strong></a></div></th>
-      <th><div class="dpnt"><a href="javaScript:sortByColumn('regularGroup','draw');"><strong id="regularGroup_draw"><span class="blind">무</span></strong></a></div></th>
-      <th><div class="lpnt"><a href="javaScript:sortByColumn('regularGroup','lose');"><strong id="regularGroup_lose"><span class="blind">패</span></strong></a></div></th>
-      <th><div class="escr"><a href="javaScript:sortByColumn('regularGroup','gainGoal');"><strong id="regularGroup_gainGoal"><span class="blind">득점</span></strong></a></div></th>
-      <th><div class="lscr"><a href="javaScript:sortByColumn('regularGroup','loseGoal');"><strong id="regularGroup_loseGoal"><span class="blind">실점</span></strong></a></div></th>
-      <th><div class="sgap"><a href="javaScript:sortByColumn('regularGroup','goalGap');"><strong id="regularGroup_goalGap"><span class="blind">득실차</span></strong></a></div></th>
-      <th><div class="asst"><a href="javaScript:sortByColumn('regularGroup','assist');"><strong id="regularGroup_assist"><span class="blind">도움</span></strong></a></div></th>
-      <th><div class="foul"><a href="javaScript:sortByColumn('regularGroup','fo');"><strong id="regularGroup_fo"><span class="blind">파울</span></strong></a></div></th>
-    </tr></thead>
-    <tbody id="regularGroup_table">
-      
-        <tr class="">
-          <th><strong>1</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>울산</span>
+    <thead>
+    <tr>
+        <th scope="col">
+            <div class="inner">
+                <strong>순위</strong>
             </div>
-          </td>
-          <td>17</td>
-          <td><strong>41</strong></td>
-          <td>13</td>
-          <td>2</td>
-          <td>2</td>
-          <td>35</td>
-          <td>19</td>
-          <td>16</td>
-          <td>20</td>
-          <td class="foul">150</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>2</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/03.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>포항</span>
+        </th>
+        <th scope="col" class="align_l">
+            <div class="inner">
+                <strong>팀</strong>
             </div>
-          </td>
-          <td>17</td>
-          <td><strong>30</strong></td>
-          <td>8</td>
-          <td>6</td>
-          <td>3</td>
-          <td>24</td>
-          <td>20</td>
-          <td>4</td>
-          <td>18</td>
-          <td class="foul">177</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>3</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/09.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>서울</span>
+        </th>
+        <th scope="col">
+            <div class="inner">
+                <strong>경기수</strong>
             </div>
-          </td>
-          <td>17</td>
-          <td><strong>28</strong></td>
-          <td>8</td>
-          <td>4</td>
-          <td>5</td>
-          <td>30</td>
-          <td>20</td>
-          <td>10</td>
-          <td>15</td>
-          <td class="foul">163</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>4</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>제주</span>
+        </th>
+        <!-- [D] 선택된 카테고리 활성화 강조 테두리 selected 클래스 추가 -->
+        <th scope="col" class="selected">
+            <a href="javascript:wfootballTeamRecordSortByColumn('gainPoint');" class="inner">
+                <strong class="sort">승점</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('won', 'lost', 'manyFew');" class="inner">
+                <strong class="sort">승</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('drawn', 'lost', 'manyFew');" class="inner">
+                <strong class="sort">무</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('lost', 'won', 'manyFew');" class="inner">
+                <strong class="sort">패</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('gainGoal', 'loseGoal', 'manyFew');" class="inner">
+                <strong class="sort">득점</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('loseGoal', 'gainGoal', 'manyFew');" class="inner">
+                <strong class="sort">실점</strong>
+            </a>
+        </th>
+        <th scope="col">
+            <a href="javascript:wfootballTeamRecordSortByColumn('goalGap', 'gainGoal', 'manyMany');" class="inner">
+                <strong class="sort">득실차</strong>
+            </a>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+     <!-- [D] 상위랭크는 best 클래스 추가
+        <td class="num best">
+            <div class="inner champsLeague">
+                <strong>1</strong>
+                
+                    <span class="state_bar1"><span class="blind">챔피언스 리그 직행</span></span>
+                
             </div>
-          </td>
-          <td>17</td>
-          <td><strong>28</strong></td>
-          <td>8</td>
-          <td>4</td>
-          <td>5</td>
-          <td>26</td>
-          <td>18</td>
-          <td>8</td>
-          <td>13</td>
-          <td class="foul">183</td>
-        </tr>
+        </td>
+        <td class="align_l"> -1등-
+        inner champsLeague -파랑-
+        inner europaLeague -초록-
+        inner normal -평범-
+        inner relegation -강등-
+        tr class="last"
+      -->
       
-        <tr class="">
-          <th><strong>5</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/10.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>대전</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>25</strong></td>
-          <td>7</td>
-          <td>4</td>
-          <td>6</td>
-          <td>28</td>
-          <td>29</td>
-          <td>-1</td>
-          <td>20</td>
-          <td class="foul">204</td>
-        </tr>
-      
-        <tr class="dv ">
-          <th><strong>6</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/22.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>광주</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>24</strong></td>
-          <td>7</td>
-          <td>3</td>
-          <td>7</td>
-          <td>23</td>
-          <td>21</td>
-          <td>2</td>
-          <td>13</td>
-          <td class="foul">191</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>7</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/05.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>전북</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>24</strong></td>
-          <td>7</td>
-          <td>3</td>
-          <td>7</td>
-          <td>20</td>
-          <td>14</td>
-          <td>6</td>
-          <td>10</td>
-          <td class="foul">204</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>8</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>대구</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>24</strong></td>
-          <td>6</td>
-          <td>6</td>
-          <td>5</td>
-          <td>19</td>
-          <td>20</td>
-          <td>-1</td>
-          <td>14</td>
-          <td class="foul">217</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>9</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/18.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>인천</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>19</strong></td>
-          <td>4</td>
-          <td>7</td>
-          <td>6</td>
-          <td>18</td>
-          <td>23</td>
-          <td>-5</td>
-          <td>12</td>
-          <td class="foul">196</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>10</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/29.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>수원FC</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>18</strong></td>
-          <td>5</td>
-          <td>3</td>
-          <td>9</td>
-          <td>19</td>
-          <td>33</td>
-          <td>-14</td>
-          <td>14</td>
-          <td class="foul">174</td>
-        </tr>
-      
-        <tr class="">
-          <th><strong>11</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/21.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>강원</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>12</strong></td>
-          <td>2</td>
-          <td>6</td>
-          <td>9</td>
-          <td>10</td>
-          <td>21</td>
-          <td>-11</td>
-          <td>4</td>
-          <td class="foul">191</td>
-        </tr>
-      
-        <tr class="last ">
-          <th><strong>12</strong></th>
-          <td class="tm">
-            <div>
-              <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/02.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-              <span>수원</span>
-            </div>
-          </td>
-          <td>17</td>
-          <td><strong>8</strong></td>
-          <td>2</td>
-          <td>2</td>
-          <td>13</td>
-          <td>16</td>
-          <td>30</td>
-          <td>-14</td>
-          <td>9</td>
-          <td class="foul">201</td>
-        </tr>
-      
-    </tbody>
-  </table>
-  <div class="gpnt_on" id="regularGroup_ColumnChecker">
-    <span class="bl" style="height:416px"></span>
-    <span class="bt"></span>
-    <span class="br" style="height:416px"></span>
-    <span class="bb" style="top:415px"></span>
-  </div>
-</div>
-  
-<div class="tbl_box type3" id="splitGroupA" style="display:none">
-  <table cellspacing="0" cellpadding="0">
-    <caption>팀별순위 테이블</caption>
-    <colgroup>
-      <col width="46"><col width="153"><col width="76"><col width="76"><col width="76"><col width="76">
-      <col width="76"><col width="76">  <col width="76"><col width="76"><col width="76"><col width="76">
-    </colgroup>
-    <thead><tr>
-      <th><div class="rank"><strong><span class="blind">순위</span></strong></div></th>
-      <th><div class="team">  <strong><span class="blind">팀명</span></strong></div></th>
-      <th><div class="gcnt"><strong><span class="blind">경기수</span></strong></div></th>
-      <th><div class="gpnt"><a href="javaScript:sortByColumn('splitGroupA','gainPoint');"><strong id="splitGroupA_gainPoint" class="sort"><span class="blind">승점</span></strong></a></div></th> 
-      <th><div class="wpnt">  <a href="javaScript:sortByColumn('splitGroupA','win');"><strong id="splitGroupA_win"><span class="blind">승</span></strong></a></div></th>
-      <th><div class="dpnt"><a href="javaScript:sortByColumn('splitGroupA','draw');"><strong id="splitGroupA_draw"><span class="blind">무</span></strong></a></div></th>
-      <th><div class="lpnt"><a href="javaScript:sortByColumn('splitGroupA','lose');"><strong id="splitGroupA_lose"><span class="blind">패</span></strong></a></div></th>
-      <th><div class="escr"><a href="javaScript:sortByColumn('splitGroupA','gainGoal');"><strong id="splitGroupA_gainGoal"><span class="blind">득점</span></strong></a></div></th>
-      <th><div class="lscr"><a href="javaScript:sortByColumn('splitGroupA','loseGoal');"><strong id="splitGroupA_loseGoal"><span class="blind">실점</span></strong></a></div></th>
-      <th><div class="sgap"><a href="javaScript:sortByColumn('splitGroupA','goalGap');"><strong id="splitGroupA_goalGap"><span class="blind">득실차</span></strong></a></div></th>
-      <th><div class="asst"><a href="javaScript:sortByColumn('splitGroupA','assist');"><strong id="splitGroupA_assist"><span class="blind">도움</span></strong></a></div></th>
-      <th><div class="foul"><a href="javaScript:sortByColumn('splitGroupA','fo');"><strong id="splitGroupA_fo"><span class="blind">파울</span></strong></a></div></th>
-    </tr></thead>
-    <tbody id="splitGroupA_table">
-      
-    </tbody>
-  </table>
-  <div class="gpnt_on" id="splitGroupA_ColumnChecker">
-    <span class="bl" style="height:32px"></span>
-    <span class="bt"></span>
-    <span class="br" style="height:32px"></span>
-    <span class="bb" style="top:31px"></span>
-  </div>
-</div>
-
-<div class="tit_box" id="splitGroupBTitle" style="display:none">
-  <h3 class="tr_h3 gb">파이널 라운드 순위 그룹B</h3>
-</div>
-<div class="tbl_box type3 type4" id="splitGroupB" style="display:none">
-  <table cellspacing="0" cellpadding="0">
-    <caption>팀별순위 테이블</caption>
-    <colgroup>
-      <col width="46"><col width="153"><col width="76"><col width="76"><col width="76"><col width="76">
-      <col width="76"><col width="76">  <col width="76"><col width="76"><col width="76"><col width="76">
-    </colgroup>
-    <thead><tr>
-      <th><div class="rank"><strong><span class="blind">순위</span></strong></div></th>
-      <th><div class="team">  <strong><span class="blind">팀명</span></strong></div></th>
-      <th><div class="gcnt"><strong><span class="blind">경기수</span></strong></div></th>
-      <th><div class="gpnt"><a href="javaScript:sortByColumn('splitGroupB','gainPoint');"><strong id="splitGroupB_gainPoint" class="sort"><span class="blind">승점</span></strong></a></div></th> 
-      <th><div class="wpnt">  <a href="javaScript:sortByColumn('splitGroupB','win');"><strong id="splitGroupB_win"><span class="blind">승</span></strong></a></div></th>
-      <th><div class="dpnt"><a href="javaScript:sortByColumn('splitGroupB','draw');"><strong id="splitGroupB_draw"><span class="blind">무</span></strong></a></div></th>
-      <th><div class="lpnt"><a href="javaScript:sortByColumn('splitGroupB','lose');"><strong id="splitGroupB_lose"><span class="blind">패</span></strong></a></div></th>
-      <th><div class="escr"><a href="javaScript:sortByColumn('splitGroupB','gainGoal');"><strong id="splitGroupB_gainGoal"><span class="blind">득점</span></strong></a></div></th>
-      <th><div class="lscr"><a href="javaScript:sortByColumn('splitGroupB','loseGoal');"><strong id="splitGroupB_loseGoal"><span class="blind">실점</span></strong></a></div></th>
-      <th><div class="sgap"><a href="javaScript:sortByColumn('splitGroupB','goalGap');"><strong id="splitGroupB_goalGap"><span class="blind">득실차</span></strong></a></div></th>
-      <th><div class="asst"><a href="javaScript:sortByColumn('splitGroupB','assist');"><strong id="splitGroupB_assist"><span class="blind">도움</span></strong></a></div></th>
-      <th><div class="foul"><a href="javaScript:sortByColumn('splitGroupB','fo');"><strong id="splitGroupB_fo"><span class="blind">파울</span></strong></a></div></th>
-    </tr></thead>
-    <tbody id="splitGroupB_table">
-      
-    </tbody>
-  </table>
-  <div class="gpnt_on" id="splitGroupB_ColumnChecker">
-    <span class="bl" style="height:32px"></span>
-    <span class="bt"></span>
-    <span class="br" style="height:32px"></span>
-    <span class="bb" style="top:31px"></span>
-  </div>
-</div>
-
-
-
+    <c:forEach var="records" items="${records}" varStatus="loop">
+	  <tr>
+		<c:choose>
+	      <c:when test="${loop.count == 1}">
+	        <td class="num best">
+	      </c:when>
+	      <c:otherwise>
+	        <td class="num">
+	      </c:otherwise>
+	    </c:choose>  
+	        <c:choose>
+	          <c:when test="${loop.count >= 1 && loop.count <= 4}">
+	            <div class="inner champsLeague">
+		            <strong>${loop.count}</strong>
+		            <span class="state_bar1">
+		              <span class="blind">챔피언스 리그 직행</span>
+		            </span>
+	            </div>
+	          </c:when>
+	          <c:when test="${loop.count >= 5 && loop.count <= 6}">
+	            <div class="inner europaLeague">
+	                <strong>${loop.count}</strong>
+	                <span class="state_bar3">
+	                  <span class="blind">챔피언스 리그 직행</span>
+	                </span>
+                </div>
+	          </c:when>
+	          <c:when test="${loop.count >= 7 && loop.count <= 17}">
+	            <div class="inner normal">
+	                <strong>${loop.count}</strong>
+                </div>
+	          </c:when>
+	          <c:when test="${loop.count >= 18 && loop.count <= 20}">
+	            <div class="inner relegation">
+	                <strong>${loop.count}</strong>
+	                <span class="state_bar4">
+	                  <span class="blind">강등 직행</span>
+	                </span>
+                </div>
+	          </c:when>
+	        </c:choose>        	      
+	    </td>
+	    <td class="align_l">
+          <div class="inner">
+            <span class="emblem">
+              <img width="25" height="25" alt="" src="${records.logo}" onerror="imageOnError(this);">
+            </span>
+            <span class="name">${records.tname}</span>
+          </div>
+        </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.games}</span>
+	      </div>
+	    </td>
+	    <td class="selected">
+	      <div class="inner">
+	        <span>${records.winpoint}</span>
+	      </div>
+	    </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.win}</span>
+	      </div>
+	    </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.draw}</span>
+	      </div>
+	    </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.lose}</span>
+	      </div>
+	    </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.getscore}</span>
+	      </div>
+	    </td>
+	    <td>
+	      <div class="inner">
+	        <span>${records.missscore}</span>
+	      </div>
+	    </td>
+	    <td>
+          <div class="inner">
+            <span>${records.goaldiff}</span>
+          </div>
+        </td>
+	  </tr>
+	</c:forEach>
     
+    </tbody>
+    </table>
+</div>
 
-  <a name="playerRanking"></a>
-  <div class="tit_box">
-    <h4 class="pr_h4">주요 부문 선두</h4>
-    
-  </div>
-  <div class="record_lead">
-    <ul class="lead_inner">
-      
-        
-        
-          <li>
-            <strong class="lead_title">최다 득점</strong>
-            <div class="lead_area">
-              <div class="image"><img src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg" alt="주민규" onerror="imageOnError(this);"></div>
-              <div class="list">
-                
-                  
-                  
-                    
-                    
-                      <div class="text best">
-                        <b class="rank_num">1</b>
-                        <div class="info">
-                          <span class="name">주민규</span>
-                          <span class="team">울산 현대</span>
-                        </div>
-                        <div class="stat">
-                          <span>9</span> 골
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">2</b>
-                        <div class="info">
-                          <span class="name">나상호</span>
-                          <span class="team">FC서울</span>
-                        </div>
-                        <div class="stat">
-                          <span>8</span> 골
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">3</b>
-                        <div class="info">
-                          <span class="name">루빅손</span>
-                          <span class="team">울산 현대</span>
-                        </div>
-                        <div class="stat">
-                          <span>6</span> 골
-                        </div>
-                      </div>
-                    
-                  
-                
-              </div>
-            </div>
-          </li>
-        
-      
-      
-        
-        
-          <li>
-            <strong class="lead_title">최다 도움</strong>
-            <div class="lead_area">
-              <div class="image"><img src="https://sports-phinf.pstatic.net/player/kleague/default/20200151.jpg" alt="레안드로" onerror="imageOnError(this);"></div>
-              <div class="list">
-                
-                  
-                  
-                    
-                    
-                      <div class="text best">
-                        <b class="rank_num">1</b>
-                        <div class="info">
-                          <span class="name">레안드로</span>
-                          <span class="team">대전 하나 시티즌</span>
-                        </div>
-                        <div class="stat">
-                          <span>7</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">2</b>
-                        <div class="info">
-                          <span class="name">백성동</span>
-                          <span class="team">포항 스틸러스</span>
-                        </div>
-                        <div class="stat">
-                          <span>6</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">3</b>
-                        <div class="info">
-                          <span class="name">이진현</span>
-                          <span class="team">대전 하나 시티즌</span>
-                        </div>
-                        <div class="stat">
-                          <span>5</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-              </div>
-            </div>
-          </li>
-        
-      
-      
-        
-        
-          <li>
-            <strong class="lead_title">경기 MVP</strong>
-            <div class="lead_area">
-              <div class="image"><img src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg" alt="주민규" onerror="imageOnError(this);"></div>
-              <div class="list">
-                
-                  
-                  
-                    
-                    
-                      <div class="text best">
-                        <b class="rank_num">1</b>
-                        <div class="info">
-                          <span class="name">주민규</span>
-                          <span class="team">울산 현대</span>
-                        </div>
-                        <div class="stat">
-                          <span>4</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">2</b>
-                        <div class="info">
-                          <span class="name">라스</span>
-                          <span class="team">수원FC</span>
-                        </div>
-                        <div class="stat">
-                          <span>4</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-                  
-                  
-                    
-                    
-                      <div class="text ">
-                        <b class="rank_num">3</b>
-                        <div class="info">
-                          <span class="name">고영준</span>
-                          <span class="team">포항 스틸러스</span>
-                        </div>
-                        <div class="stat">
-                          <span>4</span> 회
-                        </div>
-                      </div>
-                    
-                  
-                
-              </div>
-            </div>
-          </li>
-        
-      
+
+<div class="state_desc">
+    <ul>
+        <li class="state1">챔피언스 리그 직행</li>
+        <li class="state2">챔피언스 리그 예선</li>
+        <li class="state3">유로파 리그</li>
+        <li class="state4">강등 직행</li>
     </ul>
-  </div>
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
     
-
-
-
-<div class="tit_box">
-  <h5 class="apr_h5">전체 선수기록</h5>
 </div>
-  
-  
-  <div id="_KfootballRecord" class="tbl_box type2 tbl_paging _playerRecordDiv">
-    
-      <a href="#" class="paging_arr arr_next"><span>다음기록</span></a>
-      <a href="#" class="paging_arr arr_prev" style="display:none"><span>이전기록</span></a>
-    
-    
-      <table cellspacing="0" cellpadding="0">
-        <caption> 순위</caption>
-        <thead>
-        <tr>
-          <th>
-            <div class="rank">
-              <strong><span class="blind">순위</span></strong>
-            </div>
-          </th>
-          <th>
-            <div class="player">
-              <strong><span class="blind">선수</span></strong>
-            </div>
-          </th>
-          
-            <th>
-              <div class="goal" data-stats-code="gainGoal">
-                <a href="#">
-                  <strong class="sort"><span class="blind">득점</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="assist" data-stats-code="assist">
-                <a href="#">
-                  <strong><span class="blind">도움</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="att_point" data-stats-code="attackPoint">
-                <a href="#">
-                  <strong><span class="blind">공격포인트</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="game_cnt" data-stats-code="entry">
-                <a href="#">
-                  <strong><span class="blind">경기수</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="average" data-stats-code="playerPoint">
-                <a href="#">
-                  <strong><span class="blind">선수 평균평점</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="game_mvp" data-stats-code="mvp">
-                <a href="#">
-                  <strong><span class="blind">경기 MVP</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="best_11" data-stats-code="best11">
-                <a href="#">
-                  <strong><span class="blind">BEST11 선정수</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="shot" data-stats-code="shooting">
-                <a href="#">
-                  <strong><span class="blind">슈팅</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th class="last">
-              <div class="point_per" data-stats-code="shootOnTarget">
-                <a href="#">
-                  <strong><span class="blind">유효 슈팅</span></strong>
-                </a>
-              </div>
-            </th>
-          
-        </tr>
-        </thead>
-        <tbody>
-  <tr class=" on">
-    <th>
-      <strong class="high">1</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          주민규
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20130248" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>9</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>33</span>
-    </td>
-    <td class="last">
-    <span>19</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">2</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/09.png&amp;type=f30_21&amp;refresh=1" alt="09" onerror="imageOnError(this);"></span>
-        <span>
-          나상호
-          <span class="team">(서울)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20170096" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>8</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>30</span>
-    </td>
-    <td class="last">
-    <span>14</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">3</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          루빅손
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20230105" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>6</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>8</span>
-    </td>
-    <td>
-    <span>14</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>24</span>
-    </td>
-    <td class="last">
-    <span>17</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">4</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/10.png&amp;type=f30_21&amp;refresh=1" alt="10" onerror="imageOnError(this);"></span>
-        <span>
-          티아고
-          <span class="team">(대전)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20220244" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>6</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>8</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>29</span>
-    </td>
-    <td class="last">
-    <span>14</span>
-    </td>
-  </tr>
-  <tr class="dv on">
-    <th>
-      <strong class="high">5</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          바코
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20210225" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>6</strong>
-    
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>7.1</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>39</span>
-    </td>
-    <td class="last">
-    <span>27</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>6</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/29.png&amp;type=f30_21&amp;refresh=1" alt="29" onerror="imageOnError(this);"></span>
-        <span>
-          라스
-          <span class="team">(수원FC)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20200052" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>6</strong>
-    
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>33</span>
-    </td>
-    <td class="last">
-    <span>18</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>7</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/03.png&amp;type=f30_21&amp;refresh=1" alt="03" onerror="imageOnError(this);"></span>
-        <span>
-          고영준
-          <span class="team">(포항)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20200066" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>6</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>7</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td>
-    <span>27</span>
-    </td>
-    <td class="last">
-    <span>17</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>8</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          서진수
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20190130" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>6.8</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>21</span>
-    </td>
-    <td class="last">
-    <span>15</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>9</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          에드가
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20180294" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>33</span>
-    </td>
-    <td class="last">
-    <span>17</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>10</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/03.png&amp;type=f30_21&amp;refresh=1" alt="03" onerror="imageOnError(this);"></span>
-        <span>
-          이호재
-          <span class="team">(포항)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20210161" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>6.7</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td class="last">
-    <span>11</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>11</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          유리 조나탄
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20230097" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>7</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>6.7</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>28</span>
-    </td>
-    <td class="last">
-    <span>17</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>12</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/22.png&amp;type=f30_21&amp;refresh=1" alt="22" onerror="imageOnError(this);"></span>
-        <span>
-          아사니
-          <span class="team">(광주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20230079" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>7.0</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>26</span>
-    </td>
-    <td class="last">
-    <span>14</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>13</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          헤이스
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20210261" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>9</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>20</span>
-    </td>
-    <td class="last">
-    <span>16</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>14</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          고재현
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          <a href="/kfootball/vod/index?category=kleague&listType=player&division=12&extraInfo=videoCollection&playerId=20180123" onClick="clickcr(this, 'rrk.goalcollectvideo', '', '', event);" class="play"><span class="btn"><span class="blind">골영상 보기</span></span></a>
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>5</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>6.8</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>29</span>
-    </td>
-    <td class="last">
-    <span>11</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>15</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/10.png&amp;type=f30_21&amp;refresh=1" alt="10" onerror="imageOnError(this);"></span>
-        <span>
-          마사
-          <span class="team">(대전)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>9</span>
-    </td>
-    <td>
-    <span>6.8</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>11</span>
-    </td>
-    <td class="last">
-    <span>8</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>16</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          세징야
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>11</span>
-    </td>
-    <td>
-    <span>7.1</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>32</span>
-    </td>
-    <td class="last">
-    <span>14</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>17</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          마틴 아담
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>7</span>
-    </td>
-    <td>
-    <span>13</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>20</span>
-    </td>
-    <td class="last">
-    <span>13</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>18</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/05.png&amp;type=f30_21&amp;refresh=1" alt="05" onerror="imageOnError(this);"></span>
-        <span>
-          문선민
-          <span class="team">(전북)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td>
-    <span>13</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>18</span>
-    </td>
-    <td class="last">
-    <span>13</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>19</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/05.png&amp;type=f30_21&amp;refresh=1" alt="05" onerror="imageOnError(this);"></span>
-        <span>
-          송민규
-          <span class="team">(전북)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>14</span>
-    </td>
-    <td>
-    <span>6.9</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>12</span>
-    </td>
-    <td class="last">
-    <span>8</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>20</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/29.png&amp;type=f30_21&amp;refresh=1" alt="29" onerror="imageOnError(this);"></span>
-        <span>
-          무릴로
-          <span class="team">(수원FC)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <strong>4</strong>
-    
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>6.8</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>23</span>
-    </td>
-    <td class="last">
-    <span>14</span>
-    </td>
-  </tr>
-</tbody>
-      </table>
-    
-      <table cellspacing="0" cellpadding="0" class="paging2" style="display:none">
-        <caption> 순위</caption>
-        <thead>
-        <tr>
-          <th>
-            <div class="rank">
-              <strong><span class="blind">순위</span></strong>
-            </div>
-          </th>
-          <th>
-            <div class="player">
-              <strong><span class="blind">선수</span></strong>
-            </div>
-          </th>
-          
-            <th>
-              <div class="shot_goal" data-stats-code="goalPerSt">
-                <a href="#">
-                  <strong><span class="blind">슈팅당 득점</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="game_goal" data-stats-code="goalPerWork">
-                <a href="#">
-                  <strong><span class="blind">경기당 득점</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="foul" data-stats-code="fo">
-                <a href="#">
-                  <strong><span class="blind">파울</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="foul_num" data-stats-code="fs">
-                <a href="#">
-                  <strong><span class="blind">파울 당한 수</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="warn" data-stats-code="yc">
-                <a href="#">
-                  <strong><span class="blind">경고</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="out" data-stats-code="rc">
-                <a href="#">
-                  <strong><span class="blind">퇴장</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="corner" data-stats-code="ck">
-                <a href="#">
-                  <strong><span class="blind">코너킥</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="penalty" data-stats-code="pk">
-                <a href="#">
-                  <strong><span class="blind">패널티킥</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th>
-              <div class="offside" data-stats-code="offside">
-                <a href="#">
-                  <strong><span class="blind">오프사이드</span></strong>
-                </a>
-              </div>
-            </th>
-          
-            <th class="last">
-              <div class="play_time" data-stats-code="wtime">
-                <a href="#">
-                  <strong><span class="blind">출전 시간</span></strong>
-                </a>
-              </div>
-            </th>
-          
-        </tr>
-        </thead>
-        <tbody>
-  <tr class=" on">
-    <th>
-      <strong class="high">1</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          주민규
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.273</span>
-    </td>
-    <td>
-    <span>0.563</span>
-    </td>
-    <td>
-    <span>13</span>
-    </td>
-    <td>
-    <span>24</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td class="last">
-    <span>1143</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">2</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/09.png&amp;type=f30_21&amp;refresh=1" alt="09" onerror="imageOnError(this);"></span>
-        <span>
-          나상호
-          <span class="team">(서울)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.267</span>
-    </td>
-    <td>
-    <span>0.471</span>
-    </td>
-    <td>
-    <span>12</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td class="last">
-    <span>1416</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">3</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          루빅손
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.250</span>
-    </td>
-    <td>
-    <span>0.429</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td class="last">
-    <span>842</span>
-    </td>
-  </tr>
-  <tr class=" on">
-    <th>
-      <strong class="high">4</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/10.png&amp;type=f30_21&amp;refresh=1" alt="10" onerror="imageOnError(this);"></span>
-        <span>
-          티아고
-          <span class="team">(대전)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.207</span>
-    </td>
-    <td>
-    <span>0.400</span>
-    </td>
-    <td>
-    <span>27</span>
-    </td>
-    <td>
-    <span>7</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td class="last">
-    <span>1275</span>
-    </td>
-  </tr>
-  <tr class="dv on">
-    <th>
-      <strong class="high">5</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          바코
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.154</span>
-    </td>
-    <td>
-    <span>0.375</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>14</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td class="last">
-    <span>1140</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>6</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/29.png&amp;type=f30_21&amp;refresh=1" alt="29" onerror="imageOnError(this);"></span>
-        <span>
-          라스
-          <span class="team">(수원FC)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.182</span>
-    </td>
-    <td>
-    <span>0.375</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>9</span>
-    </td>
-    <td class="last">
-    <span>1483</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>7</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/03.png&amp;type=f30_21&amp;refresh=1" alt="03" onerror="imageOnError(this);"></span>
-        <span>
-          고영준
-          <span class="team">(포항)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.222</span>
-    </td>
-    <td>
-    <span>0.353</span>
-    </td>
-    <td>
-    <span>8</span>
-    </td>
-    <td>
-    <span>28</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>19</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td class="last">
-    <span>1379</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>8</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          서진수
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.238</span>
-    </td>
-    <td>
-    <span>0.333</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td class="last">
-    <span>1085</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>9</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          에드가
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.152</span>
-    </td>
-    <td>
-    <span>0.333</span>
-    </td>
-    <td>
-    <span>26</span>
-    </td>
-    <td>
-    <span>21</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>8</span>
-    </td>
-    <td class="last">
-    <span>1245</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>10</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/03.png&amp;type=f30_21&amp;refresh=1" alt="03" onerror="imageOnError(this);"></span>
-        <span>
-          이호재
-          <span class="team">(포항)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.313</span>
-    </td>
-    <td>
-    <span>0.313</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td class="last">
-    <span>524</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>11</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          유리 조나탄
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.179</span>
-    </td>
-    <td>
-    <span>0.313</span>
-    </td>
-    <td>
-    <span>18</span>
-    </td>
-    <td>
-    <span>14</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td class="last">
-    <span>1018</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>12</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/22.png&amp;type=f30_21&amp;refresh=1" alt="22" onerror="imageOnError(this);"></span>
-        <span>
-          아사니
-          <span class="team">(광주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.192</span>
-    </td>
-    <td>
-    <span>0.313</span>
-    </td>
-    <td>
-    <span>17</span>
-    </td>
-    <td>
-    <span>19</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>50</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td class="last">
-    <span>1190</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>13</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/04.png&amp;type=f30_21&amp;refresh=1" alt="04" onerror="imageOnError(this);"></span>
-        <span>
-          헤이스
-          <span class="team">(제주)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.250</span>
-    </td>
-    <td>
-    <span>0.313</span>
-    </td>
-    <td>
-    <span>18</span>
-    </td>
-    <td>
-    <span>34</span>
-    </td>
-    <td>
-    <span>3</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>59</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>10</span>
-    </td>
-    <td class="last">
-    <span>1229</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>14</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          고재현
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.172</span>
-    </td>
-    <td>
-    <span>0.294</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td class="last">
-    <span>1593</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>15</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/10.png&amp;type=f30_21&amp;refresh=1" alt="10" onerror="imageOnError(this);"></span>
-        <span>
-          마사
-          <span class="team">(대전)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.364</span>
-    </td>
-    <td>
-    <span>0.444</span>
-    </td>
-    <td>
-    <span>9</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td class="last">
-    <span>464</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>16</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/17.png&amp;type=f30_21&amp;refresh=1" alt="17" onerror="imageOnError(this);"></span>
-        <span>
-          세징야
-          <span class="team">(대구)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.125</span>
-    </td>
-    <td>
-    <span>0.364</span>
-    </td>
-    <td>
-    <span>16</span>
-    </td>
-    <td>
-    <span>25</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>36</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td class="last">
-    <span>914</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>17</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/01.png&amp;type=f30_21&amp;refresh=1" alt="01" onerror="imageOnError(this);"></span>
-        <span>
-          마틴 아담
-          <span class="team">(울산)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.200</span>
-    </td>
-    <td>
-    <span>0.308</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>5</span>
-    </td>
-    <td>
-    <span>4</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td class="last">
-    <span>591</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>18</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/05.png&amp;type=f30_21&amp;refresh=1" alt="05" onerror="imageOnError(this);"></span>
-        <span>
-          문선민
-          <span class="team">(전북)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.222</span>
-    </td>
-    <td>
-    <span>0.308</span>
-    </td>
-    <td>
-    <span>6</span>
-    </td>
-    <td>
-    <span>12</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td class="last">
-    <span>767</span>
-    </td>
-  </tr>
-  <tr class="">
-    <th>
-      <strong>19</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/05.png&amp;type=f30_21&amp;refresh=1" alt="05" onerror="imageOnError(this);"></span>
-        <span>
-          송민규
-          <span class="team">(전북)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.333</span>
-    </td>
-    <td>
-    <span>0.286</span>
-    </td>
-    <td>
-    <span>12</span>
-    </td>
-    <td>
-    <span>15</span>
-    </td>
-    <td>
-    <span>1</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td class="last">
-    <span>946</span>
-    </td>
-  </tr>
-  <tr class="dv">
-    <th>
-      <strong>20</strong>
-    </th>
-
-    <td class="tm">
-      <div>
-        <span class="emblem"><img width="30" height="21" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kleague/default/29.png&amp;type=f30_21&amp;refresh=1" alt="29" onerror="imageOnError(this);"></span>
-        <span>
-          무릴로
-          <span class="team">(수원FC)</span>
-          <!--
-          영상개편(23-01-18)으로 해당 부분 주석처리
-          
-          -->
-        </span>
-      </div>
-    </td>
-    <td>
-    <span>0.174</span>
-    </td>
-    <td>
-    <span>0.267</span>
-    </td>
-    <td>
-    <span>11</span>
-    </td>
-    <td>
-    <span>20</span>
-    </td>
-    <td>
-    <span>2</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>28</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td>
-    <span>0</span>
-    </td>
-    <td class="last">
-    <span>1075</span>
-    </td>
-  </tr>
-</tbody>
-      </table>
-    
-    <div class="h_ln"></div>
-    <div class="goal_on">
-      <span class="bl" style="height: 671px;"></span>
-      <span class="bt"></span>
-      <span class="br" style="height: 671px;"></span>
-      <span class="bb" style="top: 671px;"></span>
-    </div>
-  </div>
 
 
-<script id="_playerRecordTable" type="text/x-handlebars-template">
 
-</script>
 
-<script id="_playerRecordTablePaging" type="text/x-handlebars-template">
-
-</script>
-
-<script id="_noPlayerRecordTable" type="text/x-handlebars-template">
+<script id="wfootballTeamRecordTemplate" type="text/x-handlebars-template">
 
 </script>
 
 <script>
 
 </script>
-</div>
-</div>
+
+
+
+                                
                                 
                             
                             
@@ -3590,8 +942,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             
             
             
-                <li>※ 축구 순위는 개막전 경기 종료 이후부터 승격, 강등 정보가 반영된 새 시즌 순위표로 노출됩니다.</li>
             
+                <li>※ 해외축구 순위는 다음 시즌 경기 일정이 제공된 이후부터 승격, 강등 정보가 반영된 새 시즌 순위표로 노출됩니다.</li>
             
             
             
@@ -3611,7 +963,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                             
                         </div>
                         <script>
-
+                            
                         </script>
                     </div>
                 
@@ -3677,5 +1029,4 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             </div>
         
 
-</body>
-</html>
+</body></html>

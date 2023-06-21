@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.FootballRecordVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
@@ -69,6 +70,15 @@ public class FootballController {
 
 		return "sports/football/football_schedule";
 
+	}
+	
+	@RequestMapping(value = "/football_record.do", method = RequestMethod.GET)
+	public String footballRecordInfo(FootballRecordVO Record, Model model) throws SQLException {
+		Record.setLname("프리미어리그");
+	    List<FootballRecordVO> recordList = FootballService.getFootballRecordInfo(Record);
+	    model.addAttribute("records", recordList);
+	  
+	    return "sports/football/football_record";
 	}
 	// -------------------------------------------------------------------------//
 }
