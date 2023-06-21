@@ -455,7 +455,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </li>
     
     <li class="lnb_item" role="presentation">
-      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" aria-current="true"onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
     </li>
   
     <li class="lnb_item" role="presentation">
@@ -485,18 +485,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">최신뉴스</span>
     </a>
   </li>
+
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_match.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
+    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
     <span class="menu">일정/결과</span>
     </a>
   </li>
@@ -505,11 +496,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li>
+
 </ul>
 </nav>
 
@@ -551,9 +538,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
             <li class="selected"><a href="/schedule/index?category=kbl" data-category="kbl"><span class="menu">프로농구</span></a></li>
         
-            <li><a href="/schedule/index?category=nba" data-category="nba"><span class="menu">NBA</span></a></li>
-        
-            <li><a href="/schedule/index?category=wkbl" data-category="wkbl"><span class="menu">여자프로농구</span></a></li>
+
         
     </ul>
 </div><div class="sch_volleyball tb_kbl">
