@@ -41,9 +41,7 @@
 		<typeAlias
 			type="com.pcwk.ehr.sportsxpress.VO.VolleyballMatchVO"
 			alias="VolleyballMatchVO" />
-  <typeAlias
-      type="com.pcwk.ehr.sportsxpress.paging.PageVO"
-      alias="PageVO" />
+ 
   
 	</typeAliases>
 

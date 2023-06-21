@@ -2966,7 +2966,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 								<ul>
 									<!-- 20개씩 기사가 출력되게 -->
-									<c:forEach var="art" items="${list}">
+									<c:forEach var="art" items="${articles}">
 										<li><a href="${art.hyperlink}" class="thmb"
 											onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
 												width="140" src="${art.thumbnail}"
