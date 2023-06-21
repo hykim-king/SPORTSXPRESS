@@ -51,7 +51,7 @@ public class BasketballController {
 		model.addAttribute("articles", articleList);
 		model.addAttribute("videos",videoList);
 
-		return "sports/basketball_news";
+		return "sports/basketball/basketball_news";
 
 	}
 	

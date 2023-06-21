@@ -53,7 +53,7 @@ public class FootballController {
 		model.addAttribute("videos", videoList);
 		
 
-		return "sports/football_news";
+		return "sports/football/football_news";
 
 	}
 	
@@ -67,7 +67,7 @@ public class FootballController {
 	    model.addAttribute("teams", TeamList);
 		
 
-		return "sports/football_Schedule";
+		return "sports/football/football_Schedule";
 
 	}
 	// -------------------------------------------------------------------------//

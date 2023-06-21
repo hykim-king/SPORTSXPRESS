@@ -53,7 +53,7 @@ public class BaseballController {
 		model.addAttribute("videos",videoList);
 		model.addAttribute("articles", articleList);
 
-		return "sports/baseball_news";
+		return "sports/baseball/baseball_news";
 
 	}
 
