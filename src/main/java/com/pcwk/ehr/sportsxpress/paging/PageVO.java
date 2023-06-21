@@ -10,6 +10,10 @@ public class PageVO {
 	private int startPage; // 페이지 이동 버튼의 시작 번호
 	private int endPage; // 페이지 이동 버튼의 마지막 번호
 	private int totalPage;
+	
+	public PageVO() {
+		super();	
+	}
 
 	public PageVO(int pageNo, int pageSize, int totalCount) {
 		// this.pageNo = pageNo;
@@ -29,6 +33,21 @@ public class PageVO {
 		startPage = (this.pageNo - 1) / 10 * 10 + 1; // pageNo가 11~20 일 때 startPage는 모두 11
 		endPage = startPage + 9; // *totalPage 이하의 값이어야 합니다.
 		this.endPage = this.endPage > totalPage ? totalPage : this.endPage;
+	}
+	
+	
+
+	public PageVO(int pageNo, int pageSize, int totalCount, int startNo, int endNo, int startPage, int endPage,
+			int totalPage) {
+		
+		this.pageNo = pageNo;
+		this.pageSize = pageSize;
+		this.totalCount = totalCount;
+		this.startNo = startNo;
+		this.endNo = endNo;
+		this.startPage = startPage;
+		this.endPage = endPage;
+		this.totalPage = totalPage;
 	}
 
 	public int getPageNo() {

@@ -2970,7 +2970,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										<li><a href="${art.hyperlink}" class="thmb"
 											onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
 												width="140" src="${art.thumbnail}"
-												lazy-src="${art.thumbnail}" alt=${art.title }
+												lazy-src="${art.thumbnail}" alt=${art.title}
 												class="lazyLoadImage"> <span class="mask"></span>
 										</a>
 											<div class="text">

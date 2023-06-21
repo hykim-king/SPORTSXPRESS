@@ -24,7 +24,7 @@ public class PagingController {
 							int pageNo,Model model) {
 			PageVO page = new PageVO(pageNo,10,mapper.getCount());
 			
-			Map<String,Integer> map = new HashMap<>();
+			Map<String, Object> map = new HashMap<>();
 			map.put("startNo", page.getStartNo());
 			map.put("endNo", page.getEndNo());
 			List<ArticleVO> list = mapper.getPageList(map);
