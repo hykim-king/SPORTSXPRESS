@@ -403,8 +403,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
 
 <h1 class="logo_area">
-  <a href="https://www.naver.com" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
-  <a href="https://sports.news.naver.com/" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
 </h1>
 <div class="sub_logo_area">
   <a href="https://m.sports.naver.com/community/index" class="logo_community" onclick="clickcr(this, 'STA.community', '', '', event);"><span class="blind">커뮤니티</span></a>
@@ -448,58 +448,31 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <h2 class="blind">메인 메뉴</h2>
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
-  <li class="lnb_item" role="presentation">
-    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
-  </li>
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    </li>
+    
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    </li>
 
-  <li class="lnb_item" role="presentation">
-    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/golf/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
-  </li>
-</ul>
+  </ul>
 
   
   
@@ -522,16 +495,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">최신뉴스</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/golf/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/photocenter/albumList?category=golf" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
+
   <li class="lnb_sub_item " role="presentation">
     <a href="/golf/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
@@ -542,16 +506,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/golf/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="https://m.sports.naver.com/golf/pickngolf/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event);  javascript:lnbOpenPopup(this.href); return false; ">
-    <span class="menu">픽N골프</span>
-    </a>
-  </li>
+
 </ul>
 </nav>
 
@@ -608,63 +563,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               </li>
             
           </ul>
-          <div class="option">
-            <a href="#" class="button selected" id="_exceptPhotoBtn" onclick="clickcr(this, 'nwl.photoexcept', '', '', event);"><span class="ico"></span>화보기사 제외</a>
-            <span class="check" id="_viewTypeList">
-              
-                <a href="#" data-id="text" onclick="clickcr(this, 'nwl.photooff', '', '', event);" class="selected"><span class="view1">텍스트뷰</span></a>
-              
-                <a href="#" data-id="photo" onclick="clickcr(this, 'nwl.photoon', '', '', event);"><span class="view2">포토뷰</span></a>
-              
-            </span>
-          </div>
+
         </div>
 
         <div id="_kboTeamList" class="news_team" style="display:none;">
-          <ul>
-            <li class="first selected" data-id="kbo"><a href="#"><span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png" alt="" onerror="imageOnError(this);"></span><span class="name">전체</span></a></li>
-            
-              <li data-id="SK"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">SSG</span></a></li>
-            
-              <li data-id="WO"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">키움</span></a></li>
-            
-              <li data-id="LG"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">LG</span></a></li>
-            
-              <li data-id="KT"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">KT</span></a></li>
-            
-              <li data-id="HT"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">KIA</span></a></li>
-            
-              <li class="first" data-id="NC"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">NC</span></a></li>
-            
-              <li data-id="SS"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">삼성</span></a></li>
-            
-              <li data-id="LT"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">롯데</span></a></li>
-            
-              <li data-id="OB"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">두산</span></a></li>
-            
-              <li data-id="HH"><a href="#">
-                <span class="emblem"><img width="37" height="37" src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png" alt="" onerror="imageOnError(this);"></span>
-                <span class="name">한화</span></a></li>
-            
-          </ul>
+
         </div>
 
         <div class="news_date" id="_topDateList" style="display:none;"></div>
@@ -745,8 +648,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       
         <div id="_ranking_news_tab_selector" class="aside_tab2">
           <div class="inner">
-            <a href="#" class="" id="_ranking_news_tab_0" data-select-num="0"><span>N골프</span></a>
-            <a href="#" id="_ranking_news_tab_1" data-select-num="1" class="selected"><span>스포츠 종합</span></a>
+            <a href="#" class="selected" id="_ranking_news_tab_0" data-select-num="0"><span>N골프</span></a>
+            <!-- <a href="#" id="_ranking_news_tab_1" data-select-num="1" class="selected"><span>스포츠 종합</span></a> -->
           </div>
         </div>
         <ul class="aside_news_list" id="_ranking_news_list_0" style="display: none;">
@@ -829,7 +732,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
     
     
-      <a href="/golf/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a>
+   <!--    <a href="/golf/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a> -->
     
   
 </div>
@@ -1019,7 +922,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </div>
   
     
-      <a href="/golf/vod/index" class="more" onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a>
+     <!--  <a href="/golf/vod/index" class="more" onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a> -->
     
     
   
@@ -1051,83 +954,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </script>
 
 
-
-
-
-
-
-
-
-
-
-
-<div id="photo" class="aside_inner">
-  
-    <div class="aside_photo" style="" id="asidePhoto_0">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128801&amp;category=golf" class="title"><span>드라이버 티샷하는 허인회</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128801&amp;photoId=3565117&amp;category=golf" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916930_web_20230609134606_20230609134723501.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916930_web_20230609134606_20230609134723501.jpg&amp;type=nf200_200" width="200" height="200" alt="드라이버 티샷하는 허인회" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128801&amp;photoId=3565118&amp;category=golf" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916931_web_20230609134606_20230609134721656.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916931_web_20230609134606_20230609134721656.jpg&amp;type=nf100_100" width="100" height="100" alt="세컨아이언샷 하는 이태희" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128801&amp;photoId=3565119&amp;category=golf" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916929_web_20230609134606_20230609134717634.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/09/NISI20230609_0019916929_web_20230609134606_20230609134717634.jpg&amp;type=nf100_100" width="100" height="100" alt="버디퍼팅 성공한 허인회" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_1">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128795&amp;category=golf" class="title"><span>방신실 '예리하게'</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128795&amp;photoId=3565247&amp;category=golf" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856915_001_20230609154109226.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856915_001_20230609154109226.jpg&amp;type=nf200_200" width="200" height="200" alt="방신실 '예리하게'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128795&amp;photoId=3565248&amp;category=golf" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856914_001_20230609154107332.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856914_001_20230609154107332.jpg&amp;type=nf100_100" width="100" height="100" alt="아이언샷 치는 방신실" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128795&amp;photoId=3565249&amp;category=golf" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856913_001_20230609154104814.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856913_001_20230609154104814.jpg&amp;type=nf100_100" width="100" height="100" alt="'이예원이 선보이는 샷은?'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_2">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128772&amp;category=golf" class="title"><span> 티샷하는 서요섭 '뭔가 답답하게 흐른다'</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128772&amp;photoId=3563873&amp;category=golf" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118391_001_20230608175117705.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118391_001_20230608175117705.jpg&amp;type=nf200_200" width="200" height="200" alt=" 김민규 '활로 찾아서 티샷~'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128772&amp;photoId=3563874&amp;category=golf" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118390_001_20230608175115825.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118390_001_20230608175115825.jpg&amp;type=nf100_100" width="100" height="100" alt=" 배용준 '지치지 않는 타구력~'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128772&amp;photoId=3563875&amp;category=golf" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118389_001_20230608175113699.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118389_001_20230608175113699.jpg&amp;type=nf100_100" width="100" height="100" alt=" 탄복하는 강경남 '이게 빠지다니~'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_3">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128769&amp;category=golf" class="title"><span> 방신실 '파5 투 온 노려 우승 하고 싶어요'</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128769&amp;photoId=3563936&amp;category=golf" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118424_001_20230608180601563.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118424_001_20230608180601563.jpg&amp;type=nf200_200" width="200" height="200" alt=" 방신실 '파5 투 온 노려 우승 하고 싶어요'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128769&amp;photoId=3563937&amp;category=golf" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118423_001_20230608180214068.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118423_001_20230608180214068.jpg&amp;type=nf100_100" width="100" height="100" alt=" 박현경 '매치플레이 체력이 남아 돌았어요'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128769&amp;photoId=3563938&amp;category=golf" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118422_001_20230608180212093.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/445/2023/06/08/0000118422_001_20230608180212093.jpg&amp;type=nf100_100" width="100" height="100" alt=" 디펜딩 챔프 박민지 '우승 하고 싶다'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-</div>
 
 <script>
 
@@ -1179,15 +1005,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
       
       <div class="sports_league">
-               <ul class="league_list">
-          <li class="league_item"><a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/ehr/sportsxpress/football_news.do">축구</a></li> 
-          <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
-
-        </ul>
+     <ul class="league_list">
+            <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+         </ul>
       </div>
     </div>
     <div class="sports_info">
