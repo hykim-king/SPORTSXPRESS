@@ -1091,7 +1091,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
               <td><span class="td_hour">19:00</span></td>
               <td><span class="team_lft">${matches.hname}</span>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/41/55.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);" width="25" height="25" alt="서울 SK" title="서울 SK"></span>
+                <span class="emblem"><img src="${matches.hname_logo}" onerror="imageOnError(this);" width="25" height="25" alt="서울 SK" title="서울 SK"></span>
                 
                   
                   
@@ -1099,7 +1099,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     </strong>
                   
                 
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/41/70.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);" width="25" height="25" alt="안양 KGC" title="안양 KGC"></span>
+                <span class="emblem"><img src="${matches.ateam_logo}" onerror="imageOnError(this);" width="25" height="25" alt="안양 KGC" title="안양 KGC"></span>
                 <span class="team_rgt">${matches.ateam}</span>
               </td>
               <td>
