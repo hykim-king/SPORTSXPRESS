@@ -31,21 +31,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="https://imgsports.pstatic.net/images/mobile/favicon_20180622/ios/iOS7_152X152_ipad_retina.png"> 
   <link rel="apple-touch-icon" sizes="167x167" href="https://imgsports.pstatic.net/images/mobile/favicon_20180622/ios/iOS_167X167_iPadPro.png"> <!-- 레티나 패드 -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://imgsports.pstatic.net/images/mobile/favicon_20180622/ios/iOS_180X180_iPhone.png"> <!-- 레티나 패드 -->
-  <!-- script -->
-  <script></script>
 
-  <script></script>
-
-  
-
-<script>
-
-</script>
-
-    
-    <script>
-
-    </script>
 <style id="gnb_style" type="text/css">@charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
 a.gnb_my, .gnb_icon, #gnb .gnb_my_interface, .gnb_my_li .gnb_my_content .gnb_membership, #gnb .gnb_ico_num .gnb_ico_new, #gnb .gnb_ico_num .gnb_ico_new .gnb_count, .gnb_lst .ico_arrow, a.gnb_my .filter_mask, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_my_li .gnb_my_content .gnb_edit_lst li, .gnb_notice_li .gnb_notice_lyr, .gnb_notice_li .svc_list .gnb_ico_mail, .gnb_notice_li .svc_list .gnb_btn_remove span, .gnb_notice_li .svc_list .gnb_btn_remove i, .gnb_notice_li .gnb_error .gnb_ico_error, .gnb_ly_alert .gnb_btn_close i, .gnb_first_visit, .gnb_search_box, .gnb_search_box .gnb_del_txt, .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new, .gnb_svc_more .svc_btnwrp button { background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v14.png) no-repeat -999px -999px;   background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v15.png?v=2006) no-repeat -999px -999px; /* background: url(../img/sp_gnb_v15.png) no-repeat -999px -999px; */}
@@ -385,14 +371,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_count {border-radius: 0 13px 13px 0;}</style><script></script><script></script><script></script><script></script><script></script><script></script></head>
 
 <body>
-<!-- 사이드 광고 -->
+<!-- <!-- 사이드 광고 -->
 <div id="veta_skin_left" data-veta-preview="p_sports_dpl" style="display:none;"></div>
 <div id="veta_skin_right" data-veta-preview="p_sports_dpl" style="display:none;"></div>
 
 <div id="u_skip">
-  <a href="#lnb_main_sub" onclick="document.getElementById('lnb_main_sub').tabIndex=-1;document.getElementById('lnb_main_sub').focus();"><span>메인 메뉴로 바로가기</span></a>
+ <!--  <a href="#lnb_main_sub" onclick="document.getElementById('lnb_main_sub').tabIndex=-1;document.getElementById('lnb_main_sub').focus();"><span>메인 메뉴로 바로가기</span></a>
   <div id="lnb_menu_link"></div>
-  <div id="container_link"><a href="#container" onclick="document.getElementById('container').tabIndex=-1;document.getElementById('container').focus();"><span>본문으로 바로가기</span></a></div>
+  <div id="container_link"><a href="#container" onclick="document.getElementById('container').tabIndex=-1;document.getElementById('container').focus();"><span>본문으로 바로가기</span></a></div> -->
 </div>
 
 <div id="wrap">
@@ -405,8 +391,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
 
 <h1 class="logo_area">
-  <a href="https://www.naver.com" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
-  <a href="https://sports.news.naver.com/" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
 </h1>
 <div class="sub_logo_area">
   <a href="https://m.sports.naver.com/community/index" class="logo_community" onclick="clickcr(this, 'STA.community', '', '', event);"><span class="blind">커뮤니티</span></a>
@@ -437,10 +423,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
 
-<script>
-
-</script>
-
             
 
 
@@ -449,27 +431,27 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem">스포츠 홈</a>
+    <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="${CP}/resources/kBaseball/kBaseball_Index.jsp" class="link_lnb" role="menuitem">야구</a>
+    <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="${CP}/resources/kFootball/kFootball_Index.jsp" class="link_lnb" role="menuitem" aria-current="true">축구</a>
+    <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" aria-current="true">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="${CP}/resources/basketball/basketball_index.jsp" class="link_lnb" role="menuitem">농구</a>
+    <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem">농구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="${CP}/resources/volleyball/volleyball_Index.jsp" class="link_lnb" role="menuitem">배구</a>
+    <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem">배구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="${CP }/resources/golf/golf_Index.jsp" class="link_lnb" role="menuitem">골프</a>
+    <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem">골프</a>
   </li>
 
 </ul>
@@ -495,16 +477,16 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">최신뉴스</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
+<!--   <li class="lnb_sub_item " role="presentation">
     <a href="/kfootball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
     <span class="menu">영상</span>
     </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
+  </li> -->
+<!--   <li class="lnb_sub_item " role="presentation">
     <a href="/photocenter/albumList?category=kfootball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
     <span class="menu">생생화보</span>
     </a>
-  </li>
+  </li> -->
   <li class="lnb_sub_item " role="presentation">
     <a href="/kfootball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
@@ -515,11 +497,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
+<!--   <li class="lnb_sub_item " role="presentation">
     <a href="/kfootball/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
     <span class="menu">구단/협회</span>
     </a>
-  </li>
+  </li> -->
 </ul>
 </nav>
 
@@ -537,7 +519,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <div class="tab_event">
           <ul class="list" id="_sectionList">
             <li class="selected" data-id="kfootball"><a href="#" onclick="clickcr(this, 'nwl.league', '', '', event);"><span class="menu">축구 전체</span></a></li>
-            
+<!--             
               
                 
                 
@@ -562,7 +544,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <li data-id="footballetc"><a href="#" onclick="clickcr(this, 'nwl.league', '', '', event);"><span class="menu">축구일반</span></a></li>
+                  <li data-id="footballetc"><a href="#" onclick="clickcr(this, 'nwl.league', '', '', event);"><span class="menu">축구일반</span></a></li> -->
                 
               
             
@@ -725,7 +707,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <div id="_ranking_news_tab_selector" class="aside_tab2">
           <div class="inner">
             <a href="#" class="selected" id="_ranking_news_tab_0" data-select-num="0"><span>축구</span></a>
-            <a href="#" id="_ranking_news_tab_1" data-select-num="1"><span>스포츠 종합</span></a>
+           <!--  <a href="#" id="_ranking_news_tab_1" data-select-num="1"><span>스포츠 종합</span></a> -->
           </div>
         </div>
         <ul class="aside_news_list" id="_ranking_news_list_0">
@@ -743,7 +725,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
     
     
-      <a href="/kfootball/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a>
+   <!--  <a href="/kfootball/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a> -->
     
   
 </div>
@@ -933,7 +915,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </div>
   
     
-      <a href="/kfootball/vod/index" class="more" onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a>
+  <!-- <a href="/kfootball/vod/index" class="more" onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a> -->
     
     
   
@@ -988,7 +970,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <div class="stat">
                       <span>9</span>
                       
-                        골
+                        
                         
                         
                       
@@ -1009,7 +991,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <div class="stat">
                       <span>8</span>
                       
-                        골
+                        
                         
                         
                       
@@ -1030,7 +1012,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <div class="stat">
                       <span>6</span>
                       
-                        골
+                        
                         
                         
                       
@@ -1051,7 +1033,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <div class="stat">
                       <span>6</span>
                       
-                        골
+                        
                         
                         
                       
@@ -1072,7 +1054,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <div class="stat">
                       <span>6</span>
                       
-                        골
+                        
                         
                         
                       
@@ -1098,7 +1080,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       <span>7</span>
                       
                         
-                        개
+                        
                         
                       
                     </div>
@@ -1119,7 +1101,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       <span>6</span>
                       
                         
-                        개
+                        
                         
                       
                     </div>
@@ -1140,7 +1122,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       <span>5</span>
                       
                         
-                        개
+                        
                         
                       
                     </div>
@@ -1161,7 +1143,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       <span>5</span>
                       
                         
-                        개
+                        
                         
                       
                     </div>
@@ -1182,7 +1164,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       <span>5</span>
                       
                         
-                        개
+                        
                         
                       
                     </div>
@@ -1208,7 +1190,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       
                         
                         
-                        회
+                        
                       
                     </div>
                   </div>
@@ -1229,7 +1211,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       
                         
                         
-                        회
+                        
                       
                     </div>
                   </div>
@@ -1250,7 +1232,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       
                         
                         
-                        회
+                        
                       
                     </div>
                   </div>
@@ -1271,7 +1253,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       
                         
                         
-                        회
+                        
                       
                     </div>
                   </div>
@@ -1292,7 +1274,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                       
                         
                         
-                        회
+                        
                       
                     </div>
                   </div>
@@ -1339,274 +1321,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
 
-
-
-
-
-
-
-
-
-
-<div id="photo" class="aside_inner">
-  
-    <div class="aside_photo" style="" id="asidePhoto_0">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128800&amp;category=amatch" class="title"><span>아쉬운 추가 실점</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128800&amp;photoId=3565059&amp;category=amatch" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856215_001_20230609105201478.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856215_001_20230609105201478.jpg&amp;type=nf200_200" width="200" height="200" alt="'공의 궤적이'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128800&amp;photoId=3565060&amp;category=amatch" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856214_001_20230609105004610.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/421/2023/06/09/0006856214_001_20230609105004610.jpg&amp;type=nf100_100" width="100" height="100" alt="꼼짝할 수 없는 공의 궤적" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128800&amp;photoId=3565061&amp;category=amatch" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/09/PYH2023060907920001300_P4_20230609104334370.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/09/PYH2023060907920001300_P4_20230609104334370.jpg&amp;type=nf100_100" width="100" height="100" alt="이승원 '나야, 동점골의 주인공'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_1">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128770&amp;category=amatch" class="title"><span>훈련하는 이지한</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128770&amp;photoId=3563523&amp;category=amatch" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915682_web_20230608140103_20230608140221411.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915682_web_20230608140103_20230608140221411.jpg&amp;type=nf200_200" width="200" height="200" alt="훈련하는 이지한" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128770&amp;photoId=3563524&amp;category=amatch" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915686_web_20230608140103_20230608140219514.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915686_web_20230608140103_20230608140219514.jpg&amp;type=nf100_100" width="100" height="100" alt="이탈리아전 앞둔 U-20 축구대표팀" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128770&amp;photoId=3563525&amp;category=amatch" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915683_web_20230608140103_20230608140217741.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/08/NISI20230608_0019915683_web_20230608140103_20230608140217741.jpg&amp;type=nf100_100" width="100" height="100" alt="이탈리아전 앞둔 U-20 축구대표팀" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_2">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128758&amp;category=amatch" class="title"><span>훈련하는 이승원-이영준</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128758&amp;photoId=3563592&amp;category=amatch" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802430001300_P4_20230608091736691.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802430001300_P4_20230608091736691.jpg&amp;type=nf200_200" width="200" height="200" alt="훈련하는 이승원-이영준" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128758&amp;photoId=3563664&amp;category=amatch" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802420001300_P4_20230608091734947.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802420001300_P4_20230608091734947.jpg&amp;type=nf100_100" width="100" height="100" alt="박현빈 '집중하자'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128758&amp;photoId=3563727&amp;category=amatch" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802410001300_P4_20230608091733150.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060802410001300_P4_20230608091733150.jpg&amp;type=nf100_100" width="100" height="100" alt="김용학 '4강이 눈앞에'" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_3">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128754&amp;category=kfootball" class="title"><span>육동한 춘천시장과 인사하는 손흥민</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128754&amp;photoId=3563496&amp;category=kfootball" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806940006200_P4_20230608105021572.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806940006200_P4_20230608105021572.jpg&amp;type=nf200_200" width="200" height="200" alt="육동한 춘천시장과 인사하는 손흥민" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128754&amp;photoId=3563497&amp;category=kfootball" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806810006200_P4_20230608104923491.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806810006200_P4_20230608104923491.jpg&amp;type=nf100_100" width="100" height="100" alt="유소년 선수에게 사인해주는 손흥민" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128754&amp;photoId=3563498&amp;category=kfootball" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806880006200_P4_20230608104905522.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/08/PYH2023060806880006200_P4_20230608104905522.jpg&amp;type=nf100_100" width="100" height="100" alt="선수 격려하는 손흥민" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-</div>
-
-<script>
-
-</script>
-
-
-
-
-
-
-  
-  
-  <div class="aside_inner aside_shopping aside_shopping_v2">
-    <div class="aside_head">
-      <h3 class="title"><strong>축구</strong> 네이버 쇼핑</h3>
-      <div class="shopping_paginated" id="_shoppingPageArea">
-        <span class="pa_num"><em id="_shoppingPageNum">1</em> / 2</span>
-        <span id="_shoppingDisablePrevBtn" class="nav prev" style=""><span>이전 없음</span></span>
-        <a id="_shoppingEnablePrevBtn" href="#" class="nav prev" onclick="clickcr(this, 'aec*h.prev', '', '', event);" style="display: none;"><span>이전</span></a>
-        <a id="_shoppingEnableNextBtn" href="#" class="nav next" onclick="clickcr(this, 'aec*h.next', '', '', event);"><span>다음</span></a>
-        <span id="_shoppingDisableNextBtn" class="nav next" style="display:none;"><span>다음 없음</span></span>
-      </div>
-    </div>
-    <div class="aside_shopping_ct">
-      
-        
-        
-          <ul class="list" id="_shoppingArea_0" style="">
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/5203419654" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230607_31/1686097516710XyjMd_JPEG/9-2.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230607_31/1686097516710XyjMd_JPEG/9-2.jpg" alt="완벽한 컨트롤<br>키카 축구공 5호" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>26,500</span>원</strong>
-            </div>
-            <span class="text">완벽한 컨트롤<br>키카 축구공 5호</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/4711848707" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230602_3/1685669768964nha7N_JPEG/10.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230602_3/1685669768964nha7N_JPEG/10.jpg" alt="3단계 레벨<br>맥데이브드 보호대" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>12,750</span>원</strong>
-            </div>
-            <span class="text">3단계 레벨<br>맥데이브드 보호대</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/5003822680" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230601_63/1685585180457CMRsO_JPEG/10.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230601_63/1685585180457CMRsO_JPEG/10.jpg" alt="움직임 제어<br>베놈 축구화 HG" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>61,000</span>원</strong>
-            </div>
-            <span class="text">움직임 제어<br>베놈 축구화 HG</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/3520705662" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230602_214/1685669791804892lN_JPEG/12.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230602_214/1685669791804892lN_JPEG/12.jpg" alt="기능성 소재<br>맨유 홈 유니폼" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>79,000</span>원</strong>
-            </div>
-            <span class="text">기능성 소재<br>맨유 홈 유니폼</span>
-          </a>
-        </li>
-        
-          </ul>
-        
-      
-        
-        
-          <ul class="list" id="_shoppingArea_1" style="display:none;">
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/8254176894" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230601_84/1685585214069TEx6o_JPEG/13.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230601_84/1685585214069TEx6o_JPEG/13.jpg" alt="부상 걱정↓<br>소프트 케틀벨 6kg" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>12,000</span>원</strong>
-            </div>
-            <span class="text">부상 걱정↓<br>소프트 케틀벨 6kg</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/4353524024" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230601_135/1685585227182qS8cr_JPEG/14.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230601_135/1685585227182qS8cr_JPEG/14.jpg" alt="팔꿈치 보호대<br>테이핑 기술 접목" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>16,800</span>원</strong>
-            </div>
-            <span class="text">팔꿈치 보호대<br>테이핑 기술 접목</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/6631540871" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230601_137/1685585240306zMnAT_JPEG/15.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230601_137/1685585240306zMnAT_JPEG/15.jpg" alt="쾌적한 통풍<br>지오 캡 선가드" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>9,900</span>원</strong>
-            </div>
-            <span class="text">쾌적한 통풍<br>지오 캡 선가드</span>
-          </a>
-        </li>
-        
-      
-        
-        
-        <li class="type1">
-          <a href="https://shopping.naver.com/outlink/itemdetail/8574041547" onclick="clickcr(this, 'aec*h.goods', '', '', event);">
-            <div class="thmb">
-              <img width="126" height="160" src="https://shop-phinf.pstatic.net/20230601_172/1685585254743DBHTd_JPEG/16.jpg" class="imageLazyLoad" lazy-src="https://shop-phinf.pstatic.net/20230601_172/1685585254743DBHTd_JPEG/16.jpg" alt="문어 낚싯대<br>퓨리어스 옥토퍼스" onerror="imageOnError(this);">
-              <span class="mask"></span>
-            </div>
-            <div class="price_wrap">
-              <span class="blind">가격 : </span><strong class="price"><span>337,500</span>원</strong>
-            </div>
-            <span class="text">문어 낚싯대<br>퓨리어스 옥토퍼스</span>
-          </a>
-        </li>
-        
-          </ul>
-        
-      
-    </div>
-  </div>
-
-  <script>
-
-  </script>
-
-
     </div>
   </div>
 </div>
 
-
-<script id="_newsListTemplate" type="text/x-handlebars-template">
-
-</script>
-<script id="_emptyList"></script>
-
-<script id="_pageListTemplate" type="text/x-handlebars-template">
-
-</script>
-
-<script id="_bottomDateListTemplate" type="text/x-handlebars-template">
-
-</script>
-<script type="text/javascript">
-
-</script>
-<script>
-
-</script>
 
   </div>
   
@@ -1615,32 +1333,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <div class="page_area">
       
       
-        
-
-
-
-
-
-<div class="notice_text">공지사항</div>
-<div class="sports_notice">
-  
-  <a href="https://blog.naver.com/naver_sports/223118608681" class="link_notice" target="_blank" onclick="clickcr(this, 'not.noti', '1466402863231', '', event);">스포츠 TV중계 편성 - 6/5(월)~6/12(월)</a>
-</div>
-
-
-      
       <div class="sports_league">
         <ul class="league_list">
-          <li class="league_item"><a href="/index" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/kbaseball/index" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/wbaseball/index" class="link_league">해외야구</a></li>
-          <li class="league_item"><a href="/kfootball/index" class="link_league">축구</a></li>
-          <li class="league_item"><a href="/wfootball/index" class="link_league">해외축구</a></li>
-          <li class="league_item"><a href="/basketball/index" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/volleyball/index" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/golf/index" class="link_league">N골프</a></li>
-          <li class="league_item"><a href="/general/index" class="link_league">일반</a></li>
-          <li class="league_item"><a href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
+          <li class="league_item"><a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+          <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+          <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li> 
+          <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+          <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+          <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
         </ul>
       </div>
     </div>
@@ -1664,21 +1364,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </div>
   
 </div>
-<script></script>
-
-<script>
-
-</script>
-</div>
-  <script>
-    
-  </script>
-  
-
-<script></script>
-
-
-
 
 </body>
 </html>

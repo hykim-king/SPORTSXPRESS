@@ -2183,9 +2183,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 				<h1 class="logo_area">
-					<a href="https://www.naver.com" class="logo_naver"
+					<a href="/ehr/resources/templates/home.html" class="logo_naver"
 						onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span
-						class="blind">네이버</span></a> <a href="https://sports.news.naver.com/"
+						class="blind">네이버</span></a> <a href="/ehr/resources/templates/home.html"
 						class="logo_sports"
 						onclick="clickcr(this, 'STA.sports', '', '', event);"><span
 						class="blind">스포츠</span></a>
@@ -2671,67 +2671,33 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 			<nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
 				<h2 class="blind">메인 메뉴</h2>
-				<ul id="lnb_list" class="lnb_list" role="menubar">
+  <ul id="lnb_list" class="lnb_list" role="menubar">
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    </li>
+    
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem"  aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    </li>
 
-					<li class="lnb_item" role="presentation"><a href="/index"
-						class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠
-							홈</a></li>
-
-					<li class="lnb_item" role="presentation"><a
-						href="/kbaseball/index" class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
-					</li>
-
-					<!--   <li class="lnb_item" role="presentation">
-    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
-  </li>
- -->
-					<li class="lnb_item" role="presentation"><a
-						href="/kfootball/index" class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
-					</li>
-
-					<!--   <li class="lnb_item" role="presentation">
-    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
-  </li> -->
-
-					<li class="lnb_item" role="presentation"><a
-						href="/basketball/index" class="link_lnb" role="menuitem"
-						aria-current="true"
-						onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
-					</li>
-
-					<li class="lnb_item" role="presentation"><a
-						href="/volleyball/index" class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
-					</li>
-
-					<li class="lnb_item" role="presentation"><a href="/golf/index"
-						class="link_lnb" role="menuitem"
-						onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
-					</li>
-
-					<!--   <li class="lnb_item" role="presentation">
-    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li> -->
-
-					<!--   <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
-  </li> -->
-				</ul>
+  </ul>
 
 
 
@@ -2755,17 +2721,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						aria-current="page"> <span class="menu">최신뉴스</span>
 					</a></li>
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/basketball/vod/index" class="link_lnb_sub" role="menuitem"
-						onclick="clickcr(this, 'LNB.video', 'video', '', event); "> <span
-							class="menu">영상</span>
-					</a></li>
-					<li class="lnb_sub_item " role="presentation"><a
-						href="/photocenter/albumList?category=kbasketball"
-						class="link_lnb_sub" role="menuitem"
-						onclick="clickcr(this, 'LNB.album', 'album', '', event); "> <span
-							class="menu">생생화보</span>
-					</a></li>
-					<li class="lnb_sub_item " role="presentation"><a
 						href="/basketball/schedule/index" class="link_lnb_sub"
 						role="menuitem"
 						onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
@@ -2777,11 +2732,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
 							<span class="menu">기록/순위</span>
 					</a></li>
-					<li class="lnb_sub_item " role="presentation"><a
-						href="/basketball/column/columnistList" class="link_lnb_sub"
-						role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-							<span class="menu">구단/협회</span>
-					</a></li>
+
 				</ul>
 			</nav>
 
@@ -2821,7 +2772,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									<li class="selected" data-id="basketball"><a href="#"
 										onclick="clickcr(this, 'nwl.league', '', '', event);"><span
 											class="menu">농구 전체</span></a></li>
-
+<!-- 
 
 
 
@@ -2857,7 +2808,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 											class="menu">농구 일반</span></a></li>
 
 
-
+ -->
 								</ul>
 							</div>
 							<div class="news_lnb">
@@ -2876,19 +2827,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									</li>
 
 								</ul>
-								<div class="option">
-									<a href="#" class="button selected" id="_exceptPhotoBtn"
-										onclick="clickcr(this, 'nwl.photoexcept', '', '', event);"><span
-										class="ico"></span>화보기사 제외</a> <span class="check"
-										id="_viewTypeList"> <a href="#" data-id="text"
-										onclick="clickcr(this, 'nwl.photooff', '', '', event);"
-										class="selected"><span class="view1">텍스트뷰</span></a> <a
-										href="#" data-id="photo"
-										onclick="clickcr(this, 'nwl.photoon', '', '', event);"><span
-											class="view2">포토뷰</span></a>
 
-									</span>
-								</div>
 							</div>
 
 							<div id="_kboTeamList" class="news_team" style="display: none;">
@@ -3081,9 +3020,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 								<div id="_ranking_news_tab_selector" class="aside_tab2">
 									<div class="inner">
 										<a href="#" class="selected" id="_ranking_news_tab_0"
-											data-select-num="0"><span>농구</span></a> <a href="#"
+											data-select-num="0"><span>농구</span></a> 
+<!-- 											<a href="#"
 											id="_ranking_news_tab_1" data-select-num="1"><span>스포츠
-												종합</span></a>
+												종합</span></a> -->
 									</div>
 								</div>
 								<ul class="aside_news_list" id="_ranking_news_list_0">
@@ -3094,67 +3034,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 													${art.title}</span></a></li>
 									</c:forEach>
 
-									<!-- <li><a href="/news?oid=398&amp;aid=0000069167" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              한울건설 방성윤, 근육 파열로 부상 이탈..."팀에 미안함 크다. 7월 말 복귀 노력"</span></a></li>
-          
-            <li><a href="/news?oid=351&amp;aid=0000066173" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span><b>
-              골든스테이트, 최소 한 시즌 더 전력 유지 예상</b></span></a></li>
-          
-            <li><a href="/news?oid=351&amp;aid=0000066176" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              ‘30점 동반 트리플 더블’ 요키치-머레이를 향한 극찬, “그들은 역대 최고의 듀요”</span></a></li>
-          
-            <li><a href="/news?oid=398&amp;aid=0000069164" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              '대표팀 복귀' 박지수, "기대하시는 모습, 보여드리고 싶다"</span></a></li>
-          
-            <li><a href="/news?oid=065&amp;aid=0000247719" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              김효범 “제가 기억하는 빈센트, 로빈슨의 첫인상은…”</span></a></li>
-          
-            <li><a href="/news?oid=065&amp;aid=0000247714" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              ‘상대팀 선수→ 같은팀 코치·선수’ KT 김영환 코치가 말하는 문성곤</span></a></li>
-          
-            <li><a href="/news?oid=351&amp;aid=0000066174" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span><b>
-              레이커스, 데이비스 연장계약 검토 예상</b></span></a></li>
-          
-            <li><a href="/news?oid=425&amp;aid=0000140992" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              제임스-어빙에서 제임스-폴 조합? "폴의 꿈은 제임스와 함께 뛰는 것"</span></a></li>
-          
-            <li><a href="/news?oid=398&amp;aid=0000069159" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
-              "테이텀-브라운 듀오, 나라면 해체한다" 샤킬 오닐의 냉철한 조언</span></a></li>
-          
-        </ul>
-        <ul class="aside_news_list" id="_ranking_news_list_1" style="display:none;">
-          
-            <li><a href="/news?oid=001&amp;aid=0013992648" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              재활 중인 구창모, 항저우AG 와일드카드…고교생 장현석 발탁(종합)</span></a></li>
-          
-            <li><a href="/news?oid=311&amp;aid=0001602368" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              '무버지' 무리뉴, 황희찬 영입 결정…이적료 '140억'에 로마 가서 세리에A '4호' 되나</span></a></li>
-          
-            <li><a href="/news?oid=139&amp;aid=0002184352" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span><b>
-              SON 파트너로 계속 남아줬으면 좋겠어...토트넘의 요청, ‘이적료 깎아줘’</b></span></a></li>
-          
-            <li><a href="/news?oid=117&amp;aid=0003737958" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              '맨유는 닭 쫓던 개?' 뉴캐슬 하이재킹설 등장...나폴리 회장, "아무도 안 팔아"</span></a></li>
-          
-            <li><a href="/news?oid=410&amp;aid=0000942786" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              사이드암 1명? 전문 외야 단 3명? 류중일 감독 답했다 “우영·명근 중 경험 선택, 백호·혜성·지찬 임시 외야 가능”</span></a></li>
-          
-            <li><a href="/news?oid=421&amp;aid=0006856658" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              대한민국 야구대표팀, 항저우 아시안게임 명단 24인 확정</span></a></li>
-          
-            <li><a href="/news?oid=117&amp;aid=0003737931" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              “꼴 보기 싫었다” 코치의 팩폭…LG 23세 3루수의 반전, 흐뭇한 ‘폭탄 돌리기’</span></a></li>
-          
-            <li><a href="/news?oid=468&amp;aid=0000950917" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span><b>
-              LG 키움 NC 3명 가득 승선·SSG 롯데도 핵심 출전, 시즌 막바지 대혼전 예고[SS포커스]</b></span></a></li>
-          
-            <li><a href="/news?oid=109&amp;aid=0004866699" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              우승 에이스 컴백! ‘슐서 방출’ KT, 45만 달러에 쿠에바스 전격 영입 [오피셜]</span></a></li>
-          
-            <li><a href="/news?oid=477&amp;aid=0000433526" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span>
-              '더티 축구' 이탈리아, 20년 전과 달라진 게 없다…손•팔꿈치 쓰며 파울만 26개</span></a></li>
-          
-        </ul> -->
 
 									<script>
 										
@@ -3163,9 +3042,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 
-							<a href="/basketball/news/index?type=popular" class="more"
+		<!-- 					<a href="/basketball/news/index?type=popular" class="more"
 								style="position: absolute;"
-								onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a>
+								onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a> -->
 
 
 						</div>
@@ -3353,8 +3232,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 							</div>
 
 
-							<a href="/basketball/vod/index" class="more"
-								onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a>
+<!-- 							<a href="/basketball/vod/index" class="more"
+								onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a> -->
 
 
 
@@ -3480,12 +3359,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 											width="100" height="100" alt=" 김선형-오세근 '우리가 다시 한 팀이 되다니'"
 											onclick="clickcr(this, 'aec*g.photo', '', '', event);"
 											onerror="imageOnError(this);"></a> -->
-									</div>
+<!-- 									</div>
 									<a href="javascript:changeAsidePhoto(-1);" class="prev"
 										onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
 									<a href="javascript:changeAsidePhoto(1);" class="next"
 										onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-								</div>
+								</div> -->
 							</div>
 
 							<div class="aside_photo" style="display: none;" id="asidePhoto_2">
@@ -3627,27 +3506,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 					<div class="sports_league">
-						<ul class="league_list">
-							<li class="league_item"><a href="/index" class="link_league">홈</a></li>
-							<li class="league_item"><a href="/kbaseball/index"
-								class="link_league">야구</a></li>
-							<li class="league_item"><a href="/wbaseball/index"
-								class="link_league">해외야구</a></li>
-							<li class="league_item"><a href="/kfootball/index"
-								class="link_league">축구</a></li>
-							<li class="league_item"><a href="/wfootball/index"
-								class="link_league">해외축구</a></li>
-							<li class="league_item"><a href="/basketball/index"
-								class="link_league">농구</a></li>
-							<li class="league_item"><a href="/volleyball/index"
-								class="link_league">배구</a></li>
-							<li class="league_item"><a href="/golf/index"
-								class="link_league">N골프</a></li>
-							<li class="league_item"><a href="/general/index"
-								class="link_league">일반</a></li>
-							<li class="league_item"><a
-								href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
-						</ul>
+     <ul class="league_list">
+            <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+         </ul>
 					</div>
 				</div>
 				<div class="sports_info">

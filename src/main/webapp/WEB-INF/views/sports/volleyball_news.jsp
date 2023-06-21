@@ -405,8 +405,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
 
 <h1 class="logo_area">
-  <a href="https://www.naver.com" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
-  <a href="https://sports.news.naver.com/" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_naver" onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span class="blind">네이버</span></a>
+  <a href="/ehr/resources/templates/home.html" class="logo_sports" onclick="clickcr(this, 'STA.sports', '', '', event);"><span class="blind">스포츠</span></a>
 </h1>
 <div class="sub_logo_area">
   <a href="https://m.sports.naver.com/community/index" class="logo_community" onclick="clickcr(this, 'STA.community', '', '', event);"><span class="blind">커뮤니티</span></a>
@@ -450,58 +450,31 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <h2 class="blind">메인 메뉴</h2>
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
-  <li class="lnb_item" role="presentation">
-    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
-  </li>
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    </li>
+    
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem" aria-current="true"  onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    </li>
 
-  <li class="lnb_item" role="presentation">
-    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/volleyball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
-  </li>
-</ul>
+  </ul>
 
   
   
@@ -524,16 +497,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">최신뉴스</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/volleyball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/photocenter/albumList?category=volleyball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
+
   <li class="lnb_sub_item " role="presentation">
     <a href="/volleyball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
@@ -544,11 +508,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/volleyball/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.64', '64', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li>
+
 </ul>
 </nav>
 
@@ -581,7 +541,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 <div id="content" class="newscenter">
   <div class="news_wrap">
-    <div class="content"> //여기서부터
+    <div class="content"> 
       <div class="content_area">
         <div class="tab_event">
           <ul class="list" id="_sectionList">
@@ -605,16 +565,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               </li>
             
           </ul>
-          <div class="option">
-            <a href="#" class="button selected" id="_exceptPhotoBtn" onclick="clickcr(this, 'nwl.photoexcept', '', '', event);"><span class="ico"></span>화보기사 제외</a>
-            <span class="check" id="_viewTypeList">
-              
-                <a href="#" data-id="text" onclick="clickcr(this, 'nwl.photooff', '', '', event);" class="selected"><span class="view1">텍스트뷰</span></a>
-              
-                <a href="#" data-id="photo" onclick="clickcr(this, 'nwl.photoon', '', '', event);"><span class="view2">포토뷰</span></a>
-              
-            </span>
-          </div>
+
         </div>
 
         <div id="_kboTeamList" class="news_team" style="display:none;">
@@ -732,7 +683,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <div id="_ranking_news_tab_selector" class="aside_tab2">
           <div class="inner">
             <a href="#" class="selected" id="_ranking_news_tab_0" data-select-num="0"><span>배구</span></a>
-            <a href="#" id="_ranking_news_tab_1" data-select-num="1"><span>스포츠 종합</span></a>
+            
+           <!--  <a href="#" id="_ranking_news_tab_1" data-select-num="1"><span>스포츠 종합</span></a> -->
           </div>
         </div>
         <ul class="aside_news_list" id="_ranking_news_list_0">
@@ -755,7 +707,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
     
     
-      <a href="/volleyball/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a>
+ <!--      <a href="/volleyball/news/index?type=popular" class="more" style="position:absolute;" onclick="clickcr(this, 'aec*a.more', '', '', event);"><span>더보기</span></a> -->
     
   
 </div>
@@ -917,8 +869,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </div>
   
     
-      <a href="/volleyball/vod/index" class="more" onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a>
-    
+   
     
   
 
@@ -949,83 +900,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </script>
 
 
-
-
-
-
-
-
-
-
-
-
-<div id="photo" class="aside_inner">
   
-    <div class="aside_photo" style="" id="asidePhoto_0">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128729&amp;category=volleyball" class="title"><span>발언하는 김연경 선수</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128729&amp;photoId=3562225&amp;category=volleyball" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914702_web_20230607180512_20230607180727601.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914702_web_20230607180512_20230607180727601.jpg&amp;type=nf200_200" width="200" height="200" alt="발언하는 김연경 선수" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128729&amp;photoId=3562226&amp;category=volleyball" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914701_web_20230607180512_20230607180723428.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914701_web_20230607180512_20230607180723428.jpg&amp;type=nf100_100" width="100" height="100" alt="광화문 광장에서 토크 콘서트 갖는 박민식 장관과 배구 선수 김연경" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128729&amp;photoId=3562227&amp;category=volleyball" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914697_web_20230607180512_20230607180721670.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/07/NISI20230607_0019914697_web_20230607180512_20230607180721670.jpg&amp;type=nf100_100" width="100" height="100" alt="발언하는 박민식 장관" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
+
   
-    <div class="aside_photo" style="display:none;" id="asidePhoto_1">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128717&amp;category=volleyball" class="title"><span>취임 기자회견 하는 오기노 마사지 신임 감독</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128717&amp;photoId=3562082&amp;category=volleyball" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060709400000701_P4_20230607133112745.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060709400000701_P4_20230607133112745.jpg&amp;type=nf200_200" width="200" height="200" alt="취임 기자회견 하는 오기노 마사지 신임 감독" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128717&amp;photoId=3562083&amp;category=volleyball" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060711700000700_P4_20230607133011467.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060711700000700_P4_20230607133011467.jpg&amp;type=nf100_100" width="100" height="100" alt="취임 기자회견 하는 오기노 마사지 신임 감독" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128717&amp;photoId=3562084&amp;category=volleyball" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060709380000702_P4_20230607132820445.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/06/07/PYH2023060709380000702_P4_20230607132820445.jpg&amp;type=nf100_100" width="100" height="100" alt="질문에 답변하는 오기노 마사지 감독" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_2">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128652&amp;category=volleyball" class="title"><span>홍동선 "내가 도와줄께"</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128652&amp;photoId=3559241&amp;category=volleyball" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911439_web_20230604175313_20230604175511470.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911439_web_20230604175313_20230604175511470.jpg&amp;type=nf200_200" width="200" height="200" alt="홍동선 " 내가="" 도와줄께""="" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128652&amp;photoId=3559242&amp;category=volleyball" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911431_web_20230604175313_20230604175509548.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911431_web_20230604175313_20230604175509548.jpg&amp;type=nf100_100" width="100" height="100" alt="스파이크 교육하는 이현승" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128652&amp;photoId=3559243&amp;category=volleyball" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911442_web_20230604175313_20230604175507743.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/003/2023/06/04/NISI20230604_0019911442_web_20230604175313_20230604175507743.jpg&amp;type=nf100_100" width="100" height="100" alt="홍동선 " 이렇게="" 하는거야""="" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-    <div class="aside_photo" style="display:none;" id="asidePhoto_3">
-      <h3 class="title">PHOTO</h3>
-      <div class="viewer">
-        <div class="text">
-          <a href="/photocenter/photoList?albumId=128304&amp;category=volleyball" class="title"><span>인터뷰하는 염혜선</span></a>
-        </div>
-        <div class="inner">
-          <a href="/photocenter/photo?albumId=128304&amp;photoId=3542811&amp;category=volleyball" class="thmb thmb1"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052211230000701_P4_20230522144212322.jpg&amp;type=nf200_200" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052211230000701_P4_20230522144212322.jpg&amp;type=nf200_200" width="200" height="200" alt="인터뷰하는 염혜선" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128304&amp;photoId=3542801&amp;category=volleyball" class="thmb thmb2"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052207230000700_P4_20230522130506595.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052207230000700_P4_20230522130506595.jpg&amp;type=nf100_100" width="100" height="100" alt="VNL 출전을 위해 튀르키예로 출국하는 한국 여자배구대표팀" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-          <a href="/photocenter/photo?albumId=128304&amp;photoId=3542802&amp;category=volleyball" class="thmb thmb3"><img src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052208360000700_P4_20230522130408032.jpg&amp;type=nf100_100" class="imageLazyLoad" lazy-src="https://dthumb-phinf.pstatic.net/?src=http://imgnews.naver.net/image/001/2023/05/22/PYH2023052208360000700_P4_20230522130408032.jpg&amp;type=nf100_100" width="100" height="100" alt="인터뷰하는 문정원" onclick="clickcr(this, 'aec*g.photo', '', '', event);" onerror="imageOnError(this);"></a>
-        </div>
-        <a href="javascript:changeAsidePhoto(-1);" class="prev" onclick="clickcr(this, 'aec*g.prev', '', '', event);"><span>이전</span></a>
-        <a href="javascript:changeAsidePhoto(1);" class="next" onclick="clickcr(this, 'aec*g.next', '', '', event);"><span>다음</span></a>
-      </div>
-    </div>
-  
-</div>
+
 
 <script>
 
@@ -1077,18 +955,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
       
       <div class="sports_league">
-        <ul class="league_list">
-          <li class="league_item"><a href="/index" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/kbaseball/index" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/wbaseball/index" class="link_league">해외야구</a></li>
-          <li class="league_item"><a href="/kfootball/index" class="link_league">축구</a></li>
-          <li class="league_item"><a href="/wfootball/index" class="link_league">해외축구</a></li>
-          <li class="league_item"><a href="/basketball/index" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/volleyball/index" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/golf/index" class="link_league">N골프</a></li>
-          <li class="league_item"><a href="/general/index" class="link_league">일반</a></li>
-          <li class="league_item"><a href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
-        </ul>
+     <ul class="league_list">
+            <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+         </ul>
       </div>
     </div>
     <div class="sports_info">
