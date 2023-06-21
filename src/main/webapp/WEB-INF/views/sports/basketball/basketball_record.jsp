@@ -475,25 +475,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
   </li>
 
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
-  </li>
 </ul>
   
   
@@ -516,17 +497,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_match.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
@@ -535,11 +506,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li>
+
 </ul>
 </nav>
 
