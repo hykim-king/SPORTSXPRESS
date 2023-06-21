@@ -1085,7 +1085,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">Anfield</span>
+      <span class="place">${matches[3].location}</span>
     </div>
   </td>
   <td>
@@ -1100,8 +1100,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">${matches[0].hname}</span>
-              <span class="score">${matches[0].hscore}</span>
+              <span class="name">${matches[3].hname}</span>
+              <span class="score">${matches[3].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1111,8 +1111,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">${matches[0].ateam}</span>
-              <span class="score">${matches[0].ascore}</span>
+              <span class="name">${matches[3].ateam}</span>
+              <span class="score">${matches[3].ascore}</span>
             </span>
         
       
@@ -1135,7 +1135,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">${matches[2].location}</span>
+      <span class="place">${matches[4].location}</span>
     </div>
   </td>
   <td>
@@ -1150,8 +1150,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">3</span>
+              <span class="name">${matches[4].hname}</span>
+              <span class="score">${matches[4].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1161,8 +1161,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">웨스트햄</span>
-              <span class="score">0</span>
+              <span class="name">${matches[4].ateam}</span>
+              <span class="score">${matches[4].ascore}</span>
             </span>
         
       
@@ -1191,7 +1191,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">American Express Community Stadium</span>
+      <span class="place">${matches[5].location}</span>
     </div>
   </td>
   <td>
@@ -1206,8 +1206,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[5].hname}</span>
+              <span class="score">${matches[5].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1217,8 +1217,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">0</span>
+              <span class="name">${matches[5].ateam}</span>
+              <span class="score">${matches[5].ascore}</span>
             </span>
         
       
@@ -1247,7 +1247,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Dean Court</span>
+      <span class="place">${matches[6].location}</span>
     </div>
   </td>
   <td>
@@ -1262,8 +1262,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">본머스</span>
-              <span class="score">1</span>
+              <span class="name">${matches[6].hname}</span>
+              <span class="score">${matches[6].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -1272,8 +1272,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">첼시</span>
-              <span class="score">3</span>
+              <span class="name">${matches[6].ateam}</span>
+              <span class="score">${matches[6].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1297,7 +1297,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Etihad Stadium</span>
+      <span class="place">${matches[7].location}</span>
     </div>
   </td>
   <td>
@@ -1312,8 +1312,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">2</span>
+              <span class="name">${matches[7].hname}</span>
+              <span class="score">${matches[7].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1323,8 +1323,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리즈</span>
-              <span class="score">1</span>
+              <span class="name">${matches[7].ateam}</span>
+              <span class="score">${matches[7].ascore}</span>
             </span>
         
       
@@ -1347,7 +1347,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Tottenham Hotspur Stadium</span>
+      <span class="place">${matches[8].location}</span>
     </div>
   </td>
   <td>
@@ -1362,8 +1362,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">토트넘</span>
-              <span class="score">1</span>
+              <span class="name">${matches[8].hname}</span>
+              <span class="score">${matches[8].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1373,8 +1373,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">팰리스</span>
-              <span class="score">0</span>
+              <span class="name">${matches[8].ateam}</span>
+              <span class="score">${matches[8].ascore}</span>
             </span>
         
       
@@ -1398,7 +1398,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Molineux Stadium</span>
+      <span class="place">${matches[9].location}</span>
     </div>
   </td>
   <td>
@@ -1413,8 +1413,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">울버햄튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[9].hname}</span>
+              <span class="score">${matches[9].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1424,8 +1424,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스톤 빌라</span>
-              <span class="score">0</span>
+              <span class="name">${matches[9].ateam}</span>
+              <span class="score">${matches[9].ascore}</span>
             </span>
         
       
@@ -1453,7 +1453,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">01:30</span>
-      <span class="place">Anfield</span>
+      <span class="place">${matches[10].location}</span>
     </div>
   </td>
   <td>
@@ -1468,8 +1468,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리버풀</span>
-              <span class="score">1</span>
+              <span class="name">${matches[10].hname}</span>
+              <span class="score">${matches[10].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1479,8 +1479,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브렌트포드</span>
-              <span class="score">0</span>
+              <span class="name">${matches[10].ateam}</span>
+              <span class="score">${matches[10].ascore}</span>
             </span>
         
       
@@ -1508,7 +1508,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">St James' Park</span>
+      <span class="place">${matches[11].location}</span>
     </div>
   </td>
   <td>
@@ -1523,8 +1523,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">뉴캐슬</span>
-              <span class="score">0</span>
+              <span class="name">${matches[11].hname}</span>
+              <span class="score">${matches[11].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -1533,8 +1533,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스널</span>
-              <span class="score">2</span>
+              <span class="name">${matches[11].ateam}</span>
+              <span class="score">${matches[11].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1558,7 +1558,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">03:00</span>
-      <span class="place">London Stadium</span>
+      <span class="place">${matches[12].location}</span>
     </div>
   </td>
   <td>
@@ -1573,8 +1573,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">웨스트햄</span>
-              <span class="score">1</span>
+              <span class="name">${matches[12].hname}</span>
+              <span class="score">${matches[12].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1584,8 +1584,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">0</span>
+              <span class="name">${matches[12].ateam}</span>
+              <span class="score">${matches[12].ascore}</span>
             </span>
         
       
@@ -1609,7 +1609,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Craven Cottage</span>
+      <span class="place">${matches[13].location}</span>
     </div>
   </td>
   <td>
@@ -1624,8 +1624,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">풀럼</span>
-              <span class="score">5</span>
+              <span class="name">${matches[13].hname}</span>
+              <span class="score">${matches[13].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1635,8 +1635,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">레스터</span>
-              <span class="score">3</span>
+              <span class="name">${matches[13].ateam}</span>
+              <span class="score">${matches[13].ascore}</span>
             </span>
         
       
@@ -1664,7 +1664,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">01:30</span>
-      <span class="place">American Express Community Stadium</span>
+      <span class="place">${matches[14].location}</span>
     </div>
   </td>
   <td>
@@ -1679,8 +1679,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[14].hname}</span>
+              <span class="score">${matches[14].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -1689,8 +1689,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">에버턴</span>
-              <span class="score">5</span>
+              <span class="name">${matches[14].ateam}</span>
+              <span class="score">${matches[14].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1714,7 +1714,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">City Ground</span>
+      <span class="place">${matches[15].location}</span>
     </div>
   </td>
   <td>
@@ -1729,8 +1729,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">노팅엄 포레스트</span>
-              <span class="score">4</span>
+              <span class="name">${matches[15].hname}</span>
+              <span class="score">${matches[15].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1740,8 +1740,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">사우샘프턴</span>
-              <span class="score">3</span>
+              <span class="name">${matches[15].ateam}</span>
+              <span class="score">${matches[15].ascore}</span>
             </span>
         
       
@@ -1805,7 +1805,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">20:30</span>
-      <span class="place">Elland Road</span>
+      <span class="place">${matches[16].location}</span>
     </div>
   </td>
   <td>
@@ -1820,8 +1820,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리즈</span>
-              <span class="score">2</span>
+              <span class="name">${matches[16].hname}</span>
+              <span class="score">${matches[16].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -1830,8 +1830,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">뉴캐슬</span>
-              <span class="score">2</span>
+              <span class="name">${matches[16].ateam}</span>
+              <span class="score">${matches[16].ascore}</span>
             </span>
         
       
@@ -1854,7 +1854,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Villa Park</span>
+      <span class="place">${matches[17].location}</span>
     </div>
   </td>
   <td>
@@ -1869,8 +1869,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스톤 빌라</span>
-              <span class="score">2</span>
+              <span class="name">${matches[17].hname}</span>
+              <span class="score">${matches[17].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1880,8 +1880,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">토트넘</span>
-              <span class="score">1</span>
+              <span class="name">${matches[17].ateam}</span>
+              <span class="score">${matches[17].ascore}</span>
             </span>
         
       
@@ -1905,7 +1905,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Stamford Bridge</span>
+      <span class="place">${matches[18].location}</span>
     </div>
   </td>
   <td>
@@ -1920,8 +1920,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">첼시</span>
-              <span class="score">2</span>
+              <span class="name">${matches[18].hname}</span>
+              <span class="score">${matches[18].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -1930,8 +1930,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">노팅엄 포레스트</span>
-              <span class="score">2</span>
+              <span class="name">${matches[18].ateam}</span>
+              <span class="score">${matches[18].ascore}</span>
             </span>
         
       
@@ -1954,7 +1954,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Selhurst Park</span>
+      <span class="place">${matches[19].location}</span>
     </div>
   </td>
   <td>
@@ -1969,8 +1969,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">팰리스</span>
-              <span class="score">2</span>
+              <span class="name">${matches[19].hname}</span>
+              <span class="score">${matches[19].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -1980,8 +1980,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">본머스</span>
-              <span class="score">0</span>
+              <span class="name">${matches[19].ateam}</span>
+              <span class="score">${matches[19].ascore}</span>
             </span>
         
       
@@ -2004,7 +2004,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Old Trafford</span>
+      <span class="place">${matches[20].location}</span>
     </div>
   </td>
   <td>
@@ -2019,8 +2019,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">2</span>
+              <span class="name">${matches[20].hname}</span>
+              <span class="score">${matches[20].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2030,8 +2030,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">울버햄튼</span>
-              <span class="score">0</span>
+              <span class="name">${matches[20].ateam}</span>
+              <span class="score">${matches[20].ascore}</span>
             </span>
         
       
@@ -2055,7 +2055,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">St. Mary's Stadium</span>
+      <span class="place">${matches[21].location}</span>
     </div>
   </td>
   <td>
@@ -2070,8 +2070,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">사우샘프턴</span>
-              <span class="score">0</span>
+              <span class="name">${matches[21].hname}</span>
+              <span class="score">${matches[21].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2080,8 +2080,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">풀럼</span>
-              <span class="score">2</span>
+              <span class="name">${matches[21].ateam}</span>
+              <span class="score">${matches[21].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2110,7 +2110,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">22:00</span>
-      <span class="place">Brentford Community Stadium</span>
+      <span class="place">${matches[22].location}</span>
     </div>
   </td>
   <td>
@@ -2125,8 +2125,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브렌트포드</span>
-              <span class="score">2</span>
+              <span class="name">${matches[22].hname}</span>
+              <span class="score">${matches[22].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2136,8 +2136,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">웨스트햄</span>
-              <span class="score">0</span>
+              <span class="name">${matches[22].ateam}</span>
+              <span class="score">${matches[22].ascore}</span>
             </span>
         
       
@@ -2160,7 +2160,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">22:00</span>
-      <span class="place">Goodison Park</span>
+      <span class="place">${matches[23].location}</span>
     </div>
   </td>
   <td>
@@ -2175,8 +2175,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">에버턴</span>
-              <span class="score">0</span>
+              <span class="name">${matches[23].hname}</span>
+              <span class="score">${matches[23].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2185,8 +2185,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">3</span>
+              <span class="name">${matches[23].ateam}</span>
+              <span class="score">${matches[23].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2216,7 +2216,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Emirates Stadium</span>
+      <span class="place">${matches[24].location}</span>
     </div>
   </td>
   <td>
@@ -2231,8 +2231,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스널</span>
-              <span class="score">0</span>
+              <span class="name">${matches[24].hname}</span>
+              <span class="score">${matches[24].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2241,8 +2241,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">3</span>
+              <span class="name">${matches[24].ateam}</span>
+              <span class="score">${matches[24].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2272,7 +2272,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">King Power Stadium</span>
+      <span class="place">${matches[25].location}</span>
     </div>
   </td>
   <td>
@@ -2287,8 +2287,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">레스터</span>
-              <span class="score">0</span>
+              <span class="name">${matches[25].hname}</span>
+              <span class="score">${matches[25].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2297,8 +2297,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리버풀</span>
-              <span class="score">3</span>
+              <span class="name">${matches[25].ateam}</span>
+              <span class="score">${matches[25].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2351,7 +2351,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">03:30</span>
-      <span class="place">St James' Park</span>
+      <span class="place">${matches[26].location}</span>
     </div>
   </td>
   <td>
@@ -2366,8 +2366,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">뉴캐슬</span>
-              <span class="score">4</span>
+              <span class="name">${matches[26].hname}</span>
+              <span class="score">${matches[26].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2377,8 +2377,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[26].ateam}</span>
+              <span class="score">${matches[26].ascore}</span>
             </span>
         
       
@@ -2406,7 +2406,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">20:30</span>
-      <span class="place">Tottenham Hotspur Stadium</span>
+      <span class="place">${matches[27].location}</span>
     </div>
   </td>
   <td>
@@ -2421,8 +2421,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">토트넘</span>
-              <span class="score">1</span>
+              <span class="name">${matches[27].hname}</span>
+              <span class="score">${matches[27].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2431,8 +2431,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브렌트포드</span>
-              <span class="score">3</span>
+              <span class="name">${matches[27].ateam}</span>
+              <span class="score">${matches[27].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2457,7 +2457,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Dean Court</span>
+      <span class="place">${matches[28].location}</span>
     </div>
   </td>
   <td>
@@ -2472,8 +2472,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">본머스</span>
-              <span class="score">0</span>
+              <span class="name">${matches[28].hname}</span>
+              <span class="score">${matches[28].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -2482,8 +2482,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">1</span>
+              <span class="name">${matches[28].ateam}</span>
+              <span class="score">${matches[28].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -2507,7 +2507,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Craven Cottage</span>
+      <span class="place">${matches[29].location}</span>
     </div>
   </td>
   <td>
@@ -2522,8 +2522,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">풀럼</span>
-              <span class="score">2</span>
+              <span class="name">${matches[29].hname}</span>
+              <span class="score">${matches[29].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -2532,8 +2532,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">팰리스</span>
-              <span class="score">2</span>
+              <span class="name">${matches[29].ateam}</span>
+              <span class="score">${matches[29].ascore}</span>
             </span>
         
       
@@ -2556,7 +2556,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Anfield</span>
+      <span class="place">${matches[30].location}</span>
     </div>
   </td>
   <td>
@@ -2571,8 +2571,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리버풀</span>
-              <span class="score">1</span>
+              <span class="name">${matches[30].hname}</span>
+              <span class="score">${matches[30].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -2581,8 +2581,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스톤 빌라</span>
-              <span class="score">1</span>
+              <span class="name">${matches[30].ateam}</span>
+              <span class="score">${matches[30].ascore}</span>
             </span>
         
       
@@ -2606,7 +2606,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">23:00</span>
-      <span class="place">Molineux Stadium</span>
+      <span class="place">${matches[31].location}</span>
     </div>
   </td>
   <td>
@@ -2621,8 +2621,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">울버햄튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[31].hname}</span>
+              <span class="score">${matches[31].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -2631,8 +2631,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">에버턴</span>
-              <span class="score">1</span>
+              <span class="name">${matches[31].ateam}</span>
+              <span class="score">${matches[31].ascore}</span>
             </span>
         
       
@@ -2661,7 +2661,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">01:30</span>
-      <span class="place">City Ground</span>
+      <span class="place">${matches[32].location}</span>
     </div>
   </td>
   <td>
@@ -2676,8 +2676,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">노팅엄 포레스트</span>
-              <span class="score">1</span>
+              <span class="name">${matches[32].hname}</span>
+              <span class="score">${matches[32].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2687,8 +2687,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스널</span>
-              <span class="score">0</span>
+              <span class="name">${matches[32].ateam}</span>
+              <span class="score">${matches[32].ascore}</span>
             </span>
         
       
@@ -2712,7 +2712,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">21:30</span>
-      <span class="place">London Stadium</span>
+      <span class="place">${matches[33].location}</span>
     </div>
   </td>
   <td>
@@ -2727,8 +2727,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">웨스트햄</span>
-              <span class="score">3</span>
+              <span class="name">${matches[33].hname}</span>
+              <span class="score">${matches[33].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2738,8 +2738,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리즈</span>
-              <span class="score">1</span>
+              <span class="name">${matches[33].ateam}</span>
+              <span class="score">${matches[33].ascore}</span>
             </span>
         
       
@@ -2762,7 +2762,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">22:00</span>
-      <span class="place">American Express Community Stadium</span>
+      <span class="place">${matches[34].location}</span>
     </div>
   </td>
   <td>
@@ -2777,8 +2777,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">3</span>
+              <span class="name">${matches[34].hname}</span>
+              <span class="score">${matches[34].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2788,8 +2788,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">사우샘프턴</span>
-              <span class="score">1</span>
+              <span class="name">${matches[34].ateam}</span>
+              <span class="score">${matches[34].ascore}</span>
             </span>
         
       
@@ -2818,7 +2818,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:00</span>
-      <span class="place">Etihad Stadium</span>
+      <span class="place">${matches[35].location}</span>
     </div>
   </td>
   <td>
@@ -2833,8 +2833,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">1</span>
+              <span class="name">${matches[35].hname}</span>
+              <span class="score">${matches[35].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -2844,8 +2844,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">첼시</span>
-              <span class="score">0</span>
+              <span class="name">${matches[35].ateam}</span>
+              <span class="score">${matches[35].ascore}</span>
             </span>
         
       
@@ -2874,7 +2874,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">St James' Park</span>
+      <span class="place">${matches[36].location}</span>
     </div>
   </td>
   <td>
@@ -2889,8 +2889,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">뉴캐슬</span>
-              <span class="score">0</span>
+              <span class="name">${matches[36].hname}</span>
+              <span class="score">${matches[36].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -2899,8 +2899,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">레스터</span>
-              <span class="score">0</span>
+              <span class="name">${matches[36].ateam}</span>
+              <span class="score">${matches[36].ascore}</span>
             </span>
         
       
@@ -2940,7 +2940,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">American Express Community Stadium</span>
+      <span class="place">${matches[37].location}</span>
     </div>
   </td>
   <td>
@@ -2955,8 +2955,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[37].hname}</span>
+              <span class="score">${matches[37].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -2965,8 +2965,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">1</span>
+              <span class="name">${matches[37].ateam}</span>
+              <span class="score">${matches[37].ascore}</span>
             </span>
         
       
@@ -2994,7 +2994,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">04:00</span>
-      <span class="place">Old Trafford</span>
+      <span class="place">${matches[38].location}</span>
     </div>
   </td>
   <td>
@@ -3009,8 +3009,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">4</span>
+              <span class="name">${matches[38].hname}</span>
+              <span class="score">${matches[38].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3020,8 +3020,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">첼시</span>
-              <span class="score">1</span>
+              <span class="name">${matches[38].ateam}</span>
+              <span class="score">${matches[38].ascore}</span>
             </span>
         
       
@@ -3074,7 +3074,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Emirates Stadium</span>
+      <span class="place">${matches[39].location}</span>
     </div>
   </td>
   <td>
@@ -3089,8 +3089,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스널</span>
-              <span class="score">5</span>
+              <span class="name">${matches[39].hname}</span>
+              <span class="score">${matches[39].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3100,8 +3100,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">울버햄튼</span>
-              <span class="score">0</span>
+              <span class="name">${matches[39].ateam}</span>
+              <span class="score">${matches[39].ascore}</span>
             </span>
         
       
@@ -3124,7 +3124,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Villa Park</span>
+      <span class="place">${matches[40].location}</span>
     </div>
   </td>
   <td>
@@ -3139,8 +3139,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아스톤 빌라</span>
-              <span class="score">2</span>
+              <span class="name">${matches[40].hname}</span>
+              <span class="score">${matches[40].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3150,8 +3150,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라이튼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[40].ateam}</span>
+              <span class="score">${matches[40].ascore}</span>
             </span>
         
       
@@ -3174,7 +3174,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Brentford Community Stadium</span>
+      <span class="place">${matches[41].location}</span>
     </div>
   </td>
   <td>
@@ -3189,8 +3189,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브렌트포드</span>
-              <span class="score">1</span>
+              <span class="name">${matches[41].hname}</span>
+              <span class="score">${matches[41].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3200,8 +3200,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨시티</span>
-              <span class="score">0</span>
+              <span class="name">${matches[41].ateam}</span>
+              <span class="score">${matches[41].ascore}</span>
             </span>
         
       
@@ -3224,7 +3224,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Stamford Bridge</span>
+      <span class="place">${matches[42].location}</span>
     </div>
   </td>
   <td>
@@ -3239,8 +3239,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">첼시</span>
-              <span class="score">1</span>
+              <span class="name">${matches[42].hname}</span>
+              <span class="score">${matches[42].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -3249,8 +3249,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">뉴캐슬</span>
-              <span class="score">1</span>
+              <span class="name">${matches[42].ateam}</span>
+              <span class="score">${matches[42].ascore}</span>
             </span>
         
       
@@ -3273,7 +3273,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Selhurst Park</span>
+      <span class="place">${matches[43].location}</span>
     </div>
   </td>
   <td>
@@ -3288,8 +3288,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">팰리스</span>
-              <span class="score">1</span>
+              <span class="name">${matches[43].hname}</span>
+              <span class="score">${matches[43].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -3298,8 +3298,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">노팅엄 포레스트</span>
-              <span class="score">1</span>
+              <span class="name">${matches[43].ateam}</span>
+              <span class="score">${matches[43].ascore}</span>
             </span>
         
       
@@ -3322,7 +3322,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Goodison Park</span>
+      <span class="place">${matches[44].location}</span>
     </div>
   </td>
   <td>
@@ -3337,8 +3337,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">에버턴</span>
-              <span class="score">1</span>
+              <span class="name">${matches[44].hname}</span>
+              <span class="score">${matches[44].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3348,8 +3348,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">본머스</span>
-              <span class="score">0</span>
+              <span class="name">${matches[44].ateam}</span>
+              <span class="score">${matches[44].ascore}</span>
             </span>
         
       
@@ -3372,7 +3372,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Elland Road</span>
+      <span class="place">${matches[45].location}</span>
     </div>
   </td>
   <td>
@@ -3387,8 +3387,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리즈</span>
-              <span class="score">1</span>
+              <span class="name">${matches[45].hname}</span>
+              <span class="score">${matches[45].hscore}</span>
             </span>
           <span class="team_right winner">
               
@@ -3397,8 +3397,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">토트넘</span>
-              <span class="score">4</span>
+              <span class="name">${matches[45].ateam}</span>
+              <span class="score">${matches[45].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -3423,7 +3423,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">King Power Stadium</span>
+      <span class="place">${matches[46].location}</span>
     </div>
   </td>
   <td>
@@ -3438,8 +3438,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">레스터</span>
-              <span class="score">2</span>
+              <span class="name">${matches[46].hname}</span>
+              <span class="score">${matches[46].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3449,8 +3449,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">웨스트햄</span>
-              <span class="score">1</span>
+              <span class="name">${matches[46].ateam}</span>
+              <span class="score">${matches[46].ascore}</span>
             </span>
         
       
@@ -3473,7 +3473,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">Old Trafford</span>
+      <span class="place">${matches[47].location}</span>
     </div>
   </td>
   <td>
@@ -3488,8 +3488,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">맨유</span>
-              <span class="score">2</span>
+              <span class="name">${matches[47].hname}</span>
+              <span class="score">${matches[47].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
@@ -3499,8 +3499,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">풀럼</span>
-              <span class="score">1</span>
+              <span class="name">${matches[47].ateam}</span>
+              <span class="score">${matches[47].ascore}</span>
             </span>
         
       
@@ -3523,7 +3523,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <td class="time_place">
     <div class="inner">
       <span class="time">00:30</span>
-      <span class="place">St. Mary's Stadium</span>
+      <span class="place">${matches[48].location}</span>
     </div>
   </td>
   <td>
@@ -3538,8 +3538,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">사우샘프턴</span>
-              <span class="score">4</span>
+              <span class="name">${matches[48].hname}</span>
+              <span class="score">${matches[48].hscore}</span>
             </span>
           <span class="team_right ">
               
@@ -3548,8 +3548,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                   <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">리버풀</span>
-              <span class="score">4</span>
+              <span class="name">${matches[48].ateam}</span>
+              <span class="score">${matches[48].ascore}</span>
             </span>
         
       
