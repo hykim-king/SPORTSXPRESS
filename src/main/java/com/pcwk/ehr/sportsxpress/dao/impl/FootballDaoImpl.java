@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.FootballRecordVO;
 import com.pcwk.ehr.sportsxpress.dao.FootballDao;
 
 @Repository
@@ -61,6 +62,12 @@ public class FootballDaoImpl implements FootballDao {
 		}
 
 		return outList;
+	}
+
+	@Override
+	public List<FootballRecordVO> FootballRecordInfo(FootballRecordVO getMatch) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
