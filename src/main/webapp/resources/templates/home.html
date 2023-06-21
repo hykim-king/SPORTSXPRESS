@@ -1,3 +1,4 @@
+
 <html lang="ko" data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"><head><script async="" type="text/javascript" src="https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js"></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -414,11 +415,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <div id="veta_skin_left" data-veta-preview="p_sports_dpl" style="display:none;"></div>
 <div id="veta_skin_right" data-veta-preview="p_sports_dpl" style="display:none;"></div>
 
-<div id="u_skip">
+<!-- <div id="u_skip">
 	<a href="#lnb_main_sub" onclick="document.getElementById('lnb_main_sub').tabIndex=-1;document.getElementById('lnb_main_sub').focus();"><span>메인 메뉴로 바로가기</span></a>
 	<div id="lnb_menu_link"></div>
 	<div id="container_link"><a href="#container" onclick="document.getElementById('container').tabIndex=-1;document.getElementById('container').focus();"><span>본문으로 바로가기</span></a></div>
-</div>
+</div> -->
 
 <div id="wrap">
 	
@@ -1058,6 +1059,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 				this._prevButton = $("#_section_home_livebox_root button.button_prev");
 				this._nextButton = $("#_section_home_livebox_root button.button_next");
 
+				
 				// cards.length > 4 일 때 init 발생, 초기 두 개의 값을 통해 card 간 padding 계산
 				var pages = this._scroll.pages;
 				var cardPadding = pages[0][0].x - pages[1][0].x;
@@ -1135,18 +1137,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
     </div>
 </div>
-<div class="cms_side_banner" id="_cms_side_banner">
-	<div class="banner" style="background-image: url('https://sports-phinf.pstatic.net/20230616_188/1686905941863C30H4_PNG/%C0%CE%B5%F0%BE%C6%B3%AA%C1%B8%BD%BA_%BB%E7%C0%CC%B5%E5%BD%BA%C5%B2_L.png');">
-		<a href="https://naver.me/5vYylh6o" onclick="(function(){var renderLog = new Image(); renderLog.src = 'https://collector.sports.naver.com/custom?customType=sports_ad_click&amp;package=SPORTS&amp;sponsor=인디아나존스&amp;account=인디아나존스(6/20)&amp;contents=ad_contents_home_side_banner&amp;position=콘텐츠1&amp;_time=' + new Date().getTime(); })()" class="link">
-			<span class="blind">좌</span>
-		</a>
-	</div>
-	<div class="banner" style="background-image: url('https://sports-phinf.pstatic.net/20230616_61/1686905948148HRLG5_PNG/%C0%CE%B5%F0%BE%C6%B3%AA%C1%B8%BD%BA_%BB%E7%C0%CC%B5%E5%BD%BA%C5%B2_R.png');">
-		<a href="https://naver.me/5vYylh6o" onclick="(function(){var renderLog = new Image(); renderLog.src = 'https://collector.sports.naver.com/custom?customType=sports_ad_click&amp;package=SPORTS&amp;sponsor=인디아나존스&amp;account=인디아나존스(6/20)&amp;contents=ad_contents_home_side_banner&amp;position=콘텐츠1&amp;_time=' + new Date().getTime(); })()" class="link">
-			<span class="blind">우</span>
-		</a>
-	</div>
-</div>
+
 <div id="content">
     
     <div class="main_wrap">
@@ -1163,31 +1154,129 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 <h3 class="blind">오늘의 스포츠</h3>
 <ul class="today_list">
-			<c:foreach var="art" items="${articles}" begin="0" end="4" >
+
 			<li class="today_item">
 				
-				<a href="${art.hyperlink}" class="link_today" title="&quot;마요르카,언플 멈춰!&quot; 이강인 이미 PSG행 '던딜'…새 감독 선임 후 발표 계획" onclick="clickcr(this, 'rnk*r.list', '076_0004021695', '1', event);" data-not-edited="Y">
+				<a href="https://sports.news.naver.com/news?oid=018&aid=0005510014" class="link_today" title="&quot;마요르카,언플 멈춰!&quot; 이강인 이미 PSG행 '던딜'…새 감독 선임 후 발표 계획" onclick="clickcr(this, 'rnk*r.list', '076_0004021695', '1', event);" data-not-edited="Y">
 
 					<div class="image_area">
 						<!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
 
-						<img src="${art.thumbnail} onerror="imageOnError(this);" width="160" height="95" alt="">
+						<img src="https://imgnews.pstatic.net/image/origin/018/2023/06/16/5510014.jpg?type=w140 onerror="imageOnError(this);" width="160" height="95" alt="">
 					</div>
 					<div class="text_area">
-						<strong class="title">${art.title}</strong>
+						<strong class="title">전북현대 미드필더 백승호, 5월 '이달의선수상' 수상</strong>
 						<!-- [D] 내용 두줄 말줄임 적용해주세요. -->
 						<p class="news">
-							사진캡처=산티 아우나 SNS[스포츠조선 윤진만 기자]'파리강인'이 될 날이 머지않은 것 같다.프랑스 라디오 '파리 블루 파리스'는 최근 팟캐스트를 통해 이강..."
+							전북현대 미드필더 백승호(26)가 5월 한 달 동안 가장 빛난 활약을 펼친 선수로 인정받았다.프로축구연맹은 ...
 						</p>
 						<div class="information">
-							<span>스포츠조선</span>
-							<span>해외축구 일반</span>
+							<span>이데일리</span>
+							<span>축구</span>
 						</div>
 					</div>
 				</a>
 			</li>
-		</c:foreach>
-	
+			<li class="today_item"> 
+        <a href="https://sports.news.naver.com/news?oid=468&aid=0000947082" class="link_today" title="강진성 트레이드 영입한 SSG 김성용 단장 우리가 먼저 요청, 우리 구장에서는 홈런도 기대" onclick="clickcr(this, 'rnk*r.list', '241_0003283092', '1', event);" data-not-edited="Y">
+          <div class="image_area">
+            <!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
+            <img src="https://imgnews.pstatic.net/image/468/2023/05/25/0000947082_001_20230525160203896.jpg?type=w647" onerror="imageOnError(this);" width="160" height="95" alt="">
+          </div>
+          <div class="text_area">
+            <strong class="title">강진성은 이날 바로 SSG 1군에 합류할 계획이다. 강진성의 SSG 데뷔전 시점은 합류 후 결정된다.</strong>
+            <!-- [D] 내용 두줄 말줄임 적용해주세요. -->
+            <p class="news">
+                                  강진성 트레이드 영입한 SSG 김성용 단장 우리가 먼저 요청, 우리 구장에서는 홈런도 기대...
+            </p>
+            <div class="information">
+              <span>OSEN</span>
+              <span>야구</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="today_item"> 
+        <a href="https://sports.news.naver.com/news?oid=398&aid=0000068941" class="link_today" title="어빙이 아니다? LAL, 르브론-AD와 빅3 이룰 특급 가드 영입 고려" onclick="clickcr(this, 'rnk*r.list', '241_0003283092', '1', event);" data-not-edited="Y">
+          <div class="image_area">
+            <!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
+            <img src="https://imgnews.pstatic.net/image/398/2023/05/25/0000068941_001_20230525161701364.jpg?type=w647" onerror="imageOnError(this);" width="160" height="95" alt="">
+          </div>
+          <div class="text_area">
+            <strong class="title">어빙이 아니다? LAL, 르브론-AD와 빅3 이룰 특급 가드 영입 고려</strong>
+            <!-- [D] 내용 두줄 말줄임 적용해주세요. -->
+            <p class="news">
+                                 '디 애슬레틱'의 LA 레이커스 전담 기자 요반 부하는 25일(이하 한국시간) 레이커스의 이적 시장 영입 계획에 대해 보도했다... 
+            </p>
+            <div class="information">
+              <span>루키</span>
+              <span>농구</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="today_item"> 
+        <a href="https://sports.news.naver.com/news?oid=445&aid=0000115342" class="link_today" title="KOVO-구미시, 2023 도드람컵대회 유치 협약" onclick="clickcr(this, 'rnk*r.list', '241_0003283092', '1', event);" data-not-edited="Y">
+          <div class="image_area">
+            <!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
+            <img src="https://imgnews.pstatic.net/image/445/2023/05/25/0000115342_001_20230525160101483.jpg?type=w647" onerror="imageOnError(this);" width="160" height="95" alt="">
+          </div>
+          <div class="text_area">
+            <strong class="title">KOVO-구미시, 2023 도드람컵대회 유치 협약</strong>
+            <!-- [D] 내용 두줄 말줄임 적용해주세요. -->
+            <p class="news">
+                                 시즌만에 프로배구가 구미시를 찾아왔다. 올해는 구미에서 '여름배구'를 볼 수 있다.한국배구연맹(KOVO)은...
+            </p>
+            <div class="information">
+              <span>MHN스포츠</span>
+              <span>배구</span>
+            </div>
+          </div>
+        </a>
+      </li>
+       <li class="today_item"> 
+        <a href="https://sports.news.naver.com/news?oid=421&aid=0006829980" class="link_today" title="골프여제의 낯선 랭킹 101위…엄마 박인비 복귀 일정은" onclick="clickcr(this, 'rnk*r.list', '241_0003283092', '1', event);" data-not-edited="Y">
+          <div class="image_area">
+            <!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
+            <img src="https://imgnews.pstatic.net/image/421/2023/05/25/0006829980_001_20230525162001498.jpg?type=w647" onerror="imageOnError(this);" width="160" height="95" alt="">
+          </div>
+          <div class="text_area">
+            <strong class="title">골프여제의 낯선 랭킹 101위…엄마 박인비 복귀 일정은</strong>
+            <!-- [D] 내용 두줄 말줄임 적용해주세요. -->
+            <p class="news">
+            1년 전까지 '톱10' 유지하다 휴식기 길어져 100위권 밖 출산유예로 2025년까지 LPGA 시드 유지…"올해는 휴식"..
+            </p>
+            <div class="information">
+              <span>뉴스1</span>
+              <span>골프</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      </li>
+       <li class="today_item"> 
+        <a href="https://sports.news.naver.com/news?oid=117&aid=0003737981" class="link_today" title="덴버에 요키치·머레이만 있다고? '슈퍼루키' 알토란 활약 승리 견인" onclick="clickcr(this, 'rnk*r.list', '241_0003283092', '1', event);" data-not-edited="Y">
+          <div class="image_area">
+            <!-- [D] 썸네일 이미지 alt 값 비워주세요. -->
+            <img src="https://imgnews.pstatic.net/image/117/2023/06/09/202306091542615433_1_20230609154302296.jpg?type=w647" onerror="imageOnError(this);" width="160" height="95" alt="">
+          </div>
+          <div class="text_area">
+            <strong class="title">덴버에 요키치·머레이만 있다고? '슈퍼루키' 알토란 활약 승리 견인</strong>
+            <!-- [D] 내용 두줄 말줄임 적용해주세요. -->
+            <p class="news">
+                            덴버는 8일(이하 한국 시각) 미국 플로리다주 마이애미 카세야 센터에서 펼쳐진 챔피언결정 3차전에서 109-94로 이겼다..
+            </p>
+            <div class="information">
+              <span>마이데일리</span>
+              <span>농구</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      
+      
+    </ul>
+	</div>
 		
         <div class="aside_section">
             <!-- aside template -->
@@ -1742,7 +1831,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 	
 	
-	<div class="shopping_section">
+	<!-- <div class="shopping_section">
 		<h3 class="section_title">
 			
 				
@@ -1836,7 +1925,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
     </div>
-</div>
+</div> -->
 
 
 
@@ -1897,7 +1986,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 	</iframe>
 	{{/with}}
 </script>
-<script>
+<!-- <script>
 	//TODO section pc2018 인건 평창끝나면 지워주세요
 	//NOTE : 뉴스 엔드 하단 광고 경우엔 NewsEndAdUnit.java 에서 데이터 내려주고 있음.
 
@@ -1963,7 +2052,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         {"sid":"tv_bottom_banner", "name":"P_스포츠_생중계_하단배너", "section":"general", "type":"pc", "oldUnitId":"", "unitId":"SU10670", "previewId":"p_sports_live", "width":"700", "height":"70", "menu":"", "calpId":"general", "useCase":"iframe"},
         {"sid":"tv_bottom_banner", "name":"P_스포츠_생중계_하단배너", "section":"esports", "type":"pc", "oldUnitId":"", "unitId":"SU10670", "previewId":"p_sports_live", "width":"700", "height":"70", "menu":"", "calpId":"esports", "useCase":"iframe"}
 	];
-</script>
+</script> -->
 
 
 <script id="_homeSideBannerTemplate" type="text/x-handlebars-template">
