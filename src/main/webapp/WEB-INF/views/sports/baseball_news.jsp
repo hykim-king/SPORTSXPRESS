@@ -2966,7 +2966,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 								<ul>
 									<!-- 20개씩 기사가 출력되게 -->
-									<c:forEach var="art" items="${articles}">
+									<c:forEach var="art" items="${articles}" begin="0" end="19">
 										<li><a href="${art.hyperlink}" class="thmb"
 											onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
 												width="140" src="${art.thumbnail}"
@@ -3927,11 +3927,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 			</div>
 
-			<!-- 				<div id="footer">
+						<div id="footer">
 					<div class="inner">
-						<div class="page_area"> -->
+						<div class="page_area"> 
 
-			<!-- 					<div class="notice_text">공지사항</div>
+						<div class="notice_text">공지사항</div>
 							<div class="sports_notice">
 
 								<a href="https://blog.naver.com/naver_sports/223118608681"
@@ -3944,26 +3944,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 							<div class="sports_league">
 								<ul class="league_list">
-									<li class="league_item"><a href="/index"
-										class="link_league">홈</a></li>
-									<li class="league_item"><a href="/kbaseball/index"
-										class="link_league">야구</a></li>
-									<li class="league_item"><a href="/wbaseball/index"
-										class="link_league">해외야구</a></li>
-									<li class="league_item"><a href="/kfootball/index"
-										class="link_league">축구</a></li>
-									<li class="league_item"><a href="/wfootball/index"
-										class="link_league">해외축구</a></li>
-									<li class="league_item"><a href="/basketball/index"
-										class="link_league">농구</a></li>
-									<li class="league_item"><a href="/volleyball/index"
-										class="link_league">배구</a></li>
-									<li class="league_item"><a href="/golf/index"
-										class="link_league">N골프</a></li>
-									<li class="league_item"><a href="/general/index"
-										class="link_league">일반</a></li>
-									<li class="league_item"><a
-										href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
+									<li class="league_item"><a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+									<li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+									<li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+									<li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+									<li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+									<li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
 								</ul>
 							</div>
 						</div>
@@ -3997,7 +3983,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									Corp.</a></span>
 						</div>
 					</div> 
-				</div> -->
+				</div>
 
 
 			<script type="text/javascript"
