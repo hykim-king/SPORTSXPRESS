@@ -42,21 +42,7 @@
 <link rel="apple-touch-icon" sizes="180x180"
 	href="https://imgsports.pstatic.net/images/mobile/favicon_20180622/ios/iOS_180X180_iPhone.png">
 <!-- 레티나 패드 -->
-<!-- script -->
-<script></script>
 
-<script></script>
-
-
-
-<script>
-	
-</script>
-
-
-<script>
-	
-</script>
 <style id="gnb_style" type="text/css">
 @charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */

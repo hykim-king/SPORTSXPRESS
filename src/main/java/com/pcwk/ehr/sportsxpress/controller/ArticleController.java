@@ -26,33 +26,33 @@ public class ArticleController {
 	}
 
 	@Autowired
-	ArticleService article_Service;
+	ArticleService articleService;
 
-	@RequestMapping(value = "/sportsxpress/ArticleInfo.do", method = RequestMethod.GET)
+	@Autowired
+	VideoService videoService;
+
+	@Autowired
+	TeamService teamService;
+
+	@RequestMapping(value = "/sportsxpress/article_info.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, Model model) throws SQLException {
-		List<ArticleVO> articleList = article_Service.getArticleInfo(getArticle);
+		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 		model.addAttribute("articles", articleList);
 
 		return "sports/kBaseball_Index";
 	}
 
-	@Autowired
-	TeamService team_Service;
-
-	@RequestMapping(value = "/sportsxpress/TeamInfo.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/sportsxpress/team_info.do", method = RequestMethod.GET)
 	public String TeamInfo(TeamVO getTeam, Model model) throws SQLException {
-		List<TeamVO> TeamList = team_Service.getTeamInfo(getTeam);
+		List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
 		model.addAttribute("teams", TeamList);
 
 		return "sports/team";
 	}
 
-	@Autowired
-	VideoService video_Service;
-
-	@RequestMapping(value = "/sportsxpress/VideoInfo.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/sportsxpress/video_info.do", method = RequestMethod.GET)
 	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
-		List<VideoVO> VideoList = video_Service.getVideoInfo(getVideo);
+		List<VideoVO> VideoList = videoService.getVideoInfo(getVideo);
 		model.addAttribute("videos", VideoList);
 
 		return "sports/video";

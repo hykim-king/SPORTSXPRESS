@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
@@ -58,7 +57,7 @@ public class FootballController {
 
 	}
 	
-	@RequestMapping(value = "/football_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/football_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(FootballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 		getMatch.setLname("프리미어리그");
 		List<FootballMatchVO> matchList = FootballService.getFootballMatchInfo(getMatch);
@@ -71,8 +70,5 @@ public class FootballController {
 		return "sports/wFootball_Schedule";
 
 	}
-	
-
 	// -------------------------------------------------------------------------//
-
 }
