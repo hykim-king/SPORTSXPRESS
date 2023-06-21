@@ -57,7 +57,7 @@ public class FootballController {
 
 	}
 	
-	@RequestMapping(value = "/football_schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/football_Schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(FootballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 		getMatch.setLname("프리미어리그");
 		List<FootballMatchVO> matchList = FootballService.getFootballMatchInfo(getMatch);
@@ -67,7 +67,7 @@ public class FootballController {
 	    model.addAttribute("teams", TeamList);
 		
 
-		return "sports/football/football_Schedule";
+		return "sports/football/football_schedule";
 
 	}
 	// -------------------------------------------------------------------------//
