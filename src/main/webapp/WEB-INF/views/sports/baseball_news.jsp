@@ -2210,11 +2210,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 					<div class="gnb_one" id="gnb">
 						<strong class="blind">사용자 링크</strong>
 						<ul class="gnb_lst" id="gnb_lst" style="display: block;">
-							<li class="gnb_login_li" id="gnb_login_layer"
+	<!-- 						<li class="gnb_login_li" id="gnb_login_layer"
 								style="display: inline-block;"><a class="gnb_btn_login"
 								href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fkbaseball%2Fnews%2Findex"
 								id="gnb_login_button"><span class="gnb_bg"></span><span
-									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li>
+									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li> -->
 							<li class="gnb_my_li" id="gnb_my_layer" style="display: none"><div
 									class="gnb_my_namebox" id="gnb_my_namebox"
 									style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);">

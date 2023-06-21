@@ -2202,11 +2202,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 					<div class="gnb_one" id="gnb">
 						<strong class="blind">사용자 링크</strong>
 						<ul class="gnb_lst" id="gnb_lst" style="display: block;">
-							<li class="gnb_login_li" id="gnb_login_layer"
+	<!-- 						<li class="gnb_login_li" id="gnb_login_layer"
 								style="display: inline-block;"><a class="gnb_btn_login"
 								href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.naver.com%2Fbasketball%2Fnews%2Findex"
 								id="gnb_login_button"><span class="gnb_bg"></span><span
-									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li>
+									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li> -->
 							<li class="gnb_my_li" id="gnb_my_layer" style="display: none"><div
 									class="gnb_my_namebox" id="gnb_my_namebox"
 									style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);">
@@ -2333,11 +2333,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										class="gnb_ico_new"><span class="gnb_count"
 											id="gnb_mail_count"></span></span></em></a></li>
 							<li class="gnb_service_li" id="gnb_service_layer"
-								style="display: inline-block;"><a href="javascript:;"
+								style="display: inline-block;"><!-- <a href="javascript:;"
 								class="gnb_service"
 								onclick="gnbMoreLayer.clickToggle(); return false;"><span
 									class="blind">서비스 더보기</span><span class="gnb_icon"></span><span
-									class="ico_arrow"></span></a>
+									class="ico_arrow"></span></a> -->
 							<div class="gnb_service_lyr" id="gnb_service_lyr">
 									<div class="gnb_favorite_search" id="gnb_favorite_search">
 										<div class="gnb_favorite_area">
@@ -3473,7 +3473,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<div class="sports_info">
 					<div class="link_area">
 						<div class="main_area">
-							<a href="javascript:moveToLoginForm();" class="link"
+							<!-- <a href="javascript:moveToLoginForm();" class="link"
 								id="login_status"><strong>로그인</strong></a> <a
 								href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
 							<a target="_blank"
@@ -3496,7 +3496,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
 					<span class="naver">© <a ref="http://www.navercorp.com/"
 						target="_blank" onclick="clickcr(this, 'fot.nhn', '', '', event);">NAVER
-							Corp.</a></span>
+							Corp.</a></span> -->
 				</div>
 			</div>
 
