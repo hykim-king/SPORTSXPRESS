@@ -31,7 +31,7 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballInfoVO> selectFootballInfo(FootballInfoVO getplayer) throws SQLException {
 		List<FootballInfoVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerInfo";
+		String statement = this.NAMESPACE + DOT + "selectFootballInfo";
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
@@ -49,7 +49,7 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballMatchVO> selectFootballMatchInfo(FootballMatchVO getMatch) throws SQLException {
 		List<FootballMatchVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerMatchInfo";
+		String statement = this.NAMESPACE + DOT + "selectFootballMatchInfo";
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");

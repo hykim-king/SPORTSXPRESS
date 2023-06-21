@@ -244,7 +244,7 @@
     ORDER BY time asc
 	</select>
 
-	<select id="selectSoccerInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
+	<select id="selectFootballInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
 		SELECT
 			footid
 			, lname
@@ -272,7 +272,7 @@
 		FROM football_info
 	</select>
 
-	<select id="selectSoccerMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
+	<select id="selectFootballMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
 		SELECT
 			footno
 			, season

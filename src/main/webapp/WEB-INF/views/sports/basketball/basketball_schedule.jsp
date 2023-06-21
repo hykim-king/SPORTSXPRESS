@@ -650,12 +650,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                             </em>
                         </div>
                         <div class="vs_lft">
-                            <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="안양 KGC" title="안양 KGC" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/41/70.png&amp;type=f64_64&amp;refresh=1" onerror="imageOnError(this);"></div>
+                            <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="안양 KGC" title="안양 KGC" src="${matches[6].hname_logo}" onerror="imageOnError(this);"></div>
                             <span class="vs_team">${matches[6].hname}</span>
                             <strong class="vs_num">${matches[6].hscore}<span class="vs_bg"></span></strong>
                         </div>
                         <div class="vs_rgt">
-                            <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="서울 SK" title="서울 SK" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/41/55.png&amp;type=f64_64&amp;refresh=1" onerror="imageOnError(this);"></div>
+                            <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="서울 SK" title="서울 SK" src="${matches[6].ateam_logo}" onerror="imageOnError(this);"></div>
                             <span class="vs_team">${matches[6].ateam}</span>
                             <strong class="vs_num">${matches[6].ascore}</strong>
                         </div>
