@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BasketballRecordVO;
 
 public interface BasketballDao {
 
@@ -23,4 +24,12 @@ public interface BasketballDao {
 	 * @throws SQLException
 	 */
 	List<BasketballMatchVO> selectBasketballMatchInfo(BasketballMatchVO getMatch) throws SQLException;
+	
+	/**
+	 * 경기 정보 추출
+	 * @param getMatch
+	 * @return
+	 * @throws SQLException
+	 */
+	List<BasketballRecordVO> basketballRecordInfo(BasketballRecordVO getMatch) throws SQLException;
 }

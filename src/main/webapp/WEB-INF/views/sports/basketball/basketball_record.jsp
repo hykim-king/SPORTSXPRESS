@@ -18,39 +18,8 @@
             <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/volleyball_gamecenter.css">
 
         
-        
-        
-
-        
-        
-    
-    
-        
-        
-        
             <title>기록/순위, 농구 : 네이버 스포츠</title>
-        
-        
-        
-        
-        
-        
-    
 
-    <script></script>
-
-    <script></script>
-
-    
-
-<script>
- 
-</script>
-
-<script ></script>
-<script>
-
-</script>
 <style id="gnb_style" type="text/css">@charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
 a.gnb_my, .gnb_icon, #gnb .gnb_my_interface, .gnb_my_li .gnb_my_content .gnb_membership, #gnb .gnb_ico_num .gnb_ico_new, #gnb .gnb_ico_num .gnb_ico_new .gnb_count, .gnb_lst .ico_arrow, a.gnb_my .filter_mask, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_my_li .gnb_my_content .gnb_edit_lst li, .gnb_notice_li .gnb_notice_lyr, .gnb_notice_li .svc_list .gnb_ico_mail, .gnb_notice_li .svc_list .gnb_btn_remove span, .gnb_notice_li .svc_list .gnb_btn_remove i, .gnb_notice_li .gnb_error .gnb_ico_error, .gnb_ly_alert .gnb_btn_close i, .gnb_first_visit, .gnb_search_box, .gnb_search_box .gnb_del_txt, .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new, .gnb_svc_more .svc_btnwrp button { background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v14.png) no-repeat -999px -999px;   background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v15.png?v=2006) no-repeat -999px -999px; /* background: url(../img/sp_gnb_v15.png) no-repeat -999px -999px; */}
@@ -400,7 +369,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                 
 
   
-  
     <header id="header" class="sports_header_pc">
       <div class="sports_gnb" role="banner">
         
@@ -435,16 +403,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <!-- 추후 제거, lnbMenuInfoList 를 받아오기 위하여 사용중 -->
 
             
-            
-
-
-
-
-<script>
-  
-</script>
-
-            
 
 
 <nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
@@ -452,138 +410,111 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/baseball_index.do" class="link_lnb" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/soccer_info.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/basketball_index.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    <a href="/wfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    <a href="/basketball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
   </li>
 
+  <li class="lnb_item" role="presentation">
+    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+  </li>
 </ul>
+
   
   
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   
 </nav>
 <nav class="sports_lnb_sub">
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/basketball/news/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/basketball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
+    <span class="menu">영상</span>
+    </a>
+  </li>
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/photocenter/albumList?category=kbasketball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
+    <span class="menu">생생화보</span>
+    </a>
+  </li>
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/basketball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
+    <a href="/basketball/record/index?category=kbl" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
     <span class="menu">기록/순위</span>
     </a>
   </li>
-
+  <li class="lnb_sub_item " role="presentation">
+    <a href="/basketball/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
+    <span class="menu">구단/협회</span>
+    </a>
+  </li>
 </ul>
 </nav>
-
-<script>
- 
-</script>
-
-<script>
- 
-</script>
-
-<script>
-  
-</script>
-
-<script>
-  
-</script>
-
     </header>
-    <script></script>
-    <script>
-     
-    </script>
-  
 
                     <div id="container">
                         <div class="cms_side_banner" id="_cms_side_banner"></div>
-                        
-<script>
-  
-</script>
+
                         <div id="content">
                             
-                                
-                                
-                                
-                                    
-
-
-
-
 
 
 <div class="tab_event">
-    <ul class="list" id="_categoryList">
-        
-            
-            
-                
-                    
-                        
-                        
-                            
-                        
-                    
-                    <li class="selected"><a href="/basketball/record/index?category=kbl" data-category="kbl"><span class="menu">프로농구</span></a></li>
-                
-                    
-                        
-                            
-                        
-                        
-                    
-                    <li><a href="/basketball/record/index?category=nba" data-category="nba"><span class="menu">NBA</span></a></li>
-                
-                    
-                        
-                        
-                            
-                        
-                    
-                    <li><a href="/basketball/record/index?category=wkbl" data-category="wkbl"><span class="menu">여자프로농구</span></a></li>
-                
-            
-        
-     </ul>
+    <ul class="list" id="_categoryList">     
+           <li class="selected"><a href="/basketball/record/index?category=kbl" data-category="kbl"><span class="menu">프로농구</span></a></li>
+    </ul>
 </div>
 <div class="sch_volleyball tb_k_w">
   
@@ -619,113 +550,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       <ul class="option_list" role="listbox" id="_yearList">
         <!-- [D] 선텍된 button.btn_option 에 aria-selected="true" 를 적용 해 주세요. -->
         <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
-        
-          
-          
+       
           <li class="list" role="presentation">
             <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2023'">2022-23</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2022'">2021-22</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2021'">2020-21</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2020'">2019-20</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2019'">2018-19</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2018'">2017-18</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2017'">2016-17</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2016'">2015-16</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2015'">2014-15</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2014'">2013-14</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2013'">2012-13</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2012'">2011-12</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2011'">2010-11</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2010'">2009-10</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2009'">2008-09</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2008'">2007-08</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2007'">2006-07</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2006'">2005-06</button>
           </li>
         
       </ul>
@@ -733,21 +560,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
     <!-- [D] 비활성화 되어야 하는 button.btn_move_date 에 disabled 속성을 추가 해 주세요. -->
     
-      
-      
-        <button class="btn_move_date prev" type="button" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2022'"><span class="blind">이전 시즌으로 이동</span></button>
-      
-    
-    
-      
-        <button class="btn_move_date next" type="button" disabled=""><span class="blind">다음 시즌으로 이동</span></button>
-      
-      
+
     
   </div>
-  <div class="now_date_area">
-    <button class="btn_now_date" type="button" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2023'">현재<span class="blind">시즌으로 이동</span></button>
-  </div>
+
 </div>
 </div>
 <div class="tbl_box">

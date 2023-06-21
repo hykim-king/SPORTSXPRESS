@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BasketballRecordVO;
 import com.pcwk.ehr.sportsxpress.dao.BasketballDao;
 import com.pcwk.ehr.sportsxpress.service.BasketballService;
 
@@ -36,6 +37,11 @@ public class BasketballServiceImpl implements BasketballService {
 	public List<BasketballMatchVO> getMatchInfo(BasketballMatchVO getMatch) throws SQLException {
 		
 		return basketballDao.selectBasketballMatchInfo(getMatch);
+	}
+	
+	@Override
+	public List<BasketballRecordVO> getBasketballRecordInfo(BasketballRecordVO getMatch) throws SQLException {
+		return basketballDao.basketballRecordInfo(getMatch);
 	}
 
 }
