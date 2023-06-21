@@ -85,7 +85,7 @@ public class VolleyballController {
 		model.addAttribute("matches", matchList);
 		model.addAttribute("teams", teamList);
 
-		return "sports/volleyball_Schedule";
+		return "sports/volleyball/ballvolleyball_Schedule";
 	}
 
 	// 기록/순위

@@ -67,7 +67,7 @@ public class FootballController {
 	    model.addAttribute("teams", TeamList);
 		
 
-		return "sports/wFootball_Schedule";
+		return "sports/football_Schedule";
 
 	}
 	// -------------------------------------------------------------------------//

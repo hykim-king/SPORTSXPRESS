@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
   <meta name="viewport" content="width=1080px,maximum-scale=2.0,minimum-scale=0.4,user-scalable=yes">
   <meta property="og:image" content="https://imgsports.pstatic.net/images/mobile/common/NAVERsports.png">
-  <meta property="og:title" content="일정/결과, 축구 : 네이버 스포츠">
+  <meta property="og:title" content="일정/결과, 해외축구 : 네이버 스포츠">
   <meta property="og:description" content="스포츠의 시작과 끝!">
   <meta name="description" content="스포츠의 모든 것, 네이버 스포츠와 함께 하세요">
   
@@ -18,10 +18,10 @@
     
     
     
-      <meta property="og:url" content="https://sports.news.naver.com/kfootball/schedule/index.nhn">
+      <meta property="og:url" content="https://sports.news.naver.com/wfootball/schedule/index.nhn">
     
   
-  <title>일정/결과, 축구 : 네이버 스포츠</title>
+  <title>일정/결과, 해외축구 : 네이버 스포츠</title>
   
   <script></script>
   <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/generated/nsportsCss.css">
@@ -389,7 +389,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_ico_new,
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_count {background: #e1523a;}
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_ico_new {border-radius: 13px 0 0 13px;}
-#gnb.gnb_one_pwe .gnb_ico_num .gnb_count {border-radius: 0 13px 13px 0;}</style><script></script><script></script><script></script></head>
+#gnb.gnb_one_pwe .gnb_ico_num .gnb_count {border-radius: 0 13px 13px 0;}</style><script type="text/javascript" id="undefined" src="https://ssl.pstatic.net/static/common/js/cs_ops_webncc.js"></script><script type="text/javascript" id="undefined" src="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/js/generated/baseJsBottomLazy.js"></script><script src="https://ssl.pstatic.net/static.gn/js/clickcrD.js" id="gnb_clickcrD" charset="utf-8"></script></head>
 
 <body>
 <!-- 사이드 광고 -->
@@ -407,7 +407,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
   
   
-    <header id="header" class="sports_header_pc">
+    <header id="header" class="sports_header_pc type_wfootball">
       <div class="sports_gnb" role="banner">
         
 
@@ -429,7 +429,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </script>
         <!-- GNB -->
         <div class="tool_area">
-          <div class="gnb_one" id="gnb"><strong class="blind">사용자 링크</strong><ul class="gnb_lst" id="gnb_lst" style="display: block;"><li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;"><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fkfootball%2Fschedule%2Findex" id="gnb_login_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li><li class="gnb_my_li" id="gnb_my_layer" style="display:none"><div class="gnb_my_namebox" id="gnb_my_namebox" style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);"><a href="javascript:;" id="gnb_my" class="gnb_my" onclick="gnbUserLayer.clickToggle(); return false;"><img id="gnb_profile_img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="26" height="26" alt="내 프로필 이미지"><span id="gnb_profile_filter_mask" class="filter_mask"></span> <span class="gnb_name" id="gnb_name1"></span><em class="blind">내정보 보기</em><span class="ico_arrow"></span></a><a href="#" class="gnb_emp" id="gnb_emp">(임직원혜택)</a></div><div class="gnb_my_lyr" id="gnb_my_lyr"><div class="gnb_my_content"><div class="gnb_img_area"><span class="gnb_mask"></span><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="80" height="80" alt="프로필 이미지"><a href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType" class="gnb_change"><span class="blind">프로필 사진 변경</span></a></div><div class="gnb_txt_area"><p class="gnb_account"><span class="gnb_name" id="gnb_name2"><a class="gnb_nick" href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType">_</a>님</span><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fsports.news.naver.com%2Fkfootball%2Fschedule%2Findex" id="gnb_logout_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그아웃</span></a></p><a href="https://mail.naver.com" class="gnb_mail_address">@naver.com</a><ul class="gnb_edit_lst"><li class="gnb_info"><a href="https://nid.naver.com/user2/help/myInfo?menu=home">네이버ID</a></li><li class="gnb_secure" id="gnb_secure_lnk"><a href="https://nid.naver.com/user2/help/myInfo?m=viewSecurity&amp;menu=security">보안설정</a></li><li class="gnb_cert" id="gnb_cert_lnk"><a href="https://nid.naver.com/user2/eSign/v1/home/land" id="gnb_cert_lnk_a">내인증서</a></li></ul><div class="gnb_pay_check" id="gnb_pay_check"><p class="gnb_membership" style="display: none;" id="gnb_membership"><a href="https://nid.naver.com/membership/my" class="gnb_my_membership" id="gnb_my_membership"><i class="blind">네이버 멤버쉽</i></a></p><em>N Pay</em><a href="https://pay.naver.com" id="gnb_pay_point"><span style="display: none">내 페이포인트</span></a></div></div></div><div class="gnb_my_community"><a href="https://blog.naver.com/MyBlog.naver" class="gnb_blog">내 블로그</a><a href="https://section.cafe.naver.com" class="gnb_cafe">가입한 카페</a><a href="https://pay.naver.com" class="gnb_pay" id="gnb_pay_banner_membership" style="display: block;"><span>N Pay</span></a><a href="https://nid.naver.com/membership/join" class="gnb_pay" id="gnb_pay_banner_newbie" style="display: none;"><i>네이버 멤버십 최대 5% 적립</i></a></div><a href="#" class="gnb_my_interface" style="display:none"><span class="blind">환경설정</span></a></div><iframe id="gnb_my_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li><li class="gnb_notice_li" id="gnb_notice_layer" style="display:none"><a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;"><span class="blind">알림</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_me_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a><div class="gnb_notice_lyr" id="gnb_notice_lyr"><div class="svc_noti svc_panel"><div class="svc_scroll"><div class="svc_head"><strong class="gnb_tit">전체 알림</strong><div class="task_right"><button onclick="gnbNaverMeLayer.deleteReadList(this, event);" id="gnb_btn_read_noti_del">읽은 알림 삭제</button><button onclick="gnbNaverMeLayer.showDeleteAlert();" id="gnb_btn_all_noti_del">모두 삭제</button></div></div><div class="svc_body" id="gnb_naverme_layer"></div></div><div class="gnb_ly_alert" id="gnb_ly_alert" style="display: none;"><p class="gnb_msg"><strong>알림을 모두 삭제하시겠습니까?</strong></p><div class="gnb_btns"><button id="ly_alert_confirm" onclick="gnbNaverMeLayer.deleteAllList(this, event);">확인</button><button onclick="gnbNaverMeLayer.hideDeleteAlert();">취소</button></div><button class="gnb_btn_close" onclick="gnbNaverMeLayer.hideDeleteAlert();"><i>레이어 닫기</i></button></div><a href="https://m.notify.naver.com" class="gnb_notice_all">내 알림 전체보기</a></div></div><iframe id="gnb_notice_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li><li class="mail_li" id="gnb_mail_layer" style="display:none"><a href="https://mail.naver.com" class="gnb_mail"><span class="blind">메일</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_mail_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span></em></a></li><li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;"><a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a><div class="gnb_service_lyr" id="gnb_service_lyr"><div class="gnb_favorite_search" id="gnb_favorite_search"><div class="gnb_favorite_area"><div class="gnb_favorite_lstwrp"><div class="gnb_first_visit" style="display:none"><span class="blind">나만의 즐겨찾기를 추가해 보세요!</span><a href="#" class="gnb_close"><span class="blind">닫기</span></a></div><strong class="blind">즐겨찾는 서비스</strong><ul class="gnb_favorite_lst" id="gnb_favorite_lst"><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li></ul><a href="#" class="gnb_my_interface" onclick="gnbMoreLayer.clickToggleWhole(); return false;"><span class="blind">즐겨찾기 설정</span></a></div></div><div class="gnb_search_area"><div class="gnb_search_box" onmouseover="gnb_search.mouseOver(this);" onmouseout="gnb_search.mouseOut(this);"><input id="gnb_svc_search_input" type="text" title="서비스 검색" value="더 많은 서비스를 간편하게 시작하세요!" onfocus="gnb_search.clearInput(this);" onblur="gnb_search.resetInput(this);" onkeydown="gnb_search.keyDown(event);" onkeyup="gnb_search.keyUp(event);"><a href="#" class="gnb_del_txt" id="gnb_del_txt" style="display:none"><span class="blind">삭제</span></a><div class="gnb_pop_input" id="gnb_pop_input" tabindex="0" onfocus="gnb_search.searchPopOnMouse = true; return false;" onfocusout="gnb_search.searchPopOnMouse = false; return false;" onmouseover="gnb_search.searchPopOnMouse = true; return false;" onmouseout="gnb_search.searchPopOnMouse = false; return false;" style="display:none"><ul class="gnb_pop_lst"></ul></div></div><div id="gnb_search_lstwrp" class="gnb_search_lstwrp"><ul class="gnb_search_lst gnb_first"><li class="gnb_first"><a id="gnb_search_lst_first_item" href="https://cafe.naver.com/">카페</a></li><li><a href="https://news.naver.com/">뉴스</a></li><li><a href="https://map.naver.com/">지도</a></li><li><a href="https://sports.news.naver.com/">스포츠</a></li><li><a href="https://game.naver.com/">게임</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://section.blog.naver.com/">블로그</a></li><li><a href="https://post.naver.com/main.nhn">포스트</a></li><li><a href="https://dict.naver.com/">사전</a></li><li><a href="https://kin.naver.com/">지식iN</a></li><li><a href="https://weather.naver.com/">날씨</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://mail.naver.com/">메일</a></li><li><a href="https://stock.naver.com/">증권</a></li><li><a href="https://land.naver.com/">부동산</a></li><li><a href="https://vibe.naver.com/today/">VIBE</a></li><li><a href="https://book.naver.com">책</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://shopping.naver.com/">쇼핑</a></li><li><a href="https://comic.naver.com/">웹툰</a></li><li><a href="https://movie.naver.com/">영화</a></li><li><a href="https://mybox.naver.com/">MYBOX</a></li><li><a href="https://novel.naver.com/webnovel/weekday">웹소설</a></li></ul></div></div><div class="gnb_banner"><a href="https://campaign.naver.com/npay/rediret/index.nhn" class="gnb_service_event"><img id="gnb_promo" alt="N페이, 이벤트 참여하면 포인트 적립!" width="265" height="47" src="https://ssl.pstatic.net/static/common/gnb/banner/promo_npay_200108.png"></a></div><div class="gnb_linkwrp"><a href="https://www.naver.com/more.html" class="gnb_service_all" id="gnb_service_all">전체 서비스 보기</a></div></div><div class="gnb_svc_more" id="gnb_svc_more" style=""><strong class="blind">네이버 주요 서비스</strong><div class="gnb_bg_top"></div><div class="gnb_svc_hd" id="gnb_svc_hd" tabindex="0"><strong class="gnb_svc_tit">바로가기 설정</strong><span class="link"><a href="https://www.naver.com/more.html">전체 서비스 보기</a></span></div><div class="gnb_svc_lstwrp"><div class="gnb_svc_lst1"><ul class="gnb_first"><li><input type="checkbox" id="nsvc_game" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_game">게임</label></li><li><input type="checkbox" id="nsvc_weather" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_weather">날씨</label></li><li><input type="checkbox" id="nsvc_shopping" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_shopping">네이버쇼핑</label></li><li><input type="checkbox" id="nsvc_navercast" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navercast">네이버캐스트</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_naverpay" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_naverpay">네이버페이<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_mybox" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mybox">네이버 MYBOX</label></li><li><input type="checkbox" id="nsvc_news" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_news">뉴스</label></li><li><input type="checkbox" id="nsvc_comic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_comic">웹툰</label></li><li><input type="checkbox" id="nsvc_memo" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_memo">메모</label></li><li><input type="checkbox" id="nsvc_mail" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mail">메일</label></li><li><input type="checkbox" id="nsvc_land" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_land">부동산</label></li><li><input type="checkbox" id="nsvc_bookmark" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_bookmark">북마크</label></li><li><input type="checkbox" id="nsvc_blog" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_blog">블로그</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_dic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dic">사전</label></li><li><input type="checkbox" id="nsvc_smartboard" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_smartboard">스마트보드</label></li><li><input type="checkbox" id="nsvc_sports" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_sports">스포츠</label></li><li><input type="checkbox" id="nsvc_series" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_series">시리즈</label></li><li><input type="checkbox" id="nsvc_serieson" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_serieson">시리즈on</label></li><li><input type="checkbox" id="nsvc_movie" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_movie">영화</label></li><li><input type="checkbox" id="nsvc_office" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_office">오피스</label></li><li><input type="checkbox" id="nsvc_novel" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_novel">웹소설</label></li><li><input type="checkbox" id="nsvc_contact" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_contact">주소록</label></li><li><input type="checkbox" id="nsvc_finance" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_finance">증권(금융)</label></li><li><input type="checkbox" id="nsvc_map" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_map">지도</label></li><li><input type="checkbox" id="nsvc_kin" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_kin">지식iN</label></li><li><input type="checkbox" id="nsvc_terms" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_terms">지식백과</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_book" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_book">책</label></li><li><input type="checkbox" id="nsvc_cafe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cafe">카페</label></li><li><input type="checkbox" id="nsvc_calendar" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_calendar">캘린더</label></li><li><input type="checkbox" id="nsvc_navertv" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navertv">네이버TV</label></li></ul></div><div class="svc_lst2"><div class="svc_spc gnb_first"><strong><a href="https://dict.naver.com/">어학사전</a></strong><ul class=""><li><input type="checkbox" id="nsvc_krdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_krdic">국어사전</label></li><li><input type="checkbox" id="nsvc_endic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_endic">영어/영영사전</label></li><li><input type="checkbox" id="nsvc_hanja" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_hanja">한자사전</label></li><li><input type="checkbox" id="nsvc_jpdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_jpdic">일어사전</label></li><li><input type="checkbox" id="nsvc_cndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cndic">중국어사전</label></li><li><input type="checkbox" id="nsvc_frdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_frdic">프랑스어사전</label></li><li><input type="checkbox" id="nsvc_dedic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dedic">독일어사전</label></li><li><input type="checkbox" id="nsvc_rudic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_rudic">러시아어사전</label></li><li><input type="checkbox" id="nsvc_vndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vndic">베트남어사전</label></li><li><input type="checkbox" id="nsvc_spdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_spdic">스페인어사전</label></li><li><input type="checkbox" id="nsvc_papago" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_papago">파파고</label></li></ul></div><div class="svc_spc"><strong>인기/신규서비스</strong><ul class=""><li><input type="checkbox" id="nsvc_grafolio" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_grafolio">그라폴리오</label></li><li><input type="checkbox" id="nsvc_post" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_post">포스트</label></li><li><input type="checkbox" id="nsvc_band" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_band">밴드</label></li><li><input type="checkbox" id="nsvc_line" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_line">라인</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_vibe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vibe">VIBE<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_pcontents" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_pcontents">프리미엄콘텐츠</label></li></ul></div></div></div><div class="svc_btnwrp"><div class="svc_btns"><button class="gnb_save" onclick="if(gnbFavorite.addService()){gnbMoreLayer.clickToggleWhole()} return false;"><strong class="blind">확인</strong></button><button class="gnb_close" onclick="gnbFavorite.cancel(); return false;"><span class="blind">취소</span></button><button class="gnb_return" onclick="gnbFavorite.resetService(); return false;"><span class="blind">초기 설정으로 변경</span></button></div></div><div class="gnb_bg_btm"></div></div></div><iframe id="gnb_service_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 311px; width: 585px; height: 385px; opacity: 0;"></iframe><iframe id="gnb_svc_more_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 10px; width: 295px; height: 385px; opacity: 0;"></iframe></li></ul></div>
+          <div class="gnb_one" id="gnb"><strong class="blind">사용자 링크</strong><ul class="gnb_lst" id="gnb_lst" style="display: block;"><li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;"><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Fschedule%2Findex" id="gnb_login_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li><li class="gnb_my_li" id="gnb_my_layer" style="display:none"><div class="gnb_my_namebox" id="gnb_my_namebox" style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);"><a href="javascript:;" id="gnb_my" class="gnb_my" onclick="gnbUserLayer.clickToggle(); return false;"><img id="gnb_profile_img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="26" height="26" alt="내 프로필 이미지"><span id="gnb_profile_filter_mask" class="filter_mask"></span> <span class="gnb_name" id="gnb_name1"></span><em class="blind">내정보 보기</em><span class="ico_arrow"></span></a><a href="#" class="gnb_emp" id="gnb_emp">(임직원혜택)</a></div><div class="gnb_my_lyr" id="gnb_my_lyr"><div class="gnb_my_content"><div class="gnb_img_area"><span class="gnb_mask"></span><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='" width="80" height="80" alt="프로필 이미지"><a href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType" class="gnb_change"><span class="blind">프로필 사진 변경</span></a></div><div class="gnb_txt_area"><p class="gnb_account"><span class="gnb_name" id="gnb_name2"><a class="gnb_nick" href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType">_</a>님</span><a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Fschedule%2Findex" id="gnb_logout_button"><span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그아웃</span></a></p><a href="https://mail.naver.com" class="gnb_mail_address">@naver.com</a><ul class="gnb_edit_lst"><li class="gnb_info"><a href="https://nid.naver.com/user2/help/myInfo?menu=home">네이버ID</a></li><li class="gnb_secure" id="gnb_secure_lnk"><a href="https://nid.naver.com/user2/help/myInfo?m=viewSecurity&amp;menu=security">보안설정</a></li><li class="gnb_cert" id="gnb_cert_lnk"><a href="https://nid.naver.com/user2/eSign/v1/home/land" id="gnb_cert_lnk_a">내인증서</a></li></ul><div class="gnb_pay_check" id="gnb_pay_check"><p class="gnb_membership" style="display: none;" id="gnb_membership"><a href="https://nid.naver.com/membership/my" class="gnb_my_membership" id="gnb_my_membership"><i class="blind">네이버 멤버쉽</i></a></p><em>N Pay</em><a href="https://pay.naver.com" id="gnb_pay_point"><span style="display: none">내 페이포인트</span></a></div></div></div><div class="gnb_my_community"><a href="https://blog.naver.com/MyBlog.naver" class="gnb_blog">내 블로그</a><a href="https://section.cafe.naver.com" class="gnb_cafe">가입한 카페</a><a href="https://pay.naver.com" class="gnb_pay" id="gnb_pay_banner_membership" style="display: block;"><span>N Pay</span></a><a href="https://nid.naver.com/membership/join" class="gnb_pay" id="gnb_pay_banner_newbie" style="display: none;"><i>네이버 멤버십 최대 5% 적립</i></a></div><a href="#" class="gnb_my_interface" style="display:none"><span class="blind">환경설정</span></a></div><iframe id="gnb_my_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li><li class="gnb_notice_li" id="gnb_notice_layer" style="display:none"><a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;"><span class="blind">알림</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_me_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a><div class="gnb_notice_lyr" id="gnb_notice_lyr"><div class="svc_noti svc_panel"><div class="svc_scroll"><div class="svc_head"><strong class="gnb_tit">전체 알림</strong><div class="task_right"><button onclick="gnbNaverMeLayer.deleteReadList(this, event);" id="gnb_btn_read_noti_del">읽은 알림 삭제</button><button onclick="gnbNaverMeLayer.showDeleteAlert();" id="gnb_btn_all_noti_del">모두 삭제</button></div></div><div class="svc_body" id="gnb_naverme_layer"></div></div><div class="gnb_ly_alert" id="gnb_ly_alert" style="display: none;"><p class="gnb_msg"><strong>알림을 모두 삭제하시겠습니까?</strong></p><div class="gnb_btns"><button id="ly_alert_confirm" onclick="gnbNaverMeLayer.deleteAllList(this, event);">확인</button><button onclick="gnbNaverMeLayer.hideDeleteAlert();">취소</button></div><button class="gnb_btn_close" onclick="gnbNaverMeLayer.hideDeleteAlert();"><i>레이어 닫기</i></button></div><a href="https://m.notify.naver.com" class="gnb_notice_all">내 알림 전체보기</a></div></div><iframe id="gnb_notice_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li><li class="mail_li" id="gnb_mail_layer" style="display:none"><a href="https://mail.naver.com" class="gnb_mail"><span class="blind">메일</span><span class="gnb_icon"></span><em class="gnb_ico_num" id="gnb_mail_menu" style="display:none"><span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span></em></a></li><li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;"><a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a><div class="gnb_service_lyr" id="gnb_service_lyr"><div class="gnb_favorite_search" id="gnb_favorite_search"><div class="gnb_favorite_area"><div class="gnb_favorite_lstwrp"><div class="gnb_first_visit" style="display:none"><span class="blind">나만의 즐겨찾기를 추가해 보세요!</span><a href="#" class="gnb_close"><span class="blind">닫기</span></a></div><strong class="blind">즐겨찾는 서비스</strong><ul class="gnb_favorite_lst" id="gnb_favorite_lst"><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li><li class="gnb_add"><a href="#"><span class="ic_add"></span>추가</a></li></ul><a href="#" class="gnb_my_interface" onclick="gnbMoreLayer.clickToggleWhole(); return false;"><span class="blind">즐겨찾기 설정</span></a></div></div><div class="gnb_search_area"><div class="gnb_search_box" onmouseover="gnb_search.mouseOver(this);" onmouseout="gnb_search.mouseOut(this);"><input id="gnb_svc_search_input" type="text" title="서비스 검색" value="더 많은 서비스를 간편하게 시작하세요!" onfocus="gnb_search.clearInput(this);" onblur="gnb_search.resetInput(this);" onkeydown="gnb_search.keyDown(event);" onkeyup="gnb_search.keyUp(event);"><a href="#" class="gnb_del_txt" id="gnb_del_txt" style="display:none"><span class="blind">삭제</span></a><div class="gnb_pop_input" id="gnb_pop_input" tabindex="0" onfocus="gnb_search.searchPopOnMouse = true; return false;" onfocusout="gnb_search.searchPopOnMouse = false; return false;" onmouseover="gnb_search.searchPopOnMouse = true; return false;" onmouseout="gnb_search.searchPopOnMouse = false; return false;" style="display:none"><ul class="gnb_pop_lst"></ul></div></div><div id="gnb_search_lstwrp" class="gnb_search_lstwrp"><ul class="gnb_search_lst gnb_first"><li class="gnb_first"><a id="gnb_search_lst_first_item" href="https://cafe.naver.com/">카페</a></li><li><a href="https://news.naver.com/">뉴스</a></li><li><a href="https://map.naver.com/">지도</a></li><li><a href="https://sports.news.naver.com/">스포츠</a></li><li><a href="https://game.naver.com/">게임</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://section.blog.naver.com/">블로그</a></li><li><a href="https://post.naver.com/main.nhn">포스트</a></li><li><a href="https://dict.naver.com/">사전</a></li><li><a href="https://kin.naver.com/">지식iN</a></li><li><a href="https://weather.naver.com/">날씨</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://mail.naver.com/">메일</a></li><li><a href="https://stock.naver.com/">증권</a></li><li><a href="https://land.naver.com/">부동산</a></li><li><a href="https://vibe.naver.com/today/">VIBE</a></li><li><a href="https://book.naver.com">책</a></li></ul><ul class="gnb_search_lst"><li class="gnb_first"><a href="https://shopping.naver.com/">쇼핑</a></li><li><a href="https://comic.naver.com/">웹툰</a></li><li><a href="https://movie.naver.com/">영화</a></li><li><a href="https://mybox.naver.com/">MYBOX</a></li><li><a href="https://novel.naver.com/webnovel/weekday">웹소설</a></li></ul></div></div><div class="gnb_banner"><a href="https://campaign.naver.com/npay/rediret/index.nhn" class="gnb_service_event"><img id="gnb_promo" alt="N페이, 이벤트 참여하면 포인트 적립!" width="265" height="47" src="https://ssl.pstatic.net/static/common/gnb/banner/promo_npay_200108.png"></a></div><div class="gnb_linkwrp"><a href="https://www.naver.com/more.html" class="gnb_service_all" id="gnb_service_all">전체 서비스 보기</a></div></div><div class="gnb_svc_more" id="gnb_svc_more" style=""><strong class="blind">네이버 주요 서비스</strong><div class="gnb_bg_top"></div><div class="gnb_svc_hd" id="gnb_svc_hd" tabindex="0"><strong class="gnb_svc_tit">바로가기 설정</strong><span class="link"><a href="https://www.naver.com/more.html">전체 서비스 보기</a></span></div><div class="gnb_svc_lstwrp"><div class="gnb_svc_lst1"><ul class="gnb_first"><li><input type="checkbox" id="nsvc_game" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_game">게임</label></li><li><input type="checkbox" id="nsvc_weather" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_weather">날씨</label></li><li><input type="checkbox" id="nsvc_shopping" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_shopping">네이버쇼핑</label></li><li><input type="checkbox" id="nsvc_navercast" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navercast">네이버캐스트</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_naverpay" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_naverpay">네이버페이<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_mybox" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mybox">네이버 MYBOX</label></li><li><input type="checkbox" id="nsvc_news" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_news">뉴스</label></li><li><input type="checkbox" id="nsvc_comic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_comic">웹툰</label></li><li><input type="checkbox" id="nsvc_memo" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_memo">메모</label></li><li><input type="checkbox" id="nsvc_mail" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_mail">메일</label></li><li><input type="checkbox" id="nsvc_land" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_land">부동산</label></li><li><input type="checkbox" id="nsvc_bookmark" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_bookmark">북마크</label></li><li><input type="checkbox" id="nsvc_blog" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_blog">블로그</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_dic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dic">사전</label></li><li><input type="checkbox" id="nsvc_smartboard" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_smartboard">스마트보드</label></li><li><input type="checkbox" id="nsvc_sports" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_sports">스포츠</label></li><li><input type="checkbox" id="nsvc_series" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_series">시리즈</label></li><li><input type="checkbox" id="nsvc_serieson" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_serieson">시리즈on</label></li><li><input type="checkbox" id="nsvc_movie" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_movie">영화</label></li><li><input type="checkbox" id="nsvc_office" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_office">오피스</label></li><li><input type="checkbox" id="nsvc_novel" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_novel">웹소설</label></li><li><input type="checkbox" id="nsvc_contact" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_contact">주소록</label></li><li><input type="checkbox" id="nsvc_finance" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_finance">증권(금융)</label></li><li><input type="checkbox" id="nsvc_map" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_map">지도</label></li><li><input type="checkbox" id="nsvc_kin" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_kin">지식iN</label></li><li><input type="checkbox" id="nsvc_terms" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_terms">지식백과</label></li></ul><ul class=""><li><input type="checkbox" id="nsvc_book" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_book">책</label></li><li><input type="checkbox" id="nsvc_cafe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cafe">카페</label></li><li><input type="checkbox" id="nsvc_calendar" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_calendar">캘린더</label></li><li><input type="checkbox" id="nsvc_navertv" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_navertv">네이버TV</label></li></ul></div><div class="svc_lst2"><div class="svc_spc gnb_first"><strong><a href="https://dict.naver.com/">어학사전</a></strong><ul class=""><li><input type="checkbox" id="nsvc_krdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_krdic">국어사전</label></li><li><input type="checkbox" id="nsvc_endic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_endic">영어/영영사전</label></li><li><input type="checkbox" id="nsvc_hanja" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_hanja">한자사전</label></li><li><input type="checkbox" id="nsvc_jpdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_jpdic">일어사전</label></li><li><input type="checkbox" id="nsvc_cndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_cndic">중국어사전</label></li><li><input type="checkbox" id="nsvc_frdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_frdic">프랑스어사전</label></li><li><input type="checkbox" id="nsvc_dedic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_dedic">독일어사전</label></li><li><input type="checkbox" id="nsvc_rudic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_rudic">러시아어사전</label></li><li><input type="checkbox" id="nsvc_vndic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vndic">베트남어사전</label></li><li><input type="checkbox" id="nsvc_spdic" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_spdic">스페인어사전</label></li><li><input type="checkbox" id="nsvc_papago" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_papago">파파고</label></li></ul></div><div class="svc_spc"><strong>인기/신규서비스</strong><ul class=""><li><input type="checkbox" id="nsvc_grafolio" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_grafolio">그라폴리오</label></li><li><input type="checkbox" id="nsvc_post" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_post">포스트</label></li><li><input type="checkbox" id="nsvc_band" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_band">밴드</label></li><li><input type="checkbox" id="nsvc_line" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_line">라인</label></li><li class="gnb_event"><input type="checkbox" id="nsvc_vibe" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_vibe">VIBE<em class="ic_gnb_new">New</em></label></li><li><input type="checkbox" id="nsvc_pcontents" name="selmenu" class="gnb_input_check" value=""> <label for="nsvc_pcontents">프리미엄콘텐츠</label></li></ul></div></div></div><div class="svc_btnwrp"><div class="svc_btns"><button class="gnb_save" onclick="if(gnbFavorite.addService()){gnbMoreLayer.clickToggleWhole()} return false;"><strong class="blind">확인</strong></button><button class="gnb_close" onclick="gnbFavorite.cancel(); return false;"><span class="blind">취소</span></button><button class="gnb_return" onclick="gnbFavorite.resetService(); return false;"><span class="blind">초기 설정으로 변경</span></button></div></div><div class="gnb_bg_btm"></div></div></div><iframe id="gnb_service_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 311px; width: 585px; height: 385px; opacity: 0;"></iframe><iframe id="gnb_svc_more_iframe" title="빈 프레임" class="gnb_pad_lyr" name="padding" width="0" height="0" scrolling="no" frameborder="0" style="display: none; top: 55px; right: 10px; width: 295px; height: 385px; opacity: 0;"></iframe></li></ul></div>
         </div>
         <!-- GNB -->
       </div>
@@ -458,31 +458,39 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    <a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/baseball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/soccer_info.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/basketball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    <a href="/wfootball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
+    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+  </li>
+
+  <li class="lnb_item" role="presentation">
+    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
   </li>
 
   <li class="lnb_item" role="presentation">
@@ -494,13 +502,16 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
+    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
   </li>
 </ul>
+
+  
+  
   
   
   
@@ -516,33 +527,33 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/wfootball/news/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
+    <a href="/wfootball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
     <span class="menu">영상</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
+    <a href="/photocenter/albumList?category=wfootball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
     <span class="menu">생생화보</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_match.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
+    <a href="/wfootball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/soccer_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
+    <a href="/wfootball/record/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
     <span class="menu">기록/순위</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
+    <a href="https://m.sports.naver.com/wfootball/predict" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.predict', 'predict', '', event);  javascript:lnbOpenPopup(this.href); return false; ">
+    <span class="menu">승부예측</span>
     </a>
   </li>
 </ul>
@@ -576,88 +587,96 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <div class="cms_side_banner" id="_cms_side_banner">
 </div>
 
-<div id="content" class="schedule kfootball_schedule">
+<div id="content" class="schedule wfootball_schedule">
   <div class="tab_event">
     <ul class="list" id="_categoryList">
       
-        <li class="selected"><a href="#" data-category="u20worldcup"><span class="menu">U-20 월드컵</span></a></li>
+        <li class="selected"><a href="#" data-category="epl"><span class="menu">프리미어리그</span></a></li>
       
-        <li><a href="#" data-category="kleague"><span class="menu">K리그1</span></a></li>
+        <li><a href="#" data-category="primera"><span class="menu">라리가</span></a></li>
       
-        <li><a href="#" data-category="kleague2"><span class="menu">K리그2</span></a></li>
+        <li><a href="#" data-category="bundesliga"><span class="menu">분데스리가</span></a></li>
       
-        <li><a href="#" data-category="amatch"><span class="menu">국가대표</span></a></li>
+        <li><a href="#" data-category="seria"><span class="menu">세리에 A</span></a></li>
       
-        <li><a href="#" data-category="acl"><span class="menu">AFC</span></a></li>
+        <li><a href="#" data-category="ligue1"><span class="menu">리그 1</span></a></li>
       
-        <li><a href="#" data-category="affcup"><span class="menu">AFF컵</span></a></li>
+        <li><a href="#" data-category="champs"><span class="menu">챔피언스리그</span></a></li>
       
-      <li>
-        <a href="https://www.kfa.or.kr/competition/k3_k4.php" target="_blank"><span class="menu">K3리그</span></a></li>
-      <li><a href="https://www.kwff.or.kr/wkleague" target="_blank"><span class="menu">WK리그</span></a></li>
-      <li><a href="http://www.futsal.or.kr/home.action" target="_blank"><span class="menu">FK리그</span></a></li>
+        <li><a href="#" data-category="europa"><span class="menu">유로파리그</span></a></li>
+      
+        <li><a href="#" data-category="uecl"><span class="menu">컨퍼런스리그</span></a></li>
+      
+        <li><a href="#" data-category="facup"><span class="menu">FA컵</span></a></li>
+      
+        <li><a href="#" data-category="carlingcup"><span class="menu">EFL컵</span></a></li>
+      
+        <li><a href="#" data-category="copadelrey"><span class="menu">코파델레이</span></a></li>
+      
+        <li><a href="#" data-category="clubworldcup"><span class="menu">클럽월드컵</span></a></li>
+      
     </ul>
   </div>
 
   <div class="schedule_week_area">
     <div class="schedule_week" id="_dateList">
   <ul class="list" role="tablist" aria-labelledby="daily-list">
-    <li role="tab" data-id="20230605">
+    <li role="tab" class="selected" aria-selected="true" data-id="20230529">
         <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.05</span>
+          <span class="day">05.29</span>
           <span class="week">(월)</span>
           
         </a>
     </li>
-    <li role="tab" data-id="20230606">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.06</span>
+    <li role="tab" data-id="20230530">
+        <span class="disabled">
+          <span class="day">05.30</span>
           <span class="week">(화)</span>
           
-        </a>
+        </span>
     </li>
-    <li role="tab" data-id="20230607">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.07</span>
+    <li role="tab" data-id="20230531">
+        <span class="disabled">
+          <span class="day">05.31</span>
           <span class="week">(수)</span>
           
-        </a>
+        </span>
     </li>
-    <li role="tab" data-id="20230608">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.08</span>
+    <li role="tab" data-id="20230601">
+        <span class="disabled">
+          <span class="day">06.01</span>
           <span class="week">(목)</span>
           
-        </a>
+        </span>
     </li>
-    <li role="tab" class="selected" aria-selected="true" data-id="20230609">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.09</span>
+    <li role="tab" data-id="20230602">
+        <span class="disabled">
+          <span class="day">06.02</span>
           <span class="week">(금)</span>
-          <span class="today"><span>오늘</span></span>
-        </a>
+          
+        </span>
     </li>
-    <li role="tab" data-id="20230610">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.10</span>
+    <li role="tab" data-id="20230603">
+        <span class="disabled">
+          <span class="day">06.03</span>
           <span class="week">(토)</span>
           
-        </a>
+        </span>
     </li>
-    <li role="tab" data-id="20230611">
-        <a href="#" onclick="scoreboardClickCode(this, event)">
-          <span class="day">06.11</span>
+    <li role="tab" data-id="20230604">
+        <span class="disabled">
+          <span class="day">06.04</span>
           <span class="week">(일)</span>
           
-        </a>
+        </span>
     </li>
   </ul>
   <!-- 활성화시 a, 비활성화시 span -->
-  <a href="#" class="arr prev" data-id="20230604" onclick="clickcr(this, 'sch*a.datemore', '', '', event);"><span>이전</span></a>
+  <a href="#" class="arr prev" data-id="20230526" onclick="clickcr(this, 'sch*a.datemore', '', '', event);"><span>이전</span></a>
 
-  <a href="#" class="arr next" data-id="20230612" onclick="clickcr(this, 'sch*a.datemore', '', '', event);"><span>다음</span></a>
+  <span class="arr next"><span>다음</span></span>
 </div>
-    <div class="schedule_vs" id="_scoreboardList">
+    <div class="schedule_vs paging" id="_scoreboardList">
   <div class="list">
     <div class="bx end">
       <div class="vs_info">
@@ -668,20 +687,20 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
         
           <div class="vs_area">
-            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7553.png&amp;type=f64_64" width="64" height="64" alt="우루과이" onerror="imageOnError(this);"></div>
-            <span class="team">우루과이</span>
-            <strong class="num">1</strong>
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f64_64" width="64" height="64" alt="사우샘프턴" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[0].hname}</span>
+            <strong class="num">${matches[0].hscore}</strong>
           </div>
           <div class="vs_area">
-            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48801.png&amp;type=f64_64" width="64" height="64" alt="이스라엘" onerror="imageOnError(this);"></div>
-            <span class="team">이스라엘</span>
-            <strong class="num">0</strong>
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f64_64" width="64" height="64" alt="리버풀" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[0].ateam}</span>
+            <strong class="num">${matches[0].ascore}</strong>
           </div>
         
       
       
       <div class="vs_btn">
-          <a href="/game/2023060945341279393/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
+          <a href="/game/2023052910034152443/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
       </div>
       
     </div>
@@ -694,204 +713,541 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         
         
           <div class="vs_area">
-            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22687.png&amp;type=f64_64" width="64" height="64" alt="이탈리아" onerror="imageOnError(this);"></div>
-            <span class="team">이탈리아</span>
-            <strong class="num">2</strong>
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f64_64" width="64" height="64" alt="맨유" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[1].hname}</span>
+            <strong class="num">${matches[1].hscore}</strong>
           </div>
           <div class="vs_area">
-            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22713.png&amp;type=f64_64" width="64" height="64" alt="대한민국" onerror="imageOnError(this);"></div>
-            <span class="team">대한민국</span>
-            <strong class="num">1</strong>
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f64_64" width="64" height="64" alt="풀럼" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[1].ateam}</span>
+            <strong class="num">${matches[1].ascore}</strong>
           </div>
         
       
       
       <div class="vs_btn">
-          <a href="/game/2023060945341279395/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-            <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+          <a href="/game/2023052910034152441/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
       </div>
       
     </div>
-    <div class="bx">
-      <span class="empty">경기가 없습니다.</span>
+    <div class="bx end">
+      <div class="vs_info">
+        <em class="state">종료</em>
+        
+      </div>
+      
+        
+        
+          <div class="vs_area">
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f64_64" width="64" height="64" alt="레스터" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[2].hname}</span>
+            <strong class="num">${matches[2].hscore}</strong>
+          </div>
+          <div class="vs_area">
+            <div class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f64_64" width="64" height="64" alt="웨스트햄" onerror="imageOnError(this);"></div>
+            <span class="team">${matches[2].ateam}</span>
+            <strong class="num">${matches[2].ascore}</strong>
+          </div>
+        
+      
+      
+      <div class="vs_btn">
+          <a href="/game/2023052910034152439/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      </div>
+      
     </div>
   </div>
+  <span class="arr prev"><span>이전</span></span>
+  <a href="#" class="arr next"><span>다음</span></a>
 </div>
+  <div class="schedule_paginate" role="navigation" aria-labelledby="schedule paging" id="_pageList">
+    <span aria-selected="true" data-page="1" class="selected">1페이지</span>
+    <span aria-selected="false" data-page="2">2페이지</span>
+    <span aria-selected="false" data-page="3">3페이지</span>
+    <span aria-selected="false" data-page="4">4페이지</span>
+  </div>
+
   </div>
   <div class="schedule_month_area">
-  
     
     
-      <div class="schedule_subtitle" id="_seasonTitle"><h4><span class="_seasonTitle">2023시즌</span> 일정/결과</h4></div>
-      <div class="date_select_nav type_year_month">
+      <div class="schedule_subtitle" id="_seasonTitle"><h4><span class="_seasonTitle">2022/23시즌</span> 일정/결과</h4></div>
+      <!-- 스포츠 공통 콤보 박스 -->
+      
+        <div class="combo_box align_right" id="__subscribe">
+          <a href="#" class="btn_rss" id="_btnRss" data-category="epl" onclick="clickcr(this, 'sch.feed', '', '', event);"><span>+구독</span></a>
+        </div>
+      
+      <div class="date_select_nav type_season">
         <span class="blind">종목별 경기 날짜 및 시즌 선택</span>
         <div class="select_box_area type_date" id="_seasonListArea">
   <div class="select_box">
     <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="연도 선택">
-      <em class="now_selected"><span class="blind">선택된 연도</span>2023</em>
+      <em class="now_selected"><span class="blind">선택된 연도</span>2022-23</em>
     </button>
     <ul class="option_list" role="listbox" id="_seasonOptionList">
         <li class="list" role="presentation">
-          <button class="btn_option" type="button" role="option" aria-selected="true" data-year="2023">2023</button>
+          <button class="btn_option" type="button" role="option" aria-selected="true" data-year="2022">2022-23</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2021">2021-22</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2020">2020-21</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2019">2019-20</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2018">2018-19</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2017">2017-18</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2016">2016-17</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2015">2015-16</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2014">2014-15</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2013">2013-14</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2012">2012-13</button>
+        </li>
+        <li class="list" role="presentation">
+          <button class="btn_option" type="button" role="option" aria-selected="false" data-year="2011">2011-12</button>
         </li>
     </ul>
   </div>
-  <button class="btn_move_date prev" type="button" disabled="" data-year=""><span class="blind">이전 달로 이동</span></button>
+  <button class="btn_move_date prev" type="button" data-year="2021"><span class="blind">이전 달로 이동</span></button>
   <button class="btn_move_date next" type="button" disabled="" data-year=""><span class="blind">다음 달로 이동</span></button>
 </div>
         <div class="now_date_area">
           <button class="btn_now_date" type="button" id="_currentDate">현재<span class="blind">날짜로 이동</span></button>
         </div>
       </div>
+    
 
-      <div class="schedule_month">
-        <ul class="list" role="tablist" aria-labelledby="month-list" id="_monthList">
-      <li role="tab" data-yearmonth="202305">
+    <div class="schedule_month">
+      <ul class="list" role="tablist" aria-labelledby="month-list" id="_monthList">
+      <li role="tab" data-yearmonth="202208">
         <a href="#" class="_month_list_btn">
-          <span class="year">2023년</span>
-                    <span class="month">5월</span>
+          <span class="year">2022년</span>
+                    <span class="month">8월</span>
         </a>
       </li>
-      <li role="tab" data-yearmonth="202306" aria-selected="true" class="selected">
+      <li role="tab" data-yearmonth="202209">
         <a href="#" class="_month_list_btn">
-          <span class="month">6월</span>
+          <span class="month">9월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202210">
+        <a href="#" class="_month_list_btn">
+          <span class="month">10월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202211">
+        <a href="#" class="_month_list_btn">
+          <span class="month">11월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202212">
+        <a href="#" class="_month_list_btn">
+          <span class="month">12월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202301">
+        <a href="#" class="_month_list_btn">
+          <span class="year">2023년</span>
+          <span class="month">1월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202302">
+        <a href="#" class="_month_list_btn">
+          <span class="month">2월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202303">
+        <a href="#" class="_month_list_btn">
+          <span class="month">3월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202304">
+        <a href="#" class="_month_list_btn">
+          <span class="month">4월</span>
+        </a>
+      </li>
+      <li role="tab" data-yearmonth="202305" aria-selected="true" class="selected">
+        <a href="#" class="_month_list_btn">
+          <span class="month">5월</span>
         </a>
       </li>
 </ul>
-      </div>
+    </div>
 
-      <div class="schedule_month_table">
-        <table summary="월간 일정/결과" cellspacing="0">
-          <caption>월간 일정/결과</caption>
-          <colgroup>
-            <col class="col01">
-            <col class="col02">
-            <col class="col03">
-            <col class="col04">
-            <col class="col05">
-          </colgroup>
-          <thead>
-          <tr>
-            <th class="date" scope="col">날짜</th>
-            <th class="time_place" scope="col">시간 장소</th>
-            <th scope="col">경기</th>
-            <th class="broadcast" scope="col">중계</th>
-            <th class="game_content last" scope="col">경기내용</th>
-          </tr>
-          </thead>
-          <tbody id="_monthlyScheduleList">
+    <div class="schedule_month_table">
+      <table summary="월간 일정/결과" cellspacing="0">
+        <caption>월간 일정/결과</caption>
+        <colgroup>
+          <col class="col01">
+          <col class="col02">
+          <col class="col03">
+          <col class="col04">
+          <col class="col05">
+        </colgroup>
+        <thead>
+        <tr>
+          <th class="date" scope="col">날짜</th>
+          <th class="time_place" scope="col">시간 장소</th>
+          <th scope="col">경기</th>
+          <th class="broadcast" scope="col">중계</th>
+          <th class="game_content last" scope="col">경기내용</th>
+        </tr>
+        </thead>
+        <tbody id="_monthlyScheduleList">
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.1</em> (월)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">${matches[0].time}</span>
+      <span class="place">${matches[0].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[0].hname}</span>
+              <span class="score">${matches[0].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[0].ateam}</span>
+              <span class="score">${matches[0].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050110034152359/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050110034152359&amp;tab=game&amp;date=2023-05-01&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.2</em> (화)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[1].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[1].hname}</span>
+              <span class="score">${matches[1].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[1].ateam}</span>
+              <span class="score">${matches[1].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050210034152357/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.3</em> (수)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[2].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[2].hname}</span>
+              <span class="score">${matches[2].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[2].ateam}</span>
+              <span class="score">${matches[2].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050310040620361/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050310040620361&amp;tab=game&amp;date=2023-05-03&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="2" scope="row">
+    <div class="inner">
+      <em>5.4</em> (목)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[3].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[3].hname}</span>
+              <span class="score">${matches[3].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[3].ateam}</span>
+              <span class="score">${matches[3].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050410040274513/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[4].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[4].hname}</span>
+              <span class="score">${matches[4].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[4].ateam}</span>
+              <span class="score">${matches[4].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050410040274521/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050410040274521&amp;tab=game&amp;date=2023-05-04&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.5</em> (금)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[5].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[5].hname}</span>
+              <span class="score">${matches[5].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[5].ateam}</span>
+              <span class="score">${matches[5].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050510040274505/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050510040274505&amp;tab=game&amp;date=2023-05-05&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
   <tr class="division">
   <th rowspan="4" scope="row">
     <div class="inner">
-      <em>6.1</em> (목)
+      <em>5.6</em> (토)
     </div>
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
-    </div>
-  </td>
-  <td>
-    <div class="inner ">
-      
-        
-        
-            <span class="team_left winner">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/33757.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">콜롬비아</span>
-              <span class="score">5</span>
-              <span class="win">승리팀</span>
-            </span>
-          <span class="team_right ">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22712.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">슬로바키아</span>
-              <span class="score">1</span>
-            </span>
-        
-      
-    </div>
-  </td>
-  
-  <td class="broadcast">
-    <div class="inner">
-      <a href="/game/2023060145341279377/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
-    </div>
-  </td>
-  
-  <td class="game_content last">
-    <div class="inner">
-      <span></span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <td class="time_place">
-    <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio San Juan del Bicentenario</span>
-    </div>
-  </td>
-  <td>
-    <div class="inner ">
-      
-        
-        
-            <span class="team_left winner">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22672.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">브라질</span>
-              <span class="score">4</span>
-              <span class="win">승리팀</span>
-            </span>
-          <span class="team_right ">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48817.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">튀니지</span>
-              <span class="score">1</span>
-            </span>
-        
-      
-    </div>
-  </td>
-  
-  <td class="broadcast">
-    <div class="inner">
-      <a href="/game/2023060145341279383/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
-    </div>
-  </td>
-  
-  <td class="game_content last">
-    <div class="inner">
-      <span></span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <td class="time_place">
-    <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio San Juan del Bicentenario</span>
+      <span class="time">23:00</span>
+      <span class="place">${matches[6].location}</span>
     </div>
   </td>
   <td>
@@ -903,21 +1259,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22666.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">아르헨티나</span>
-              <span class="score">0</span>
+              <span class="name">${matches[6].hname}</span>
+              <span class="score">${matches[6].hscore}</span>
             </span>
           <span class="team_right winner">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22700.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">나이지리아</span>
-              <span class="score">2</span>
+              <span class="name">${matches[6].ateam}</span>
+              <span class="score">${matches[6].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -927,22 +1283,232 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060145341279375/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023050610034152365/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
+      <span class="time">23:00</span>
+      <span class="place">${matches[7].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[7].hname}</span>
+              <span class="score">${matches[7].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[7].ateam}</span>
+              <span class="score">${matches[7].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050610034152373/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[8].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[8].hname}</span>
+              <span class="score">${matches[8].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[8].ateam}</span>
+              <span class="score">${matches[8].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050610034152379/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050610034152379&amp;tab=game&amp;date=2023-05-06&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[9].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[9].hname}</span>
+              <span class="score">${matches[9].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[9].ateam}</span>
+              <span class="score">${matches[9].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050610034152383/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.7</em> (일)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">01:30</span>
+      <span class="place">${matches[10].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[10].hname}</span>
+              <span class="score">${matches[10].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[10].ateam}</span>
+              <span class="score">${matches[10].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050710034152371/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="3" scope="row">
+    <div class="inner">
+      <em>5.8</em> (월)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[11].location}</span>
     </div>
   </td>
   <td>
@@ -954,21 +1520,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/35465.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">잉글랜드</span>
-              <span class="score">1</span>
+              <span class="name">${matches[11].hname}</span>
+              <span class="score">${matches[11].hscore}</span>
             </span>
           <span class="team_right winner">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22687.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이탈리아</span>
-              <span class="score">2</span>
+              <span class="name">${matches[11].ateam}</span>
+              <span class="score">${matches[11].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -978,27 +1544,127 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060145341279379/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023050810034152375/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">03:00</span>
+      <span class="place">${matches[12].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[12].hname}</span>
+              <span class="score">${matches[12].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[12].ateam}</span>
+              <span class="score">${matches[12].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050810034152381/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050810034152381&amp;tab=game&amp;date=2023-05-08&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[13].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[13].hname}</span>
+              <span class="score">${matches[13].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[13].ateam}</span>
+              <span class="score">${matches[13].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023050810034152369/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr class="division">
   <th rowspan="2" scope="row">
     <div class="inner">
-      <em>6.2</em> (금)
+      <em>5.9</em> (화)
     </div>
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio Unico Madre De Ciudades</span>
+      <span class="time">01:30</span>
+      <span class="place">${matches[14].location}</span>
     </div>
   </td>
   <td>
@@ -1010,21 +1676,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7548.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">감비아</span>
-              <span class="score">0</span>
+              <span class="name">${matches[14].hname}</span>
+              <span class="score">${matches[14].hscore}</span>
             </span>
           <span class="team_right winner">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7553.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">우루과이</span>
-              <span class="score">1</span>
+              <span class="name">${matches[14].ateam}</span>
+              <span class="score">${matches[14].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1034,90 +1700,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060245341279387/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023050910040265287/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio Unico Madre De Ciudades</span>
-    </div>
-  </td>
-  <td>
-    <div class="inner ">
-      
-        
-        
-            <span class="team_left ">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/33758.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">에콰도르</span>
-              <span class="score">2</span>
-            </span>
-          <span class="team_right winner">
-              
-                
-                
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22713.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
-                
-              
-              <span class="name">대한민국</span>
-              <span class="score">3</span>
-              <span class="win">승리팀</span>
-            </span>
-        
-      
-    </div>
-  </td>
-  
-  <td class="broadcast">
-    <div class="inner">
-      <a href="/game/2023060245341279373/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
-    </div>
-  </td>
-  
-  <td class="game_content last">
-    <div class="inner">
-      <span></span>
-    </div>
-  </td>
-  </tr>
-  <tr class="division">
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.3</em> (토)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr class="division">
-  <th rowspan="2" scope="row">
-    <div class="inner">
-      <em>6.4</em> (일)
-    </div>
-  </th>
-  <td class="time_place">
-    <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio San Juan del Bicentenario</span>
+      <span class="time">04:00</span>
+      <span class="place">${matches[15].location}</span>
     </div>
   </td>
   <td>
@@ -1129,22 +1726,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48801.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이스라엘</span>
-              <span class="score">3</span>
+              <span class="name">${matches[15].hname}</span>
+              <span class="score">${matches[15].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22672.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">브라질</span>
-              <span class="score">2</span>
+              <span class="name">${matches[15].ateam}</span>
+              <span class="score">${matches[15].ascore}</span>
             </span>
         
       
@@ -1153,22 +1750,62 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060445341279371/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023050910034152377/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th scope="row">
+    <div class="inner empty">
+      <em>5.10</em> (수)
+    </div>
+  </th>
+  <td colspan="4" class="last">
+    <div class="inner empty">
+      <span>경기가 없습니다.</span>
     </div>
   </td>
   </tr>
   <tr>
+  <th scope="row">
+    <div class="inner empty">
+      <em>5.11</em> (목)
+    </div>
+  </th>
+  <td colspan="4" class="last">
+    <div class="inner empty">
+      <span>경기가 없습니다.</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <th scope="row">
+    <div class="inner empty">
+      <em>5.12</em> (금)
+    </div>
+  </th>
+  <td colspan="4" class="last">
+    <div class="inner empty">
+      <span>경기가 없습니다.</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="6" scope="row">
+    <div class="inner">
+      <em>5.13</em> (토)
+    </div>
+  </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio San Juan del Bicentenario</span>
+      <span class="time">20:30</span>
+      <span class="place">${matches[16].location}</span>
     </div>
   </td>
   <td>
@@ -1180,21 +1817,271 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/33757.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">콜롬비아</span>
-              <span class="score">1</span>
+              <span class="name">${matches[16].hname}</span>
+              <span class="score">${matches[16].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[16].ateam}</span>
+              <span class="score">${matches[16].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051310034152397/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[17].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[17].hname}</span>
+              <span class="score">${matches[17].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[17].ateam}</span>
+              <span class="score">${matches[17].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051310034152387/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051310034152387&amp;tab=game&amp;date=2023-05-13&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[18].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[18].hname}</span>
+              <span class="score">${matches[18].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[18].ateam}</span>
+              <span class="score">${matches[18].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051310034152391/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[19].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[19].hname}</span>
+              <span class="score">${matches[19].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[19].ateam}</span>
+              <span class="score">${matches[19].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051310034152393/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[20].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[20].hname}</span>
+              <span class="score">${matches[20].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[20].ateam}</span>
+              <span class="score">${matches[20].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051310034152401/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051310034152401&amp;tab=game&amp;date=2023-05-13&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[21].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[21].hname}</span>
+              <span class="score">${matches[21].hscore}</span>
             </span>
           <span class="team_right winner">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22687.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이탈리아</span>
-              <span class="score">3</span>
+              <span class="name">${matches[21].ateam}</span>
+              <span class="score">${matches[21].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1204,27 +2091,26 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060445341279365/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023051310034152403/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr class="division">
   <th rowspan="2" scope="row">
     <div class="inner">
-      <em>6.5</em> (월)
+      <em>5.14</em> (일)
     </div>
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio Unico Madre De Ciudades</span>
+      <span class="time">22:00</span>
+      <span class="place">${matches[22].location}</span>
     </div>
   </td>
   <td>
@@ -1236,22 +2122,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22713.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">대한민국</span>
-              <span class="score">1</span>
+              <span class="name">${matches[22].hname}</span>
+              <span class="score">${matches[22].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22700.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">나이지리아</span>
-              <span class="score">0</span>
+              <span class="name">${matches[22].ateam}</span>
+              <span class="score">${matches[22].ascore}</span>
             </span>
         
       
@@ -1260,22 +2146,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060545341279367/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023051410034152389/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio Unico Madre De Ciudades</span>
+      <span class="time">22:00</span>
+      <span class="place">${matches[23].location}</span>
     </div>
   </td>
   <td>
@@ -1287,21 +2172,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22722.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">미국</span>
-              <span class="score">0</span>
+              <span class="name">${matches[23].hname}</span>
+              <span class="score">${matches[23].hscore}</span>
             </span>
           <span class="team_right winner">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7553.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">우루과이</span>
-              <span class="score">2</span>
+              <span class="name">${matches[23].ateam}</span>
+              <span class="score">${matches[23].ascore}</span>
               <span class="win">승리팀</span>
             </span>
         
@@ -1311,21 +2196,132 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060545341279369/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023051410034152395/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051410034152395&amp;tab=game&amp;date=2023-05-14&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.15</em> (월)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[24].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[24].hname}</span>
+              <span class="score">${matches[24].hscore}</span>
+            </span>
+          <span class="team_right winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[24].ateam}</span>
+              <span class="score">${matches[24].ascore}</span>
+              <span class="win">승리팀</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051510034152385/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051510034152385&amp;tab=game&amp;date=2023-05-15&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.16</em> (화)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[25].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[25].hname}</span>
+              <span class="score">${matches[25].hscore}</span>
+            </span>
+          <span class="team_right winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[25].ateam}</span>
+              <span class="score">${matches[25].ascore}</span>
+              <span class="win">승리팀</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023051610040531401/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr class="division">
   <th scope="row">
     <div class="inner empty">
-      <em>6.6</em> (화)
+      <em>5.17</em> (수)
     </div>
   </th>
   <td colspan="4" class="last">
@@ -1337,7 +2333,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <tr>
   <th scope="row">
     <div class="inner empty">
-      <em>6.7</em> (수)
+      <em>5.18</em> (목)
     </div>
   </th>
   <td colspan="4" class="last">
@@ -1346,28 +2342,16 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </div>
   </td>
   </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.8</em> (목)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr class="today first">
-  <th rowspan="2" scope="row">
+  <tr class="division">
+  <th rowspan="1" scope="row">
     <div class="inner">
-      <em>6.9</em> (금)
+      <em>5.19</em> (금)
     </div>
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
+      <span class="time">03:30</span>
+      <span class="place">${matches[26].location}</span>
     </div>
   </td>
   <td>
@@ -1379,22 +2363,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7553.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">우루과이</span>
-              <span class="score">1</span>
+              <span class="name">${matches[26].hname}</span>
+              <span class="score">${matches[26].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48801.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이스라엘</span>
-              <span class="score">0</span>
+              <span class="name">${matches[26].ateam}</span>
+              <span class="score">${matches[26].ascore}</span>
             </span>
         
       
@@ -1403,21 +2387,281 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060945341279393/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
+      <a href="/game/2023051910040795213/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
-  <tr class="today last">
+  <tr class="division">
+  <th rowspan="5" scope="row">
+    <div class="inner">
+      <em>5.20</em> (토)
+    </div>
+  </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
+      <span class="time">20:30</span>
+      <span class="place">${matches[27].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[27].hname}</span>
+              <span class="score">${matches[27].hscore}</span>
+            </span>
+          <span class="team_right winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[27].ateam}</span>
+              <span class="score">${matches[27].ascore}</span>
+              <span class="win">승리팀</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052010034152419/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152419&amp;tab=game&amp;date=2023-05-20&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[28].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[28].hname}</span>
+              <span class="score">${matches[28].hscore}</span>
+            </span>
+          <span class="team_right winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[28].ateam}</span>
+              <span class="score">${matches[28].ascore}</span>
+              <span class="win">승리팀</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052010034152405/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[29].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[29].hname}</span>
+              <span class="score">${matches[29].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[29].ateam}</span>
+              <span class="score">${matches[29].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052010034152409/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[30].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[30].hname}</span>
+              <span class="score">${matches[30].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[30].ateam}</span>
+              <span class="score">${matches[30].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052010034152411/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152411&amp;tab=game&amp;date=2023-05-20&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">23:00</span>
+      <span class="place">${matches[31].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[31].hname}</span>
+              <span class="score">${matches[31].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[31].ateam}</span>
+              <span class="score">${matches[31].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052010034152423/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152423&amp;tab=game&amp;date=2023-05-20&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="3" scope="row">
+    <div class="inner">
+      <em>5.21</em> (일)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">01:30</span>
+      <span class="place">${matches[32].location}</span>
     </div>
   </td>
   <td>
@@ -1429,22 +2673,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22687.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이탈리아</span>
-              <span class="score">2</span>
+              <span class="name">${matches[32].hname}</span>
+              <span class="score">${matches[32].hscore}</span>
               <span class="win">승리팀</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22713.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">대한민국</span>
-              <span class="score">1</span>
+              <span class="name">${matches[32].ateam}</span>
+              <span class="score">${matches[32].ascore}</span>
             </span>
         
       
@@ -1453,55 +2697,188 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023060945341279395/record" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">경기기록</a>
-      <a href="https://m.sports.naver.com/kfootball/video?category=amatch&amp;sort=date&amp;tab=latest" class="btn" onclick="clickcr(this, 'sch*b.u20worldcuplive', '', '', event);">경기영상</a>
+      <a href="/game/2023052110034152417/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052110034152417&amp;tab=game&amp;date=2023-05-21&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
-    </div>
-  </td>
-  </tr>
-  <tr class="division">
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.10</em> (토)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.11</em> (일)
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">21:30</span>
+      <span class="place">${matches[33].location}</span>
     </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[33].hname}</span>
+              <span class="score">${matches[33].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[33].ateam}</span>
+              <span class="score">${matches[33].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052110034152421/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">22:00</span>
+      <span class="place">${matches[34].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[34].hname}</span>
+              <span class="score">${matches[34].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[34].ateam}</span>
+              <span class="score">${matches[34].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052110034152407/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052110034152407&amp;tab=game&amp;date=2023-05-21&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr class="division">
-  <th rowspan="2" scope="row">
+  <th rowspan="1" scope="row">
     <div class="inner">
-      <em>6.12</em> (월)
+      <em>5.22</em> (월)
     </div>
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">02:30</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
+      <span class="time">00:00</span>
+      <span class="place">${matches[35].location}</span>
     </div>
   </td>
   <td>
-    <div class="inner before_game">
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[35].hname}</span>
+              <span class="score">${matches[35].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[35].ateam}</span>
+              <span class="score">${matches[35].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052210034152413/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052210034152413&amp;tab=game&amp;date=2023-05-22&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.23</em> (화)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[36].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
       
         
         
@@ -1509,19 +2886,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48801.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이스라엘</span>
+              <span class="name">${matches[36].hname}</span>
+              <span class="score">${matches[36].hscore}</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22713.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">대한민국</span>
+              <span class="name">${matches[36].ateam}</span>
+              <span class="score">${matches[36].ascore}</span>
             </span>
         
       
@@ -1530,26 +2909,42 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023061245341279391" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">전력비교</a>
-      <span class="btn">문자중계</span>
+      <a href="/game/2023052310040795215/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
     </div>
   </td>
   </tr>
-  <tr>
+  <tr class="division">
+  <th scope="row">
+    <div class="inner empty">
+      <em>5.24</em> (수)
+    </div>
+  </th>
+  <td colspan="4" class="last">
+    <div class="inner empty">
+      <span>경기가 없습니다.</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.25</em> (목)
+    </div>
+  </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">06:00</span>
-      <span class="place">Estadio Ciudad de La Plata</span>
+      <span class="time">04:00</span>
+      <span class="place">${matches[37].location}</span>
     </div>
   </td>
   <td>
-    <div class="inner before_game">
+    <div class="inner ">
       
         
         
@@ -1557,19 +2952,21 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/7553.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">우루과이</span>
+              <span class="name">${matches[37].hname}</span>
+              <span class="score">${matches[37].hscore}</span>
             </span>
           <span class="team_right ">
               
                 
                 
-                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/22687.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
                 
               
-              <span class="name">이탈리아</span>
+              <span class="name">${matches[37].ateam}</span>
+              <span class="score">${matches[37].ascore}</span>
             </span>
         
       
@@ -1578,21 +2975,76 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   
   <td class="broadcast">
     <div class="inner">
-      <a href="/game/2023061245341279389" class="btn" onclick="clickcr(this, 'sch*b.u20worldcupwar', '', '', event);">전력비교</a>
-      <span class="btn">문자중계</span>
+      <a href="/game/2023052510040821741/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
     </div>
   </td>
   
   <td class="game_content last">
     <div class="inner">
-      <span></span>
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="1" scope="row">
+    <div class="inner">
+      <em>5.26</em> (금)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">04:00</span>
+      <span class="place">${matches[38].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[38].hname}</span>
+              <span class="score">${matches[38].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[38].ateam}</span>
+              <span class="score">${matches[38].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052610040821743/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052610040821743&amp;tab=game&amp;date=2023-05-26&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
     </div>
   </td>
   </tr>
   <tr class="division">
   <th scope="row">
     <div class="inner empty">
-      <em>6.13</em> (화)
+      <em>5.27</em> (토)
     </div>
   </th>
   <td colspan="4" class="last">
@@ -1604,7 +3056,522 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <tr>
   <th scope="row">
     <div class="inner empty">
-      <em>6.14</em> (수)
+      <em>5.28</em> (일)
+    </div>
+  </th>
+  <td colspan="4" class="last">
+    <div class="inner empty">
+      <span>경기가 없습니다.</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th rowspan="10" scope="row">
+    <div class="inner">
+      <em>5.29</em> (월)
+    </div>
+  </th>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[39].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[39].hname}</span>
+              <span class="score">${matches[39].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[39].ateam}</span>
+              <span class="score">${matches[39].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152425/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[40].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[40].hname}</span>
+              <span class="score">${matches[40].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[40].ateam}</span>
+              <span class="score">${matches[40].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152427/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[41].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[41].hname}</span>
+              <span class="score">${matches[41].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[41].ateam}</span>
+              <span class="score">${matches[41].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152429/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[42].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[42].hname}</span>
+              <span class="score">${matches[42].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[42].ateam}</span>
+              <span class="score">${matches[42].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152431/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[43].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[43].hname}</span>
+              <span class="score">${matches[43].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[43].ateam}</span>
+              <span class="score">${matches[43].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152433/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[44].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[44].hname}</span>
+              <span class="score">${matches[44].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[44].ateam}</span>
+              <span class="score">${matches[44].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152435/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[45].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[45].hname}</span>
+              <span class="score">${matches[45].hscore}</span>
+            </span>
+          <span class="team_right winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[45].ateam}</span>
+              <span class="score">${matches[45].ascore}</span>
+              <span class="win">승리팀</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152437/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+      <a href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052910034152437&amp;tab=game&amp;date=2023-05-29&amp;sort=date" class="btn" onclick="clickcr(this, 'sch*b.epllive', '', '', event);">경기영상</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[46].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[46].hname}</span>
+              <span class="score">${matches[46].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[46].ateam}</span>
+              <span class="score">${matches[46].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152439/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[47].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left winner">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[47].hname}</span>
+              <span class="score">${matches[47].hscore}</span>
+              <span class="win">승리팀</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[47].ateam}</span>
+              <span class="score">${matches[47].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152441/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr>
+  <td class="time_place">
+    <div class="inner">
+      <span class="time">00:30</span>
+      <span class="place">${matches[48].location}</span>
+    </div>
+  </td>
+  <td>
+    <div class="inner ">
+      
+        
+        
+            <span class="team_left ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[48].hname}</span>
+              <span class="score">${matches[48].hscore}</span>
+            </span>
+          <span class="team_right ">
+              
+                
+                
+                  <span class="emblem"><img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);"></span>
+                
+              
+              <span class="name">${matches[48].ateam}</span>
+              <span class="score">${matches[48].ascore}</span>
+            </span>
+        
+      
+    </div>
+  </td>
+  
+  <td class="broadcast">
+    <div class="inner">
+      <a href="/game/2023052910034152443/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+    </div>
+  </td>
+  
+  <td class="game_content last">
+    <div class="inner">
+      <span>FT</span>
+    </div>
+  </td>
+  </tr>
+  <tr class="division">
+  <th scope="row">
+    <div class="inner empty">
+      <em>5.30</em> (화)
     </div>
   </th>
   <td colspan="4" class="last">
@@ -1616,187 +3583,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <tr>
   <th scope="row">
     <div class="inner empty">
-      <em>6.15</em> (목)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.16</em> (금)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.17</em> (토)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.18</em> (일)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.19</em> (월)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.20</em> (화)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.21</em> (수)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.22</em> (목)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.23</em> (금)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.24</em> (토)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.25</em> (일)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.26</em> (월)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.27</em> (화)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.28</em> (수)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.29</em> (목)
-    </div>
-  </th>
-  <td colspan="4" class="last">
-    <div class="inner empty">
-      <span>경기가 없습니다.</span>
-    </div>
-  </td>
-  </tr>
-  <tr>
-  <th scope="row">
-    <div class="inner empty">
-      <em>6.30</em> (금)
+      <em>5.31</em> (수)
     </div>
   </th>
   <td colspan="4" class="last">
@@ -1806,26 +3593,19 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </td>
   </tr>
 </tbody>
-        </table>
-      </div>
-    
-  
+      </table>
+    </div>
   </div>
 
   <div class="schedule_info">
     네이버 스포츠에서 제공하는 일정, 결과, 기록 등의 데이터는 '제공처'의 사정에 따라 지연되거나 잘못 표시될 수 있습니다.<br>
-    네이버(주)는 그에 따른 스포츠 데이터의 정확성 및 신뢰성을 담보하지 않습니다. 궁금하신 사항은 <a href="https://help.naver.com/support/alias/contents2/sports/sports_5.naver" target="_blank" class="link">고객센터</a>를
-    통해서 문의해주시기 바랍니다.
+    네이버(주)는 그에 따른 스포츠 데이터의 정확성 및 신뢰성을 담보하지 않습니다. 궁금하신 사항은 <a href="https://help.naver.com/support/alias/contents2/sports/sports_5.naver" target="_blank" class="link">고객센터</a>를 통해서 문의해주시기 바랍니다.
   </div>
 
   <div class="quick_top">
     <a href="#">맨위로<span class="ico"></span></a>
   </div>
 </div>
-
-<script id="_amatchPhaseListTemplate" type="text/x-handlebars-template">
-
-</script>
 
 
 
@@ -1863,10 +3643,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 </script>
 
-<script id="_seasonListTemplateWbc" type="text/x-handlebars-template">
-
-</script>
-
 
 <script id="_yearMonthListTemplate" type="text/x-handlebars-template">
 
@@ -1896,10 +3672,13 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 </script>
 
-<script id="_homeSideBannerTemplate" type="text/x-handlebars-template">
+
+
+
+<script id="_wfootballSeasonListTemplate" type="text/x-handlebars-template">
 
 </script>
-<script type="text/javascript">
+<script>
 
 </script>
 
@@ -1959,7 +3738,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </div>
   
 </div>
-<script></script>
+<script>
+
+</script>
 
 <script>
 
@@ -1970,10 +3751,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </script>
   
 
-<script></script>
+<script>
+
+</script>
 
 
 
 
-</body>
-</html>
+</body></html>

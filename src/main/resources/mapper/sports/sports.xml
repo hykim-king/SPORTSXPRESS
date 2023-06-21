@@ -225,21 +225,23 @@
 	</select>
 
 	<select id="selectVolleyballMatchInfo" parameterType="VolleyballMatchVO" resultType="VolleyballMatchVO">
-		SELECT
-			volleyno,
-			season,
-			lname,
-			time,
-			location,
-			hname,
-			hscore,
-			ateam,
-			ascore,
-			mlink,
-			vlink
-		FROM
-		  volleyball_match
-	<!-- <where> <![CDATA[ volleyno <= #{volleyno}]]> </where> -->
+		SELECT 
+        bm1.volleyno AS volleyno,
+        bm1.season AS season,
+        bm1.lname AS lname,
+        bm1.time AS time,
+        bm1.location AS location, 
+        bm1.hname AS hname,
+        bm1.hscore AS hscore,
+        bm1.ateam AS ateam,
+        bm1.ascore AS ascore,
+        bm1.mlink AS mlink,
+        bm1.vlink AS vlink,
+        bm2.logo AS hname_logo,
+        bm3.logo AS ateam_logo
+    FROM   volleyball_match bm1, team bm2, team bm3
+    <where> <![CDATA[bm1.lname = '프로배구' AND bm1.hname = bm2.tname AND bm1.ateam = bm3.tname]]> </where>
+    ORDER BY time asc
 	</select>
 
 	<select id="selectSoccerInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
