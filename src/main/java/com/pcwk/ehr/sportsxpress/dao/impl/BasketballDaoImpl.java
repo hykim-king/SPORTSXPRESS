@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BasketballRecordVO;
 import com.pcwk.ehr.sportsxpress.dao.BasketballDao;
 
 
@@ -58,6 +59,23 @@ public class BasketballDaoImpl implements BasketballDao {
 		outList = this.sqlSessionTemplate.selectList(statement, getMatch);
 		
 		for(BasketballMatchVO vo:outList) {
+			LOG.debug("=3. vo="+vo);
+		}
+		return outList;
+	}
+	
+	public List<BasketballRecordVO> basketballRecordInfo(BasketballRecordVO getRecord) throws SQLException {
+		List<BasketballRecordVO> outList =  new ArrayList<>();
+		
+		String statement = this.NAMESPACE+DOT+"basketballRecordInfo";
+		LOG.debug("-------------------------------------");
+		LOG.debug("-statement-"+statement);
+		LOG.debug("-------------------------------------");
+		LOG.debug("2. param="+getRecord);
+		outList = this.sqlSessionTemplate.selectList(statement, getRecord);
+		
+		LOG.debug("3. param=문제's"+getRecord);
+		for(BasketballRecordVO vo: outList) {
 			LOG.debug("=3. vo="+vo);
 		}
 		return outList;

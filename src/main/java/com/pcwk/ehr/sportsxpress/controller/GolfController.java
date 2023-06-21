@@ -54,7 +54,7 @@ public class GolfController {
 		model.addAttribute("videos",videoList);
 
 
-		return "sports/golf_news";
+		return "sports/golf/golf_news";
 
 	}
 	// -------------------------------------------------------------------------//

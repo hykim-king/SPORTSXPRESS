@@ -54,7 +54,7 @@ public class VolleyballController {
 		model.addAttribute("articles", articleList);
 		model.addAttribute("videos", videoList);
 
-		return "sports/volleyball_news";
+		return "sports/volleyball/volleyball_news";
 
 	}
 

@@ -2743,18 +2743,18 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
 
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/golf/news/index" class="link_lnb_sub" role="menuitem"
+						href="/ehr/sportsxpress/golf_news.do" class="link_lnb_sub" role="menuitem"
 						onclick="clickcr(this, 'LNB.news', 'news', '', event); "
 						aria-current="page"> <span class="menu">최신뉴스</span>
 					</a></li>
 
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/golf/schedule/index" class="link_lnb_sub" role="menuitem"
+						href="/ehr/sportsxpress/golf_Schedule.do" class="link_lnb_sub" role="menuitem"
 						onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
 							<span class="menu">일정/결과</span>
 					</a></li>
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/golf/record/index" class="link_lnb_sub" role="menuitem"
+						href="/ehr/sportsxpress/golf_Record.do" class="link_lnb_sub" role="menuitem"
 						onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
 							<span class="menu">기록/순위</span>
 					</a></li>

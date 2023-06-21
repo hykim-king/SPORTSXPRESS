@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.FootballRecordVO;
 import com.pcwk.ehr.sportsxpress.dao.FootballDao;
 import com.pcwk.ehr.sportsxpress.service.FootballService;
 
@@ -15,17 +16,23 @@ import com.pcwk.ehr.sportsxpress.service.FootballService;
 public class FootballServiceimpl implements FootballService{
 	
 	@Autowired
-	FootballDao soccerDao;
+	FootballDao footballDao;
 	
 	public FootballServiceimpl() {}
 	
 	@Override
 	public List<FootballInfoVO> getPlayerInfo(FootballInfoVO getPlayer) throws SQLException {
-		return soccerDao.selectFootballInfo(getPlayer);
+		return footballDao.selectFootballInfo(getPlayer);
 	}
 
 	@Override
 	public List<FootballMatchVO> getFootballMatchInfo(FootballMatchVO getMatch) throws SQLException {
-		return soccerDao.selectFootballMatchInfo(getMatch);
+		return footballDao.selectFootballMatchInfo(getMatch);
 	}
+	
+	@Override
+	public List<FootballRecordVO> getFootballRecordInfo(FootballRecordVO getRecord) throws SQLException {	
+		return footballDao.FootballRecordInfo(getRecord);
+	}
+	
 }

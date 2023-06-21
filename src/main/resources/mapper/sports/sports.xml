@@ -242,7 +242,7 @@
     ORDER BY time asc
 	</select>
 
-	<select id="selectSoccerInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
+	<select id="selectFootballInfo" parameterType="FootballInfoVO" resultType="FootballInfoVO">
 		SELECT
 			footid
 			, lname
@@ -270,7 +270,7 @@
 		FROM football_info
 	</select>
 
-	<select id="selectSoccerMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
+	<select id="selectFootballMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
 		SELECT
 			footno
 			, season
@@ -290,20 +290,135 @@
     </where>
 	</select>
 	
-	<select id="recordInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
-		SELECT     
-		    B1.hname AS hname,
-		    T1.LOGO AS logo,
-		    COUNT(B1.hscore) AS hscore,
-		    COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) AS win,
-		    <![CDATA[COUNT(CASE WHEN B1.hscore < B1.ascore THEN NULL ELSE 1 END) AS lose,]]>	    
-		    COUNT(CASE WHEN B1.hscore = B1.ascore THEN 1 ELSE NULL END) AS draw,
-		    ROUND(COUNT(CASE WHEN B1.hscore > B1.ascore THEN NULL ELSE 1 END) / COUNT(B1.hscore), 2) AS winrate
-		FROM baseball_match B1
-		JOIN team T1 ON T1.tname = B1.hname
-		GROUP BY B1.hname, T1.logo
-		ORDER BY winrate desc
-	</select>
+    <select id="baseballRecordInfo" parameterType="BaseballRecordVO" resultType="BaseballRecordVO">
+       <![CDATA[
+        SELECT 
+            table1.tname as tname,
+            table1.logo as logo,
+            table1.games + table2.games AS games,
+            table1.win + table2.win AS win,
+            table1.lose + table2.lose AS lose,
+            table1.draw + table2.draw AS draw,
+            ROUND((table1.win + table2.win) /(table1.lose + table2.lose + table1.win + table2.win), 3) AS winrate
+        FROM
+        (SELECT     
+            B1.hname AS tname,
+            T1.LOGO AS logo,
+            COUNT(*) AS games,
+            COUNT(CASE WHEN B1.hscore > B1.ascore THEN 1 END) AS win,
+            COUNT(CASE WHEN B1.hscore < B1.ascore THEN 1 END) AS lose,      
+            COUNT(CASE WHEN B1.hscore = B1.ascore THEN 1 END) AS draw,
+            ROUND(COUNT(CASE WHEN B1.hscore > B1.ascore THEN 1 END) / COUNT(B1.hscore), 3) AS winrate
+        FROM baseball_match B1
+        JOIN team T1 ON T1.tname = B1.hname
+        GROUP BY B1.hname, T1.logo
+        )table1 JOIN (SELECT     
+            B1.ateam AS tname,
+            T1.LOGO AS logo,
+            COUNT(*) AS games,
+            COUNT(CASE WHEN B1.ascore > B1.hscore THEN 1 END) AS win,
+            COUNT(CASE WHEN B1.ascore < B1.hscore THEN 1 END) AS lose,      
+            COUNT(CASE WHEN B1.ascore = B1.hscore THEN 1 END) AS draw,
+            ROUND(COUNT(CASE WHEN B1.ascore > B1.hscore THEN 1 END) / COUNT(B1.ascore), 3) AS winrate
+        FROM baseball_match B1
+        JOIN team T1 ON T1.tname = B1.ateam
+        GROUP BY B1.ateam, T1.logo
+        )table2 
+        ON table1.tname = table2.tname
+        order by winrate desc
+        ]]> 
+    </select>
+    
+    
+    <select id="footballRecordInfo" parameterType="FootballRecordVO" resultType="FootballRecordVO">
+       SELECT
+            table1.tname AS tname,
+            table1.LOGO AS logo,
+            table1.games + table2.games AS games,
+            table1.winpoint + table2.winpoint AS winpoint,
+            table1.win + table2.win AS win,
+            table1.draw + table2.draw AS draw,
+            table1.lose + table2.lose AS lose,
+            table1.getscore + table2.getscore AS getscore,
+            table1.missscore + table2.missscore AS missscore,
+            table1.goaldiff + table2.goaldiff AS goaldiff
+        FROM (SELECT
+            F1.hname AS tname,
+            T1.LOGO AS logo,
+            COUNT(*) AS games,
+            COUNT(CASE WHEN F1.hscore > F1.ascore THEN 1 END) * 3 + COUNT(CASE WHEN F1.hscore = F1.ascore THEN 1 END) AS winpoint,
+            COUNT(CASE WHEN F1.hscore > F1.ascore THEN 1 END) AS win,
+            COUNT(CASE WHEN F1.hscore = F1.ascore THEN 1 END) AS draw,
+            <![CDATA[COUNT(CASE WHEN F1.hscore < F1.ascore THEN 1 END) AS lose,]]>   
+            SUM(F1.hscore) AS getscore,  
+            SUM(F1.ascore) AS missscore,
+            SUM(F1.hscore) - SUM(F1.ascore) AS goaldiff
+        FROM football_match F1
+        JOIN team T1 ON T1.tname = F1.hname
+        <where>
+            AND T1.lname = '프리미어리그'
+        </where>
+        GROUP BY F1.hname, T1.logo
+        ) table1 JOIN 
+        (SELECT
+            F1.ateam AS tname,
+            T1.LOGO AS logo,
+            COUNT(*) AS games,
+            COUNT(CASE WHEN F1.ascore > F1.hscore THEN 1 END) * 3 + COUNT(CASE WHEN F1.ascore = F1.hscore THEN 1 END) AS winpoint,
+            COUNT(CASE WHEN F1.ascore > F1.hscore THEN 1 END) AS win,
+            COUNT(CASE WHEN F1.ascore = F1.hscore THEN 1 END) AS draw,
+            <![CDATA[COUNT(CASE WHEN F1.ascore < F1.hscore THEN 1 END) AS lose,]]> 
+            SUM(F1.ascore) AS getscore,  
+            SUM(F1.hscore) AS missscore,
+            SUM(F1.ascore) - SUM(F1.hscore) AS goaldiff
+        FROM football_match F1
+        JOIN team T1 ON T1.tname = F1.ateam
+        <where>
+            AND T1.lname = '프리미어리그'
+        </where>
+        GROUP BY F1.ateam, T1.logo
+        ) table2 ON
+        table1.tname = table2.tname
+        ORDER BY winpoint desc
+        
+    </select>
+    
+    <select id="basketballRecordInfo" parameterType="BasketballRecordVO" resultType="BasketballRecordVO">
+        SELECT 
+            table1.tname as tname,
+            table1.logo as logo,
+            table1.games + table2.games AS games,
+            table1.win + table2.win AS win,
+            table1.lose + table2.lose AS lose,
+            ROUND((table1.score + table2.score)/2 ) AS score,
+            ROUND((table1.win + table2.win) /(table1.lose + table2.lose + table1.win + table2.win), 3) AS winrate
+        FROM
+            (SELECT     
+                B1.hname AS tname,
+                T1.LOGO AS logo,
+                COUNT(*) AS games,
+                COUNT(CASE WHEN B1.hscore > B1.ascore THEN 1 END) AS win,
+                <![CDATA[COUNT(CASE WHEN B1.hscore < B1.ascore THEN 1 END) AS lose,]]>     
+                ROUND((AVG(B1.hscore) + AVG(B1.ascore)) / 2) AS score,
+                ROUND(COUNT(CASE WHEN B1.hscore > B1.ascore THEN 1 END) / NULLIF(COUNT(*), 0), 3) AS winrate
+            FROM basketball_match B1
+            JOIN team T1 ON T1.tname = B1.hname
+            GROUP BY B1.hname, T1.logo) table1
+        JOIN
+            (SELECT     
+                B1.ateam AS tname,
+                T1.LOGO AS logo,
+                COUNT(*) AS games,
+                COUNT(CASE WHEN B1.ascore > B1.hscore THEN 1 END) AS win,
+                <![CDATA[ COUNT(CASE WHEN B1.ascore < B1.hscore THEN 1 END) AS lose,]]>    
+                ROUND((AVG(B1.ascore) + AVG(B1.hscore)) / 2) AS score,
+                ROUND(COUNT(CASE WHEN B1.ascore > B1.hscore THEN 1 END) / NULLIF(COUNT(*), 0), 3) AS winrate
+            FROM basketball_match B1
+            JOIN team T1 ON T1.tname = B1.ateam
+            GROUP BY B1.ateam, T1.logo) table2 
+        ON table1.tname = table2.tname
+        ORDER BY winrate DESC
+    </select>
 	
 
 </mapper>

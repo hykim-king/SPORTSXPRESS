@@ -2702,18 +2702,18 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
 
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/basketball/news/index" class="link_lnb_sub" role="menuitem"
+						href="/ehr/sportsxpress/basketball_news.do" class="link_lnb_sub" role="menuitem"
 						onclick="clickcr(this, 'LNB.news', 'news', '', event); "
 						aria-current="page"> <span class="menu">최신뉴스</span>
 					</a></li>
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/basketball/schedule/index" class="link_lnb_sub"
+						href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub"
 						role="menuitem"
 						onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
 							<span class="menu">일정/결과</span>
 					</a></li>
 					<li class="lnb_sub_item " role="presentation"><a
-						href="/basketball/record/index?category=kbl" class="link_lnb_sub"
+						href="/ehr/sportsxpress/basketball_record.do" class="link_lnb_sub"
 						role="menuitem"
 						onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
 							<span class="menu">기록/순위</span>
