@@ -624,12 +624,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                         </em>
                     </div>
                     <div class="vs_lft">
-                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="흥국생명" title="흥국생명" src="https://dthumb-phinf.pstatic.net/?type=f92_92&amp;refresh=1&amp;src=https://sports-phinf.pstatic.net/team/wkovo/default/2004.png" onerror="imageOnError(this);"></div>
+                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="흥국생명" title="흥국생명" src="${matches[6].hname_logo}" onerror="imageOnError(this);"></div>
                         <strong class="vs_lft_name">${matches[6].hname}</strong>
                         <strong class="vs_num">${matches[6].hscore}</strong>
                     </div>
                     <div class="vs_rgt">
-                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="한국도로공사" title="한국도로공사" src="https://dthumb-phinf.pstatic.net/?type=f92_92&amp;refresh=1&amp;src=https://sports-phinf.pstatic.net/team/wkovo/default/2002.png" onerror="imageOnError(this);"></div>
+                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="한국도로공사" title="한국도로공사" src="${matches[6].ateam_logo}" onerror="imageOnError(this);"></div>
                         <strong class="vs_rgt_name">${matches[6].ateam}</strong>
                         <strong class="vs_num">${matches[6].ascore}</strong>
                     </div>
@@ -866,7 +866,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         ul.date_list 가 열려있다면 aria-expanded="true" 로 적용 해 주세요.
        -->
             <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="월 선택" id="_currentMonthButton" onclick="toggleMonthList();">
-                <em class="now_selected"><span class="blind">선택된 월</span>06</em>
+                <em class="now_selected"><span class="blind">선택된 월</span>05</em>
             </button>
             <!-- [D] ul.date_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
             <ul class="option_list" role="listbox" id="_monthList">
@@ -1017,7 +1017,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 	              </c:choose>
                     
                     <td><span class="td_hour">19:00</span></td>
-                    <td><span class="td_event"></span></td>
+                    <td><span class="td_event">전체</span></td>
                     <td><span class="team_lft">${matches.hname}</span>
                         <span class="emblem"><img src="${matches.hname_logo}" onerror="imageOnError(this);" width="25" height="25" alt="한국도로공사" title="한국도로공사"></span>
                         
