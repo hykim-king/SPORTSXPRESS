@@ -465,48 +465,23 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
   </li>
 
+
+
+
   <li class="lnb_item" role="presentation">
-    <a href="/wbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.worldbaseball', 'worldbaseball', '', event); ; ">해외야구</a>
+    <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">축구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/kfootball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/wfootball/index" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">해외축구</a>
+    <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
   </li>
 
   <li class="lnb_item" role="presentation">
-    <a href="/basketball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/volleyball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/golf/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/general/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/scoreboard/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ranking/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
+    <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
   </li>
 </ul>
 
@@ -527,33 +502,18 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/wfootball/news/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/ehr/sportsxpress/football_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/wfootball/vod/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/photocenter/albumList?category=wfootball" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="/wfootball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
+    <a href="/ehr/sportsxpress/football_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/wfootball/record/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
+    <a href="/ehr/sportsxpress/football_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
     <span class="menu">기록/순위</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="https://m.sports.naver.com/wfootball/predict" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.predict', 'predict', '', event);  javascript:lnbOpenPopup(this.href); return false; ">
-    <span class="menu">승부예측</span>
     </a>
   </li>
 </ul>
@@ -592,28 +552,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <ul class="list" id="_categoryList">
       
         <li class="selected"><a href="#" data-category="epl"><span class="menu">프리미어리그</span></a></li>
-      
-        <li><a href="#" data-category="primera"><span class="menu">라리가</span></a></li>
-      
-        <li><a href="#" data-category="bundesliga"><span class="menu">분데스리가</span></a></li>
-      
-        <li><a href="#" data-category="seria"><span class="menu">세리에 A</span></a></li>
-      
-        <li><a href="#" data-category="ligue1"><span class="menu">리그 1</span></a></li>
-      
-        <li><a href="#" data-category="champs"><span class="menu">챔피언스리그</span></a></li>
-      
-        <li><a href="#" data-category="europa"><span class="menu">유로파리그</span></a></li>
-      
-        <li><a href="#" data-category="uecl"><span class="menu">컨퍼런스리그</span></a></li>
-      
-        <li><a href="#" data-category="facup"><span class="menu">FA컵</span></a></li>
-      
-        <li><a href="#" data-category="carlingcup"><span class="menu">EFL컵</span></a></li>
-      
-        <li><a href="#" data-category="copadelrey"><span class="menu">코파델레이</span></a></li>
-      
-        <li><a href="#" data-category="clubworldcup"><span class="menu">클럽월드컵</span></a></li>
+
       
     </ul>
   </div>
@@ -3705,17 +3644,13 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       
       <div class="sports_league">
         <ul class="league_list">
-          <li class="league_item"><a href="/index" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/kbaseball/index" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/wbaseball/index" class="link_league">해외야구</a></li>
-          <li class="league_item"><a href="/kfootball/index" class="link_league">축구</a></li>
-          <li class="league_item"><a href="/wfootball/index" class="link_league">해외축구</a></li>
-          <li class="league_item"><a href="/basketball/index" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/volleyball/index" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/golf/index" class="link_league">N골프</a></li>
-          <li class="league_item"><a href="/general/index" class="link_league">일반</a></li>
-          <li class="league_item"><a href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
-        </ul>
+                  <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+         </ul>
       </div>
     </div>
     <div class="sports_info">
