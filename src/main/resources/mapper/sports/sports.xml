@@ -131,25 +131,32 @@
 	</select>
 
 	<select id="selectBasketballPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
-		SELECT
-			basketid,
-			lname,
-			name,
-			profile,
-			played,
-			score,
-			assists,
-			rebound,
-			steal,
-			blocking,
-			point2,
-			point3,
-			ftr,
-			success_yato,
-			success_3p,
-			success_ftr
-		FROM
-		  basketball_info
+		SELECT *
+	    FROM (
+			SELECT
+				basketid,
+				lname,
+				name,
+				profile,
+				played,
+				score,
+				assists,
+				rebound,
+				steal,
+				blocking,
+				point2,
+				point3,
+				ftr,
+				success_yato,
+				success_3p,
+				success_ftr
+			FROM
+			  basketball_info
+	        ) 
+	    <where>
+	      <![CDATA[ROWNUM <= 20]]>
+	    </where>
+		
 	<!-- <where> <![CDATA[ basketid <= #{basketid}]]> </where> -->
 	</select>
 
@@ -387,7 +394,7 @@
     
     <select id="basketballRecordInfo" parameterType="BasketballRecordVO" resultType="BasketballRecordVO">
         SELECT 
-            table1.tname as tname,
+            SUBSTR(table1.tname,1,9) as tname,
             table1.logo as logo,
             table1.games + table2.games AS games,
             table1.win + table2.win AS win,

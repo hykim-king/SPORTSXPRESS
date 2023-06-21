@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
+import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
 import com.pcwk.ehr.sportsxpress.VO.BasketballRecordVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
@@ -71,9 +72,11 @@ public class BasketballController {
 
 	@RequestMapping(value = "/basketball_record.do", method = RequestMethod.GET)
 	public String basketballRecordInfo(BasketballRecordVO getPlayer, Model model) throws SQLException {
-	    List<BasketballRecordVO> playerList = basketballService.getBasketballRecordInfo(getPlayer);
+	    List<BasketballRecordVO> recordList = basketballService.getBasketballRecordInfo(getPlayer);
+	    model.addAttribute("records", recordList);
+	    
+	    List<BasketballInfoVO> playerList = basketballService.getPlayerInfo(new BasketballInfoVO());
 	    model.addAttribute("players", playerList);
-	  
 	    return "sports/basketball/basketball_record";
 	}	
 //---------------------------------------------------------------------------//
