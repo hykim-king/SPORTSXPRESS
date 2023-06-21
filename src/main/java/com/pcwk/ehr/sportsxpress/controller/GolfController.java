@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
+import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
 import com.pcwk.ehr.sportsxpress.service.GolfService;
@@ -56,6 +58,15 @@ public class GolfController {
 
 		return "sports/golf/golf_news";
 
+	}
+	
+	// 일정 결과
+	@RequestMapping(value = "/golf_Schedule.do", method = RequestMethod.GET)
+	public String ScheduleInfo(GolfMatchVO getMatch, Model model) throws SQLException {
+		List<GolfMatchVO> matchList = golfService.getMatchInfo(getMatch);
+		model.addAttribute("matches", matchList);
+
+		return "sports/golf/golf_schedule";
 	}
 	// -------------------------------------------------------------------------//
 }
