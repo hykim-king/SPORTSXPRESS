@@ -43,7 +43,9 @@
 			reg_id,
 			reg_dt,
 			hyperlink,
-			views
+			views,
+			video_thumb,
+			video_time
 		FROM
 		  video
 		<where>

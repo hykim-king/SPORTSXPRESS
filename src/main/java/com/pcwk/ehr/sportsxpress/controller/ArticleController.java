@@ -34,7 +34,7 @@ public class ArticleController {
 	@Autowired
 	TeamService teamService;
 
-	@RequestMapping(value = "/sportsxpress/ArticleInfo.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/sportsxpress/article_info.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, Model model) throws SQLException {
 		List<ArticleVO> articleList = articleService.getArticleInfo(getArticle);
 		model.addAttribute("articles", articleList);
@@ -42,7 +42,7 @@ public class ArticleController {
 		return "sports/kBaseball_Index";
 	}
 
-	@RequestMapping(value = "/sportsxpress/TeamInfo.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/sportsxpress/team_info.do", method = RequestMethod.GET)
 	public String TeamInfo(TeamVO getTeam, Model model) throws SQLException {
 		List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
 		model.addAttribute("teams", TeamList);
@@ -50,7 +50,7 @@ public class ArticleController {
 		return "sports/team";
 	}
 
-	@RequestMapping(value = "/sportsxpress/VideoInfo.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/sportsxpress/video_info.do", method = RequestMethod.GET)
 	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
 		List<VideoVO> VideoList = videoService.getVideoInfo(getVideo);
 		model.addAttribute("videos", VideoList);

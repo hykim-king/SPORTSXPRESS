@@ -2179,8 +2179,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<h1 class="logo_area">
 					<a href="/ehr/resources/templates/home.html" class="logo_naver"
 						onclick="clickcr(this, 'STA.naverlogo', '', '', event);"><span
-						class="blind">네이버</span></a> <a href="/ehr/resources/templates/home.html"
-						class="logo_sports"
+						class="blind">네이버</span></a> <a
+						href="/ehr/resources/templates/home.html" class="logo_sports"
 						onclick="clickcr(this, 'STA.sports', '', '', event);"><span
 						class="blind">스포츠</span></a>
 				</h1>
@@ -2210,11 +2210,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 					<div class="gnb_one" id="gnb">
 						<strong class="blind">사용자 링크</strong>
 						<ul class="gnb_lst" id="gnb_lst" style="display: block;">
-							<li class="gnb_login_li" id="gnb_login_layer"
+	<!-- 						<li class="gnb_login_li" id="gnb_login_layer"
 								style="display: inline-block;"><a class="gnb_btn_login"
 								href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fkbaseball%2Fnews%2Findex"
 								id="gnb_login_button"><span class="gnb_bg"></span><span
-									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li>
+									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li> -->
 							<li class="gnb_my_li" id="gnb_my_layer" style="display: none"><div
 									class="gnb_my_namebox" id="gnb_my_namebox"
 									style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);">
@@ -2662,39 +2662,44 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 			<nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
 				<h2 class="blind">메인 메뉴</h2>
 				<ul id="lnb_list" class="lnb_list" role="menubar">
-					<li class="lnb_item" role="presentation"><a href="/ehr/resources/templates/home.html"
-						class="link_lnb" role="menuitem"
+					<li class="lnb_item" role="presentation"><a
+						href="/ehr/resources/templates/home.html" class="link_lnb"
+						role="menuitem"
 						onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠
 							홈</a></li>
 
 					<li class="lnb_item" role="presentation"><a
-						href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem"
-						aria-current="true"
+						href="/ehr/sportsxpress/baseball_news.do" class="link_lnb"
+						role="menuitem" aria-current="true"
 						onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
 					</li>
 
 
 					<li class="lnb_item" role="presentation"><a
-						href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem"
+						href="/ehr/sportsxpress/football_news.do" class="link_lnb"
+						role="menuitem"
 						onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
 					</li>
 
 
 					<li class="lnb_item" role="presentation"><a
-						href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem"
+						href="/ehr/sportsxpress/basketball_news.do" class="link_lnb"
+						role="menuitem"
 						onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
 					</li>
 
 					<li class="lnb_item" role="presentation"><a
-						href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem"
+						href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb"
+						role="menuitem"
 						onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
 					</li>
 
-					<li class="lnb_item" role="presentation"><a href="/ehr/sportsxpress/golf_news.do"
-						class="link_lnb" role="menuitem"
+					<li class="lnb_item" role="presentation"><a
+						href="/ehr/sportsxpress/golf_news.do" class="link_lnb"
+						role="menuitem"
 						onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
 					</li>
-				</ul> 
+				</ul>
 			</nav>
 			<nav class="sports_lnb_sub">
 				<ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
@@ -2704,7 +2709,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						onclick="clickcr(this, 'LNB.news', 'news', '', event); "
 						aria-current="page"> <span class="menu">최신뉴스</span>
 					</a></li>
-					</a></li>
+					</a>
+					</li>
 					<li class="lnb_sub_item " role="presentation"><a
 						href="/kbaseball/schedule/index" class="link_lnb_sub"
 						role="menuitem"
@@ -2760,7 +2766,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 
-				<!-- 					<li data-id="kbo"><a href="#"
+									<!-- 					<li data-id="kbo"><a href="#"
 										onclick="clickcr(this, 'nwl.league', '', '', event);"><span
 											class="menu">KBO</span></a></li>
 
@@ -2897,8 +2903,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										<li><a href="${art.hyperlink}" class="thmb"
 											onclick="clickcr(this, 'nwl.image', '', '', event);"> <img
 												width="140" src="${art.thumbnail}"
-												lazy-src="${art.thumbnail}" alt=${art.title}
-												class="lazyLoadImage"> <span class="mask"></span>
+												lazy-src="${art.thumbnail}" alt=${art.title
+												}
+												class="lazyLoadImage"> <span
+												class="mask"></span>
 										</a>
 											<div class="text">
 												<a href="${art.hyperlink}" class="title"
@@ -2914,9 +2922,8 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 							<div class="paginate" id="_pageList" style="">
 
-								<strong>1</strong> 
-								<a href="#" data-id="2" onclick="clickcr">2</a> <a
-									href="#" data-id="3"
+								<strong>1</strong> <a href="#" data-id="2" onclick="clickcr">2</a>
+								<a href="#" data-id="3"
 									onclick="clickcr(this, 'nwl.paging', '', '', event);">3</a> <a
 									href="#" data-id="4"
 									onclick="clickcr(this, 'nwl.paging', '', '', event);">4</a> <a
@@ -2931,9 +2938,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									href="#" data-id="9"
 									onclick="clickcr(this, 'nwl.paging', '', '', event);">9</a> <a
 									href="#" data-id="10"
-									onclick="clickcr(this, 'nwl.paging', '', '', event);">10</a> 
-									<a href="#" class="next" onclick="clickcr(this, 'nwl.paging', '', '', event);">
-									<span
+									onclick="clickcr(this, 'nwl.paging', '', '', event);">10</a> <a
+									href="#" class="next"
+									onclick="clickcr(this, 'nwl.paging', '', '', event);"> <span
 									class="blind">다음</span></a>
 							</div>
 							<div class="paginate_day" id="_bottomDateList">
@@ -3021,41 +3028,40 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 								</script>
 
 								<div id="news_vod" class="aside_inner">
-						  <div class="aside_head">
-    <h3 class="title">많이 본 영상</h3>
-  </div>
-  <div class="aside_vod_best2">
-    <ul class="aside_vod_list2">
-      
-        
-          <li class="best">
-            <a href="${videos[0].hyperlink}" onclick="clickcr(this, 'aec*b.video', '', '', event);" title="[2023 U-20 월드컵] 이탈리아 vs 대한민국 | 준결승 #shortform">
-              <div class="thmb">
-                <b class="rank_num">1</b>
-                
-                <span class="mask"></span>
-                
-                  
-                    <img width="260" height="156" src="${videos[0].video_thumb}" class="imageLazyLoad" lazy-src="${videos[0].video_thumb}" alt="" onerror="imageOnError(this);">
-                  
-                  
-                
-              </div>
-              <div class="text">
-                <span class="title"><span>${videos[0].title}</span></span>
-                <div class="info">
-                  <span class="play"><span class="ico">재생수</span>${videos[0].views}</span>
-                  
-                    <span class="time"><span class="ico">재생시간</span>02:05</span>
-                  
-                </div>
-              </div>
-            </a>
-          </li>
-											<li class="vod_li"><a
-												href="${videos[1].hyperlink}"
+									<div class="aside_head">
+										<h3 class="title">많이 본 영상</h3>
+									</div>
+									<div class="aside_vod_best2">
+										<ul class="aside_vod_list2">
+
+
+											<li class="best"><a href="${videos[0].hyperlink}"
 												onclick="clickcr(this, 'aec*b.video', '', '', event);"
-												title="직장에 아들이 놀러 왔다 #ShortForm">
+												title="">
+													<div class="thmb">
+														<b class="rank_num">1</b> <span class="mask"></span> <img
+															width="260" height="156"
+															src="https://phinf.pstatic.net/tvcast/20230505_123/TkYYK_1683247294308iXU5U_JPEG/cover_cover_MYH20230505001000641_20230505093901799.jpg?type=f172_97_blend_webp"
+															class="imageLazyLoad"
+															lazy-src="https://phinf.pstatic.net/tvcast/20230505_123/TkYYK_1683247294308iXU5U_JPEG/cover_cover_MYH20230505001000641_20230505093901799.jpg?type=f172_97_blend_webp"
+															alt="" onerror="imageOnError(this);">
+
+
+
+													</div>
+													<div class="text">
+														<span class="title"><span>${videos[0].title}</span></span>
+														<div class="info">
+															<span class="play"><span class="ico">재생수</span>${videos[0].views}</span>
+
+															<span class="time"><span class="ico">재생시간</span>02:05</span>
+
+														</div>
+													</div>
+											</a></li>
+											<li class="vod_li"><a href="${videos[1].hyperlink}"
+												onclick="clickcr(this, 'aec*b.video', '', '', event);"
+												title="">
 													<div class="thmb">
 														<b class="rank_num">2</b> <span class="time"><span
 															class="blind">재생시간</span>00:21</span> <span class="mask"></span>
@@ -3063,10 +3069,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 														<img width="110" height="64"
-															src="${videos[1].video_thumb}"
-															class="imageLazyLoad"
-															lazy-src=""
-															alt="${videos[1].video_thumb}" onerror="imageOnError(this);">
+															src="https://phinf.pstatic.net/tvcast/20230505_235/MJeSF_16832418715578Odpv_JPEG/cover_0011479105_001_20230505081020988.jpg?type=f172_97_blend_webp" class="imageLazyLoad"
+															lazy-src="https://phinf.pstatic.net/tvcast/20230505_235/MJeSF_16832418715578Odpv_JPEG/cover_0011479105_001_20230505081020988.jpg?type=f172_97_blend_webp" alt=""
+															onerror="imageOnError(this);">
 
 
 													</div>
@@ -3078,133 +3083,84 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 														</div>
 													</div>
 											</a></li>
-											
-                <li class="vod_li"><a
-                        href="${videos[2].hyperlink}"
-                        onclick="clickcr(this, 'aec*b.video', '', '', event);"
-                        title="직장에 아들이 놀러 왔다 #ShortForm">
-                          <div class="thmb">
-                            <b class="rank_num">2</b> <span class="time"><span
-                              class="blind">재생시간</span>00:45</span> <span class="mask"></span>
 
-
-
-                            <img width="110" height="64"
-                              src="${videos[2].video_thumb}"
-                              class="imageLazyLoad"
-                              lazy-src=""
-                              alt="${videos[2].video_thumb}" onerror="imageOnError(this);">
-
-
-                          </div>
-                          <div class="text">
-                            <span class="title"><span>${videos[2].title}</span></span>
-                            <div class="info">
-                              <span class="play"><span class="ico">재생수</span>${videos[2].views}</span>
-
-                            </div>
-                          </div>
-                      </a></li>											
-
-
-
-											<li class="vod_li"><a
-												href="/video?category=kbo&amp;id=1078084"
+											<li class="vod_li"><a href="${videos[2].hyperlink}"
 												onclick="clickcr(this, 'aec*b.video', '', '', event);"
-												title="김혜성에게 10초를 줘봤다 #ShortForm">
+												title="">
 													<div class="thmb">
 														<b class="rank_num">3</b> <span class="time"><span
-															class="blind">재생시간</span>00:28</span> <span class="mask"></span>
+															class="blind">재생시간</span>00:45</span> <span class="mask"></span>
 
 
 
 														<img width="110" height="64"
-															src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230609_11/16862554938594m6IC_JPEG/%B1%E8%C7%FD%BC%BA%BF%A1%B0%D4_10%C3%CA%B8%A6_%C1%E0%BA%C3%B4%D9_ShortForm.jpg"
-															class="imageLazyLoad"
-															lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230609_11/16862554938594m6IC_JPEG/%B1%E8%C7%FD%BC%BA%BF%A1%B0%D4_10%C3%CA%B8%A6_%C1%E0%BA%C3%B4%D9_ShortForm.jpg"
-															alt="" onerror="imageOnError(this);">
+															src="https://phinf.pstatic.net/tvcast/20230619_204/31YgL_1687185748560y12E8_JPEG/20230619_233500_510_1.jpg?type=f172_97_blend_webp" class="imageLazyLoad"
+															lazy-src="https://phinf.pstatic.net/tvcast/20230619_204/31YgL_1687185748560y12E8_JPEG/20230619_233500_510_1.jpg?type=f172_97_blend_webp" alt=""
+															onerror="imageOnError(this);">
 
 
 													</div>
 													<div class="text">
-														<span class="title"><span>김혜성에게 10초를 줘봤다
-																#ShortForm</span></span>
+														<span class="title"><span>${videos[2].title}</span></span>
 														<div class="info">
-															<span class="play"><span class="ico">재생수</span>27,475</span>
+															<span class="play"><span class="ico">재생수</span>${videos[2].views}</span>
 
 														</div>
 													</div>
 											</a></li>
 
-
-
-											<li class="vod_li"><a
-												href="/video?category=kbo&amp;id=1077968"
+											<li class="vod_li"><a href="${videos[3].hyperlink}"
 												onclick="clickcr(this, 'aec*b.video', '', '', event);"
-												title="양의지 " 여보="" 오해야"="" #shortform"="">
+												title="">
 													<div class="thmb">
 														<b class="rank_num">4</b> <span class="time"><span
-															class="blind">재생시간</span>00:48</span> <span class="mask"></span>
+															class="blind">재생시간</span>02:31</span> <span class="mask"></span>
 
 
 
 														<img width="110" height="64"
-															src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230608_29/1686221053397BORd2_JPEG/%BE%E7%C0%C7%C1%F6.jpg"
-															class="imageLazyLoad"
-															lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230608_29/1686221053397BORd2_JPEG/%BE%E7%C0%C7%C1%F6.jpg"
-															alt="" onerror="imageOnError(this);">
+															src="https://phinf.pstatic.net/tvcast/20230619_43/ZZfiI_1687185749789kgk70_JPEG/20230619_233516_296_1.jpg?type=f172_97_blend_webp" class="imageLazyLoad"
+															lazy-src="https://phinf.pstatic.net/tvcast/20230619_43/ZZfiI_1687185749789kgk70_JPEG/20230619_233516_296_1.jpg?type=f172_97_blend_webp" alt=""
+															onerror="imageOnError(this);">
 
 
 													</div>
 													<div class="text">
-														<span class="title"><span>양의지 "여보 오해야"
-																#ShortForm</span></span>
+														<span class="title"><span>${videos[3].title}</span></span>
 														<div class="info">
-															<span class="play"><span class="ico">재생수</span>15,710</span>
+															<span class="play"><span class="ico">재생수</span>${videos[3].views}</span>
 
 														</div>
 													</div>
 											</a></li>
 
-
-
-											<li class="vod_li"><a
-												href="/video?category=kbo&amp;id=1077753"
+											<li class="vod_li"><a href="${videos[4].hyperlink}"
 												onclick="clickcr(this, 'aec*b.video', '', '', event);"
-												title="갑작스럽게 언쟁을 펼치는 박동원과 이형종">
+												title="">
 													<div class="thmb">
 														<b class="rank_num">5</b> <span class="time"><span
-															class="blind">재생시간</span>01:37</span> <span class="mask"></span>
+															class="blind">재생시간</span>01:00</span> <span class="mask"></span>
 
 
 
 														<img width="110" height="64"
-															src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230607_137/1686141788329ThsXW_JPEG/15_LG_vs_%C5%B0%BF%F29%C8%B8%B8%BB_%B0%A9%C0%DB%BD%BA%B7%B4%B0%D4_%BE%F0%C0%EF%C0%BB_%C6%EE%C4%A1%B4%C2_%B9%DA%B5%BF%BF%F8%B0%FA_%C0%CC%C7%FC%C1%BE.jpg"
-															class="imageLazyLoad"
-															lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230607_137/1686141788329ThsXW_JPEG/15_LG_vs_%C5%B0%BF%F29%C8%B8%B8%BB_%B0%A9%C0%DB%BD%BA%B7%B4%B0%D4_%BE%F0%C0%EF%C0%BB_%C6%EE%C4%A1%B4%C2_%B9%DA%B5%BF%BF%F8%B0%FA_%C0%CC%C7%FC%C1%BE.jpg"
-															alt="" onerror="imageOnError(this);">
+															src="https://phinf.pstatic.net/tvcast/20230619_30/emcoD_1687180894949xHVq6_JPEG/20230619_221244_549_1.jpg?type=f172_97_blend_webp" class="imageLazyLoad"
+															lazy-src="https://phinf.pstatic.net/tvcast/20230619_30/emcoD_1687180894949xHVq6_JPEG/20230619_221244_549_1.jpg?type=f172_97_blend_webp" alt=""
+															onerror="imageOnError(this);">
 
 
 													</div>
 													<div class="text">
-														<span class="title"><span>갑작스럽게 언쟁을 펼치는 박동원과
-																이형종</span></span>
+														<span class="title"><span>${videos[4].title}</span></span>
 														<div class="info">
-															<span class="play"><span class="ico">재생수</span>8,979</span>
+															<span class="play"><span class="ico">재생수</span>${videos[4].views}</span>
 
 														</div>
 													</div>
 											</a></li>
-
 										</ul>
 									</div>
 								</div>
-
-
-
-
-
-
 
 
 								<script>
@@ -3880,63 +3836,69 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 			</div>
 
-						<div id="footer">
-					<div class="inner">
-						<div class="page_area"> 
+			<div id="footer">
+				<div class="inner">
+					<div class="page_area">
 
 						<div class="notice_text">공지사항</div>
-							<div class="sports_notice">
+						<div class="sports_notice">
 
-								<a href="https://blog.naver.com/naver_sports/223118608681"
-									class="link_notice" target="_blank"
-									onclick="clickcr(this, 'not.noti', '1466402863231', '', event);">스포츠
-									TV중계 편성 - 6/5(월)~6/12(월)</a>
+							<a href="https://blog.naver.com/naver_sports/223118608681"
+								class="link_notice" target="_blank"
+								onclick="clickcr(this, 'not.noti', '1466402863231', '', event);">스포츠
+								TV중계 편성 - 6/5(월)~6/12(월)</a>
+						</div>
+
+
+
+						<div class="sports_league">
+							<ul class="league_list">
+								<li class="league_item"><a
+									href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+								<li class="league_item"><a
+									href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+								<li class="league_item"><a
+									href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+								<li class="league_item"><a
+									href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+								<li class="league_item"><a
+									href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+								<li class="league_item"><a
+									href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sports_info">
+						<div class="link_area">
+							<div class="main_area">
+								<a href="javascript:moveToLoginForm();" class="link"
+									id="login_status"><strong>로그인</strong></a> <a
+									href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
+								<a target="_blank"
+									onclick="OPS.viewOPS('ops', {url : 'https://help.naver.com/alias/contents2/sports/sports_2.naver'}); clickcr(this, 'fot.shelp', '', '', event); return false;"
+									href="#" class="link">고객센터</a> <a target="_blank"
+									href="https://help.naver.com/alias/contents2/sports/sports_6.naver"
+									class="link">문제신고</a> <a target="_blank"
+									href="https://www.naver.com/rules/privacy.html"
+									onclick="clickcr(this, 'fot.privacy', '', '', event);"
+									class="link"><strong>개인정보처리방침</strong></a>
 							</div>
-
-
-
-							<div class="sports_league">
-								<ul class="league_list">
-									<li class="league_item"><a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
-									<li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
-									<li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
-									<li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
-									<li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
-									<li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
-								</ul>
+							<div class="sub_area">
+								<a
+									href="https://news.naver.com/main/ombudsman/edit.naver?mid=omb"
+									class="link">기사배열 원칙 책임자 : 유봉석</a> <span class="link">청소년
+									보호 책임자 : 이희만</span>
 							</div>
 						</div>
-						<div class="sports_info">
-							<div class="link_area">
-								<div class="main_area">
-									<a href="javascript:moveToLoginForm();" class="link"
-										id="login_status"><strong>로그인</strong></a> <a
-										href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
-									<a target="_blank"
-										onclick="OPS.viewOPS('ops', {url : 'https://help.naver.com/alias/contents2/sports/sports_2.naver'}); clickcr(this, 'fot.shelp', '', '', event); return false;"
-										href="#" class="link">고객센터</a> <a target="_blank"
-										href="https://help.naver.com/alias/contents2/sports/sports_6.naver"
-										class="link">문제신고</a> <a target="_blank"
-										href="https://www.naver.com/rules/privacy.html"
-										onclick="clickcr(this, 'fot.privacy', '', '', event);"
-										class="link"><strong>개인정보처리방침</strong></a>
-								</div>
-								<div class="sub_area">
-									<a
-										href="https://news.naver.com/main/ombudsman/edit.naver?mid=omb"
-										class="link">기사배열 원칙 책임자 : 유봉석</a> <span class="link">청소년
-										보호 책임자 : 이희만</span>
-								</div>
-							</div>
-							<p class="footer_copyright">본 콘텐츠의 저작권은 제공처 또는 네이버에 있으며, 이를
-								무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
-							<span class="naver">© <a ref="http://www.navercorp.com/"
-								target="_blank"
-								onclick="clickcr(this, 'fot.nhn', '', '', event);">NAVER
-									Corp.</a></span>
-						</div>
-					</div> 
+						<p class="footer_copyright">본 콘텐츠의 저작권은 제공처 또는 네이버에 있으며, 이를 무단
+							이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
+						<span class="naver">© <a ref="http://www.navercorp.com/"
+							target="_blank"
+							onclick="clickcr(this, 'fot.nhn', '', '', event);">NAVER
+								Corp.</a></span>
+					</div>
 				</div>
+			</div>
 
 
 			<script type="text/javascript"

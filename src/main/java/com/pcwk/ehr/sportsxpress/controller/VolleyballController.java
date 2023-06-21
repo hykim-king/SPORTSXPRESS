@@ -76,7 +76,7 @@ public class VolleyballController {
 	}
 
 	// 일정 결과
-	@RequestMapping(value = "/volleyball_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/volleyball_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(VolleyballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 
 		List<VolleyballMatchVO> matchList = volleyballService.getMatchInfo(getMatch);
@@ -89,7 +89,7 @@ public class VolleyballController {
 	}
 
 	// 기록/순위
-	@RequestMapping(value = "/volleyball_Recode.do")
+	@RequestMapping(value = "/volleyball_recode.do")
 	public String RecodeInfo(TeamVO getTeam, VolleyballInfoVO getPlayer, Model model) throws SQLException {
 		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
 		List<VolleyballInfoVO> playerList = volleyballService.getPlayerInfo(getPlayer);
