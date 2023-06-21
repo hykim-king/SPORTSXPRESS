@@ -129,25 +129,32 @@
 	</select>
 
 	<select id="selectBasketballPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
-		SELECT
-			basketid,
-			lname,
-			name,
-			profile,
-			played,
-			score,
-			assists,
-			rebound,
-			steal,
-			blocking,
-			point2,
-			point3,
-			ftr,
-			success_yato,
-			success_3p,
-			success_ftr
-		FROM
-		  basketball_info
+		SELECT *
+	    FROM (
+			SELECT
+				basketid,
+				lname,
+				name,
+				profile,
+				played,
+				score,
+				assists,
+				rebound,
+				steal,
+				blocking,
+				point2,
+				point3,
+				ftr,
+				success_yato,
+				success_3p,
+				success_ftr
+			FROM
+			  basketball_info
+	        ) 
+	    <where>
+	      <![CDATA[ROWNUM <= 20]]>
+	    </where>
+		
 	<!-- <where> <![CDATA[ basketid <= #{basketid}]]> </where> -->
 	</select>
 
@@ -271,23 +278,27 @@
 	</select>
 
 	<select id="selectFootballMatchInfo" parameterType="FootballMatchVO" resultType="FootballMatchVO">
-		SELECT
-			footno
-			, season
-			, lname
-			, TO_CHAR(time, 'HH24:MI') AS time
-			, location
-			, hname
-			, hscore
-			, ateam
-			, ascore
-			, mlink
-			, vlink
-		FROM
-		  football_match
-		<where>
-      <![CDATA[lname = #{lname}]]>
-    </where>
+select 
+    bm1.footno as footno,
+    bm1.season as season,
+    bm1.lname as lname,
+    bm1.time as time,
+    bm1.location as location,
+    bm1.hname as hname,
+    bm1.hscore as hscore,
+    bm1.ateam as ateam,
+    bm1.ascore as ascore,
+    bm1.mlink as mlink,
+    bm1.vlink as vlink,
+    bm2.logo as hname_logo,
+    bm3.logo as ateam_logo
+from football_match bm1, team bm2, team bm3
+<where>
+    <![CDATA[bm1.lname='프리미어리그' and
+    bm1.hname= bm2.tname and
+    bm1.ateam = bm3.tname]]>
+</where>
+order by time asc
 	</select>
 	
     <select id="baseballRecordInfo" parameterType="BaseballRecordVO" resultType="BaseballRecordVO">
@@ -385,7 +396,7 @@
     
     <select id="basketballRecordInfo" parameterType="BasketballRecordVO" resultType="BasketballRecordVO">
         SELECT 
-            table1.tname as tname,
+            SUBSTR(table1.tname,1,9) as tname,
             table1.logo as logo,
             table1.games + table2.games AS games,
             table1.win + table2.win AS win,

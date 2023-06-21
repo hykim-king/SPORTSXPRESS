@@ -978,7 +978,20 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         </thead>
         <tbody>
             <c:forEach var="tusus" items="${tusus}" varStatus="loop">
-                <tr class="dv">
+              <c:choose>
+	              <c:when test="${loop.count >= 1 && loop.count <= 4}">
+	                <tr class="on">
+	              </c:when>
+	              <c:when test="${loop.count %5 == 0 && loop.count != 5}">
+	                <tr class="dv">
+	              </c:when>
+	              <c:when test="${loop.count == 5}">
+	                <tr class="dv on">
+	              </c:when>
+	              <c:otherwise>
+	                <tr class="">
+	              </c:otherwise>
+	            </c:choose>
               <th>
                   <c:choose>
                     <c:when test="${loop.count >= 1 && loop.count <= 5}">
@@ -1187,7 +1200,20 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         </thead>
         <tbody>
             <c:forEach var="tajas" items="${tajas}" varStatus="loop">
-                <tr class="dv">
+                <c:choose>
+                  <c:when test="${loop.count >= 1 && loop.count <= 4}">
+                    <tr class="on">
+                  </c:when>
+                  <c:when test="${loop.count %5 == 0 && loop.count != 5}">
+                    <tr class="dv">
+                  </c:when>
+                  <c:when test="${loop.count == 5}">
+                    <tr class="dv on">
+                  </c:when>
+                  <c:otherwise>
+                    <tr class="">
+                  </c:otherwise>
+                </c:choose>
               <th>
                   <c:choose>
                     <c:when test="${loop.count >= 1 && loop.count <= 5}">
