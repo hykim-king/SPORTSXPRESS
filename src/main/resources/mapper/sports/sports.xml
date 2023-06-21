@@ -43,9 +43,7 @@
 			reg_id,
 			reg_dt,
 			hyperlink,
-			views,
-			video_thumb,
-			video_time
+			views
 		FROM
 		  video
 		<where>
@@ -232,7 +230,7 @@
 	</select>
 
 	<select id="selectVolleyballMatchInfo" parameterType="VolleyballMatchVO" resultType="VolleyballMatchVO">
-		SELECT 
+    SELECT 
         bm1.volleyno AS volleyno,
         bm1.season AS season,
         bm1.lname AS lname,

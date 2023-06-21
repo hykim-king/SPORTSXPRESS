@@ -444,49 +444,30 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <h2 class="blind">메인 메뉴</h2>
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
-  </li>
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem"  onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
+    </li>
+    
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/volleyball_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
+    </li>
+  
+    <li class="lnb_item" role="presentation">
+      <a href="/ehr/sportsxpress/golf_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
+    </li>
 
-  <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/baseball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/soccer_info.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.soccer', 'soccer', '', event); ; ">축구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/basketball_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_index.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.kvolleyball', 'kvolleyball', '', event); ; ">배구</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="/ehr/sportsxpress/golf_index.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.golf', 'golf', '', event); ; ">골프</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.general', 'general', '', event); ; ">일반</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://game.naver.com/esports" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.esports', 'esports', '', event); ; ">e스포츠</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="https://m.sports.naver.com/column/storyteller" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.column', 'column', '', event);  javascript:lnbOpenPopup(this.href); return false; ; ">연재</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.scoreboard', 'scoreboard', '', event); ; ">오늘의 경기</a>
-  </li>
-
-  <li class="lnb_item" role="presentation">
-    <a href="#" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.ranking', 'ranking', '', event); ; ">랭킹</a>
-  </li>
 </ul>
   
   
@@ -503,16 +484,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">최신뉴스</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.video', 'video', '', event); ">
-    <span class="menu">영상</span>
-    </a>
-  </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.album', 'album', '', event); ">
-    <span class="menu">생생화보</span>
-    </a>
-  </li>
+
   <li class="lnb_sub_item " role="presentation">
     <a href="/ehr/sportsxpress/volleyball_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page">
     <span class="menu">일정/결과</span>
@@ -523,11 +495,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <span class="menu">기록/순위</span>
     </a>
   </li>
-  <li class="lnb_sub_item " role="presentation">
-    <a href="#" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.64', '64', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li>
+
 </ul>
 </nav>
 
@@ -817,16 +785,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <li class="on">
             <a class="event_a" href="javascript:changeCategory('');"><span class="blind">전체 경기</span></a>
         </li>
-        <li class="">
-            <a class="event_m" href="javascript:changeCategory('kovo');">
-                <span class="blind">남자부 경기</span>
-            </a>
-        </li>
-        <li class="">
-            <a class="event_w" href="javascript:changeCategory('wkovo');">
-                <span class="blind">여자부 경기</span>
-            </a>
-        </li>
+
     </ul>
 </div>
 
@@ -949,620 +908,120 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                         <span class="td_round">챔피언결정전</span>
                     </td>
                 </tr>
-            
+                
         </tbody>
     </table>
 </div>
 </c:forEach>
-    
-    
-    
+
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.25</strong> (목)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.26</strong> (금)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.27</strong> (토)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.28</strong> (일)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.29</strong> (월)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.30</strong> (화)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="sch_tb2 nogame2 ">
+          <table cellspacing="0" border="1">
+              <colgroup>
+                  <col width="107"><col width="55"><col width="">
+              </colgroup>
+              <tbody>
+              <tr>
+                  <td rowspan="5"><span class="td_date"><strong>5.31</strong> (수)</span></td>
+                  <td><span class="td_hour">-</span></td>
+                  <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+              </tr>
+              </tbody>
+          </table>
+      </div>
+
 
     
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.2</strong> (금)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.3</strong> (토)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.4</strong> (일)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.5</strong> (월)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.6</strong> (화)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.7</strong> (수)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.8</strong> (목)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame selected">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.9</strong> (금)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.10</strong> (토)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.11</strong> (일)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.12</strong> (월)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.13</strong> (화)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.14</strong> (수)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.15</strong> (목)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.16</strong> (금)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.17</strong> (토)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.18</strong> (일)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.19</strong> (월)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.20</strong> (화)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.21</strong> (수)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.22</strong> (목)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.23</strong> (금)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.24</strong> (토)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.25</strong> (일)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.26</strong> (월)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.27</strong> (화)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.28</strong> (수)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.29</strong> (목)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    
-    
-    
-
-    
-    
-    
-        <div class="sch_tb2 nogame2 ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
-                <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.30</strong> (금)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
     
     
     
@@ -1611,18 +1070,15 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
       
       <div class="sports_league">
-        <ul class="league_list">
-          <li class="league_item"><a href="/index" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/kbaseball/index" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/wbaseball/index" class="link_league">해외야구</a></li>
-          <li class="league_item"><a href="/kfootball/index" class="link_league">축구</a></li>
-          <li class="league_item"><a href="/wfootball/index" class="link_league">해외축구</a></li>
-          <li class="league_item"><a href="/basketball/index" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/volleyball/index" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/golf/index" class="link_league">N골프</a></li>
-          <li class="league_item"><a href="/general/index" class="link_league">일반</a></li>
-          <li class="league_item"><a href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
-        </ul>
+<ul class="league_list">
+            <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf_news.do" class="link_league">골프</a></li>
+         </ul>
+     
       </div>
     </div>
     <div class="sports_info">
