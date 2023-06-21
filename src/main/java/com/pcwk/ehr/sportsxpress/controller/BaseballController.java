@@ -32,8 +32,6 @@ public class BaseballController {
 
 	@Autowired
 	ArticleService articleService;
-	
-
 
 	public BaseballController() {
 		System.out.println("default SportsController()");
@@ -42,7 +40,6 @@ public class BaseballController {
 
 	// 한국 야구 (최신 뉴스, 영상 등 한 화면에 필요한 DATA를 부르는 Controller 제작)
 	// -------------------------------------------------------------------------//
-
 	// 최신 뉴스
 	@RequestMapping(value = "/baseball_news.do", method = RequestMethod.GET)
 	public String ArticleInfo(ArticleVO getArticle, VideoVO getVideo, Model model) throws SQLException {
@@ -55,15 +52,9 @@ public class BaseballController {
 		
 		model.addAttribute("videos",videoList);
 		model.addAttribute("articles", articleList);
-		
 
 		return "sports/baseball_news";
 
 	}
-	
-	
-	
 
-
-	
 }

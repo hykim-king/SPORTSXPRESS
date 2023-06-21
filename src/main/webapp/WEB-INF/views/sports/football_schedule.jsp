@@ -918,7 +918,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   </th>
   <td class="time_place">
     <div class="inner">
-      <span class="time">00:30</span>
+      <span class="time">${matches[0].time}</span>
       <span class="place">${matches[0].location}</span>
     </div>
   </td>

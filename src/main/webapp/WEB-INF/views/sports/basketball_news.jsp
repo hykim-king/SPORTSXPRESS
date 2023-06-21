@@ -42,21 +42,7 @@
 <link rel="apple-touch-icon" sizes="180x180"
 	href="https://imgsports.pstatic.net/images/mobile/favicon_20180622/ios/iOS_180X180_iPhone.png">
 <!-- 레티나 패드 -->
-<!-- script -->
-<script></script>
 
-<script></script>
-
-
-
-<script>
-	
-</script>
-
-
-<script>
-	
-</script>
 <style id="gnb_style" type="text/css">
 @charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
@@ -2216,11 +2202,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 					<div class="gnb_one" id="gnb">
 						<strong class="blind">사용자 링크</strong>
 						<ul class="gnb_lst" id="gnb_lst" style="display: block;">
-							<li class="gnb_login_li" id="gnb_login_layer"
+	<!-- 						<li class="gnb_login_li" id="gnb_login_layer"
 								style="display: inline-block;"><a class="gnb_btn_login"
 								href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.naver.com%2Fbasketball%2Fnews%2Findex"
 								id="gnb_login_button"><span class="gnb_bg"></span><span
-									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li>
+									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li> -->
 							<li class="gnb_my_li" id="gnb_my_layer" style="display: none"><div
 									class="gnb_my_namebox" id="gnb_my_namebox"
 									style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);">
@@ -2347,11 +2333,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										class="gnb_ico_new"><span class="gnb_count"
 											id="gnb_mail_count"></span></span></em></a></li>
 							<li class="gnb_service_li" id="gnb_service_layer"
-								style="display: inline-block;"><a href="javascript:;"
+								style="display: inline-block;"><!-- <a href="javascript:;"
 								class="gnb_service"
 								onclick="gnbMoreLayer.clickToggle(); return false;"><span
 									class="blind">서비스 더보기</span><span class="gnb_icon"></span><span
-									class="ico_arrow"></span></a>
+									class="ico_arrow"></span></a> -->
 							<div class="gnb_service_lyr" id="gnb_service_lyr">
 									<div class="gnb_favorite_search" id="gnb_favorite_search">
 										<div class="gnb_favorite_area">
@@ -3060,180 +3046,148 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 						<div id="news_vod" class="aside_inner">
 							<div class="aside_head">
-								<h3 class="title">많이 본 영상</h3>
-							</div>
-							<div class="aside_vod_best2">
-								<ul class="aside_vod_list2">
-
-
-									<li class="best"><a
-										href="/video?category=basketballlesson&amp;id=1077580"
-										onclick="clickcr(this, 'aec*b.video', '', '', event);"
-										title="커리의 여동생? 여자하든?">
-											<div class="thmb">
-												<b class="rank_num">1</b> <span class="mask"></span> <img
-													width="260" height="156"
-													src="https://dthumb-phinf.pstatic.net/?twidth=260&amp;theight=156&amp;opts=12&amp;qlt=95&amp;src=https://phinf.pstatic.net/tvcast/20230607_206/EAr2U_1686099616725WrX9p_JPEG/4d2505c5-04ce-11ee-8de4-a0369ffdb264_04.jpg"
-													class="imageLazyLoad"
-													lazy-src="https://dthumb-phinf.pstatic.net/?twidth=260&amp;theight=156&amp;opts=12&amp;qlt=95&amp;src=https://phinf.pstatic.net/tvcast/20230607_206/EAr2U_1686099616725WrX9p_JPEG/4d2505c5-04ce-11ee-8de4-a0369ffdb264_04.jpg"
-													alt="" onerror="imageOnError(this);">
+	   <h3 class="title">많이 본 영상</h3>
+  </div>
+  <div class="aside_vod_best2">
+    <ul class="aside_vod_list2">
+      
+        
+          <li class="best">
+            <a href="${videos[0].hyperlink}" onclick="clickcr(this, 'aec*b.video', '', '', event);" title="">
+              <div class="thmb">
+                <b class="rank_num">1</b>
+                
+                <span class="mask"></span> <img width="260" height="156"
+													src="https://phinf.pstatic.net/tvcast/20230619_81/mO79z_1687166383905r4C8C_JPEG/8b600596-0e81-11ee-befd-48df379cca40_03.jpg?type=f172_97_blend_webp" class="imageLazyLoad"
+													lazy-src="https://phinf.pstatic.net/tvcast/20230619_81/mO79z_1687166383905r4C8C_JPEG/8b600596-0e81-11ee-befd-48df379cca40_03.jpg?type=f172_97_blend_webp" alt=""
+													onerror="imageOnError(this);">
 
 
 
 											</div>
-											<div class="text">
-												<span class="title"><span>커리의 여동생? 여자하든?</span></span>
-												<div class="info">
-													<span class="play"><span class="ico">재생수</span>4,991</span>
-
-													<span class="time"><span class="ico">재생시간</span>00:59</span>
-
-												</div>
-											</div>
-									</a></li>
-
-
-
-									<li class="vod_li"><a
-										href="/video?category=kbl&amp;id=1077520"
-										onclick="clickcr(this, 'aec*b.video', '', '', event);"
-										title="[KBL 클래식 숏폼] 하승진, '넌 날 막을 수 없다'">
-											<div class="thmb">
-												<b class="rank_num">2</b> <span class="time"><span
-													class="blind">재생시간</span>00:32</span> <span class="mask"></span> <img
-													width="110" height="64"
-													src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230607_197/1686076516647seMsj_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%C7%CF%BD%C2%C1%F8%2C_%27%B3%CD_%B3%AF_%B8%B7%C0%BB_%BC%F6_%BE%F8%B4%D9%27.jpg"
-													class="imageLazyLoad"
-													lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230607_197/1686076516647seMsj_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%C7%CF%BD%C2%C1%F8%2C_%27%B3%CD_%B3%AF_%B8%B7%C0%BB_%BC%F6_%BE%F8%B4%D9%27.jpg"
-													alt="" onerror="imageOnError(this);">
-
-
-											</div>
-											<div class="text">
-												<span class="title"><span>[KBL 클래식 숏폼] 하승진, '넌
-														날 막...</span></span>
-												<div class="info">
-													<span class="play"><span class="ico">재생수</span>1,794</span>
-
-												</div>
-											</div>
-									</a></li>
+              <div class="text">
+                <span class="title"><span>${videos[0].title}</span></span>
+                <div class="info">
+                  <span class="play"><span class="ico">재생수</span>${videos[0].views}</span>
+                  
+                    <span class="time"><span class="ico">재생시간</span>03:05</span>
+                  
+                </div>
+              </div>
+            </a>
+          </li>
+                      <li class="vod_li"><a
+                        href="${videos[1].hyperlink}"
+                        onclick="clickcr(this, 'aec*b.video', '', '', event);"
+                        title="">
+                          <div class="thmb">
+                            <b class="rank_num">2</b> <span class="time"><span
+                              class="blind">재생시간</span>00:25</span> <span class="mask"></span>
 
 
 
-									<li class="vod_li"><a
-										href="/video?category=basketballlesson&amp;id=1077900"
-										onclick="clickcr(this, 'aec*b.video', '', '', event);"
-										title="'노인즈' 최준용 도발에 답한 김선형 " 언제까지="" 어려?"="" [o!=""
-										sports]"="">
-											<div class="thmb">
-												<b class="rank_num">3</b> <span class="time"><span
-													class="blind">재생시간</span>03:36</span> <span class="mask"></span> <img
-													width="110" height="64"
-													src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://phinf.pstatic.net/tvcast/20230608_141/EDIUo_1686203738666l9rfT_JPEG/1686203736128.jpg"
-													class="imageLazyLoad"
-													lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://phinf.pstatic.net/tvcast/20230608_141/EDIUo_1686203738666l9rfT_JPEG/1686203736128.jpg"
-													alt="" onerror="imageOnError(this);">
+                            <img width="110" height="64"
+                              src="https://phinf.pstatic.net/tvcast/20230619_279/Ih8LK_1687170413607WQtPL_JPEG/ba055b11-0e8b-11ee-8de4-a0369ffdb264_03.jpg?type=f172_97_blend_webp"
+                              class="imageLazyLoad"
+                              lazy-src="https://phinf.pstatic.net/tvcast/20230619_279/Ih8LK_1687170413607WQtPL_JPEG/ba055b11-0e8b-11ee-8de4-a0369ffdb264_03.jpg?type=f172_97_blend_webp"
+                              alt="" onerror="imageOnError(this);">
 
 
-											</div>
-											<div class="text">
-												<span class="title"><span>'노인즈' 최준용 도발에 답한 김선형
-														"언제...</span></span>
-												<div class="info">
-													<span class="play"><span class="ico">재생수</span>744</span>
+                          </div>
+                          <div class="text">
+                            <span class="title"><span>${videos[1].title}</span></span>
+                            <div class="info">
+                              <span class="play"><span class="ico">재생수</span>${videos[1].views}</span>
 
-												</div>
-											</div>
-									</a></li>
-
-
-
-									<li class="vod_li"><a
-										href="/video?category=kbl&amp;id=1076786"
-										onclick="clickcr(this, 'aec*b.video', '', '', event);"
-										title="[KBL 클래식 숏폼] 덩크하는 전태풍과 3점 슛 쏘는 하승진">
-											<div class="thmb">
-												<b class="rank_num">4</b> <span class="time"><span
-													class="blind">재생시간</span>00:36</span> <span class="mask"></span> <img
-													width="110" height="64"
-													src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230604_99/1685818056331H3v80_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%B5%A2%C5%A9%C7%CF%B4%C2_%C0%FC%C5%C2%C7%B3%B0%FA_3%C1%A1_%BD%B8_%BD%EE%B4%C2_%C7%CF%BD%C2%C1%F8.jpg"
-													class="imageLazyLoad"
-													lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230604_99/1685818056331H3v80_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%B5%A2%C5%A9%C7%CF%B4%C2_%C0%FC%C5%C2%C7%B3%B0%FA_3%C1%A1_%BD%B8_%BD%EE%B4%C2_%C7%CF%BD%C2%C1%F8.jpg"
-													alt="" onerror="imageOnError(this);">
-
-
-											</div>
-											<div class="text">
-												<span class="title"><span>[KBL 클래식 숏폼] 덩크하는
-														전태풍과 3...</span></span>
-												<div class="info">
-													<span class="play"><span class="ico">재생수</span>705</span>
-
-												</div>
-											</div>
-									</a></li>
+                            </div>
+                          </div>
+                      </a></li>
+                      
+                <li class="vod_li"><a
+                        href="${videos[2].hyperlink}"
+                        onclick="clickcr(this, 'aec*b.video', '', '', event);"
+                        title="">
+                          <div class="thmb">
+                            <b class="rank_num">3</b> <span class="time"><span
+                              class="blind">재생시간</span>00:15</span> <span class="mask"></span>
 
 
 
-									<li class="vod_li"><a
-										href="/video?category=kbl&amp;id=1077824"
-										onclick="clickcr(this, 'aec*b.video', '', '', event);"
-										title="[KBL 클래식 숏폼] 시계 형님의 쇼 타임!">
-											<div class="thmb">
-												<b class="rank_num">5</b> <span class="time"><span
-													class="blind">재생시간</span>00:27</span> <span class="mask"></span> <img
-													width="110" height="64"
-													src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230608_295/1686164064070Bzg6t_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%BD%C3%B0%E8_%C7%FC%B4%D4%C0%C7_%BC%EE_%C5%B8%C0%D3.jpg"
-													class="imageLazyLoad"
-													lazy-src="https://dthumb-phinf.pstatic.net/?twidth=110&amp;theight=64&amp;opts=12&amp;qlt=95&amp;src=https://sports-phinf.pstatic.net/20230608_295/1686164064070Bzg6t_JPEG/KBL_%C5%AC%B7%A1%BD%C4_%BC%F4%C6%FB_%BD%C3%B0%E8_%C7%FC%B4%D4%C0%C7_%BC%EE_%C5%B8%C0%D3.jpg"
-													alt="" onerror="imageOnError(this);">
+                            <img width="110" height="64"
+                              src="https://phinf.pstatic.net/tvcast/20230619_68/JMJeD_1687163932593UhUo3_JPEG/87320614-0e7c-11ee-83da-d4f5ef5906a4_03.jpg?type=f172_97_blend_webp"
+                              class="imageLazyLoad"
+                              lazy-src="https://phinf.pstatic.net/tvcast/20230619_68/JMJeD_1687163932593UhUo3_JPEG/87320614-0e7c-11ee-83da-d4f5ef5906a4_03.jpg?type=f172_97_blend_webp"
+                              alt="" onerror="imageOnError(this);">
 
 
-											</div>
-											<div class="text">
-												<span class="title"><span>[KBL 클래식 숏폼] 시계 형님의
-														쇼 타임!</span></span>
-												<div class="info">
-													<span class="play"><span class="ico">재생수</span>515</span>
+                          </div>
+                          <div class="text">
+                            <span class="title"><span>${videos[2].title}</span></span>
+                            <div class="info">
+                              <span class="play"><span class="ico">재생수</span>${videos[2].views}</span>
 
-												</div>
-											</div>
-									</a></li>
+                            </div>
+                          </div>
+                      </a></li>                     
 
-
-
+                <li class="vod_li"><a
+                        href="${videos[3].hyperlink}"
+                        onclick="clickcr(this, 'aec*b.video', '', '', event);"
+                        title="">
+                          <div class="thmb">
+                            <b class="rank_num">4</b> <span class="time"><span
+                              class="blind">재생시간</span>04:22</span> <span class="mask"></span>
 
 
 
+                            <img width="110" height="64"
+                              src="https://phinf.pstatic.net/tvcast/20230619_9/7Qvj7_1687171741184Pythk_JPEG/be724a18-0e8e-11ee-9dc4-d4f5ef58ac88_03.jpg?type=f172_97_blend_webp"
+                              class="imageLazyLoad"
+                              lazy-src="https://phinf.pstatic.net/tvcast/20230619_9/7Qvj7_1687171741184Pythk_JPEG/be724a18-0e8e-11ee-9dc4-d4f5ef58ac88_03.jpg?type=f172_97_blend_webp"
+                              alt="" onerror="imageOnError(this);">
+
+
+                          </div>
+                          <div class="text">
+                            <span class="title"><span>${videos[3].title}</span></span>
+                            <div class="info">
+                              <span class="play"><span class="ico">재생수</span>${videos[3].views}</span>
+
+                            </div>
+                          </div>
+                      </a></li> 
+
+                <li class="vod_li"><a
+                        href="${videos[4].hyperlink}"
+                        onclick="clickcr(this, 'aec*b.video', '', '', event);"
+                        title="">
+                          <div class="thmb">
+                            <b class="rank_num">5</b> <span class="time"><span
+                              class="blind">재생시간</span>03:00</span> <span class="mask"></span>
 
 
 
+                            <img width="110" height="64"
+                              src="https://phinf.pstatic.net/tvcast/20230601_55/LP3RP_1685611651969cE4tc_JPEG/WaB2EfWUMk5g.jpg?type=f172_97_blend_webp"
+                              class="imageLazyLoad"
+                              lazy-src="https://phinf.pstatic.net/tvcast/20230601_55/LP3RP_1685611651969cE4tc_JPEG/WaB2EfWUMk5g.jpg?type=f172_97_blend_webp"
+                              alt="" onerror="imageOnError(this);">
 
 
+                          </div>
+                          <div class="text">
+                            <span class="title"><span>${videos[4].title}</span></span>
+                            <div class="info">
+                              <span class="play"><span class="ico">재생수</span>${videos[4].views}</span>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-								</ul>
+                            </div>
+                          </div>
+                      </a></li>
+                    </ul>
 							</div>
 
 
-<!-- 							<a href="/basketball/vod/index" class="more"
-								onclick="clickcr(this, 'aec*b.more', '', '', event);"><span>더보기</span></a> -->
+
 
 
 
@@ -3519,7 +3473,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 				<div class="sports_info">
 					<div class="link_area">
 						<div class="main_area">
-							<a href="javascript:moveToLoginForm();" class="link"
+							<!-- <a href="javascript:moveToLoginForm();" class="link"
 								id="login_status"><strong>로그인</strong></a> <a
 								href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
 							<a target="_blank"
@@ -3542,7 +3496,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
 					<span class="naver">© <a ref="http://www.navercorp.com/"
 						target="_blank" onclick="clickcr(this, 'fot.nhn', '', '', event);">NAVER
-							Corp.</a></span>
+							Corp.</a></span> -->
 				</div>
 			</div>
 

@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfRankVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.VO.VolleyballInfoVO;
@@ -78,7 +76,7 @@ public class VolleyballController {
 	}
 
 	// 일정 결과
-	@RequestMapping(value = "/volleyball_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/volleyball_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(VolleyballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 
 		List<VolleyballMatchVO> matchList = volleyballService.getMatchInfo(getMatch);
@@ -91,7 +89,7 @@ public class VolleyballController {
 	}
 
 	// 기록/순위
-	@RequestMapping(value = "/volleyball_Recode.do")
+	@RequestMapping(value = "/volleyball_recode.do")
 	public String RecodeInfo(TeamVO getTeam, VolleyballInfoVO getPlayer, Model model) throws SQLException {
 		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
 		List<VolleyballInfoVO> playerList = volleyballService.getPlayerInfo(getPlayer);
@@ -99,7 +97,7 @@ public class VolleyballController {
 		model.addAttribute("teams", teamList);
 		model.addAttribute("players", playerList);
 
-		return "sports//volleyball_Recode";
+		return "sports/volleyball_Recode";
 	}
 	// -------------------------------------------------------------------------//
 

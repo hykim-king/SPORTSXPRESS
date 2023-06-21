@@ -43,7 +43,9 @@
 			reg_id,
 			reg_dt,
 			hyperlink,
-			views
+			views,
+			video_thumb,
+			video_time
 		FROM
 		  video
 		<where>
@@ -152,21 +154,23 @@
 	</select>
 
 	<select id="selectBasketballMatchInfo" parameterType="BasketballMatchVO" resultType="BasketballMatchVO">
-		SELECT
-		basketno,
-		season,
-		lname,
-		time,
-		location,
-		hname,
-		hscore,
-		ateam,
-		ascore,
-		mlink,
-		vlink
-		FROM
-		basketball_match
-		<!-- <where> <![CDATA[ basketno <= #{basketno}]]> </where> -->
+		SELECT 
+		    bm1.basketno AS basketno,
+		    bm1.season AS season,
+		    bm1.lname AS lname,
+		    bm1.time AS time,
+		    bm1.location AS location, 
+		    bm1.hname AS hname,
+		    bm1.hscore AS hscore,
+		    bm1.ateam AS ateam,
+		    bm1.ascore AS ascore,
+		    bm1.mlink AS mlink,
+		    bm1.vlink AS vlink,
+		    bm2.logo AS hname_logo,
+		    bm3.logo AS ateam_logo
+		FROM   basketball_match bm1, team bm2, team bm3
+		<where> <![CDATA[bm1.lname = 'KBL' AND bm1.hname = bm2.tname AND bm1.ateam = bm3.tname]]> </where>
+		ORDER BY time asc
 	</select>
 
 	<select id="selectGolfPlayerInfo" parameterType="GolfRankVO" resultType="GolfRankVO">
