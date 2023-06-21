@@ -52,6 +52,19 @@ public class BasketballController {
 		return "sports/basketball_news";
 
 	}
+	
+	@RequestMapping(value = "/basketball_Schedule.do", method = RequestMethod.GET)
+	public String ScheduleInfo(BasketballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
+		List<BasketballMatchVO> matchList = basketballService.getMatchInfo(getMatch);
+	    model.addAttribute("matches", matchList);
+	    getTeam.setLname("KBL");
+	    List<TeamVO> TeamList = teamService.getTeamInfo(getTeam);
+	    model.addAttribute("teams", TeamList);
+		
+
+		return "sports/basketball/basketball_schedule";
+
+	}
 
 //---------------------------------------------------------------------------//
 }
