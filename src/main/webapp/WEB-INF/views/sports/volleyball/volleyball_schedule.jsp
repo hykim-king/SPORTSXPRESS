@@ -861,21 +861,99 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
     
     
-    
-        <div class="sch_tb nogame ">
-            <table cellspacing="0" border="1">
-                <colgroup>
-                    <col width="107"><col width="55"><col width="">
-                </colgroup>
-                <tbody>
+<c:forEach var="matches" items="${matches}" varStatus="loop">
+<div class="sch_tb2 ">
+    <table cellspacing="0" border="1">
+        <colgroup>
+            <col width="107"><col width="55"><col width="76"><col><col width="130"><col width="107"><col width="59"><col width="122">
+        </colgroup>
+        <tbody>
+            
                 <tr>
-                    <td rowspan="5"><span class="td_date"><strong>6.1</strong> (목)</span></td>
-                    <td><span class="td_hour">-</span></td>
-                    <td><span class="td_none">프로배구 경기가 없습니다.</span></td>
+	              <c:choose>
+	                <c:when test="${loop.count % 7 == 1}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (월)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 2}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (화)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 3}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (수)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 4}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (목)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 5}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (금)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 6}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (토)</span></td>
+	                </c:when>
+	                <c:when test="${loop.count % 7 == 0}">
+	                  <td rowspan="1"><span class="td_date"><strong>5.${loop.count}</strong> (일)</span></td>
+	                </c:when>
+	              </c:choose>
+                    
+                    <td><span class="td_hour">19:00</span></td>
+                    <td><span class="td_event"></span></td>
+                    <td><span class="team_lft">${matches.hname}</span>
+                        <span class="emblem"><img src="${matches.hname_logo}" onerror="imageOnError(this);" width="25" height="25" alt="한국도로공사" title="한국도로공사"></span>
+                        
+                            
+                            
+                                <strong class="td_score">${matches.hscore}<em>:</em>${matches.ascore}</strong>
+                            
+                        
+                        <span class="emblem"><img src="${matches.ateam_logo}" onerror="imageOnError(this);" width="25" height="25" alt="흥국생명" title="흥국생명"></span>
+                        <span class="team_rgt">${matches.ateam}</span>
+                    </td>
+                    <td>
+        <span class="td_btn">
+                        
+                            
+                            
+                            
+                                <a href="/game/20230402019F265/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
+                            
+                            
+                        
+                        <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
+                        
+                            
+                            
+                            
+                            
+                            
+                                
+                                    
+                                    <a href="/game/20230402019F265/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
+                                
+                            
+                            
+                        
+                    </span>
+                    </td>
+                    <td>
+                        <span class="td_broad">
+                        
+                            
+                            
+                            
+                        
+                        </span>
+                    </td>
+                    <td>
+                        <span class="td_stadium">${matches.location}</span>
+                    </td>
+                    <td>
+                        <span class="td_round">챔피언결정전</span>
+                    </td>
                 </tr>
-                </tbody>
-            </table>
-        </div>
+            
+        </tbody>
+    </table>
+</div>
+</c:forEach>
     
     
     
