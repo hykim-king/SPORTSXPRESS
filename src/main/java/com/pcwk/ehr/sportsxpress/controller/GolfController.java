@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.BasketballInfoVO;
-import com.pcwk.ehr.sportsxpress.VO.BasketballMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfRankVO;
-import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
 import com.pcwk.ehr.sportsxpress.service.GolfService;

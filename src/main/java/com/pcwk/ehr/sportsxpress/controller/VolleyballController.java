@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
-import com.pcwk.ehr.sportsxpress.VO.GolfRankVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.VO.VolleyballInfoVO;
@@ -99,7 +97,7 @@ public class VolleyballController {
 		model.addAttribute("teams", teamList);
 		model.addAttribute("players", playerList);
 
-		return "sports//volleyball_Recode";
+		return "sports/volleyball_Recode";
 	}
 	// -------------------------------------------------------------------------//
 
