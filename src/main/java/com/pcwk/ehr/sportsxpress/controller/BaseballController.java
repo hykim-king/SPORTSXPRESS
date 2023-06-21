@@ -10,10 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
+import com.pcwk.ehr.sportsxpress.VO.BaseballRecordVO;
+import com.pcwk.ehr.sportsxpress.VO.TajaInfoVO;
+import com.pcwk.ehr.sportsxpress.VO.TusuInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
 import com.pcwk.ehr.sportsxpress.service.BaseballService;
+import com.pcwk.ehr.sportsxpress.service.TajaService;
 import com.pcwk.ehr.sportsxpress.service.TeamService;
+import com.pcwk.ehr.sportsxpress.service.TusuService;
 import com.pcwk.ehr.sportsxpress.service.VideoService;
 
 
@@ -22,8 +27,14 @@ import com.pcwk.ehr.sportsxpress.service.VideoService;
 public class BaseballController {
 
 	@Autowired
-	BaseballService baseballMatchService;
+	BaseballService baseballService;
 
+	@Autowired
+	TusuService tusuInfoService;
+
+	@Autowired
+	TajaService tajaInfoService;
+	
 	@Autowired
 	VideoService videoService;
 
@@ -56,5 +67,20 @@ public class BaseballController {
 		return "sports/baseball/baseball_news";
 
 	}
+	
+	@RequestMapping(value = "/baseball_record.do", method = RequestMethod.GET)
+	public String baseballRecordInfo(BaseballRecordVO getRecord, Model model) throws SQLException {
+		
+		//야구 매칭 기록을 서비스를 통해 가져옴
+		List<BaseballRecordVO> recordList = baseballService.getBaseballRecordInfo(getRecord);
+	    List<TusuInfoVO> tusuList = tusuInfoService.getTusuInfo(new TusuInfoVO());
+	    List<TajaInfoVO> tajaList = tajaInfoService.getTajaInfo(new TajaInfoVO());
+	    
+	    model.addAttribute("records", recordList);
+	    model.addAttribute("tusus", tusuList);
+	    model.addAttribute("tajas", tajaList);
+	    return "sports/baseball/baseball_record";
+	}
+	
 
 }

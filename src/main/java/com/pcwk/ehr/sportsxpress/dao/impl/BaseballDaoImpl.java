@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.BaseballRecordVO;
 import com.pcwk.ehr.sportsxpress.dao.BaseballDao;
 
 
@@ -63,6 +64,25 @@ public class BaseballDaoImpl implements BaseballDao {
 			LOG.debug("=3. vo="+vo);
 		}
 		return outList;
+	}
+	
+	@Override
+	public List<BaseballRecordVO> baseballRecordInfo(BaseballRecordVO getRecord) throws SQLException {
+		List<BaseballRecordVO> outList =  new ArrayList<>();
+		
+		String statement = this.NAMESPACE+DOT+"baseballRecordInfo";
+		LOG.debug("-------------------------------------");
+		LOG.debug("-statement-"+statement);
+		LOG.debug("-------------------------------------");
+		LOG.debug("2. param="+getRecord);
+		outList = this.sqlSessionTemplate.selectList(statement, getRecord);
+		
+		LOG.debug("3. 문제's"+getRecord);
+		for(BaseballRecordVO vo: outList) {
+			LOG.debug("=3. vo="+vo);
+		}
+		return outList;
+
 	}
 	
 

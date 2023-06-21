@@ -10,7 +10,7 @@ public class VolleyballMatchVO extends DTO {
 	private String time      ;
 	private String location  ;
 	private String hname     ;
-	private String hscore    ;
+	private int hscore       ;
 	private String ateam     ;
 	private int ascore       ;
 	private String mlink     ;
@@ -21,7 +21,7 @@ public class VolleyballMatchVO extends DTO {
 	public  VolleyballMatchVO() {}
 
 	public VolleyballMatchVO(int volleyno, String season, String lname, String time, String location, String hname,
-			String hscore, String ateam, int ascore, String mlink, String vlink, String hname_logo, String ateam_logo) {
+			int hscore, String ateam, int ascore, String mlink, String vlink, String hname_logo, String ateam_logo) {
 		super();
 		this.volleyno = volleyno;
 		this.season = season;
@@ -86,11 +86,11 @@ public class VolleyballMatchVO extends DTO {
 		this.hname = hname;
 	}
 
-	public String getHscore() {
+	public int getHscore() {
 		return hscore;
 	}
 
-	public void setHscore(String hscore) {
+	public void setHscore(int hscore) {
 		this.hscore = hscore;
 	}
 
@@ -149,7 +149,7 @@ public class VolleyballMatchVO extends DTO {
 				+ ", ascore=" + ascore + ", mlink=" + mlink + ", vlink=" + vlink + ", hname_logo=" + hname_logo
 				+ ", ateam_logo=" + ateam_logo + "]";
 	}
-	
+
 
 	
 }
