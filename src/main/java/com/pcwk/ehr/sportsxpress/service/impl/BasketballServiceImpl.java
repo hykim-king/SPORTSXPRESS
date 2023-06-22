@@ -43,5 +43,10 @@ public class BasketballServiceImpl implements BasketballService {
 	public List<BasketballRecordVO> getBasketballRecordInfo(BasketballRecordVO getMatch) throws SQLException {
 		return basketballDao.basketballRecordInfo(getMatch);
 	}
+	
+	@Override
+	public List<BasketballInfoVO> getBestPlayerInfo(BasketballInfoVO getMatch) throws SQLException {
+		return basketballDao.bestPlayerInfo(getMatch);
+	}
 
 }

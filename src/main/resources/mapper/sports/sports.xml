@@ -112,20 +112,22 @@
 
 	<select id="selectBaseballMatchInfo" parameterType="BaseballMatchVO" resultType="BaseballMatchVO">
 		SELECT
-			baseno,
-			season,
-			lname,
-			TO_CHAR(time,'yyyy-mm-dd HH24MISS') as time,
-			location,
-			hname,
-			hscore,
-			ateam,
-			ascore,
-			mlink,
-			vlink
-		FROM
-		  baseball_match
-	<!-- <where> <![CDATA[ baseno <= #{baseno}]]> </where> -->
+        bm1.baseno AS baseno,
+        bm1.season AS season,
+        bm1.lname AS lname,
+        bm1.time AS time,
+        bm1.location AS location, 
+        bm1.hname AS hname,
+        bm1.hscore AS hscore,
+        bm1.ateam AS ateam,
+        bm1.ascore AS ascore,
+        bm1.mlink AS mlink,
+        bm1.vlink AS vlink,
+        bm2.logo AS hname_logo,
+        bm3.logo AS ateam_logo
+    FROM   baseball_match bm1, team bm2, team bm3
+    <where> <![CDATA[bm1.lname = 'KBO' AND bm1.hname = bm2.tname AND bm1.ateam = bm3.tname]]> </where>
+    ORDER BY baseno asc
 	</select>
 
 	<select id="selectBasketballPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
@@ -157,7 +159,24 @@
 		
 	<!-- <where> <![CDATA[ basketid <= #{basketid}]]> </where> -->
 	</select>
-
+	
+	<select id="selectBasketballBestPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
+	   SELECT
+		    name,
+		    CASE WHEN score = (SELECT MAX(score) FROM basketball_info) THEN score ELSE NULL END AS score,
+		    CASE WHEN assists = (SELECT MAX(assists) FROM basketball_info) THEN assists ELSE NULL END AS assists,
+		    CASE WHEN rebound = (SELECT MAX(rebound) FROM basketball_info) THEN rebound ELSE NULL END AS rebound,
+		    CASE WHEN success_3p = (SELECT MAX(success_3p) FROM basketball_info) THEN success_3p ELSE NULL END AS success_3p
+		FROM
+		    basketball_info
+		<where>
+		    (score = (SELECT MAX(score) FROM basketball_info)
+		    OR assists = (SELECT MAX(assists) FROM basketball_info)
+		    OR rebound = (SELECT MAX(rebound) FROM basketball_info)
+		    OR success_3p = (SELECT MAX(success_3p) FROM basketball_info))
+		</where>
+	</select>
+	
 	<select id="selectBasketballMatchInfo" parameterType="BasketballMatchVO" resultType="BasketballMatchVO">
 		SELECT 
 		    bm1.basketno AS basketno,
@@ -429,6 +448,7 @@ order by time asc
             GROUP BY B1.ateam, T1.logo) table2 
         ON table1.tname = table2.tname
         ORDER BY winrate DESC
+    
     </select>
 	
 

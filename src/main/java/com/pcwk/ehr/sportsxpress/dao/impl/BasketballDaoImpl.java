@@ -74,8 +74,23 @@ public class BasketballDaoImpl implements BasketballDao {
 		LOG.debug("2. param="+getRecord);
 		outList = this.sqlSessionTemplate.selectList(statement, getRecord);
 		
-		LOG.debug("3. param=문제's"+getRecord);
 		for(BasketballRecordVO vo: outList) {
+			LOG.debug("=3. vo="+vo);
+		}
+		return outList;
+	}
+	
+	public List<BasketballInfoVO> bestPlayerInfo(BasketballInfoVO getRecord) throws SQLException {
+		List<BasketballInfoVO> outList =  new ArrayList<>();
+		
+		String statement = this.NAMESPACE+DOT+"selectBasketballBestPlayerInfo";
+		LOG.debug("-------------------------------------");
+		LOG.debug("-statement-"+statement);
+		LOG.debug("-------------------------------------");
+		LOG.debug("2. param="+getRecord);
+		outList = this.sqlSessionTemplate.selectList(statement, getRecord);
+		
+		for(BasketballInfoVO vo: outList) {
 			LOG.debug("=3. vo="+vo);
 		}
 		return outList;
