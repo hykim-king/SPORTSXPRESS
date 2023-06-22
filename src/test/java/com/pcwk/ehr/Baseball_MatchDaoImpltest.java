@@ -42,7 +42,7 @@ public class Baseball_MatchDaoImpltest {
 		LOG.debug("*************************");
 		LOG.debug("*context*"+context);
 		LOG.debug("*************************");
-		baseball_MatchVO = new BaseballMatchVO(3,"1","1","1","1","1",1,"1",1,"1","1");
+//		baseball_MatchVO = new BaseballMatchVO(3,"1","1","1","1","1",1,"1",1,"1","1");
 
 		
     }

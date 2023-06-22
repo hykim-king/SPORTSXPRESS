@@ -2240,7 +2240,7 @@
                             <ul class="gnb_lst" id="gnb_lst" style="display: block;">
                                 <li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;">
                                     <a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Fschedule%2Findex" id="gnb_login_button">
-                                        <span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span>
+                                        <span class="gnb_bg">
                                     </a>
                                 </li>
                                 <li class="gnb_my_li" id="gnb_my_layer" style="display: none;">
@@ -2313,7 +2313,7 @@
                                 </li>
                                 <li class="gnb_notice_li" id="gnb_notice_layer" style="display: none;">
                                     <a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;">
-                                        <span class="blind">알림</span><span class="gnb_icon"></span>
+                                        <span class="blind">알림</span>
                                         <em class="gnb_ico_num" id="gnb_me_menu" style="display: none;">
                                             <span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span>
                                         </em>
@@ -2360,14 +2360,14 @@
                                 </li>
                                 <li class="mail_li" id="gnb_mail_layer" style="display: none;">
                                     <a href="https://mail.naver.com" class="gnb_mail">
-                                        <span class="blind">메일</span><span class="gnb_icon"></span>
+                                        <span class="blind">메일</span>
                                         <em class="gnb_ico_num" id="gnb_mail_menu" style="display: none;">
                                             <span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span>
                                         </em>
                                     </a>
                                 </li>
                                 <li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;">
-                                    <a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a>
+                                    <a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="ico_arrow"></span></a>
                                     <div class="gnb_service_lyr" id="gnb_service_lyr">
                                         <div class="gnb_favorite_search" id="gnb_favorite_search">
                                             <div class="gnb_favorite_area">
@@ -4966,7 +4966,7 @@
                     <div class="sports_info">
                         <div class="link_area">
                             <div class="main_area">
-                                <a href="javascript:moveToLoginForm();" class="link" id="login_status"><strong>로그인</strong></a> <a href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
+                                 <a href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
                                 <a target="_blank" onclick="OPS.viewOPS('ops', {url : 'https://help.naver.com/alias/contents2/sports/sports_2.naver'}); clickcr(this, 'fot.shelp', '', '', event); return false;" href="#" class="link">
                                     
                                 </a>
