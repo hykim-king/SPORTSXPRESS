@@ -14,5 +14,8 @@ public interface BasketballService {
 	public List<BasketballMatchVO> getMatchInfo(BasketballMatchVO getMatch) throws SQLException;
 	
 	public List<BasketballRecordVO> getBasketballRecordInfo(BasketballRecordVO getRecord) throws SQLException;
+	
+	public List<BasketballInfoVO> getBestPlayerInfo(BasketballInfoVO getRecord) throws SQLException;
+	
 
 }

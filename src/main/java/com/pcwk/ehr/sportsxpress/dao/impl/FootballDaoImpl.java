@@ -25,6 +25,7 @@ public class FootballDaoImpl implements FootballDao {
 	SqlSessionTemplate sqlSessionTemplate; // DB연결 객체
 
 	private final Logger lg = LogManager.getLogger(getClass());
+
 	
 	public FootballDaoImpl() {}
 
@@ -32,7 +33,9 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballInfoVO> selectFootballInfo(FootballInfoVO getplayer) throws SQLException {
 		List<FootballInfoVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerInfo";
+
+		String statement = this.NAMESPACE + DOT + "selectFootballInfo";
+
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
@@ -41,6 +44,7 @@ public class FootballDaoImpl implements FootballDao {
 
 		for (FootballInfoVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
+
 		}
 
 		return outList;
@@ -50,7 +54,10 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballMatchVO> selectFootballMatchInfo(FootballMatchVO getMatch) throws SQLException {
 		List<FootballMatchVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerMatchInfo";
+
+		String statement = this.NAMESPACE + DOT + "selectFootballMatchInfo";
+
+
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
@@ -59,15 +66,30 @@ public class FootballDaoImpl implements FootballDao {
 
 		for (FootballMatchVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
+
 		}
 
 		return outList;
 	}
 
+
+	
 	@Override
 	public List<FootballRecordVO> FootballRecordInfo(FootballRecordVO getMatch) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		List<FootballRecordVO> outList =  new ArrayList<>();
+		String temp = null;
+		String statement = this.NAMESPACE+DOT+"footballRecordInfo";
+		lg.debug("-------------------------------------");
+		lg.debug("-statement-"+statement);
+		lg.debug("-------------------------------------");
+		lg.debug("2. param="+getMatch);
+		outList = this.sqlSessionTemplate.selectList(statement, temp);
+		for(FootballRecordVO vo:outList) {
+			lg.debug("=3. vo="+vo);
+		}
+		return outList;
 	}
+
+
 
 }

@@ -32,4 +32,12 @@ public interface BasketballDao {
 	 * @throws SQLException
 	 */
 	List<BasketballRecordVO> basketballRecordInfo(BasketballRecordVO getMatch) throws SQLException;
+	
+	/**
+	 * 경기 정보 추출
+	 * @param getMatch
+	 * @return
+	 * @throws SQLException
+	 */
+	List<BasketballInfoVO> bestPlayerInfo(BasketballInfoVO getMatch) throws SQLException;
 }

@@ -44,7 +44,7 @@ public class VolleyballDaoImpl implements VolleyballDao {
 	public List<VolleyballInfoVO> selectVolleyballPlayerInfo(VolleyballInfoVO getPlayer) throws SQLException {
 		List<VolleyballInfoVO> outList =  new ArrayList<>();
 		
-		String statement = this.NAMESPACE+DOT+"selectVolleyballMatchInfo";
+		String statement = this.NAMESPACE+DOT+"selectVolleyballPlayerInfo";
 		LOG.debug("-------------------------------------");
 		LOG.debug("-statement-"+statement);
 		LOG.debug("-------------------------------------");
