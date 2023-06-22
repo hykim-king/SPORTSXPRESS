@@ -741,7 +741,15 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <c:forEach var="matches" items="${matches}" varStatus="loop">
     <li class="schedule_item" data-game-id="kpga202311000010M">
       <div class="schedule_type">
-        <span class="date">06.04 - 06.04</span>
+        <span class="date">4.${loop.count} - 4.${loop.count+3}</span>
+<%--         <c:choose>
+	        <c:when test="${loop >= 0 && loop <= 9}">
+		        <span class="date">04.0${loop.count} - 04.0${loop.count+3}</span>
+	        </c:when>
+          <c:when test="${loop >= 10}">
+            <span class="date">04.${loop.count} - 04.${loop.count+3}</span>
+          </c:when>
+        </c:choose> --%>
         <span class="league">${matches.lname}</span>
       </div>
       <div class="schedule_info">
@@ -772,7 +780,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <!-- [D] 오늘 날짜의 경기인 경우, .is_today 를 추가해주세요. -->
     <li class="schedule_item is_today" data-game-id="lpga203587143">
       <div class="schedule_type">
-        <span class="date">06.01 - 06.05</span>
+        <span class="date">4.26 - 4.29</span>
         <span class="league">LPGA</span>
       </div>
       <div class="schedule_info">
