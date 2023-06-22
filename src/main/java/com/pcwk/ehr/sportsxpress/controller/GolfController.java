@@ -73,9 +73,11 @@ public class GolfController {
 	// 기록_순위
 	@RequestMapping(value = "/golf_record.do", method = RequestMethod.GET)
 	public String golfRecordRankInfo(GolfRankVO getRank, Model model) throws SQLException {
-		List<GolfRankVO> matchList = golfService.getPlayerInfo(getRank);
-		model.addAttribute("players", matchList);
-
+		List<GolfRankVO> playerList = golfService.getPlayerInfo(getRank);
+		model.addAttribute("players", playerList);
+		
+		List<GolfRankVO> bestPlayerList = golfService.getBestPlayerInfo(getRank);
+		model.addAttribute("bestplayers", bestPlayerList);
 		return "sports/golf/golf_record";
 	}
 	// -------------------------------------------------------------------------//

@@ -56,5 +56,22 @@ public class GolfDaoImpl implements GolfDao {
 		}
 		return outList;
 	}
+	
+	@Override
+	public List<GolfRankVO> selectBestGolfPlayerInfo(GolfRankVO getPlayer) throws SQLException {
+	List<GolfRankVO> outList =  new ArrayList<>();
+		
+		String statement = this.NAMESPACE+DOT+"selectBestGolfPlayerInfo";
+		LOG.debug("-------------------------------------");
+		LOG.debug("-statement-"+statement);
+		LOG.debug("-------------------------------------");
+		LOG.debug("2. param="+getPlayer);
+		outList = this.sqlSessionTemplate.selectList(statement, getPlayer);
+		
+		for(GolfRankVO vo: outList) {
+			LOG.debug("=3. vo="+vo);
+		}
+		return outList;
+	}
 
 }

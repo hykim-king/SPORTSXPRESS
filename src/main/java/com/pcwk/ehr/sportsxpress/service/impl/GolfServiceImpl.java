@@ -37,4 +37,10 @@ public class GolfServiceImpl implements GolfService {
 		return golfDao.selectGolfPlayerInfo(getPlayer);
 	}
 	
+	@Override
+	public List<GolfRankVO> getBestPlayerInfo(GolfRankVO getPlayer) throws SQLException {
+		
+		return golfDao.selectBestGolfPlayerInfo(getPlayer);
+	}
+	
 }
