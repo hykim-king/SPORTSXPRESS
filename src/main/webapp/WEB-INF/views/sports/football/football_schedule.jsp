@@ -2592,10 +2592,9 @@
                     <ul id="lnb_list" class="lnb_list" role="menubar">
                         <li class="lnb_item" role="presentation"><a href="/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a></li>
 
-                        <li class="lnb_item" role="presentation"><a href="/kbaseball/index" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a></li>
+                        <li class="lnb_item" role="presentation"><a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.baseball', 'baseball', '', event); ; ">야구</a></li>
 
-                        <li class="lnb_item" role="presentation">
-                            <a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">축구</a>
+                        <li class="lnb_item" role="presentation"><a href="/ehr/sportsxpress/football_news.do" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.worldfootball', 'worldfootball', '', event); ; ">축구</a>
                         </li>
 
                         <li class="lnb_item" role="presentation"><a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb" role="menuitem" onclick="clickcr(this, 'LNB.basketball', 'basketball', '', event); ; ">농구</a></li>
@@ -2611,7 +2610,7 @@
                             <a href="/ehr/sportsxpress/football_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); "> <span class="menu">최신뉴스</span> </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
-                            <a href="/ehr/sportsxpress/football_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page"> <span class="menu">일정/결과</span> </a>
+                            <a href="/ehr/sportsxpress/football_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page"> <span class="menu">일정/결과</span> </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
                             <a href="/ehr/sportsxpress/football_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">

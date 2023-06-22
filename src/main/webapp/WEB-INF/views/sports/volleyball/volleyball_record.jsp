@@ -12,43 +12,15 @@
     <meta property="og:title" content="네이버 스포츠">
     <meta property="og:description" content="스포츠의 시작과 끝!">
     <meta property="og:url" content="sports.news.naver.com/volleyball/record/index?category=kovo&amp;tab=team">
-    
-        
-        
+      
             <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/common_loose_new.css">
 
             <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/volleyball_gamecenter.css">
-
-        
-        
-        
-
-        
-        
-    
-    
-        
-        
             <title>기록/순위, 배구 : 네이버 스포츠</title>
-        
-        
-        
-        
-        
-        
-        
-    
 
     <script type="text/javascript" src="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/js/generated/record.js" charset="UTF-8"></script>
 
     <script type="text/javascript" src="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/js/generated/sportsAdJs.js" charset="UTF-8"></script>
-
-    
-
-<script>
-
-</script>
-
 <script type="text/javascript" language="javascript" src="https://ssl.pstatic.net/static/common/js/cs_ops_webncc.js?2011092101"></script>
 <script type="text/javascript">
 
@@ -399,9 +371,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </div>
 
             <div id="wrap">
-                
-
-  
+ 
   
     <header id="header" class="sports_header_pc">
       <div class="sports_gnb" role="banner">
@@ -425,24 +395,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </script>
 
       </div>
-      
-
-
-
-
-<!-- 추후 제거, lnbMenuInfoList 를 받아오기 위하여 사용중 -->
-
-            
-            
-
-
-
-
-<script>
-
-</script>
-
-            
 
 
 <nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
@@ -474,13 +426,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </li>
   </ul>
   
-  
-  
-  
-  
-  
-  
-  
+ 
   
 </nav>
 <nav class="sports_lnb_sub">
@@ -494,7 +440,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/volleyball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/ehr/sportsxpress/volleyball_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
@@ -507,21 +453,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </ul>
 </nav>
 
-<script id="_sports_lnb_menu_li_template" type="text/x-handlebars-template">
-
-</script>
-
-<script id="_sports_lnb_sub_menu_template" type="text/x-handlebars-template">
-
-</script>
-
-<script type="text/javascript">
-
-</script>
-
-<script>
-
-</script>
 
     </header>
     <script type="text/javascript" charset="utf-8" src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?20230609"></script>
@@ -538,21 +469,13 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </script>
                         <div id="content">
                             
-                                
-                                
-                                
-                                    
-
 
 
 <div class="tab_event">
     <ul class="list" id="_categoryList">
         
             
-                <li class="selected"><a href="/volleyball/record/index?category=kovo" data-category="volleyball"><span class="menu">프로배구</span></a></li>
-            
-            
-        
+                <li class="selected"><a href="/volleyball/record/index?category=kovo" data-category="volleyball"><span class="menu">프로배구</span></a></li>   
      </ul>
 </div>
 <div class="sch_volleyball">
@@ -566,7 +489,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <div class="tit_box">
     
         
-        <h4 class="h_team_m"><span class="blind">남자부 팀순위</span></h4>
+        <h4 class="h_team_m"><span class="blind">팀순위</span></h4>
     
     
 
@@ -590,133 +513,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <!-- [D] 선텍된 button.btn_option 에 aria-selected="true" 를 적용 해 주세요. -->
         <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
         
-          
-          
-          <li class="list" role="presentation">
+      <li class="list" role="presentation">
             <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2022'">2022-23</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2021'">2021-22</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2020'">2020-21</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2019'">2019-20</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2018'">2018-19</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2017'">2017-18</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2016'">2016-17</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2015'">2015-16</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2014'">2014-15</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2013'">2013-14</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2012'">2012-13</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2011'">2011-12</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2010'">2010-11</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2009'">2009-10</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2008'">2008-09</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2007'">2007-08</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2006'">2006-07</button>
-          </li>
-        
-          
-          
-          <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="false" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2005'">2005-06</button>
-          </li>
-        
+          </li>    
       </ul>
     </div>
-
-    <!-- [D] 비활성화 되어야 하는 button.btn_move_date 에 disabled 속성을 추가 해 주세요. -->
     
-      
-      
-        <button class="btn_move_date prev" type="button" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2021'"><span class="blind">이전 시즌으로 이동</span></button>
-      
-    
-    
-      
-        <button class="btn_move_date next" type="button" disabled=""><span class="blind">다음 시즌으로 이동</span></button>
-      
-      
-    
-  </div>
-  <div class="now_date_area">
-    <button class="btn_now_date" type="button" onclick="location.href='/volleyball/record/index?category=kovo&amp;year=2022'">현재<span class="blind">시즌으로 이동</span></button>
   </div>
 </div>
 </div>
@@ -750,7 +552,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>1</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1001.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1001.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1001">대한항공</span>
             </div>
         </td>
@@ -778,7 +580,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>2</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1005.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1005.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1005">현대캐피탈</span>
             </div>
         </td>
@@ -806,7 +608,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>3</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1009.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1009">우리카드</span>
             </div>
         </td>
@@ -834,7 +636,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>4</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1006.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1006">한국전력</span>
             </div>
         </td>
@@ -862,7 +664,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>5</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1008.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1008.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1008">OK금융그룹</span>
             </div>
         </td>
@@ -890,7 +692,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>6</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1004.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1004.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1004">KB손해보험</span>
             </div>
         </td>
@@ -918,7 +720,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>7</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1002.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1002.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1002">삼성화재</span>
             </div>
         </td>
@@ -962,7 +764,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <div class="tit_box">
     
         
-        <h4 class="h_player_m"><span class="blind">남자부 선수기록</span></h4>
+        <h4 class="h_player_m"><span class="blind">선수기록</span></h4>
     
     
 </div>
@@ -982,357 +784,46 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <th><div class="rcvg"><a href="javaScript:sortByPlayerColumn('RR');"><strong id="player_RR"><span class="blind">리시브효율</span></strong></a></div></th>
         </tr></thead>
         <tbody id="playerRecordTable">
-    
-        
-            <tr class="on ">
-                <th><strong class="high">1</strong></th>
+          <c:forEach var="players" items="${players}" varStatus="loop">
+            <c:choose>
+              <c:when test="${loop.count >= 1 && loop.count <= 4}">
+                <tr class="on">
+              </c:when>
+              <c:when test="${loop.count %5 == 0 && loop.count != 5}">
+                <tr class="dv">
+              </c:when>
+              <c:when test="${loop.count == 5}">
+                <tr class="dv on">
+              </c:when>
+              <c:otherwise>
+                <tr class="">
+              </c:otherwise>
+             </c:choose>
+             <c:choose>
+              <c:when test="${loop.count >= 1 && loop.count <= 5}">
+                <th><strong class="high">${loop.count}</strong></th>
+              </c:when>
+              <c:otherwise>
+                <th><strong>${loop.count}</strong></th>
+              </c:otherwise>
+            </c:choose>
                 <td class="ply">
                     <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1008.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>레오 <span>(OK금융그룹)</span></span>
+                        <span class="emblem"><img width="25" height="25" src="${players.name}" alt="구단 로고" onerror="imageOnError(this);"></span>
+                        <span>${players.name}</span>
                     </div>
                 </td>
-                <td><strong>921</strong></td>
-                <td><span>51.24</span></td>
-                <td><span>0.93</span></td>
-                <td><span>0.36</span></td>
-                <td><span>1.49</span></td>
-                <td><span>0.09</span></td>
-                <td class="rcvg"><span>16.23</span></td>
+                <td><strong>${players.score}</strong></td>
+                <td><span>${players.attack_sr}</span></td>
+                <td><span>${players.sub}</span></td>
+                <td><span>${players.blocking}</span></td>
+                <td><span>${players.defense}</span></td>
+                <td><span>${players.sets}</span></td>
+                <td class="rcvg"><span>${players.recieve_ef}</span></td>
             </tr>
-        
-            <tr class="on ">
-                <th><strong class="high">2</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>타이스 <span>(한국전력)</span></span>
-                    </div>
-                </td>
-                <td><strong>882</strong></td>
-                <td><span>54.69</span></td>
-                <td><span>0.48</span></td>
-                <td><span>0.50</span></td>
-                <td><span>1.53</span></td>
-                <td><span>0.10</span></td>
-                <td class="rcvg"><span>8.70</span></td>
-            </tr>
-        
-            <tr class="on ">
-                <th><strong class="high">3</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1002.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>이크바이리 <span>(삼성화재)</span></span>
-                    </div>
-                </td>
-                <td><strong>875</strong></td>
-                <td><span>49.22</span></td>
-                <td><span>0.48</span></td>
-                <td><span>0.35</span></td>
-                <td><span>1.17</span></td>
-                <td><span>0.08</span></td>
-                <td class="rcvg"><span>0.00</span></td>
-            </tr>
-        
-            <tr class="on ">
-                <th><strong class="high">4</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1005.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>오레올 <span>(현대캐피탈)</span></span>
-                    </div>
-                </td>
-                <td><strong>625</strong></td>
-                <td><span>52.76</span></td>
-                <td><span>0.30</span></td>
-                <td><span>0.62</span></td>
-                <td><span>2.53</span></td>
-                <td><span>0.14</span></td>
-                <td class="rcvg"><span>26.85</span></td>
-            </tr>
-        
-            <tr class="dv on ">
-                <th><strong class="high">5</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>나경복 <span>(우리카드)</span></span>
-                    </div>
-                </td>
-                <td><strong>603</strong></td>
-                <td><span>51.12</span></td>
-                <td><span>0.41</span></td>
-                <td><span>0.28</span></td>
-                <td><span>2.32</span></td>
-                <td><span>0.17</span></td>
-                <td class="rcvg"><span>22.01</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">6</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1001.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>링컨 <span>(대한항공)</span></span>
-                    </div>
-                </td>
-                <td><strong>599</strong></td>
-                <td><span>55.09</span></td>
-                <td><span>0.58</span></td>
-                <td><span>0.31</span></td>
-                <td><span>0.76</span></td>
-                <td><span>0.10</span></td>
-                <td class="rcvg"><span>0.00</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">7</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1005.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>허수봉 <span>(현대캐피탈)</span></span>
-                    </div>
-                </td>
-                <td><strong>582</strong></td>
-                <td><span>52.83</span></td>
-                <td><span>0.50</span></td>
-                <td><span>0.42</span></td>
-                <td><span>1.26</span></td>
-                <td><span>0.21</span></td>
-                <td class="rcvg"><span>28.57</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">8</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1004.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>비예나 <span>(KB손해보험)</span></span>
-                    </div>
-                </td>
-                <td><strong>555</strong></td>
-                <td><span>54.72</span></td>
-                <td><span>0.36</span></td>
-                <td><span>0.44</span></td>
-                <td><span>1.47</span></td>
-                <td><span>0.10</span></td>
-                <td class="rcvg"><span>0.00</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">9</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>아가메즈 <span>(우리카드)</span></span>
-                    </div>
-                </td>
-                <td><strong>523</strong></td>
-                <td><span>49.38</span></td>
-                <td><span>0.36</span></td>
-                <td><span>0.45</span></td>
-                <td><span>0.90</span></td>
-                <td><span>0.10</span></td>
-                <td class="rcvg"><span>12.50</span></td>
-            </tr>
-        
-            <tr class="dv ">
-                <th><strong class="">10</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1001.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>정지석 <span>(대한항공)</span></span>
-                    </div>
-                </td>
-                <td><strong>507</strong></td>
-                <td><span>53.79</span></td>
-                <td><span>0.42</span></td>
-                <td><span>0.63</span></td>
-                <td><span>4.06</span></td>
-                <td><span>0.28</span></td>
-                <td class="rcvg"><span>40.53</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">11</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1002.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>김정호 <span>(삼성화재)</span></span>
-                    </div>
-                </td>
-                <td><strong>465</strong></td>
-                <td><span>53.27</span></td>
-                <td><span>0.29</span></td>
-                <td><span>0.14</span></td>
-                <td><span>3.42</span></td>
-                <td><span>0.27</span></td>
-                <td class="rcvg"><span>30.27</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">12</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1005.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>전광인 <span>(현대캐피탈)</span></span>
-                    </div>
-                </td>
-                <td><strong>406</strong></td>
-                <td><span>55.69</span></td>
-                <td><span>0.30</span></td>
-                <td><span>0.38</span></td>
-                <td><span>4.25</span></td>
-                <td><span>0.23</span></td>
-                <td class="rcvg"><span>40.03</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">13</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1004.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>황경민 <span>(KB손해보험)</span></span>
-                    </div>
-                </td>
-                <td><strong>401</strong></td>
-                <td><span>49.93</span></td>
-                <td><span>0.12</span></td>
-                <td><span>0.32</span></td>
-                <td><span>3.45</span></td>
-                <td><span>0.39</span></td>
-                <td class="rcvg"><span>32.45</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">14</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>서재덕 <span>(한국전력)</span></span>
-                    </div>
-                </td>
-                <td><strong>400</strong></td>
-                <td><span>49.09</span></td>
-                <td><span>0.31</span></td>
-                <td><span>0.25</span></td>
-                <td><span>2.33</span></td>
-                <td><span>0.17</span></td>
-                <td class="rcvg"><span>29.60</span></td>
-            </tr>
-        
-            <tr class="dv ">
-                <th><strong class="">15</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>신영석 <span>(한국전력)</span></span>
-                    </div>
-                </td>
-                <td><strong>311</strong></td>
-                <td><span>63.40</span></td>
-                <td><span>0.22</span></td>
-                <td><span>0.78</span></td>
-                <td><span>0.68</span></td>
-                <td><span>0.08</span></td>
-                <td class="rcvg"><span>30.95</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">16</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>임성진 <span>(한국전력)</span></span>
-                    </div>
-                </td>
-                <td><strong>306</strong></td>
-                <td><span>49.68</span></td>
-                <td><span>0.22</span></td>
-                <td><span>0.30</span></td>
-                <td><span>3.44</span></td>
-                <td><span>0.14</span></td>
-                <td class="rcvg"><span>37.01</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">17</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>김지한 <span>(우리카드)</span></span>
-                    </div>
-                </td>
-                <td><strong>301</strong></td>
-                <td><span>53.65</span></td>
-                <td><span>0.24</span></td>
-                <td><span>0.28</span></td>
-                <td><span>1.09</span></td>
-                <td><span>0.08</span></td>
-                <td class="rcvg"><span>25.26</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">18</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1001.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>임동혁 <span>(대한항공)</span></span>
-                    </div>
-                </td>
-                <td><strong>278</strong></td>
-                <td><span>56.59</span></td>
-                <td><span>0.10</span></td>
-                <td><span>0.16</span></td>
-                <td><span>0.34</span></td>
-                <td><span>0.07</span></td>
-                <td class="rcvg"><span>0.00</span></td>
-            </tr>
-        
-            <tr class="">
-                <th><strong class="">19</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1004.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>니콜라 <span>(KB손해보험)</span></span>
-                    </div>
-                </td>
-                <td><strong>270</strong></td>
-                <td><span>52.36</span></td>
-                <td><span>0.38</span></td>
-                <td><span>0.28</span></td>
-                <td><span>0.90</span></td>
-                <td><span>0.00</span></td>
-                <td class="rcvg"><span>0.00</span></td>
-            </tr>
-        
-            <tr class="dv ">
-                <th><strong class="">20</strong></th>
-                <td class="ply">
-                    <div>
-                        <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
-                        <span>송희채 <span>(우리카드)</span></span>
-                    </div>
-                </td>
-                <td><strong>262</strong></td>
-                <td><span>49.01</span></td>
-                <td><span>0.22</span></td>
-                <td><span>0.38</span></td>
-                <td><span>3.85</span></td>
-                <td><span>0.43</span></td>
-                <td class="rcvg"><span>36.42</span></td>
-            </tr>
-        
+          </c:forEach>
         </tbody>
     </table>
-    <div class="h_ln"></div>
-    <div class="score_on" id="playerRecordColumnChecker">
-        <span class="bl" id="player_hbl" style="height:672px"></span>
-        <span class="bt"></span>
-        <span class="br" id="player_hbr" style="height:672px"></span>
-        <span class="bb" id="player_hbb" style="top:671px"></span>
-    </div>
 </div>
 
   </div>

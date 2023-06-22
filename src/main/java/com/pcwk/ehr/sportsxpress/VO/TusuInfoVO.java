@@ -8,6 +8,7 @@ public class TusuInfoVO extends DTO{
 	private String lname        ;
 	private String name         ;
 	private String profile      ;
+	
 	private int eravg        ;
 	private int played       ;
 	private int inning       ;
@@ -30,6 +31,7 @@ public class TusuInfoVO extends DTO{
 	private int bbper        ;
 	private int wpa          ;
 	private int war          ;
+	private String logo;
 	
 	public TusuInfoVO() {
 
@@ -37,7 +39,7 @@ public class TusuInfoVO extends DTO{
 
 	public TusuInfoVO(int tusuid, String lname, String name, String profile, int eravg, int played, int inning,
 			int win, int lose, int save, int hold, int k, int ob, int ohr, int r, int ball4, int bb, int wper, int whip,
-			int k9, int bb9, int kbb, int kper, int bbper, int wpa, int war) {
+			int k9, int bb9, int kbb, int kper, int bbper, int wpa, int war, String logo) {
 		super();
 		this.tusuid = tusuid;
 		this.lname = lname;
@@ -65,6 +67,7 @@ public class TusuInfoVO extends DTO{
 		this.bbper = bbper;
 		this.wpa = wpa;
 		this.war = war;
+		this.logo = logo;
 	}
 
 	public int getTusuid() {
@@ -274,16 +277,27 @@ public class TusuInfoVO extends DTO{
 	public void setWar(int war) {
 		this.war = war;
 	}
+	
+	
+	public String getLogo() {
+		return logo;
+	}
+
+	public void setLogo(String logo) {
+		this.logo = logo;
+	}
 
 	@Override
 	public String toString() {
-		return "Tusu_InfoVO [tusuid=" + tusuid + ", lname=" + lname + ", name=" + name + ", profile=" + profile
+		return "TusuInfoVO [tusuid=" + tusuid + ", lname=" + lname + ", name=" + name + ", profile=" + profile
 				+ ", eravg=" + eravg + ", played=" + played + ", inning=" + inning + ", win=" + win + ", lose=" + lose
 				+ ", save=" + save + ", hold=" + hold + ", k=" + k + ", ob=" + ob + ", ohr=" + ohr + ", r=" + r
 				+ ", ball4=" + ball4 + ", bb=" + bb + ", wper=" + wper + ", whip=" + whip + ", k9=" + k9 + ", bb9="
 				+ bb9 + ", kbb=" + kbb + ", kper=" + kper + ", bbper=" + bbper + ", wpa=" + wpa + ", war=" + war
-				+ ", toString()=" + super.toString() + "]";
+				+ ", logo=" + logo + "]";
 	}
+
+
 	
 	
 }

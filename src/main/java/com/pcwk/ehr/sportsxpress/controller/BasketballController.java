@@ -57,7 +57,7 @@ public class BasketballController {
 
 	}
 	
-	@RequestMapping(value = "/basketball_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/basketball_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(BasketballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 		List<BasketballMatchVO> matchList = basketballService.getMatchInfo(getMatch);
 	    model.addAttribute("matches", matchList);

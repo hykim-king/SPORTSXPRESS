@@ -58,25 +58,10 @@ public class VolleyballController {
 
 	}
 
-	// 영상
-	@RequestMapping(value = "/volleyball_Video.do")
-	public String VideoInfo(VideoVO getVideo, Model model) throws SQLException {
-		List<VideoVO> videoList = videoService.getVideoInfo(getVideo);
 
-		model.addAttribute("videos", videoList);
-
-		return "sports/volleyball_Video";
-	}
-
-	// 생생화보
-	@RequestMapping(value = "/volleyball_Photocenter.do")
-	public String PhotocenterInfo() throws SQLException {
-		// 어느걸 넣어야 될지 모르겠음.
-		return "";
-	}
 
 	// 일정 결과
-	@RequestMapping(value = "/volleyball_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/volleyball_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(VolleyballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 		List<VolleyballMatchVO> matchList = volleyballService.getMatchInfo(getMatch);
 		model.addAttribute("matches", matchList);
