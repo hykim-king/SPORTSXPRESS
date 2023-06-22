@@ -565,58 +565,46 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                     <span class="blind">이전</span>
                 </a>
             </li>
+            <c:forEach begin="11" end="16" var="date">
+            <c:choose>
+	            <c:when test="${date % 7 == 1}">
+		            <c:set var="day" value="토" />
+	            </c:when>
+              <c:when test="${date % 7 == 2}">
+                <c:set var="day" value="일" />
+              </c:when>
+              <c:when test="${date % 7 == 3}">
+                <c:set var="day" value="월" />
+              </c:when>
+              <c:when test="${date % 7 == 4}">
+                <c:set var="day" value="화" />
+              </c:when>
+              <c:when test="${date % 7 == 5}">
+                <c:set var="day" value="수" />
+              </c:when>
+              <c:when test="${date % 7 == 6}">
+                <c:set var="day" value="목" />
+              </c:when>
+              <c:when test="${date % 7 == 0}">
+                <c:set var="day" value="금" />
+              </c:when>
+            </c:choose>
             
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230606');" role="tab" aria-selected="false">
-                        <em>06.06</em>화
-                        
-                    </a>
-                </li>
+              <li role="presentation">
+                <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230606');" role="tab" aria-selected="false">
+                  <em>04.${date}</em> ${day}
+                </a>
+              </li>
+              
+            </c:forEach>
             
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230607');" role="tab" aria-selected="false">
-                        <em>06.07</em>수
-                        
-                    </a>
-                </li>
-            
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230608');" role="tab" aria-selected="false">
-                        <em>06.08</em>목
-                        
-                    </a>
-                </li>
-            
-                <li role="presentation" class="on">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230609');" role="tab" aria-selected="true">
-                        <em>06.09</em>금
-                        
-                        <span class="today">오늘</span>
-                        
-                    </a>
-                </li>
-            
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230610');" role="tab" aria-selected="false">
-                        <em>06.10</em>토
-                        
-                    </a>
-                </li>
-            
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230611');" role="tab" aria-selected="false">
-                        <em>06.11</em>일
-                        
-                    </a>
-                </li>
-            
-                <li role="presentation">
-                    <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230613');" role="tab" aria-selected="false">
-                        <em>06.13</em>화
-                        
-                    </a>
-                </li>
-            
+              <li role="presentation" class="on">
+                <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230609');" role="tab" aria-selected="true">
+                  <em>04.18</em> 화
+                  <span class="today">오늘</span>
+                </a>
+              </li>
+
             <li role="presentation" class="btn_next2">
                 <a href="#" onclick="javascript:scoreBoardInstance.setScoreBoard('20230617', 'after');" title="다음" role="button">
                     <span class="blind">다음</span>
@@ -629,466 +617,36 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             <div class="slide_inner new_scroll" id="_daily_schedule_scroll_holder" style="touch-action: none;">
                 <div class="scroller" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
                     <ul class="sch_vs" id="todaySchedule">
-            
                 
-                
-                
-<c:forEach var="matches" items="${matches}" varStatus="loop">                 
-                        
-                        
-                    
-                    <li class="before_game ">
-                        <div class="vs_cnt">
-                            <em class="state">
-                                
-                                        18:30
-                                    
-                            </em>
-                        </div>
-                        <div class="vs_lft">
-                            <div class="emblem"><img width="46" height="46" alt="키움" title="키움" src="https://sports-phinf.pstatic.net/team/kbo/default/WO.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>${matches.hname}</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=78148">정찬헌</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">${matches.hscore}</strong>
-                            
-                        </div>
-                        <div class="vs_rgt">
-                            <div class="emblem"><img width="46" height="46" alt="KT" title="KT" src="https://sports-phinf.pstatic.net/team/kbo/default/KT.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>${matches.ateam}</strong>
-
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=52043">벤자민</a></span>
-
-                            </p>
-                            
-                            <strong class="vs_num">${matches.ascore}</strong>
-                            
-                        </div>
-
-                                <div class="vs_btn">
-                                   <a class="btn_ltr" href="/game/20230609WOKT02023/preview">전력비교</a>
-                                   <span class="btn_tlv">TV중계</span>
-                                </div>
-
-                        </li>
-                
-</c:forEach>            
-                        
-                    
-                    <li class="before_game ">
-                        <div class="vs_cnt">
-                            <em class="state">
-                                
-                                    
-                                        18:30
-                                    
-                                    
-                                
-                            </em>
-                            
-                        </div>
-                        <div class="vs_lft">
-                            <div class="emblem"><img width="46" height="46" alt="SSG" title="SSG" src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>SSG</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=50859">오원석</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                        <div class="vs_rgt">
-                            <div class="emblem"><img width="46" height="46" alt="NC" title="NC" src="https://sports-phinf.pstatic.net/team/kbo/default/NC.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>NC</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=53913">페디</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                            
-                                
-                                
-                                <div class="vs_btn">
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-
-                                    
-                                        
-                                        
-                                        
-                                            <a class="btn_ltr" href="/game/20230609SKNC02023/preview">전력비교</a>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                    
-                                    
-                                        
-                                        
-                                            <span class="btn_tlv">TV중계</span>
-                                        
-                                        
-                                        
-                                        
-                                    
-                                </div>
-                                
-                            
-                        </li>
-                
-                
-            
-                
-                
-                
-                
-                    
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                        
-                    
-                    <li class="before_game ">
-                        <div class="vs_cnt">
-                            <em class="state">
-                                
-                                    
-                                        18:30
-                                    
-                                    
-                                
-                            </em>
-                            
-                        </div>
-                        <div class="vs_lft">
-                            <div class="emblem"><img width="46" height="46" alt="롯데" title="롯데" src="https://sports-phinf.pstatic.net/team/kbo/default/LT.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>롯데</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=67539">나균안</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                        <div class="vs_rgt">
-                            <div class="emblem"><img width="46" height="46" alt="삼성" title="삼성" src="https://sports-phinf.pstatic.net/team/kbo/default/SS.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>삼성</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=69446">원태인</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                            
-                                
-                                
-                                <div class="vs_btn">
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-
-                                    
-                                        
-                                        
-                                        
-                                            <a class="btn_ltr" href="/game/20230609LTSS02023/preview">전력비교</a>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                    
-                                    
-                                        
-                                        
-                                            <span class="btn_tlv">TV중계</span>
-                                        
-                                        
-                                        
-                                        
-                                    
-                                </div>
-                                
-                            
-                        </li>
-                
-                
-            
-                
-                
-                
-                
-                    
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                        
-                    
-                    <li class="before_game ">
-                        <div class="vs_cnt">
-                            <em class="state">
-                                
-                                    
-                                        18:30
-                                    
-                                    
-                                
-                            </em>
-                            
-                        </div>
-                        <div class="vs_lft">
-                            <div class="emblem"><img width="46" height="46" alt="LG" title="LG" src="https://sports-phinf.pstatic.net/team/kbo/default/LG.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>LG</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=61101">임찬규</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                        <div class="vs_rgt">
-                            <div class="emblem"><img width="46" height="46" alt="한화" title="한화" src="https://sports-phinf.pstatic.net/team/kbo/default/HH.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>한화</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=52720">페냐</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                            
-                                
-                                
-                                <div class="vs_btn">
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-
-                                    
-                                        
-                                        
-                                        
-                                            <a class="btn_ltr" href="/game/20230609LGHH02023/preview">전력비교</a>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                    
-                                    
-                                        
-                                        
-                                            <span class="btn_tlv">TV중계</span>
-                                        
-                                        
-                                        
-                                        
-                                    
-                                </div>
-                                
-                            
-                        </li>
-                
-                
-            
-                
-                
-                
-                
-                    
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                        
-                    
-                    <li class="before_game ">
-                        <div class="vs_cnt">
-                            <em class="state">
-                                
-                                    
-                                        18:30
-                                    
-                                    
-                                
-                            </em>
-                            
-                        </div>
-                        <div class="vs_lft">
-                            <div class="emblem"><img width="46" height="46" alt="KIA" title="KIA" src="https://sports-phinf.pstatic.net/team/kbo/default/HT.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>KIA</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=53645">메디나</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                        <div class="vs_rgt">
-                            <div class="emblem"><img width="46" height="46" alt="두산" title="두산" src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png?type=f64_64" onerror="imageOnError(this);"></div>
-                            <p class="vs_team">
-                                <strong>두산</strong>
-                                
-                                    
-                                        
-                                        <span class="game_info"><span class="starting">선</span><a target="_blank" href="http://www.koreabaseball.com/Record/Player/PitcherDetail/Basic.aspx?playerId=51230">김동주</a></span>
-                                    
-                                    
-                                    
-                                
-                            </p>
-                            
-                            <strong class="vs_num">0</strong>
-                            
-                        </div>
-                            
-                                
-                                
-                                <div class="vs_btn">
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-                                        
-                                    
-
-                                    
-                                        
-                                        
-                                        
-                                            <a class="btn_ltr" href="/game/20230609HTOB02023/preview">전력비교</a>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                    
-                                    
-                                        
-                                        
-                                            <span class="btn_tlv">TV중계</span>
-                                        
-                                        
-                                        
-                                        
-                                    
-                                </div>
-                                
-                            
-                        </li>
-                
-                
-            
+											<c:forEach begin="85" end="89" var="index">
+											  <li class="before_game ">
+											    <div class="vs_cnt">
+											      <em class="state">18:30</em>
+											    </div>
+											    
+											    <div class="vs_lft">
+											      <div class="emblem"><img width="46" height="46" alt="키움" title="키움" src="${matches[index].hname_logo}" onerror="imageOnError(this);"></div>
+												      <p class="vs_team">
+												        <strong>${matches[index].hname}</strong>
+												      </p>
+												        <strong class="vs_num">${matches[index].hscore}</strong>
+											    </div>
+											    
+											    <div class="vs_rgt">
+											      <div class="emblem"><img width="46" height="46" alt="KT" title="KT" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></div>
+											        <p class="vs_team">
+											          <strong>${matches[index].ateam}</strong>
+											        </p>
+											          <strong class="vs_num">${matches[index].ascore}</strong>
+											    </div>
+											
+											    <div class="vs_btn">
+											      <a class="btn_ltr" href="/game/20230609WOKT02023/preview">전력비교</a>
+											      <span class="btn_tlv">TV중계</span>
+											    </div>
+											
+											  </li>
+											</c:forEach>            
                         
                     </ul>
                 </div>
@@ -1217,7 +775,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         ul.date_list 가 열려있다면 aria-expanded="true" 로 적용 해 주세요.
        -->
       <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="월 선택" id="_currentMonthButton" onclick="toggleMonthList();">
-        <em class="now_selected"><span class="blind">선택된 월</span>06</em>
+        <em class="now_selected"><span class="blind">선택된 월</span>04</em>
       </button>
       <!-- [D] ul.date_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
       <ul class="option_list" role="listbox" id="_monthList">
@@ -1319,28 +877,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 <div class="tab_team">
   <ul role="tablist">
-    <li role="presentation"><a href="javascript:changeSchedule('2023','06','');" role="tab" aria-selected="true"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">전체</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','SK');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">SSG</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','WO');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">키움</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','LG');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">LG</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','KT');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">KT</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','HT');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">KIA</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','NC');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">NC</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','SS');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">삼성</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','LT');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">롯데</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','OB');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">두산</p></a></li>
-    
-      <li role="presentation"><a href="javascript:changeSchedule('2023','06','HH');" role="tab" aria-selected="false"><div class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png&amp;type=f64_64&amp;refresh=1" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">한화</p></a></li>
-    
+    <li role="presentation"><a href="javascript:changeSchedule('2023','06','');" role="tab" aria-selected="true"><div class="emblem"><img src="https://sports-phinf.pstatic.net/team/kbo/default/KBO.png" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">전체</p></a></li>
+    <c:forEach var="teams" items="${teams}" varStatus="loop">
+      <li role="presentation"><a href="javascript:changeSchedule('2023','06','SK');" role="tab" aria-selected="false"><div class="emblem"><img src="${teams.logo}" width="35" height="35" alt="" onerror="imageOnError(this);"></div><p class="team">${teams.tname}</p></a></li>
+    </c:forEach>
   </ul>
 </div>
 
@@ -1431,11 +971,10 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 			    </c:choose>
 		      <tr>
 		      <td><span class="td_hour"><strong>18:30</strong></span></td>
-		      <td class=""><span class="team_lft">${matches[index].hname}</span>
+		      <td class="add_state"><span class="team_lft">${matches[index].hname}</span>
 		        <span class="emblem"><img src="${matches[index].hname_logo}" width="25" height="25" alt="롯데" title="롯데" onerror="imageOnError(this);"></span>
 		            <strong class="td_score">${matches[index].hscore}<em> : </em>${matches[index].ascore}</strong>
 		        <span class="emblem"><img width="25" height="25" alt="LG" title="LG" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></span>
-		        
 		        <span class="team_rgt">${matches[index].ateam}</span>
 		      </td>
 		      
@@ -1462,38 +1001,50 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
    </div>
   </c:forEach>
 
-	 <div class="sch_tb">
-	   <c:forEach begin="29" end="30" var="day">
-	   <table cellspacing="0" border="1">
-	    <colgroup>
-	        <col width="107"><col width="55"><col width="300"><col width="200"><col width="162"><col width="74"><col width="">
-	    </colgroup>
-	    <tbody> 
-        <c:forEach begin="0" end="4" var="column">
-        <c:set var="index" value="${((day - 1) * 5) + column}" />
-		    <td rowspan="5"><span class="td_date"><strong>4. ${day}</strong> (목)</span></td>
-		    <tr>
-		      <td><span class="td_hour">18:30</span></td>
-	     
-	        <td class="add_state"><span class="team_lft">${matches[index].hname}</span>
-	         <span class="emblem"><img src="${matches[index].hname_logo}" width="25" height="25" alt="KT" title="KT" onerror="imageOnError(this);"></span>
-	         <strong class="td_score"><em class="vs">VS</em></strong>  
-	         <span class="emblem"><img width="25" height="25" alt="KIA" title="KIA" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></span>
-	         <span class="team_rgt">${matches[index].ateam}</span>
-	         <span class="suspended"></span>
-	        </td>
-	     
-	        <td colspan="2"><span class="td_stadium cancel">해당 경기는 현지 사정으로 취소되었습니다.</span></td>
-	
-		      <td><span class="td_stadium">${matches[index].location}</span></td>
-		      
-		      <td><img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림"></td>
-	      </tr>
-	      </c:forEach>
-	     </tbody>
-	   </table>
-	   </c:forEach>
-	 </div>
+<c:forEach begin="29" end="30" var="day">
+    <div class="sch_tb">
+      <table cellspacing="0" border="1">
+        <colgroup>
+          <col width="107"><col width="55"><col width="300"><col width="200"><col width="162"><col width="74"><col width="">
+        </colgroup>
+        <tbody> 
+          <tr>
+            <td rowspan="6">
+              <span class="td_date"> <strong>4. ${day}</strong> (목)</span>
+            </td>
+              
+            <c:forEach begin="0" end="4" var="index">
+              <td>
+                <span class="td_hour">18:30</span>
+              </td>
+
+              <td class="add_state">
+                <span class="team_lft">${matches[index].hname}</span>
+                <span class="emblem"><img src="${matches[index].hname_logo}" width="25" height="25" alt="KT" title="KT" onerror="imageOnError(this);"></span>
+                <strong class="td_score"><em class="vs">VS</em></strong>  
+                <span class="emblem"><img width="25" height="25" alt="KIA" title="KIA" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></span>
+                <span class="team_rgt">${matches[index].ateam}</span>
+                <span class="suspended"> 경기취소 </span>
+              </td>
+
+              <td colspan="2">
+                <span class="td_stadium cancel">해당 경기는 현지 사정으로 취소되었습니다.</span>
+              </td>
+
+              <td>
+                <span class="td_stadium">${matches[index].location}</span>
+              </td>
+
+              <td>
+                <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
+              </td>
+          
+          </tr>
+            </c:forEach>
+        </tbody>
+      </table>
+    </div>
+  </c:forEach>
 	 
 </div>
     
