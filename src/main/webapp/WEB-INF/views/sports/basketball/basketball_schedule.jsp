@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+ <c:set var="CP" value="${pageContext.request.contextPath }"></c:set>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,6 +16,7 @@
 	content="sports.news.naver.com/basketball/schedule/index?category=kbl">
 <title>일정/결과, 농구 : 네이버 스포츠</title>
 <!-- common css-->
+<link rel="stylesheet" type="text/css" href="${CP}/resources/css/Basketball_nsports.css" />
 <link rel="stylesheet" type="text/css"
 	href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/common_loose_new.css">
 
