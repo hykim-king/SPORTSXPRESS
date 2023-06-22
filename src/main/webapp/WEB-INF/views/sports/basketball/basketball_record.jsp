@@ -403,7 +403,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 <nav class="sports_lnb" role="navigation" id="_sports_lnb_menu">
   <h2 class="blind">메인 메뉴</h2>
-  <<ul id="lnb_list" class="lnb_list" role="menubar">
+  <ul id="lnb_list" class="lnb_list" role="menubar">
   
     <li class="lnb_item" role="presentation">
       <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem"  onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
@@ -448,12 +448,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/basketball/schedule/index" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/basketball/record/index?category=kbl" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
+    <a href="/ehr/sportsxpress/basketball_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); " aria-current="page">
     <span class="menu">기록/순위</span>
     </a>
   </li>

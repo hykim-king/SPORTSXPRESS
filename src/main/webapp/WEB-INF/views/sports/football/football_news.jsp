@@ -2191,12 +2191,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
             class="logo_entertain"><span class="blind">TV연예</span></a>
         </div>
 
-        <script>
-          
-        </script>
-        <!-- GNB -->
-
-        <!-- GNB -->
+ 
       </div>
 
 
@@ -2245,17 +2240,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
         </ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
       </nav>
       <nav class="sports_lnb_sub">
         <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
@@ -2273,16 +2257,12 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
               <span class="menu">일정/결과</span>
           </a></li>
           <li class="lnb_sub_item " role="presentation"><a
-            href="/ehr/sportsxpress/football_Record.do" class="link_lnb_sub"
+            href="/ehr/sportsxpress/football_record.do" class="link_lnb_sub"
             role="menuitem"
             onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
               <span class="menu">기록/순위</span>
           </a></li>
-          <!--   <li class="lnb_sub_item " role="presentation">
-    <a href="/kfootball/column/columnistList" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.', '', '', event); ">
-    <span class="menu">구단/협회</span>
-    </a>
-  </li> -->
+  
         </ul>
       </nav>
 
