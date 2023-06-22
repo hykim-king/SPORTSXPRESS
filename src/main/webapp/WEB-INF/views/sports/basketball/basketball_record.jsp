@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="CP" value="${pageContext.request.contextPath }"></c:set>
 
 <html><head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +20,7 @@
 
         
             <title>기록/순위, 농구 : 네이버 스포츠</title>
-
+<link rel="stylesheet" type="text/css" href="${CP}/resources/css/Basketball_nsports.css" />
 <style id="gnb_style" type="text/css">@charset "UTF-8";
 /* NTS UIT Development Office YJH 140717 */
 a.gnb_my, .gnb_icon, #gnb .gnb_my_interface, .gnb_my_li .gnb_my_content .gnb_membership, #gnb .gnb_ico_num .gnb_ico_new, #gnb .gnb_ico_num .gnb_ico_new .gnb_count, .gnb_lst .ico_arrow, a.gnb_my .filter_mask, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_my_li .gnb_my_content .gnb_edit_lst li, .gnb_notice_li .gnb_notice_lyr, .gnb_notice_li .svc_list .gnb_ico_mail, .gnb_notice_li .svc_list .gnb_btn_remove span, .gnb_notice_li .svc_list .gnb_btn_remove i, .gnb_notice_li .gnb_error .gnb_ico_error, .gnb_ly_alert .gnb_btn_close i, .gnb_first_visit, .gnb_search_box, .gnb_search_box .gnb_del_txt, .gnb_svc_more .gnb_svc_lstwrp li.gnb_event em.ic_gnb_new, .gnb_svc_more .svc_btnwrp button { background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v14.png) no-repeat -999px -999px;   background: url(https://ssl.pstatic.net/static/common/gnb/one/sp_gnb_v15.png?v=2006) no-repeat -999px -999px; /* background: url(../img/sp_gnb_v15.png) no-repeat -999px -999px; */}
@@ -759,18 +760,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
       
       <div class="sports_league">
-        <ul class="league_list">
-          <li class="league_item"><a href="/index" class="link_league">홈</a></li>
-          <li class="league_item"><a href="/kbaseball/index" class="link_league">야구</a></li>
-          <li class="league_item"><a href="/wbaseball/index" class="link_league">해외야구</a></li>
-          <li class="league_item"><a href="/kfootball/index" class="link_league">축구</a></li>
-          <li class="league_item"><a href="/wfootball/index" class="link_league">해외축구</a></li>
-          <li class="league_item"><a href="/basketball/index" class="link_league">농구</a></li>
-          <li class="league_item"><a href="/volleyball/index" class="link_league">배구</a></li>
-          <li class="league_item"><a href="/golf/index" class="link_league">N골프</a></li>
-          <li class="league_item"><a href="/general/index" class="link_league">일반</a></li>
-          <li class="league_item"><a href="https://game.naver.com/esports" class="link_league">e스포츠</a></li>
-        </ul>
+<ul class="league_list">
+            <li class="league_item"> <a href="/ehr/resources/templates/home.html" class="link_league">홈</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/baseball/baseball_news.do" class="link_league">야구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/football/football_news.do" class="link_league">축구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/basketball/basketball_news.do" class="link_league">농구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/volleyball/volleyball_news.do" class="link_league">배구</a></li>
+                  <li class="league_item"><a href="/ehr/sportsxpress/golf/golf_news.do" class="link_league">골프</a></li>
+         </ul>
       </div>
     </div>
     <div class="sports_info">
