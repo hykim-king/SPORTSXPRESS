@@ -12,10 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.pcwk.ehr.sportsxpress.VO.FootballInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.FootballMatchVO;
-<<<<<<< HEAD
 import com.pcwk.ehr.sportsxpress.VO.FootballRecordVO;
-=======
->>>>>>> 755355059c81c9fb7a9ca0f688c7bfc3b5018351
 import com.pcwk.ehr.sportsxpress.dao.FootballDao;
 
 @Repository
@@ -27,11 +24,8 @@ public class FootballDaoImpl implements FootballDao {
 	@Autowired
 	SqlSessionTemplate sqlSessionTemplate; // DB연결 객체
 
-<<<<<<< HEAD
-	private final Logger LOG = LogManager.getLogger(getClass());
-=======
 	private final Logger lg = LogManager.getLogger(getClass());
->>>>>>> 755355059c81c9fb7a9ca0f688c7bfc3b5018351
+
 	
 	public FootballDaoImpl() {}
 
@@ -39,17 +33,8 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballInfoVO> selectFootballInfo(FootballInfoVO getplayer) throws SQLException {
 		List<FootballInfoVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerInfo";
-<<<<<<< HEAD
-		LOG.debug("-------------------------------------");
-		LOG.debug("-statement-" + statement);
-		LOG.debug("-------------------------------------");
-		LOG.debug("2. param=" + getplayer);
-		outList = this.sqlSessionTemplate.selectList(statement, getplayer);
+		String statement = this.NAMESPACE + DOT + "selectFootballInfo";
 
-		for (FootballInfoVO vo : outList) {
-			LOG.debug("=3. vo=" + vo);
-=======
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
@@ -58,7 +43,7 @@ public class FootballDaoImpl implements FootballDao {
 
 		for (FootballInfoVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
->>>>>>> 755355059c81c9fb7a9ca0f688c7bfc3b5018351
+
 		}
 
 		return outList;
@@ -68,17 +53,9 @@ public class FootballDaoImpl implements FootballDao {
 	public List<FootballMatchVO> selectFootballMatchInfo(FootballMatchVO getMatch) throws SQLException {
 		List<FootballMatchVO> outList = new ArrayList<>();
 
-		String statement = this.NAMESPACE + DOT + "selectSoccerMatchInfo";
-<<<<<<< HEAD
-		LOG.debug("-------------------------------------");
-		LOG.debug("-statement-" + statement);
-		LOG.debug("-------------------------------------");
-		LOG.debug("2. param=" + getMatch);
-		outList = this.sqlSessionTemplate.selectList(statement, getMatch);
+		String statement = this.NAMESPACE + DOT + "selectFootballMatchInfo";
 
-		for (FootballMatchVO vo : outList) {
-			LOG.debug("=3. vo=" + vo);
-=======
+
 		lg.debug("-------------------------------------");
 		lg.debug("-statement-" + statement);
 		lg.debug("-------------------------------------");
@@ -87,29 +64,29 @@ public class FootballDaoImpl implements FootballDao {
 
 		for (FootballMatchVO vo : outList) {
 			lg.debug("=3. vo=" + vo);
->>>>>>> 755355059c81c9fb7a9ca0f688c7bfc3b5018351
+
 		}
 
 		return outList;
 	}
-<<<<<<< HEAD
+
 	
 	@Override
 	public List<FootballRecordVO> FootballRecordInfo(FootballRecordVO getMatch) throws SQLException {
 		List<FootballRecordVO> outList =  new ArrayList<>();
 		String temp = null;
 		String statement = this.NAMESPACE+DOT+"footballRecordInfo";
-		LOG.debug("-------------------------------------");
-		LOG.debug("-statement-"+statement);
-		LOG.debug("-------------------------------------");
-		LOG.debug("2. param="+getMatch);
+		lg.debug("-------------------------------------");
+		lg.debug("-statement-"+statement);
+		lg.debug("-------------------------------------");
+		lg.debug("2. param="+getMatch);
 		outList = this.sqlSessionTemplate.selectList(statement, temp);
 		for(FootballRecordVO vo:outList) {
-			LOG.debug("=3. vo="+vo);
+			lg.debug("=3. vo="+vo);
 		}
 		return outList;
 	}
-=======
->>>>>>> 755355059c81c9fb7a9ca0f688c7bfc3b5018351
+
+
 
 }
