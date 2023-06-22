@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
+import com.pcwk.ehr.sportsxpress.VO.BaseballMatchVO;
 import com.pcwk.ehr.sportsxpress.VO.BaseballRecordVO;
 import com.pcwk.ehr.sportsxpress.VO.TajaInfoVO;
+import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.TusuInfoVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
@@ -80,6 +82,18 @@ public class BaseballController {
 	    model.addAttribute("tusus", tusuList);
 	    model.addAttribute("tajas", tajaList);
 	    return "sports/baseball/baseball_record";
+	}
+	
+	// 일정 결과
+	@RequestMapping(value = "/baseball_Schedule.do", method = RequestMethod.GET)
+	public String ScheduleInfo(BaseballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
+		List<BaseballMatchVO> matchList = baseballService.getMatchInfo(getMatch);
+		model.addAttribute("matches", matchList);
+		getTeam.setLname("KBO");
+		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
+		model.addAttribute("teams", teamList);
+
+		return "sports/baseball/baseball_schedule";
 	}
 	
 

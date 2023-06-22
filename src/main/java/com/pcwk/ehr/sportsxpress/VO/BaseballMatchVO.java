@@ -14,6 +14,8 @@ public class BaseballMatchVO extends DTO {
 	private	int ascore         ;
 	private	String mlink       ;
 	private	String vlink       ;
+	private String hname_logo  ;
+	private String ateam_logo  ;
 	
 	
 	public BaseballMatchVO() {
@@ -22,7 +24,7 @@ public class BaseballMatchVO extends DTO {
 
 
 	public BaseballMatchVO(int baseno, String season, String lname, String time, String location, String hname,
-			int hscore, String ateam, int ascore, String mlink, String vlink) {
+			int hscore, String ateam, int ascore, String mlink, String vlink, String hname_logo, String ateam_logo) {
 		super();
 		this.baseno = baseno;
 		this.season = season;
@@ -35,6 +37,8 @@ public class BaseballMatchVO extends DTO {
 		this.ascore = ascore;
 		this.mlink = mlink;
 		this.vlink = vlink;
+		this.hname_logo = hname_logo;
+		this.ateam_logo = ateam_logo;
 	}
 
 
@@ -148,13 +152,34 @@ public class BaseballMatchVO extends DTO {
 	}
 
 
+	public String getHname_logo() {
+		return hname_logo;
+	}
+
+
+	public void setHname_logo(String hname_logo) {
+		this.hname_logo = hname_logo;
+	}
+
+
+	public String getAteam_logo() {
+		return ateam_logo;
+	}
+
+
+	public void setAteam_logo(String ateam_logo) {
+		this.ateam_logo = ateam_logo;
+	}
+
+
 	@Override
 	public String toString() {
-		return "Baseball_MatchVO [baseno=" + baseno + ", season=" + season + ", lname=" + lname + ", time=" + time
+		return "BaseballMatchVO [baseno=" + baseno + ", season=" + season + ", lname=" + lname + ", time=" + time
 				+ ", location=" + location + ", hname=" + hname + ", hscore=" + hscore + ", ateam=" + ateam
-				+ ", ascore=" + ascore + ", mlink=" + mlink + ", vlink=" + vlink + ", toString()=" + super.toString()
-				+ "]";
+				+ ", ascore=" + ascore + ", mlink=" + mlink + ", vlink=" + vlink + ", hname_logo=" + hname_logo
+				+ ", ateam_logo=" + ateam_logo + "]";
 	}
-	
+
+
 	
 }
