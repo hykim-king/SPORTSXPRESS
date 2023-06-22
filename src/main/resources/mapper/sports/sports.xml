@@ -74,7 +74,8 @@
 			woba,
 			wrc,
 			wpa,
-			war
+			war,
+			logo
 		FROM taja_info
 		WHERE lname = 'KBO'
 		ORDER BY AVG desc
@@ -105,7 +106,8 @@
 			kper,
 			bbper,
 			wpa,
-			war
+			war,
+			logo
 		FROM tusu_info
 		ORDER by eravg asc
 	</select>
@@ -149,7 +151,8 @@
 				ftr,
 				success_yato,
 				success_3p,
-				success_ftr
+				success_ftr,
+				logo
 			FROM
 			  basketball_info
 	        ) 
@@ -163,6 +166,7 @@
 	<select id="selectBasketballBestPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
 	   SELECT
 		    name,
+		    profile,
 		    CASE WHEN score = (SELECT MAX(score) FROM basketball_info) THEN score ELSE NULL END AS score,
 		    CASE WHEN assists = (SELECT MAX(assists) FROM basketball_info) THEN assists ELSE NULL END AS assists,
 		    CASE WHEN rebound = (SELECT MAX(rebound) FROM basketball_info) THEN rebound ELSE NULL END AS rebound,

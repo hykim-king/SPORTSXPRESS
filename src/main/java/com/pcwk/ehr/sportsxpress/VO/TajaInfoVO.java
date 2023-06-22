@@ -28,6 +28,7 @@ public class TajaInfoVO extends DTO{
 	private int	wrc     ;
 	private int	wpa     ;
 	private int	war     ;
+	private String logo;
 	
 	public TajaInfoVO() {
 
@@ -35,7 +36,7 @@ public class TajaInfoVO extends DTO{
 
 	public TajaInfoVO(int tajaid, String lname, String name, String profile, int avg, int played, int hits, int safety,
 			int b2, int b3, int hr, int rbi, int score, int steal, int ball4, int k, int obp, int slg, int ops,
-			int isop, int babip, int woba, int wrc, int wpa, int war) {
+			int isop, int babip, int woba, int wrc, int wpa, int war,String logo) {
 		super();
 		this.tajaid = tajaid;
 		this.lname = lname;
@@ -62,6 +63,7 @@ public class TajaInfoVO extends DTO{
 		this.wrc = wrc;
 		this.wpa = wpa;
 		this.war = war;
+		this.logo = logo;
 	}
 
 	public int getTajaid() {
@@ -263,16 +265,25 @@ public class TajaInfoVO extends DTO{
 	public void setWar(int war) {
 		this.war = war;
 	}
+	
+	public String getLogo() {
+		return logo;
+	}
+
+	public void setLogo(String logo) {
+		this.logo = logo;
+	}
 
 	@Override
 	public String toString() {
-		return "Taja_InfoVO [tajaid=" + tajaid + ", lname=" + lname + ", name=" + name + ", profile=" + profile
+		return "TajaInfoVO [tajaid=" + tajaid + ", lname=" + lname + ", name=" + name + ", profile=" + profile
 				+ ", avg=" + avg + ", played=" + played + ", hits=" + hits + ", safety=" + safety + ", b2=" + b2
 				+ ", b3=" + b3 + ", hr=" + hr + ", rbi=" + rbi + ", score=" + score + ", steal=" + steal + ", ball4="
 				+ ball4 + ", k=" + k + ", obp=" + obp + ", slg=" + slg + ", ops=" + ops + ", isop=" + isop + ", babip="
-				+ babip + ", woba=" + woba + ", wrc=" + wrc + ", wpa=" + wpa + ", war=" + war + ", toString()="
-				+ super.toString() + "]";
+				+ babip + ", woba=" + woba + ", wrc=" + wrc + ", wpa=" + wpa + ", war=" + war + ", logo=" + logo + "]";
 	}
+
+
 	
 	
 }

@@ -2608,12 +2608,12 @@
                         </li>
 
                         <li class="lnb_sub_item" role="presentation">
-                            <a href="/ehr/sportsxpress/baseball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+                            <a href="/ehr/sportsxpress/baseball_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
                                 <span class="menu">일정/결과</span>
                             </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
-                            <a href="/ehr/sportsxpress/baseball_Record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.datacenter', 'datacenter', '', event); ">
+                            <a href="/ehr/sportsxpress/baseball_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.datacenter', 'datacenter', '', event); ">
                                 <span class="menu">기록/순위</span>
                             </a>
                         </li>
