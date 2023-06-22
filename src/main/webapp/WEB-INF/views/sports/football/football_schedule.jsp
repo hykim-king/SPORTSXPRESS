@@ -2900,7 +2900,7 @@
                                                         <img src="${matches[0].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[0].hname}</span> <span class="score">${matches[0].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[0].hname}</span> <span class="score">${matches[0].hscore}</span> 
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -2983,7 +2983,7 @@
                                                         <img src="${matches[2].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[2].hname}</span> <span class="score">${matches[2].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[2].hname}</span> <span class="score">${matches[2].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3028,7 +3028,7 @@
                                                         <img src="${matches[3].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[3].hname}</span> <span class="score">${matches[3].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[3].hname}</span> <span class="score">${matches[3].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3063,7 +3063,7 @@
                                                         <img src="${matches[4].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[4].hname}</span> <span class="score">${matches[4].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[4].hname}</span> <span class="score">${matches[4].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3108,7 +3108,7 @@
                                                         <img src="${matches[5].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[5].hname}</span> <span class="score">${matches[5].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[5].hname}</span> <span class="score">${matches[5].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3160,7 +3160,7 @@
                                                         <img src="${matches[6].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[6].ateam}</span> <span class="score">${matches[6].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[6].ateam}</span> <span class="score">${matches[6].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3188,7 +3188,7 @@
                                                         <img src="${matches[7].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[7].hname}</span> <span class="score">${matches[7].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[7].hname}</span> <span class="score">${matches[7].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3223,7 +3223,7 @@
                                                         <img src="${matches[8].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[8].hname}</span> <span class="score">${matches[8].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[8].hname}</span> <span class="score">${matches[8].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3265,7 +3265,7 @@
                                                         <img src="${matches[9].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[9].hname}</span> <span class="score">${matches[9].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[9].hname}</span> <span class="score">${matches[9].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3303,7 +3303,7 @@
                                                         <img src="${matches[10].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[10].hname}</span> <span class="score">${matches[10].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[10].hname}</span> <span class="score">${matches[10].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3348,7 +3348,7 @@
                                                         <img src="${matches[11].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[11].ateam}</span> <span class="score">${matches[11].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[11].ateam}</span> <span class="score">${matches[11].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3376,7 +3376,7 @@
                                                         <img src="${matches[12].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[12].hname}</span> <span class="score">${matches[12].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[12].hname}</span> <span class="score">${matches[12].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3418,7 +3418,7 @@
                                                         <img src="${matches[13].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[13].hname}</span> <span class="score">${matches[13].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[13].hname}</span> <span class="score">${matches[13].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3463,7 +3463,7 @@
                                                         <img src="${matches[14].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[14].ateam}</span> <span class="score">${matches[14].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[14].ateam}</span> <span class="score">${matches[14].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3491,7 +3491,7 @@
                                                         <img src="${matches[15].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[15].hname}</span> <span class="score">${matches[15].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[15].hname}</span> <span class="score">${matches[15].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3594,7 +3594,7 @@
                                                         <img src="${matches[17].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[17].hname}</span> <span class="score">${matches[17].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[17].hname}</span> <span class="score">${matches[17].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3671,7 +3671,7 @@
                                                         <img src="${matches[19].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[19].hname}</span> <span class="score">${matches[19].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[19].hname}</span> <span class="score">${matches[19].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3706,7 +3706,7 @@
                                                         <img src="${matches[20].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[20].hname}</span> <span class="score">${matches[20].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[20].hname}</span> <span class="score">${matches[20].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3755,7 +3755,7 @@
                                                         <img src="${matches[21].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[21].ateam}</span> <span class="score">${matches[21].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[21].ateam}</span> <span class="score">${matches[21].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3786,7 +3786,7 @@
                                                         <img src="${matches[22].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[22].hname}</span> <span class="score">${matches[22].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[22].hname}</span> <span class="score">${matches[22].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -3828,7 +3828,7 @@
                                                         <img src="${matches[23].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[23].ateam}</span> <span class="score">${matches[23].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[23].ateam}</span> <span class="score">${matches[23].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3873,7 +3873,7 @@
                                                         <img src="${matches[24].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[24].ateam}</span> <span class="score">${matches[24].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[24].ateam}</span> <span class="score">${matches[24].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3918,7 +3918,7 @@
                                                         <img src="${matches[25].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[25].ateam}</span> <span class="score">${matches[25].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[25].ateam}</span> <span class="score">${matches[25].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -3969,7 +3969,7 @@
                                                         <img src="${matches[26].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[26].hname}</span> <span class="score">${matches[26].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[26].hname}</span> <span class="score">${matches[26].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4014,7 +4014,7 @@
                                                         <img src="${matches[27].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[27].ateam}</span> <span class="score">${matches[27].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[27].ateam}</span> <span class="score">${matches[27].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -4056,7 +4056,7 @@
                                                         <img src="${matches[28].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[28].ateam}</span> <span class="score">${matches[28].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[28].ateam}</span> <span class="score">${matches[28].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -4206,7 +4206,7 @@
                                                         <img src="${matches[32].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[32].hname}</span> <span class="score">${matches[32].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[32].hname}</span> <span class="score">${matches[32].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4248,7 +4248,7 @@
                                                         <img src="${matches[33].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[33].hname}</span> <span class="score">${matches[33].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[33].hname}</span> <span class="score">${matches[33].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4283,7 +4283,7 @@
                                                         <img src="${matches[34].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[34].hname}</span> <span class="score">${matches[34].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[34].hname}</span> <span class="score">${matches[34].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4328,7 +4328,7 @@
                                                         <img src="${matches[35].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[35].hname}</span> <span class="score">${matches[35].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[35].hname}</span> <span class="score">${matches[35].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4459,7 +4459,7 @@
                                                         <img src="${matches[38].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[38].hname}</span> <span class="score">${matches[38].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[38].hname}</span> <span class="score">${matches[38].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4524,7 +4524,7 @@
                                                         <img src="${matches[39].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[39].hname}</span> <span class="score">${matches[39].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[39].hname}</span> <span class="score">${matches[39].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4559,7 +4559,7 @@
                                                         <img src="${matches[40].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[40].hname}</span> <span class="score">${matches[40].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[40].hname}</span> <span class="score">${matches[40].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4594,7 +4594,7 @@
                                                         <img src="${matches[41].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[41].hname}</span> <span class="score">${matches[41].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[41].hname}</span> <span class="score">${matches[41].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4699,7 +4699,7 @@
                                                         <img src="${matches[44].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[44].hname}</span> <span class="score">${matches[44].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[44].hname}</span> <span class="score">${matches[44].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4741,7 +4741,7 @@
                                                         <img src="${matches[45].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[45].ateam}</span> <span class="score">${matches[45].ascore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[45].ateam}</span> <span class="score">${matches[45].ascore}</span>  
                                                 </span>
                                             </div>
                                         </td>
@@ -4776,7 +4776,7 @@
                                                         <img src="${matches[46].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[46].hname}</span> <span class="score">${matches[46].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[46].hname}</span> <span class="score">${matches[46].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
@@ -4811,7 +4811,7 @@
                                                         <img src="${matches[47].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
-                                                    <span class="name">${matches[47].hname}</span> <span class="score">${matches[47].hscore}</span> <span class="win">승리팀</span>
+                                                    <span class="name">${matches[47].hname}</span> <span class="score">${matches[47].hscore}</span>  
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
