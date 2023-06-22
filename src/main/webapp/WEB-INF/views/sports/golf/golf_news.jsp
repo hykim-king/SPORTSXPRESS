@@ -2269,7 +2269,7 @@
                             </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
-                            <a href="/ehr/sportsxpress/golf_Record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
+                            <a href="/ehr/sportsxpress/golf_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
                                 <span class="menu">기록/순위</span>
                             </a>
                         </li>

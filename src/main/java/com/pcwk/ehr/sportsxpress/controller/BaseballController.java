@@ -85,7 +85,7 @@ public class BaseballController {
 	}
 	
 	// 일정 결과
-	@RequestMapping(value = "/baseball_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/baseball_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(BaseballMatchVO getMatch, TeamVO getTeam, Model model) throws SQLException {
 		List<BaseballMatchVO> matchList = baseballService.getMatchInfo(getMatch);
 		model.addAttribute("matches", matchList);
