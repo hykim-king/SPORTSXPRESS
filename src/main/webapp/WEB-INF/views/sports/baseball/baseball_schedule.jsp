@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.util.Calendar" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -1376,922 +1377,126 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
 <div class="tb_wrap" id="calendarWrap">
 
-  <c:forEach var="matches" items="${matches}" varStatus="loop">
-	  <div class="sch_tb ">
+  <c:forEach begin="1" end="28" var="day">
+  
+	  <div class="sch_tb">
 	    <table cellspacing="0" border="1">
+		    <colgroup>
+		     <col width="107"><col width="55"><col width="300"><col width="200"><col width="162"><col width="74"><col width="">
+		    </colgroup>
+		    <tbody> 
+
+			    <c:forEach begin="0" end="4" var="column">
+		      <c:set var="index" value="${((day - 1) * 5) + column}" />
+		      <c:choose>
+			      <c:when test="${column == 0}">
+              <c:choose>
+               <c:when test="${day % 7 == 1}">
+					       <td rowspan="6">
+					       <span class="td_date"><strong>4.${day}</strong> (토)</span>
+					       </td>
+	             </c:when>
+               <c:when test="${day % 7 == 2}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (일)</span>
+                 </td>
+               </c:when>
+               <c:when test="${day % 7 == 3}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (월)</span>
+                 </td>
+               </c:when>
+               <c:when test="${day % 7 == 4}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (화)</span>
+                 </td>
+               </c:when>
+               <c:when test="${day % 7 == 5}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (수)</span>
+                 </td>
+               </c:when>
+               <c:when test="${day % 7 == 6}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (목)</span>
+                 </td>
+               </c:when>
+               <c:when test="${day % 7 == 0}">
+                 <td rowspan="6">
+                 <span class="td_date"><strong>4.${day}</strong> (금)</span>
+                 </td>
+               </c:when>
+              </c:choose>
+			      </c:when>
+			    </c:choose>
+		      <tr>
+		      <td><span class="td_hour"><strong>18:30</strong></span></td>
+		      <td class=""><span class="team_lft">${matches[index].hname}</span>
+		        <span class="emblem"><img src="${matches[index].hname_logo}" width="25" height="25" alt="롯데" title="롯데" onerror="imageOnError(this);"></span>
+		            <strong class="td_score">${matches[index].hscore}<em> : </em>${matches[index].ascore}</strong>
+		        <span class="emblem"><img width="25" height="25" alt="LG" title="LG" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></span>
+		        
+		        <span class="team_rgt">${matches[index].ateam}</span>
+		      </td>
+		      
+		      <td>
+			      <span class="td_btn">
+			      <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
+			       <a href="/game/20230601LTLG02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
+			      <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
+			       <a href="/game/20230601LTLG02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
+			      </span>
+		      </td>		          
+		      <td><span class="td_stadium">MBC SPORTS+</span></td>
+		
+		      <td><span class="td_stadium">${matches[index].location}</span></td>
+ 
+		      
+		      <td><img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림"></td>
+		     </tr>
+		    </c:forEach>
+		    
+		   
+	    </tbody>
+    </table>
+   </div>
+  </c:forEach>
+
+	 <div class="sch_tb">
+	   <c:forEach begin="29" end="30" var="day">
+	   <table cellspacing="0" border="1">
 	    <colgroup>
 	        <col width="107"><col width="55"><col width="300"><col width="200"><col width="162"><col width="74"><col width="">
 	    </colgroup>
 	    <tbody> 
+        <c:forEach begin="0" end="4" var="column">
+        <c:set var="index" value="${((day - 1) * 5) + column}" />
+		    <td rowspan="5"><span class="td_date"><strong>4. ${day}</strong> (목)</span></td>
+		    <tr>
+		      <td><span class="td_hour">18:30</span></td>
+	     
+	        <td class="add_state"><span class="team_lft">${matches[index].hname}</span>
+	         <span class="emblem"><img src="${matches[index].hname_logo}" width="25" height="25" alt="KT" title="KT" onerror="imageOnError(this);"></span>
+	         <strong class="td_score"><em class="vs">VS</em></strong>  
+	         <span class="emblem"><img width="25" height="25" alt="KIA" title="KIA" src="${matches[index].ateam_logo}" onerror="imageOnError(this);"></span>
+	         <span class="team_rgt">${matches[index].ateam}</span>
+	         <span class="suspended"></span>
+	        </td>
+	     
+	        <td colspan="2"><span class="td_stadium cancel">해당 경기는 현지 사정으로 취소되었습니다.</span></td>
 	
-	    <tr>
-			  <c:choose>
-			   <c:when test="${loop.count >= 1 && loop.count <= 5}">
-			      <td rowspan="5">
-			      <span class="td_date"><strong>4.1</strong> (토)</span>
-			      </td>
-				 </c:when>
-		     <c:when test="${loop.count >= 6 && loop.count <= 10}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.2</strong> (일)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 11 && loop.count <= 15}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.3</strong> (월)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 16 && loop.count <= 20}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.4</strong> (화)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 21 && loop.count <= 25}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.5</strong> (수)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 26 && loop.count <= 30}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.6</strong> (목)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 31 && loop.count <= 35}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.7</strong> (금)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 36 && loop.count <= 40}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.8</strong> (토)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 41 && loop.count <= 45}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.9</strong> (일)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 46 && loop.count <= 50}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.10</strong> (월)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 51 && loop.count <= 55}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.11</strong> (화)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 56 && loop.count <= 60}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.12</strong> (수)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 61 && loop.count <= 65}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.13</strong> (목)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 66 && loop.count <= 70}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.14</strong> (금)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 71 && loop.count <= 75}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.15</strong> (토)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 76 && loop.count <= 80}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.16</strong> (일)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 81 && loop.count <= 90}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.17</strong> (월)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 91 && loop.count <= 95}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.18</strong> (화)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 96 && loop.count <= 100}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.19</strong> (수)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 101 && loop.count <= 105}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.20</strong> (목)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 106 && loop.count <= 110}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.21</strong> (금)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 111 && loop.count <= 115}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.22</strong> (토)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 116 && loop.count <= 120}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.23</strong> (일)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 121 && loop.count <= 125}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.24</strong> (월)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 126 && loop.count <= 130}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.25</strong> (화)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 131 && loop.count <= 135}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.26</strong> (수)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 136 && loop.count <= 140}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.27</strong> (목)</span>
-		        </td>
-		     </c:when>
-		     <c:when test="${loop.count >= 141 && loop.count <= 142}">
-		        <td rowspan="5">
-		        <span class="td_date"><strong>4.28</strong> (금)</span>
-		        </td>
-		     </c:when>
-			  </c:choose>
-
-      <td><span class="td_hour">18:30</span></td>
-      <td class=""><span class="team_lft">${matches.hname}</span>
-        <span class="emblem"><img src="${matches.hname_logo}" width="25" height="25" alt="롯데" title="롯데" onerror="imageOnError(this);"></span>
-
-            <strong class="td_score">${matches.hscore}<em>:</em>${matches.ascore}</strong>
-            
-        <span class="emblem"><img width="25" height="25" alt="LG" title="LG" src="${matches.ateam_logo}" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">${matches.ateam}</span>
-      </td>
-      
-            <td>
-            <span class="td_btn">
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-
-                <a href="/game/20230601LTLG02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-
-                  <a href="/game/20230601LTLG02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-
-            </span>
-          </td>
-          
-          <td>
-          <span class="td_stadium">
-
-                MBC SPORTS+
-   
-          </span>
-          </td>
-
-      <td>
-        <span class="td_stadium">${matches.location}</span>
-                
-      </td>
-      <td>
-      
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-
-      </td>    
-    </tr>
-    </tbody>
-    </table>
-    </div>
-  </c:forEach>
+		      <td><span class="td_stadium">${matches[index].location}</span></td>
+		      
+		      <td><img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림"></td>
+	      </tr>
+	      </c:forEach>
+	     </tbody>
+	   </table>
+	   </c:forEach>
+	 </div>
+	 
 </div>
     
-
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-        
-      
-      <td class="add_state"><span class="team_lft">두산</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="두산" title="두산" onerror="imageOnError(this);"></span>
-        
-          
-            <strong class="td_score"><em class="vs">VS</em></strong>  
-          
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="NC" title="NC" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">NC</span>
-
-        
-          <span class="suspended">경기취소</span>
-        
-      </td>
-      
-          
-          <td colspan="2">
-          <span class="td_stadium cancel">해당 경기는 현지 사정으로 취소되었습니다.</span>
-          </td>
-          
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">창원</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">삼성</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="삼성" title="삼성" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">2<em>:</em>14</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="SSG" title="SSG" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">SSG</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230601SSSK02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230601SSSK02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                SPOTV
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">문학</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">키움</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="키움" title="키움" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">3<em>:</em>7</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="한화" title="한화" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">한화</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230601WOHH02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230601WOHH02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                SBS SPORTS
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">대전</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-
-  
-
-
-
-
-  
-  
-  <div class="sch_tb2 ">
-    <table cellspacing="0" border="1">
-    <colgroup>
-        <col width="107"><col width="55"><col width="300"><col width="200"><col width="162"><col width="74"><col width="">
-    </colgroup>
-    <tbody> 
-    
-    <tr>
-      
-      <td rowspan="5">
-        <span class="td_date"><strong>6.2</strong> (금)</span>
-      </td>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">KIA</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="KIA" title="KIA" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">2<em>:</em>14</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="롯데" title="롯데" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">롯데</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230602HTLT02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230602HTLT02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                SBS SPORTS
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">사직</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">NC</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="NC" title="NC" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">9<em>:</em>2</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="LG" title="LG" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">LG</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230602NCLG02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230602NCLG02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                KBS N SPORTS
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">잠실</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">두산</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="두산" title="두산" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">10<em>:</em>1</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="KT" title="KT" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">KT</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230602OBKT02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230602OBKT02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                SPOTV2
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">수원</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">삼성</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="삼성" title="삼성" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">8<em>:</em>7</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="한화" title="한화" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">한화</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230602SSHH02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230602SSHH02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                MBC SPORTS+
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">대전</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    <tr>
-          
-      <td><span class="td_hour">18:30</span></td>
-
-      
-      
-      <td class=""><span class="team_lft">키움</span>
-        <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="키움" title="키움" onerror="imageOnError(this);"></span>
-        
-          
-          
-            <strong class="td_score">2<em>:</em>3</strong>
-          
-        
-        <span class="emblem"><img width="25" height="25" alt="SSG" title="SSG" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png&amp;type=f25_25&amp;refresh=1" onerror="imageOnError(this);"></span>
-        <span class="team_rgt">SSG</span>
-
-        
-      </td>
-      
-          
-          
-            <td>
-            <span class="td_btn">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            <!-- 좌측 버튼 [전력 영상(Y/N) 결과] -->
-            
-              
-              
-              
-              
-                <a href="/game/20230602WOSK02023/record" onclick="clickcr(this, 'sch.gamerecord', '', '', event);"><img width="61" height="23" alt="경기결과" src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_result2.gif"></a>
-              
-              
-            
-            <!-- 우측 버튼 [중계(N) 중계(Y) 영상] -->
-            
-              
-              
-              
-              
-              
-                
-                  
-                  <a href="/game/20230602WOSK02023/video" onclick="clickcr(this, 'sch.gamevod', '', '', event);"><img width="61" height="23" alt="경기영상" src="https://imgnews.pstatic.net/image/sports/2010/kbo_schedule/btn_vod2.gif"></a>
-                
-              
-              
-            
-
-            </span>
-          </td>
-          <td>
-          <span class="td_stadium">
-            
-                            
-              
-              
-                SPOTV
-              
-                    
-          </span>
-          </td>
-          
-      
-      
-      
-      <td>
-        <span class="td_stadium">문학</span>
-                
-      </td>
-      <td>
-      
-        
-        
-          <img src="https://imgnews.pstatic.net/image/sports/2011/baseball_schedule/btn_alarm_dmm.gif" width="61" height="23" alt="알림">
-        
-      
-      </td>     
-    </tr>
-    
-    </tbody>
-    </table>
-  </div>
-  
-
 
 <table cellspacing="0" cellpadding="0" border="0">
 <tbody><tr><td width="120" bgcolor=""></td>
