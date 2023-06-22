@@ -552,7 +552,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>1</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1001.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1001.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1001">대한항공</span>
             </div>
         </td>
@@ -580,7 +580,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>2</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1005.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1005.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1005">현대캐피탈</span>
             </div>
         </td>
@@ -608,7 +608,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>3</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1009.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1009.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1009">우리카드</span>
             </div>
         </td>
@@ -636,7 +636,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>4</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1006.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1006.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1006">한국전력</span>
             </div>
         </td>
@@ -664,7 +664,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>5</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1008.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1008.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1008">OK금융그룹</span>
             </div>
         </td>
@@ -692,7 +692,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>6</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1004.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1004.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1004">KB손해보험</span>
             </div>
         </td>
@@ -720,7 +720,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <th><strong>7</strong></th>
         <td class="tm">
             <div>
-                <span class="emblem"><img src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kovo/default/1002.png&amp;type=f25_25&amp;refresh=1" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
+                <span class="emblem"><img src="https://sports-phinf.pstatic.net/team/kovo/default/1002.png" width="25" height="25" alt="구단로고" onerror="imageOnError(this);"></span>
                 <span id="team_1002">삼성화재</span>
             </div>
         </td>
