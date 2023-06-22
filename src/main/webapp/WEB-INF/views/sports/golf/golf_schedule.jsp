@@ -453,7 +453,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_list" class="lnb_list" role="menubar">
   
     <li class="lnb_item" role="presentation">
-      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem" aria-current="true" onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
+      <a href="/ehr/resources/templates/home.html" class="link_lnb" role="menuitem"  onclick="clickcr(this, 'LNB.sportshome', 'sportshome', '', event); ; ">스포츠 홈</a>
     </li>
   
     <li class="lnb_item" role="presentation">
