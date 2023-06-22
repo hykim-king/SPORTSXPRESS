@@ -3760,7 +3760,7 @@
                                 <div class="main_area">
                                     <a href="javascript:moveToLoginForm();" class="link" id="login_status"><strong>로그인</strong></a> <a href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
                                     <a target="_blank" onclick="OPS.viewOPS('ops', {url : 'https://help.naver.com/alias/contents2/sports/sports_2.naver'}); clickcr(this, 'fot.shelp', '', '', event); return false;" href="#" class="link">
-                                       
+                                       고객센터
                                     </a>
                                     <a target="_blank" href="https://help.naver.com/alias/contents2/sports/sports_6.naver" class="link">문제신고</a>
                                     <a target="_blank" href="https://www.naver.com/rules/privacy.html" onclick="clickcr(this, 'fot.privacy', '', '', event);" class="link"><strong>개인정보처리방침</strong></a>

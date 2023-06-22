@@ -3445,7 +3445,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
         <div class="sports_info">
           <div class="link_area">
             <div class="main_area">
-              <!-- <a href="javascript:moveToLoginForm();" class="link"
+              <a href="javascript:moveToLoginForm();" class="link"
                 id="login_status"><strong>로그인</strong></a> <a
                 href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
               <a target="_blank"
@@ -3468,7 +3468,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
             이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
           <span class="naver">© <a ref="http://www.navercorp.com/"
             target="_blank" onclick="clickcr(this, 'fot.nhn', '', '', event);">NAVER
-              Corp.</a></span> -->
+              Corp.</a></span>
         </div>
       </div>
 

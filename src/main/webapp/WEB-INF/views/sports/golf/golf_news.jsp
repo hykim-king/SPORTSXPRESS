@@ -2667,7 +2667,7 @@
                                         <c:forEach var="art" items="${articles}" begin="0" end="19">
                                             <li>
                                                 <a href="${art.hyperlink}" class="thmb" onclick="clickcr(this, 'nwl.image', '', '', event);">
-                                                    <img width="140" src="${art.thumbnail}" lazy-src="${art.thumbnail}" alt="${art.title" } class="lazyLoadImage" /> <span class="mask"></span>
+                                                    <img width="140" src="${art.thumbnail}" lazy-src="${art.thumbnail}" alt="${art.title}" class="lazyLoadImage" /> <span class="mask"></span>
                                                 </a>
                                                 <div class="text">
                                                     <a href="${art.hyperlink}" class="title" onclick="clickcr(this, 'nwl.title', '', '', event);"><span>${art.title}</span></a>
