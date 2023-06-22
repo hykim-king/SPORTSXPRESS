@@ -2138,6 +2138,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 #gnb.gnb_one_pwe .gnb_ico_num .gnb_count {
 	border-radius: 0 13px 13px 0;
 }
+
+.team_lft {
+  width:40px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  vertical-align:middle;
+}
+
+.team_rgt {
+  width:40px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  vertical-align:middle;
+}
 </style>
 <script></script>
 <script></script>
