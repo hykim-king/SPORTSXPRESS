@@ -11,4 +11,6 @@ public interface GolfService {
 	public List<GolfMatchVO> getMatchInfo(GolfMatchVO getMatch) throws SQLException;
 
 	public List<GolfRankVO> getPlayerInfo(GolfRankVO getPlayer) throws SQLException;
+	
+	public List<GolfRankVO> getBestPlayerInfo(GolfRankVO getPlayer) throws SQLException;
 }

@@ -23,4 +23,12 @@ public interface GolfDao {
 	 * @throws SQLException
 	 */
 	List<GolfRankVO> selectGolfPlayerInfo(GolfRankVO getPlayer) throws SQLException;
+	
+	/**
+	 * 선수 정보 추출
+	 * @param getBestPlayer
+	 * @return
+	 * @throws SQLException
+	 */
+	List<GolfRankVO> selectBestGolfPlayerInfo(GolfRankVO getBestPlayer) throws SQLException;
 }

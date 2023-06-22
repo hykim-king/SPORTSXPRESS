@@ -3,6 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.text.DecimalFormat" %>
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -522,7 +523,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <%
   // 현재 날짜 및 시간을 얻기 위해 Date 객체를 생성합니다.
   Date currentDate = new Date();
-  // 원하는 날짜 형식을 지정하기 위해 SimpleDateFormat을 사용합니다.
   SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy년 MM월 dd일 ");
   // 현재 날짜를 문자열로 변환합니다.
   String formattedDate = dateFormat.format(currentDate);
@@ -533,356 +533,47 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <h4 class="blind">기록별 선수 순위</h4>
 
   <div class="record_summary_wrap">
+    <c:forEach begin="0" end="3" var="record">
     
     <div class="record_summary_inner">
       <strong class="record_type">공식상금</strong>
-          <ol class="record_summary_list">         
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->          
-              <span class="thumbnail">                
-                  <span class="flag"><img src="https://imgsports.pstatic.net/images/emblem/new/golf/default/USA.png" width="31" height="31" alt="UNITED STATES" onerror="imageOnError(this);"></span>        
-                <img data-player-id="826546" src="https://sports-phinf.pstatic.net/player/pga/default/826546.png?type=f108_108" width="71" height="71" alt="" onerror="imageOnError(this);">
-              </span>
-                
-                <div class="info">
-              <span class="rank">
-                
-                  1
-                  
-                </span>
-                  <span class="name">스코티 셰플러</span>
-                </div>
-                <div class="price">$16,293,295</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  2
-                  
-                </span>
-                  <span class="name">존 람</span>
-                </div>
-                <div class="price">$14,775,965</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  3
-                  
-                </span>
-                  <span class="name">빅토르 호블란</span>
-                </div>
-                <div class="price">$9,426,434</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  4
-                  
-                </span>
-                  <span class="name">맥스 호마</span>
-                </div>
-                <div class="price">$8,573,087</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  5
-                  
-                </span>
-                  <span class="name">티럴 해턴</span>
-                </div>
-                <div class="price">$7,105,427</div>
-              </li>
-            
-          </ol>
-        
-      
-    </div>
-    
-    <div class="record_summary_inner">
-      <strong class="record_type">포인트</strong>
-      
-        
-        
           <ol class="record_summary_list">
+            <c:forEach begin="0" end="4" var="rank">        
+			  <li class="record_summary_item">
+			    <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. --> 
+			    <c:choose>
+			      <c:when test="${rank == 0}">
+			        <span class="thumbnail">                    
+			          <img data-player-id="826546" src="${bestplayers[(record*5)+rank].profile}" width="71" height="71" alt="" onerror="imageOnError(this);">
+			        </span>
+			      </c:when>
+			    </c:choose>
+			    <div class="info">
+			      <span class="rank">
+			        ${rank+1}  
+			      </span>
+			      <span class="name">${bestplayers[(record*5)+rank].name}</span>
+			    </div>
+			    <c:choose>
+			      <c:when test="${record == 0}">
+			        <div class="price">${bestplayers[(record*5)+rank].ernings}</div>
+			      </c:when>
+			      <c:when test="${record == 1}">
+			        <div class="price">${bestplayers[(record*5)+rank].point}</div>
+			      </c:when>
+			      <c:when test="${record == 2}">
+			        <div class="price">${bestplayers[(record*5)+rank].savg}yd</div>
+			      </c:when>
+			      <c:when test="${record == 3}">
+			        <div class="price">${bestplayers[(record*5)+rank].ddavg}</div>
+			      </c:when>
+			    </c:choose>
+			  </li>
+			</c:forEach>
             
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-              <span class="thumbnail">
-                
-                  <span class="flag"><img src="https://imgsports.pstatic.net/images/emblem/new/golf/default/ESP.png" width="31" height="31" alt="SPAIN" onerror="imageOnError(this);"></span>
-                
-                <img data-player-id="858378" src="https://sports-phinf.pstatic.net/player/pga/default/858378.png?type=f108_108" width="71" height="71" alt="" onerror="imageOnError(this);">
-              </span>
-                
-                <div class="info">
-              <span class="rank">
-                
-                  1
-                  
-                </span>
-                  <span class="name">존 람</span>
-                </div>
-                <div class="price">3,042</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  2
-                  
-                </span>
-                  <span class="name">스코티 셰플러</span>
-                </div>
-                <div class="price">2,640</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  3
-                  
-                </span>
-                  <span class="name">맥스 호마</span>
-                </div>
-                <div class="price">1,955</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  4
-                  
-                </span>
-                  <span class="name">빅토르 호블란</span>
-                </div>
-                <div class="price">1,623</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  5
-                  
-                </span>
-                  <span class="name">토니 피나우</span>
-                </div>
-                <div class="price">1,536</div>
-              </li>
-            
-          </ol>
-        
-      
-    </div>
-    
-    <div class="record_summary_inner">
-      <strong class="record_type">드라이브거리</strong>
-      
-        
-        
-          <ol class="record_summary_list">
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-              <span class="thumbnail">
-                
-                  <span class="flag"></span>
-                
-                <img data-player-id="286684" src="https://sports-phinf.pstatic.net/player/pga/default/286684.png?type=f108_108" width="71" height="71" alt="" onerror="imageOnError(this);">
-              </span>
-                
-                <div class="info">
-              <span class="rank">
-                
-                  1
-                  
-                </span>
-                  <span class="name">로리 맥길로이</span>
-                </div>
-                <div class="price">326.20yd</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  2
-                  
-                </span>
-                  <span class="name">브랜든 매튜스</span>
-                </div>
-                <div class="price">321.40yd</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  3
-                  
-                </span>
-                  <span class="name">데렉 언스트</span>
-                </div>
-                <div class="price">321.20yd</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  4
-                  
-                </span>
-                  <span class="name">카메론 영</span>
-                </div>
-                <div class="price">318.90yd</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  5
-                  
-                </span>
-                  <span class="name">미토 페레이라</span>
-                </div>
-                <div class="price">315.90yd</div>
-              </li>
-            
-          </ol>
-        
-      
-    </div>
-    
-    <div class="record_summary_inner">
-      <strong class="record_type">평균타수</strong>
-      
-        
-        
-          <ol class="record_summary_list">
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-              <span class="thumbnail">
-                
-                  <span class="flag"><img src="https://imgsports.pstatic.net/images/emblem/new/golf/default/ESP.png" width="31" height="31" alt="SPAIN" onerror="imageOnError(this);"></span>
-                
-                <img data-player-id="858378" src="https://sports-phinf.pstatic.net/player/pga/default/858378.png?type=f108_108" width="71" height="71" alt="" onerror="imageOnError(this);">
-              </span>
-                
-                <div class="info">
-              <span class="rank">
-                
-                  1
-                  
-                </span>
-                  <span class="name">존 람</span>
-                </div>
-                <div class="price">68.690</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  2
-                  
-                </span>
-                  <span class="name">스코티 셰플러</span>
-                </div>
-                <div class="price">68.736</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  3
-                  
-                </span>
-                  <span class="name">잰더 쇼플리</span>
-                </div>
-                <div class="price">69.361</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  4
-                  
-                </span>
-                  <span class="name">티럴 해턴</span>
-                </div>
-                <div class="price">69.520</div>
-              </li>
-            
-              <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-                <div class="info">
-              <span class="rank">
-                
-                  5
-                  
-                </span>
-                  <span class="name">패트릭 캔틀레이</span>
-                </div>
-                <div class="price">69.567</div>
-              </li>
-            
-          </ol>
-        
-      
-    </div>
-    
+           </ol>
+         </div>
+     </c:forEach>
   </div>
 
 </div>

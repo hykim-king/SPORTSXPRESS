@@ -223,7 +223,12 @@
 	
 	<select id="selectBestGolfPlayerInfo" parameterType="GolfRankVO" resultType="GolfRankVO">
         SELECT 
-		    *
+		    name,
+		    profile,
+		    '$'||TO_CHAR(ernings, '999,999,999') AS ernings,
+		    point,
+		    savg,
+		    ddavg
 		FROM (
 		  SELECT
 		    name,
@@ -235,11 +240,17 @@
 		  FROM golf_rank
 		  ORDER BY ernings desc
 		)
-		<where> 
+		<where>
 		  <![CDATA[ROWNUM <= 5]]>
-		</where> 
+		</where>
 		UNION ALL
-		SELECT *
+		SELECT 
+		    name,
+		    profile,
+		    '$'||TO_CHAR(ernings, '999,999,999') AS ernings,
+		    point,
+		    savg,
+		    ddavg
 		FROM (
 		  SELECT     
 		    name,
@@ -251,11 +262,17 @@
 		  FROM golf_rank
 		  ORDER BY point DESC
 		)
-		<where> 
+		<where>
           <![CDATA[ROWNUM <= 5]]>
-        </where> 
+        </where>
 		UNION ALL
-		SELECT *
+		SELECT 
+		    name,
+		    profile,
+		    '$'||TO_CHAR(ernings, '999,999,999') AS ernings,
+		    point,
+		    savg,
+		    ddavg
 		FROM (
 		  SELECT 
 		    name,
@@ -267,11 +284,17 @@
 		  FROM golf_rank
 		  ORDER BY savg DESC
 		)
-		<where> 
+		<where>
           <![CDATA[ROWNUM <= 5]]>
-        </where> 
+        </where>
 		UNION ALL
-		SELECT *
+		SELECT 
+		    name,
+		    profile,
+		    '$'||TO_CHAR(ernings, '999,999,999') AS ernings,
+		    point,
+		    savg,
+		    ddavg
 		FROM (
 		  SELECT 
 		    name,
@@ -283,9 +306,9 @@
 		  FROM golf_rank
 		  ORDER BY ddavg DESC
 		)
-		<where> 
+		<where>
           <![CDATA[ROWNUM <= 5]]>
-        </where> 
+        </where>
     </select>
 
 	<select id="selectGolfMatchInfo" parameterType="GolfMatchVO" resultType="GolfMatchVO">
