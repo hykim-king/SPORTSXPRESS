@@ -220,6 +220,73 @@
 		  golf_rank
 		<!-- <where> <![CDATA[ golfid <= #{golfid}]]> </where> -->
 	</select>
+	
+	<select id="selectBestGolfPlayerInfo" parameterType="GolfRankVO" resultType="GolfRankVO">
+        SELECT 
+		    *
+		FROM (
+		  SELECT
+		    name,
+		    profile,
+		    TO_NUMBER(REPLACE(substr(ernings,2), ',', '')) AS ernings,
+		    point,
+		    savg,
+		    ddavg
+		  FROM golf_rank
+		  ORDER BY ernings desc
+		)
+		<where> 
+		  <![CDATA[ROWNUM <= 5]]>
+		</where> 
+		UNION ALL
+		SELECT *
+		FROM (
+		  SELECT     
+		    name,
+		    profile,
+		    TO_NUMBER(REPLACE(substr(ernings,2), ',', '')) AS ernings,
+		    point,
+		    savg,
+		    ddavg
+		  FROM golf_rank
+		  ORDER BY point DESC
+		)
+		<where> 
+          <![CDATA[ROWNUM <= 5]]>
+        </where> 
+		UNION ALL
+		SELECT *
+		FROM (
+		  SELECT 
+		    name,
+		    profile,
+		    TO_NUMBER(REPLACE(substr(ernings,2), ',', '')) AS ernings,
+		    point,
+		    savg,
+		    ddavg
+		  FROM golf_rank
+		  ORDER BY savg DESC
+		)
+		<where> 
+          <![CDATA[ROWNUM <= 5]]>
+        </where> 
+		UNION ALL
+		SELECT *
+		FROM (
+		  SELECT 
+		    name,
+		    profile,
+		    TO_NUMBER(REPLACE(substr(ernings,2), ',', '')) AS ernings,
+		    point,
+		    savg,
+		    ddavg
+		  FROM golf_rank
+		  ORDER BY ddavg DESC
+		)
+		<where> 
+          <![CDATA[ROWNUM <= 5]]>
+        </where> 
+    </select>
 
 	<select id="selectGolfMatchInfo" parameterType="GolfMatchVO" resultType="GolfMatchVO">
 		SELECT

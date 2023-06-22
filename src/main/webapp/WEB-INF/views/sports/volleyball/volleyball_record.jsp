@@ -747,18 +747,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </tbody>
 </table>
 <div class="h_ln"></div>
-<div class="gpnt_on" id="regularTeamRecordList_ColumnChecker">
-    <span class="bl" style="height:256px"></span>
-    <span class="bt"></span>
-    <span class="br" style="height:256px"></span>
-    <span class="bb" style="top:255px"></span>
-</div>
-</div>
-  
 
-<script type="text/javascript">
+</div>
 
-</script>
 
 <a name="playerRanking"></a>
 <div class="tit_box">
