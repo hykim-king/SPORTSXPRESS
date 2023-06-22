@@ -2610,7 +2610,7 @@
                             <a href="/ehr/sportsxpress/football_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); "> <span class="menu">최신뉴스</span> </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
-                            <a href="/ehr/sportsxpress/football_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page"> <span class="menu">일정/결과</span> </a>
+                            <a href="/ehr/sportsxpress/football_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); " aria-current="page"> <span class="menu">일정/결과</span> </a>
                         </li>
                         <li class="lnb_sub_item" role="presentation">
                             <a href="/ehr/sportsxpress/football_record.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.record', 'record', '', event); ">
