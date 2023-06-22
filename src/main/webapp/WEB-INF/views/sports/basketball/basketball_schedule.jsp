@@ -2270,10 +2270,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									</div>
 									<a href="#" class="gnb_my_interface" style="display: none"><span
 										class="blind">환경설정</span></a>
-								</div>
-								<iframe id="gnb_my_lyr_iframe" title="빈 프레임" class="gnb_pad_lyr"
-									name="padding" width="0" height="0" scrolling="no"
-									frameborder="0"
+								</div> <iframe id="gnb_my_lyr_iframe" title="빈 프레임"
+									class="gnb_pad_lyr" name="padding" width="0" height="0"
+									scrolling="no" frameborder="0"
 									style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li>
 							<li class="gnb_notice_li" id="gnb_notice_layer"
 								style="display: none"><a href="javascript:;"
@@ -2283,7 +2282,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									class="gnb_ico_num" id="gnb_me_menu" style="display: none"><span
 										class="gnb_ico_new"><span class="gnb_count"
 											id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a>
-							<div class="gnb_notice_lyr" id="gnb_notice_lyr">
+								<div class="gnb_notice_lyr" id="gnb_notice_lyr">
 									<div class="svc_noti svc_panel">
 										<div class="svc_scroll">
 											<div class="svc_head">
@@ -2316,8 +2315,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										<a href="https://m.notify.naver.com" class="gnb_notice_all">내
 											알림 전체보기</a>
 									</div>
-								</div>
-								<iframe id="gnb_notice_lyr_iframe" title="빈 프레임"
+								</div> <iframe id="gnb_notice_lyr_iframe" title="빈 프레임"
 									class="gnb_pad_lyr" name="padding" width="0" height="0"
 									scrolling="no" frameborder="0"
 									style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li>
@@ -2333,7 +2331,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 								onclick="gnbMoreLayer.clickToggle(); return false;"><span
 									class="blind">서비스 더보기</span><span class="gnb_icon"></span><span
 									class="ico_arrow"></span></a>
-							<div class="gnb_service_lyr" id="gnb_service_lyr">
+								<div class="gnb_service_lyr" id="gnb_service_lyr">
 									<div class="gnb_favorite_search" id="gnb_favorite_search">
 										<div class="gnb_favorite_area">
 											<div class="gnb_favorite_lstwrp">
@@ -2616,8 +2614,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 										</div>
 										<div class="gnb_bg_btm"></div>
 									</div>
-								</div>
-								<iframe id="gnb_service_lyr_iframe" title="빈 프레임"
+								</div> <iframe id="gnb_service_lyr_iframe" title="빈 프레임"
 									class="gnb_pad_lyr" name="padding" width="0" height="0"
 									scrolling="no" frameborder="0"
 									style="display: none; top: 55px; right: 311px; width: 585px; height: 385px; opacity: 0;"></iframe>
@@ -2832,37 +2829,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									onclick="javascript:scoreBoardInstance.setScoreBoard('');"
 									title="다음">다음</a></li>
 							</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 							<div class="sch_vs" id="todaySchedule0">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 								<div class="inner_lft end">
 									<div class="vs_cnt ">
 										<em class="state"> 종료 </em>
@@ -2888,25 +2855,15 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									</div>
 									<div class="vs_btn">
 
-
-
-
 										<a class="btn_rst" href="/game/20230507705541047/record">
 											<span class="blind">경기결과</span>
 										</a> <a class="btn_vod"
 											href="https://m.sports.naver.com/basketball/video?category=kbl&amp;gameId=20230507705541047&amp;tab=game&amp;date=2023-05-07&amp;sort=date">
 											<span class="blind">경기영상</span>
 										</a>
-
-
-
-
-
 									</div>
 
 								</div>
-
-
 								<div class="inner_mid">
 									<div class="sch_empty kbl_empty">
 										<div class="kovo"></div>
@@ -2922,25 +2879,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 
 
 							</div>
-
-
-
-
 						</div>
 
-
-
 					</div>
-
-
-
-
-
-
-
-
-
-
 					<form name="monthlyScheduleForm" id="monthlyScheduleForm"
 						action="/schedule/index" method="get">
 						<input type="hidden" name="uCategory" id="uCategory" value="">
@@ -3151,87 +3092,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									<!-- [D] 선텍된 날짜의 button.btn_date 에 aria-selected="true" 를 적용 해 주세요. -->
 									<!-- [D] 비활성회 되어야 하는 button.btn_date 에 disabled 속성을 추가 해 주세요. -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 									<li class="list" role="presentation">
 										<button class="btn_option" type="button" role="option"
 											aria-selected="false"
@@ -3261,8 +3121,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 											aria-selected="true"
 											onclick="changeSchedule('2023','05','');">05</button>
 									</li>
-
-
 
 								</ul>
 							</div>
@@ -3308,13 +3166,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 						</table>
 					</div>
 
-
-
-					<c:forEach var="matches" items="${matches}" varStatus="loop">
-
-
-
-						<div class="schedule_month_table">
+				
+             <c:forEach var="matches" items="${matches}" varStatus="loop">
+						<div class="sch_tb">
 							<table cellspacing="0" border="1">
 								<colgroup>
 									<col width="107">
@@ -3324,6 +3178,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									<col width="122">
 									<col width="127">
 								</colgroup>
+								 
 								<tbody>
 
 									<tr>
@@ -3357,7 +3212,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 														(일)</span></td>
 											</c:when>
 										</c:choose>
-
+                  </div>
 										<td><span class="td_hour">19:00</span></td>
 										<td><span class="team_lft">${matches.hname}</span> <span
 											class="emblem"><img src="${matches.hname_logo}"
@@ -3379,22 +3234,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 													width="61" height="23" alt="경기영상"
 													src="https://imgsports.pstatic.net/images/section/volleyball/css/btn_vod.gif"></a>
 
-
-
-
-
 										</span></td>
 										<td><span class="td_broad"> </span></td>
 										<td><span class="td_stadium">${matches.location}</span></td>
 									</tr>
-
 								</tbody>
 							</table>
 						</div>
-
 					</c:forEach>
-
-
 
 				</div>
 				<div class="gamedata_info">
@@ -3414,25 +3261,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 			</div>
 		</div>
 
-
-
-		<script>
-			
-		</script>
-		<script>
-			
-		</script>
-
 		<div id="footer">
 			<div class="inner">
 				<div class="page_area">
-
-
-
-
-
-
-
 
 					<div class="notice_text">공지사항</div>
 					<div class="sports_notice">
@@ -3491,18 +3322,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 							Corp.</a></span>
 				</div>
 			</div>
-
 		</div>
-		<script></script>
-
-		<script>
-			
-		</script>
-		<script>
-			
-		</script>
 	</div>
-
-
 </body>
 </html>
