@@ -2336,89 +2336,89 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                 <ul>
                   <li class="first selected" data-id="kbo"><a href="#"><span
                       class="emblem"><img width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
                         alt="" onerror="imageOnError(this);"></span><span
                       class="name">전체</span></a></li>
 
                   <li data-id="SK"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">SSG</span></a></li>
 
                   <li data-id="WO"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">키움</span></a></li>
 
                   <li data-id="LG"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">LG</span></a></li>
 
                   <li data-id="KT"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">KT</span></a></li>
 
                   <li data-id="HT"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">KIA</span></a></li>
 
                   <li class="first" data-id="NC"><a href="#"> <span
                       class="emblem"><img width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">NC</span></a></li>
 
                   <li data-id="SS"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">삼성</span></a></li>
 
                   <li data-id="LT"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">롯데</span></a></li>
 
                   <li data-id="OB"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">두산</span></a></li>
 
                   <li data-id="HH"><a href="#"> <span class="emblem"><img
                         width="37" height="37"
-                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
+                        src="https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
                         class="imageLazyLoad"
-                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
+                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
                         alt="" onerror="imageOnError(this);"></span> <span
                       class="name">한화</span></a></li>
 
@@ -2743,9 +2743,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">1</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
                           onerror="imageOnError(this);" alt="주민규">
                       </div>
                       <div class="info">
@@ -2769,9 +2769,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">2</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20170096.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20170096.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20170096.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20170096.jpg"
                           onerror="imageOnError(this);" alt="나상호">
                       </div>
                       <div class="info">
@@ -2795,9 +2795,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">3</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20230105.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20230105.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20230105.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20230105.jpg"
                           onerror="imageOnError(this);" alt="루빅손">
                       </div>
                       <div class="info">
@@ -2821,9 +2821,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">4</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20220244.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20220244.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20220244.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20220244.jpg"
                           onerror="imageOnError(this);" alt="티아고">
                       </div>
                       <div class="info">
@@ -2847,9 +2847,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">5</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20210225.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20210225.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20210225.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20210225.jpg"
                           onerror="imageOnError(this);" alt="바코">
                       </div>
                       <div class="info">
@@ -2878,9 +2878,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">1</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200151.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20200151.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200151.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20200151.jpg"
                           onerror="imageOnError(this);" alt="레안드로">
                       </div>
                       <div class="info">
@@ -2904,9 +2904,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">2</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20170244.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20170244.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20170244.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20170244.jpg"
                           onerror="imageOnError(this);" alt="백성동">
                       </div>
                       <div class="info">
@@ -2930,9 +2930,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">3</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180296.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20180296.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180296.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20180296.jpg"
                           onerror="imageOnError(this);" alt="이진현">
                       </div>
                       <div class="info">
@@ -2956,9 +2956,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">4</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20220294.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20220294.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20220294.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20220294.jpg"
                           onerror="imageOnError(this);" alt="제카">
                       </div>
                       <div class="info">
@@ -2982,9 +2982,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">5</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180153.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20180153.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180153.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20180153.jpg"
                           onerror="imageOnError(this);" alt="두현석">
                       </div>
                       <div class="info">
@@ -3013,9 +3013,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">1</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20130248.jpg"
                           onerror="imageOnError(this);" alt="주민규">
                       </div>
                       <div class="info">
@@ -3039,9 +3039,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">2</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200052.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20200052.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200052.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20200052.jpg"
                           onerror="imageOnError(this);" alt="라스">
                       </div>
                       <div class="info">
@@ -3065,9 +3065,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">3</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200066.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20200066.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20200066.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20200066.jpg"
                           onerror="imageOnError(this);" alt="고영준">
                       </div>
                       <div class="info">
@@ -3091,9 +3091,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">4</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20160237.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20160237.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20160237.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20160237.jpg"
                           onerror="imageOnError(this);" alt="세징야">
                       </div>
                       <div class="info">
@@ -3117,9 +3117,9 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
                       <b class="rank_num">5</b>
                       <div class="image">
                         <img
-                          src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180034.jpg"
+                          src="https://sports-phinf.pstatic.net/player/kleague/default/20180034.jpg"
                           class="imageLazyLoad"
-                          lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kleague/default/20180034.jpg"
+                          lazy-src="https://sports-phinf.pstatic.net/player/kleague/default/20180034.jpg"
                           onerror="imageOnError(this);" alt="송민규">
                       </div>
                       <div class="info">

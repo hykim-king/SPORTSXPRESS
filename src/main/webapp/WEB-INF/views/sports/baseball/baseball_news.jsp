@@ -2665,9 +2665,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/KBO.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2683,9 +2683,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2701,9 +2701,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/WO.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2719,9 +2719,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/LG.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2737,9 +2737,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/KT.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2755,9 +2755,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/HT.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2773,9 +2773,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/NC.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2791,9 +2791,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/SS.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2809,9 +2809,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/LT.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2827,9 +2827,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -2845,9 +2845,9 @@
                                                     <img
                                                         width="37"
                                                         height="37"
-                                                        src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
+                                                        src="https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
                                                         class="imageLazyLoad"
-                                                        lazy-src="https://dthumb-phinf.pstatic.net/?type=sports_f37_37&amp;src=https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
+                                                        lazy-src="https://sports-phinf.pstatic.net/team/kbo/default/HH.png"
                                                         alt=""
                                                         onerror="imageOnError(this);"
                                                     />
@@ -3105,9 +3105,9 @@
                                                         <b class="rank_num">1</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/78603.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/78603.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/78603.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/78603.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="김선빈"
                                                             />
@@ -3124,9 +3124,9 @@
                                                         <b class="rank_num">2</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53827.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/53827.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53827.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/53827.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="에레디아"
                                                             />
@@ -3143,9 +3143,9 @@
                                                         <b class="rank_num">3</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/72443.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/72443.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/72443.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/72443.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="최형우"
                                                             />
@@ -3162,9 +3162,9 @@
                                                         <b class="rank_num">4</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/77532.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/77532.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/77532.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/77532.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="손아섭"
                                                             />
@@ -3181,9 +3181,9 @@
                                                         <b class="rank_num">5</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/76232.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/76232.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/76232.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/76232.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="양의지"
                                                             />
@@ -3202,9 +3202,9 @@
                                                         <b class="rank_num">1</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/79365.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/79365.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/79365.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/79365.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="박동원"
                                                             />
@@ -3221,9 +3221,9 @@
                                                         <b class="rank_num">2</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/75847.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/75847.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/75847.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/75847.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="최정"
                                                             />
@@ -3240,9 +3240,9 @@
                                                         <b class="rank_num">3</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/76267.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/76267.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/76267.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/76267.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="최주환"
                                                             />
@@ -3259,9 +3259,9 @@
                                                         <b class="rank_num">3</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53211.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/53211.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53211.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/53211.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="로하스"
                                                             />
@@ -3278,9 +3278,9 @@
                                                         <b class="rank_num">5</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69737.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/69737.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69737.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/69737.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="노시환"
                                                             />
@@ -3299,9 +3299,9 @@
                                                         <b class="rank_num">1</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="페디"
                                                             />
@@ -3318,9 +3318,9 @@
                                                         <b class="rank_num">2</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="플럿코"
                                                             />
@@ -3337,9 +3337,9 @@
                                                         <b class="rank_num">3</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="알칸타라"
                                                             />
@@ -3356,9 +3356,9 @@
                                                         <b class="rank_num">4</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69103.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/69103.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69103.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/69103.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="켈리"
                                                             />
@@ -3375,9 +3375,9 @@
                                                         <b class="rank_num">4</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52043.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/52043.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52043.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/52043.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="벤자민"
                                                             />
@@ -3396,9 +3396,9 @@
                                                         <b class="rank_num">1</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/53913.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="페디"
                                                             />
@@ -3415,9 +3415,9 @@
                                                         <b class="rank_num">2</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/69045.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="알칸타라"
                                                             />
@@ -3434,9 +3434,9 @@
                                                         <b class="rank_num">3</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/68341.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/68341.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/68341.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/68341.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="안우진"
                                                             />
@@ -3453,9 +3453,9 @@
                                                         <b class="rank_num">4</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/52145.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="플럿코"
                                                             />
@@ -3472,9 +3472,9 @@
                                                         <b class="rank_num">5</b>
                                                         <div class="image">
                                                             <img
-                                                                src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/67539.png"
+                                                                src="https://sports-phinf.pstatic.net/player/kbo/default/67539.png"
                                                                 class="imageLazyLoad"
-                                                                lazy-src="https://dthumb-phinf.pstatic.net/?twidth=36&amp;theight=45&amp;opts=8&amp;qlt=95&amp;noimage=sp2&amp;src=https://sports-phinf.pstatic.net/player/kbo/default/67539.png"
+                                                                lazy-src="https://sports-phinf.pstatic.net/player/kbo/default/67539.png"
                                                                 onerror="imageOnError(this);"
                                                                 alt="나균안"
                                                             />
