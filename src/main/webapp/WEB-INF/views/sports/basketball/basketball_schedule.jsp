@@ -2139,20 +2139,22 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 	border-radius: 0 13px 13px 0;
 }
 
-.team_lft {
-  width:40px;
+.sch_tb .team_lft {
+  width:110px;
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
-  vertical-align:middle;
+  text-align:left;
+  padding-left:10px;
 }
 
-.team_rgt {
-  width:40px;
+.sch_tb .team_rgt {
+  width:110px;
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
-  vertical-align:middle;
+  text-align:left;
+  padding-left:10px;
 }
 </style>
 <script></script>
