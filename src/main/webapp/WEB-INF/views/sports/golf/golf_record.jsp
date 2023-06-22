@@ -536,18 +536,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     
     <div class="record_summary_inner">
       <strong class="record_type">공식상금</strong>
-      
-        
-        
-          <ol class="record_summary_list">
-            
+          <ol class="record_summary_list">         
               <li class="record_summary_item">
-                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->
-                
-              <span class="thumbnail">
-                
-                  <span class="flag"><img src="https://imgsports.pstatic.net/images/emblem/new/golf/default/USA.png" width="31" height="31" alt="UNITED STATES" onerror="imageOnError(this);"></span>
-                
+                <!-- [D] 선수 이미지 없을 시 .thumbnail 에서 img 태그 제거해주세요. -->          
+              <span class="thumbnail">                
+                  <span class="flag"><img src="https://imgsports.pstatic.net/images/emblem/new/golf/default/USA.png" width="31" height="31" alt="UNITED STATES" onerror="imageOnError(this);"></span>        
                 <img data-player-id="826546" src="https://sports-phinf.pstatic.net/player/pga/default/826546.png?type=f108_108" width="71" height="71" alt="" onerror="imageOnError(this);">
               </span>
                 

@@ -7,6 +7,7 @@ public class BasketballInfoVO extends DTO {
 	private String lname           ;
 	private String name            ;
 	private String profile         ;
+	private String logo         ;
 	private int played          ;
 	private double score           ;
 	private double assists         ;
@@ -22,28 +23,6 @@ public class BasketballInfoVO extends DTO {
 	
 	public BasketballInfoVO() {
 
-	}
-
-	public BasketballInfoVO(int basketid, String lname, String name, String profile, int played, double score,
-			double assists, double rebound, double steal, double blocking, double point2, double point3, double ftr,
-			double success_yato, double success_3p, double success_ftr) {
-		super();
-		this.basketid = basketid;
-		this.lname = lname;
-		this.name = name;
-		this.profile = profile;
-		this.played = played;
-		this.score = score;
-		this.assists = assists;
-		this.rebound = rebound;
-		this.steal = steal;
-		this.blocking = blocking;
-		this.point2 = point2;
-		this.point3 = point3;
-		this.ftr = ftr;
-		this.success_yato = success_yato;
-		this.success_3p = success_3p;
-		this.success_ftr = success_ftr;
 	}
 
 	public int getBasketid() {
@@ -76,6 +55,14 @@ public class BasketballInfoVO extends DTO {
 
 	public void setProfile(String profile) {
 		this.profile = profile;
+	}
+
+	public String getLogo() {
+		return logo;
+	}
+
+	public void setLogo(String logo) {
+		this.logo = logo;
 	}
 
 	public int getPlayed() {
@@ -173,8 +160,29 @@ public class BasketballInfoVO extends DTO {
 	public void setSuccess_ftr(double success_ftr) {
 		this.success_ftr = success_ftr;
 	}
-	
 
+	public BasketballInfoVO(int basketid, String lname, String name, String profile, String logo, int played,
+			double score, double assists, double rebound, double steal, double blocking, double point2, double point3,
+			double ftr, double success_yato, double success_3p, double success_ftr) {
+		super();
+		this.basketid = basketid;
+		this.lname = lname;
+		this.name = name;
+		this.profile = profile;
+		this.logo = logo;
+		this.played = played;
+		this.score = score;
+		this.assists = assists;
+		this.rebound = rebound;
+		this.steal = steal;
+		this.blocking = blocking;
+		this.point2 = point2;
+		this.point3 = point3;
+		this.ftr = ftr;
+		this.success_yato = success_yato;
+		this.success_3p = success_3p;
+		this.success_ftr = success_ftr;
+	}
 	
 	
 	

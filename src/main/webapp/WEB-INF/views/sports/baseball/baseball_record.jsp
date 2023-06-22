@@ -1004,7 +1004,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               </th>
               <td class="ply">
                 <div>
-                  <span class="emblem"><img width="25" height="25" src="${tusus.profile}"alt="구단 로고" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img width="25" height="25" src="${tusus.logo}"alt="구단 로고" onerror="imageOnError(this);"></span>
                   <span>${tusus.name}</span>
                 </div>
               </td>
@@ -1226,7 +1226,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
               </th>
               <td class="ply">
                 <div>
-                  <span class="emblem"><img width="25" height="25" src="${tajas.profile}"alt="구단 로고" onerror="imageOnError(this);"></span>
+                  <span class="emblem"><img width="25" height="25" src="${tajas.logo}"alt="구단 로고" onerror="imageOnError(this);"></span>
                   <span>${tajas.name}</span>
                 </div>
               </td>

@@ -2260,7 +2260,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
             aria-current="page"> <span class="menu">최신뉴스</span>
           </a></li>
           <li class="lnb_sub_item " role="presentation"><a
-            href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub"
+            href="/ehr/sportsxpress/basketball_schedule.do" class="link_lnb_sub"
             role="menuitem"
             onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
               <span class="menu">일정/결과</span>
