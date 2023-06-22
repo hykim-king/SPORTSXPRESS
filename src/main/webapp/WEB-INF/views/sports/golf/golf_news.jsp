@@ -2388,18 +2388,17 @@
                                 <div class="aside_rank_news">
                                     <div id="_ranking_news_tab_selector" class="aside_tab2">
                                         <div class="inner">
-                                            <a href="#" class="selected" id="_ranking_news_tab_0" data-select-num="0"><span>N골프</span></a>
+                                            <a href="#" class="selected" id="_ranking_news_tab_0" data-select-num="0"><span>골프</span></a>
                                             <!-- <a href="#" id="_ranking_news_tab_1" data-select-num="1" class="selected"><span>스포츠 종합</span></a> -->
                                         </div>
                                     </div>
-                                    <ul class="aside_news_list" id="_ranking_news_list_0" style="display: none;">
-                                        <c:forEach var="art" items="${articles}" begin="10" end="19">
-                                            <li>
-                                                <a href="${art.hyperlink}" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span> ${art.title}</span></a>
-                                            </li>
-                                        </c:forEach>
+                                    <ul class="aside_news_list" id="_ranking_news_list_0">
+                                        <c:forEach var ="art" items="${articles}" begin="10" end="19">
+															            <li><a href="${art.hyperlink}" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);"><span>
+															              ${art.title}</span></a></li>
+															          </c:forEach>
 
-                                        <li>
+                                        <!-- <li>
                                             <a href="/news?oid=468&amp;aid=0000950909" class="title" onclick="clickcr(this, 'aec*a.category', '', '', event);">
                                                 <span> 월요예선으로 KPGA 선수권자 따낸 김성현 PGA투어 캐나다오픈 우승 정조준</span>
                                             </a>
@@ -2498,7 +2497,7 @@
 
                                         <li>
                                             <a href="/news?oid=001&amp;aid=0013991510" class="title" onclick="clickcr(this, 'aec*a.sports', '', '', event);"><span> [U20월드컵] '주장' 이승원 "아직 대회 끝난 게 아냐…고개 들라 했다"</span></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
 
                                     <script type="text/javascript"></script>
