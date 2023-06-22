@@ -632,80 +632,35 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        
-                            
-                            
-                                <div class="ph">
-                                    <span class="image">
-                    <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/291248.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
-                    <span class="mask"></span>
-                  </span>
-                                    <p class="ph_info">
-                                        <strong>자밀 워니</strong>
-                                        <br> 센터 <br> 서울 SK 나이츠
-                                        <em>24.22</em>
-                                    </p>
-                                </div>
-                            
-                        
-                    </td>
-                    <td>
-                        
-                            
-                            
-                                <div class="ph">
-                                    <span class="image">
-                                        <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/290407.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
-                                        <span class="mask"></span>
-                                    </span>
-                                    <p class="ph_info">
-                                        <strong>김선형</strong>
-                                        <br> 가드 <br> 서울 SK 나이츠
-                                        <em>6.76</em>
-                                    </p>
-                                </div>
-                            
-                        
-                    </td>
-                    <td>
-                        
-                            
-                            
-                                <div class="ph">
-                                    <span class="image">
-                                        <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/291432.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
-                                        <span class="mask"></span>
-                                    </span>
-                                    <p class="ph_info">
-                                        <strong>아셈 마레이</strong>
-                                        <br> 센터 <br> 창원 LG 세이커스
-                                        <em>12.48</em>
-                                    </p>
-                                </div>
-                            
-                        
-                    </td>
-                    <td class="last">
-                        
-                            
-                            
-                                <div class="ph">
-                                    <span class="image">
-                                        <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/291597.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
-                                        <span class="mask"></span>
-                                    </span>
-                                    <p class="ph_info">
-                                        <strong>신동혁</strong>
-                                        <br> 포워드 <br> 서울 삼성 썬더스
-                                        <em>44.92<span>%</span></em>
-                                    </p>
-                                </div>
-                            
-                        
-                    </td>
-                </tr>
+             <tr>
+              <c:forEach var="bestplayers" items="${bestPlayers}" varStatus="loop">
+	              <td>
+                       <div class="ph">   
+	                     <span class="image">
+	                       <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/291248.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
+	                       <span class="mask"></span>
+	                     </span>
+		                 <p class="ph_info">
+		                 <strong>${bestplayers.name}</strong>
+		                     <c:choose>
+				                  <c:when test="${loop.count ==1}">
+				                    <em>${bestplayers.score}</em>
+				                  </c:when>
+				                  <c:when test="${loop.count == 2}">
+				                    <em>${bestplayers.assists}</em>
+				                  </c:when>
+				                  <c:when test="${loop.count == 3}">
+				                    <em>${bestplayers.rebound}</em>
+				                  </c:when>
+				                  <c:when test="${loop.count == 4}">
+				                    <em>${bestplayers.success_3p}%</em>
+				                  </c:when>
+				                </c:choose>
+		                    </p>
+		                 </div>           
+		              </td>     
+	              </c:forEach>
+	           </tr>
             </tbody>
     </table>
   </div>

@@ -157,7 +157,24 @@
 		
 	<!-- <where> <![CDATA[ basketid <= #{basketid}]]> </where> -->
 	</select>
-
+	
+	<select id="selectBasketballBestPlayerInfo" parameterType="BasketballInfoVO" resultType="BasketballInfoVO">
+	   SELECT
+		    name,
+		    CASE WHEN score = (SELECT MAX(score) FROM basketball_info) THEN score ELSE NULL END AS score,
+		    CASE WHEN assists = (SELECT MAX(assists) FROM basketball_info) THEN assists ELSE NULL END AS assists,
+		    CASE WHEN rebound = (SELECT MAX(rebound) FROM basketball_info) THEN rebound ELSE NULL END AS rebound,
+		    CASE WHEN success_3p = (SELECT MAX(success_3p) FROM basketball_info) THEN success_3p ELSE NULL END AS success_3p
+		FROM
+		    basketball_info
+		<where>
+		    (score = (SELECT MAX(score) FROM basketball_info)
+		    OR assists = (SELECT MAX(assists) FROM basketball_info)
+		    OR rebound = (SELECT MAX(rebound) FROM basketball_info)
+		    OR success_3p = (SELECT MAX(success_3p) FROM basketball_info))
+		</where>
+	</select>
+	
 	<select id="selectBasketballMatchInfo" parameterType="BasketballMatchVO" resultType="BasketballMatchVO">
 		SELECT 
 		    bm1.basketno AS basketno,
@@ -429,6 +446,7 @@ order by time asc
             GROUP BY B1.ateam, T1.logo) table2 
         ON table1.tname = table2.tname
         ORDER BY winrate DESC
+    
     </select>
 	
 

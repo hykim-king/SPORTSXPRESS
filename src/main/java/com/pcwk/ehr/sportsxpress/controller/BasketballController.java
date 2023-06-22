@@ -77,7 +77,12 @@ public class BasketballController {
 	    
 	    List<BasketballInfoVO> playerList = basketballService.getPlayerInfo(new BasketballInfoVO());
 	    model.addAttribute("players", playerList);
+	    
+	    List<BasketballInfoVO> BestplayerList = basketballService.getBestPlayerInfo(new BasketballInfoVO());
+	    model.addAttribute("bestPlayers", BestplayerList);
 	    return "sports/basketball/basketball_record";
+	    
+	    
 	}	
 //---------------------------------------------------------------------------//
 }

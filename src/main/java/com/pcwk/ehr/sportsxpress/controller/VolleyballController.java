@@ -88,15 +88,12 @@ public class VolleyballController {
 	}
 
 	// 기록/순위
-	@RequestMapping(value = "/volleyball_recode.do")
-	public String RecodeInfo(TeamVO getTeam, VolleyballInfoVO getPlayer, Model model) throws SQLException {
-		List<TeamVO> teamList = teamService.getTeamInfo(getTeam);
+	@RequestMapping(value = "/volleyball_record.do")
+	public String RecodeInfo(VolleyballInfoVO getPlayer, Model model) throws SQLException {
 		List<VolleyballInfoVO> playerList = volleyballService.getPlayerInfo(getPlayer);
-
-		model.addAttribute("teams", teamList);
 		model.addAttribute("players", playerList);
 
-		return "sports/volleyball_Recode";
+		return "sports/volleyball/volleyball_record";
 	}
 	// -------------------------------------------------------------------------//
 
