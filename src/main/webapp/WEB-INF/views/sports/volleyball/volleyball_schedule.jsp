@@ -13,6 +13,7 @@
     <meta property="og:description" content="스포츠의 시작과 끝!">
     <meta property="og:url" content="sports.news.naver.com/volleyball/schedule/index">
     <title>일정/결과, 배구 : 네이버 스포츠</title>
+    <link rel="stylesheet" type="text/css" href="${CP}/resources/css/volleyballgamecenter.css" />
     <!-- common css-->
     <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/common_loose_new.css">
 
@@ -20,7 +21,7 @@
     <!-- category-self css-->
     
     
-        <link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static.sports/resources/pc/8088/66/88/664600/css/volleyball_gamecenter.css">
+ 
 
         
     
@@ -945,6 +946,16 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     <ul>
         <li class="on">
             <a class="event_a" href="javascript:changeCategory('');"><span class="blind">전체 경기</span></a>
+        </li>
+        <li class="">
+            <a class="event_m" href="javascript:changeCategory('kovo');">
+                <span class="blind">남자부 경기</span>
+            </a>
+        </li>
+        <li class="">
+            <a class="event_w" href="javascript:changeCategory('wkovo');">
+                <span class="blind">여자부 경기</span>
+            </a>
         </li>
 
     </ul>

@@ -2197,23 +2197,11 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 					<div class="gnb_one" id="gnb">
 						<strong class="blind">사용자 링크</strong>
 						<ul class="gnb_lst" id="gnb_lst" style="display: block;">
-							<li class="gnb_login_li" id="gnb_login_layer"
-								style="display: inline-block;"><a class="gnb_btn_login"
-								href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.naver.com%2Fbasketball%2Fschedule%2Findex"
-								id="gnb_login_button"><span class="gnb_bg"></span><span
-									class="gnb_bdr"></span><span class="gnb_txt">로그인</span></a></li>
+							
 							<li class="gnb_my_li" id="gnb_my_layer" style="display: none"><div
 									class="gnb_my_namebox" id="gnb_my_namebox"
 									style="background-image: url(&quot;https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif&quot;);">
-									<a href="javascript:;" id="gnb_my" class="gnb_my"
-										onclick="gnbUserLayer.clickToggle(); return false;"><img
-										id="gnb_profile_img"
-										src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D"
-										onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF8PDw5ubm+vr6+/v76enp+Pj47e3t5+fn9/f37Ozs9PT08vLy7+/v6urq9fX15OTk/f39pqwodgAAAQNJREFUeNrs11EOgyAMgOEWUAF19f6n3cMeplJHoSZbsv4H+DIWaCNsNwcGGmiggQZ+D/Q5reuasr8H9ID0CsHfALpA74JTgwPSPnRK0Ac6FrwOXOjcogIdlTkNuDDgogGRAVEBDsQ19IMzC879ILAgGNgAZhbMP3RttonxJs1Lgea/sDYcyreHXjW+oPUHVid2MWC1K+A0sqsDW7CksGmlCNZoFt9pIfjYgY8bwMMexUENQuOtqYCxfHtT7AddYodDcp0gIPEh9IBxous+nBuaTis4Nw/OSLVwloN+JEmjGJR5FyIDRpIWZeAoBkcZGMRgkIEkz0D7GjXQQAMN/GvwKcAAEGGHJh0mmaAAAAAASUVORK5CYII='"
-										width="26" height="26" alt="내 프로필 이미지"><span
-										id="gnb_profile_filter_mask" class="filter_mask"></span> <span
-										class="gnb_name" id="gnb_name1"></span><em class="blind">내정보
-											보기</em><span class="ico_arrow"></span></a><a href="#" class="gnb_emp"
+								<a href="#" class="gnb_emp"
 										id="gnb_emp">(임직원혜택)</a>
 								</div>
 								<div class="gnb_my_lyr" id="gnb_my_lyr">
@@ -2227,15 +2215,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 												class="gnb_change"><span class="blind">프로필 사진 변경</span></a>
 										</div>
 										<div class="gnb_txt_area">
-											<p class="gnb_account">
-												<span class="gnb_name" id="gnb_name2"><a
-													class="gnb_nick"
-													href="https://nid.naver.com/user2/api/naverProfile?m=checkIdType">_</a>님</span><a
-													class="gnb_btn_login"
-													href="https://nid.naver.com/nidlogin.logout?returl=https%3A%2F%2Fsports.naver.com%2Fbasketball%2Fschedule%2Findex"
-													id="gnb_logout_button"><span class="gnb_bg"></span><span
-													class="gnb_bdr"></span><span class="gnb_txt">로그아웃</span></a>
-											</p>
+
 											<a href="https://mail.naver.com" class="gnb_mail_address">@naver.com</a>
 											<ul class="gnb_edit_lst">
 												<li class="gnb_info"><a
@@ -2275,13 +2255,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									scrolling="no" frameborder="0"
 									style="top: 55px; right: 10px; width: 320px; height: 158px; display: none; opacity: 0;"></iframe></li>
 							<li class="gnb_notice_li" id="gnb_notice_layer"
-								style="display: none"><a href="javascript:;"
-								class="gnb_notice"
-								onclick="gnbNaverMeLayer.clickToggle(); return false;"><span
-									class="blind">알림</span><span class="gnb_icon"></span><em
-									class="gnb_ico_num" id="gnb_me_menu" style="display: none"><span
-										class="gnb_ico_new"><span class="gnb_count"
-											id="gnb_me_count"></span></span></em><span class="ico_arrow"></span></a>
+								style="display: none">
 								<div class="gnb_notice_lyr" id="gnb_notice_lyr">
 									<div class="svc_noti svc_panel">
 										<div class="svc_scroll">
@@ -2321,15 +2295,14 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active,
 									style="top: 55px; right: 10px; width: 299px; height: 332px; display: none; opacity: 0;"></iframe></li>
 							<li class="mail_li" id="gnb_mail_layer" style="display: none"><a
 								href="https://mail.naver.com" class="gnb_mail"><span
-									class="blind">메일</span><span class="gnb_icon"></span><em
+									class="blind">메일</span><em
 									class="gnb_ico_num" id="gnb_mail_menu" style="display: none"><span
 										class="gnb_ico_new"><span class="gnb_count"
 											id="gnb_mail_count"></span></span></em></a></li>
 							<li class="gnb_service_li" id="gnb_service_layer"
 								style="display: inline-block;"><a href="javascript:;"
 								class="gnb_service"
-								onclick="gnbMoreLayer.clickToggle(); return false;"><span
-									class="blind">서비스 더보기</span><span class="gnb_icon"></span><span
+								onclick="gnbMoreLayer.clickToggle(); return false;"></span><span
 									class="ico_arrow"></span></a>
 								<div class="gnb_service_lyr" id="gnb_service_lyr">
 									<div class="gnb_favorite_search" id="gnb_favorite_search">
