@@ -2240,7 +2240,7 @@
                             <ul class="gnb_lst" id="gnb_lst" style="display: block;">
                                 <li class="gnb_login_li" id="gnb_login_layer" style="display: inline-block;">
                                     <a class="gnb_btn_login" href="https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsports.news.naver.com%2Fwfootball%2Fschedule%2Findex" id="gnb_login_button">
-                                        <span class="gnb_bg"></span><span class="gnb_bdr"></span><span class="gnb_txt">로그인</span>
+                                        <span class="gnb_bg">
                                     </a>
                                 </li>
                                 <li class="gnb_my_li" id="gnb_my_layer" style="display: none;">
@@ -2313,7 +2313,7 @@
                                 </li>
                                 <li class="gnb_notice_li" id="gnb_notice_layer" style="display: none;">
                                     <a href="javascript:;" class="gnb_notice" onclick="gnbNaverMeLayer.clickToggle(); return false;">
-                                        <span class="blind">알림</span><span class="gnb_icon"></span>
+                                        <span class="blind">알림</span>
                                         <em class="gnb_ico_num" id="gnb_me_menu" style="display: none;">
                                             <span class="gnb_ico_new"><span class="gnb_count" id="gnb_me_count"></span></span>
                                         </em>
@@ -2360,14 +2360,14 @@
                                 </li>
                                 <li class="mail_li" id="gnb_mail_layer" style="display: none;">
                                     <a href="https://mail.naver.com" class="gnb_mail">
-                                        <span class="blind">메일</span><span class="gnb_icon"></span>
+                                        <span class="blind">메일</span>
                                         <em class="gnb_ico_num" id="gnb_mail_menu" style="display: none;">
                                             <span class="gnb_ico_new"><span class="gnb_count" id="gnb_mail_count"></span></span>
                                         </em>
                                     </a>
                                 </li>
                                 <li class="gnb_service_li" id="gnb_service_layer" style="display: inline-block;">
-                                    <a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="gnb_icon"></span><span class="ico_arrow"></span></a>
+                                    <a href="javascript:;" class="gnb_service" onclick="gnbMoreLayer.clickToggle(); return false;"><span class="blind">서비스 더보기</span><span class="ico_arrow"></span></a>
                                     <div class="gnb_service_lyr" id="gnb_service_lyr">
                                         <div class="gnb_favorite_search" id="gnb_favorite_search">
                                             <div class="gnb_favorite_area">
@@ -2684,7 +2684,7 @@
                                     <div class="vs_area">
                                         <div class="emblem">
                                             <img
-                                                src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f64_64"
+                                                src="${matches[0].hname_logo}"
                                                 width="64"
                                                 height="64"
                                                 alt="사우샘프턴"
@@ -2695,13 +2695,13 @@
                                     </div>
                                     <div class="vs_area">
                                         <div class="emblem">
-                                            <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f64_64" width="64" height="64" alt="리버풀" onerror="imageOnError(this);" />
+                                            <img src="${matches[0].ateam_logo}" width="64" height="64" alt="리버풀" onerror="imageOnError(this);" />
                                         </div>
                                         <span class="team">${matches[0].ateam}</span> <strong class="num">${matches[0].ascore}</strong>
                                     </div>
 
                                     <div class="vs_btn">
-                                        <a href="/game/2023052910034152443/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                        <a href="${matches[0].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                     </div>
                                 </div>
                                 <div class="bx end">
@@ -2711,19 +2711,19 @@
 
                                     <div class="vs_area">
                                         <div class="emblem">
-                                            <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f64_64" width="64" height="64" alt="맨유" onerror="imageOnError(this);" />
+                                            <img src="${matches[1].hname_logo}" width="64" height="64" alt="맨유" onerror="imageOnError(this);" />
                                         </div>
                                         <span class="team">${matches[1].hname}</span> <strong class="num">${matches[1].hscore}</strong>
                                     </div>
                                     <div class="vs_area">
                                         <div class="emblem">
-                                            <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f64_64" width="64" height="64" alt="풀럼" onerror="imageOnError(this);" />
+                                            <img src="${matches[1].ateam_logo}" width="64" height="64" alt="풀럼" onerror="imageOnError(this);" />
                                         </div>
                                         <span class="team">${matches[1].ateam}</span> <strong class="num">${matches[1].ascore}</strong>
                                     </div>
 
                                     <div class="vs_btn">
-                                        <a href="/game/2023052910034152441/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                        <a href="${matches[1].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                     </div>
                                 </div>
                                 <div class="bx end">
@@ -2733,14 +2733,14 @@
 
                                     <div class="vs_area">
                                         <div class="emblem">
-                                            <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f64_64" width="64" height="64" alt="레스터" onerror="imageOnError(this);" />
+                                            <img src="${matches[2].hname_logo}" width="64" height="64" alt="레스터" onerror="imageOnError(this);" />
                                         </div>
                                         <span class="team">${matches[2].hname}</span> <strong class="num">${matches[2].hscore}</strong>
                                     </div>
                                     <div class="vs_area">
                                         <div class="emblem">
                                             <img
-                                                src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f64_64"
+                                                src="${matches[2].ateam_logo}"
                                                 width="64"
                                                 height="64"
                                                 alt="웨스트햄"
@@ -2751,7 +2751,7 @@
                                     </div>
 
                                     <div class="vs_btn">
-                                        <a href="/game/2023052910034152439/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                        <a href="${matches[2].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                     </div>
                                 </div>
                             </div>
@@ -2898,14 +2898,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[0].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[0].hname}</span> <span class="score">${matches[0].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[0].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[0].ateam}</span> <span class="score">${matches[0].ascore}</span>
@@ -2915,9 +2915,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050110034152359/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[0].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050110034152359&amp;tab=game&amp;date=2023-05-01&amp;sort=date"
+                                                    href="${matches[0].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -2943,14 +2943,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[1].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[1].hname}</span> <span class="score">${matches[1].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[1].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[1].ateam}</span> <span class="score">${matches[1].ascore}</span>
@@ -2960,7 +2960,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050210034152357/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[1].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -2981,14 +2981,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[2].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[2].hname}</span> <span class="score">${matches[2].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[2].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[2].ateam}</span> <span class="score">${matches[2].ascore}</span>
@@ -2998,9 +2998,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050310040620361/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[2].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050310040620361&amp;tab=game&amp;date=2023-05-03&amp;sort=date"
+                                                    href="${matches[2].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3026,14 +3026,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[3].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[3].hname}</span> <span class="score">${matches[3].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[3].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[3].ateam}</span> <span class="score">${matches[3].ascore}</span>
@@ -3043,7 +3043,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050410040274513/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[3].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3061,14 +3061,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[4].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[4].hname}</span> <span class="score">${matches[4].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[4].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[4].ateam}</span> <span class="score">${matches[4].ascore}</span>
@@ -3078,9 +3078,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050410040274521/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[4].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050410040274521&amp;tab=game&amp;date=2023-05-04&amp;sort=date"
+                                                    href="${matches[4].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3106,14 +3106,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[5].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[5].hname}</span> <span class="score">${matches[5].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[5].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[5].ateam}</span> <span class="score">${matches[5].ascore}</span>
@@ -3123,9 +3123,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050510040274505/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[5].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050510040274505&amp;tab=game&amp;date=2023-05-05&amp;sort=date"
+                                                    href="${matches[5].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3151,14 +3151,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[6].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[6].hname}</span> <span class="score">${matches[6].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[6].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[6].ateam}</span> <span class="score">${matches[6].ascore}</span> <span class="win">승리팀</span>
@@ -3168,7 +3168,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050610034152365/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[6].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3186,14 +3186,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[7].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[7].hname}</span> <span class="score">${matches[7].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[7].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[7].ateam}</span> <span class="score">${matches[7].ascore}</span>
@@ -3203,7 +3203,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050610034152373/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[7].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3221,14 +3221,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[8].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[8].hname}</span> <span class="score">${matches[8].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[8].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[8].ateam}</span> <span class="score">${matches[8].ascore}</span>
@@ -3238,9 +3238,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050610034152379/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[8].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050610034152379&amp;tab=game&amp;date=2023-05-06&amp;sort=date"
+                                                    href="${matches[8].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3263,14 +3263,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[9].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[9].hname}</span> <span class="score">${matches[9].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[9].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[9].ateam}</span> <span class="score">${matches[9].ascore}</span>
@@ -3280,7 +3280,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050610034152383/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[9].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3301,14 +3301,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[10].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[10].hname}</span> <span class="score">${matches[10].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[10].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[10].ateam}</span> <span class="score">${matches[10].ascore}</span>
@@ -3318,7 +3318,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050710034152371/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[10].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3339,14 +3339,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[11].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[11].hname}</span> <span class="score">${matches[11].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[11].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[11].ateam}</span> <span class="score">${matches[11].ascore}</span> <span class="win">승리팀</span>
@@ -3356,7 +3356,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050810034152375/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[11].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3374,14 +3374,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[12].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[12].hname}</span> <span class="score">${matches[12].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[12].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[12].ateam}</span> <span class="score">${matches[12].ascore}</span>
@@ -3391,9 +3391,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050810034152381/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[12].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023050810034152381&amp;tab=game&amp;date=2023-05-08&amp;sort=date"
+                                                    href="${matches[12].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3416,14 +3416,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[13].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[13].hname}</span> <span class="score">${matches[13].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[13].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[13].ateam}</span> <span class="score">${matches[13].ascore}</span>
@@ -3433,7 +3433,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050810034152369/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[13].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3454,14 +3454,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[14].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[14].hname}</span> <span class="score">${matches[14].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[14].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[14].ateam}</span> <span class="score">${matches[14].ascore}</span> <span class="win">승리팀</span>
@@ -3471,7 +3471,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050910040265287/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[14].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3489,14 +3489,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[15].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[15].hname}</span> <span class="score">${matches[15].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[15].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[15].ateam}</span> <span class="score">${matches[15].ascore}</span>
@@ -3506,7 +3506,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023050910034152377/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[15].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3557,14 +3557,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[16].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[16].hname}</span> <span class="score">${matches[16].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[16].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[16].ateam}</span> <span class="score">${matches[16].ascore}</span>
@@ -3574,7 +3574,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152397/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[16].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3592,14 +3592,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[17].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[17].hname}</span> <span class="score">${matches[17].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[17].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[17].ateam}</span> <span class="score">${matches[17].ascore}</span>
@@ -3609,9 +3609,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152387/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[17].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051310034152387&amp;tab=game&amp;date=2023-05-13&amp;sort=date"
+                                                    href="${matches[17].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3634,14 +3634,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[18].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[18].hname}</span> <span class="score">${matches[18].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[18].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[18].ateam}</span> <span class="score">${matches[18].ascore}</span>
@@ -3651,7 +3651,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152391/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[18].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3669,14 +3669,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[19].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[19].hname}</span> <span class="score">${matches[19].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[19].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[19].ateam}</span> <span class="score">${matches[19].ascore}</span>
@@ -3686,7 +3686,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152393/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[19].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3704,14 +3704,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[20].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[20].hname}</span> <span class="score">${matches[20].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[20].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[20].ateam}</span> <span class="score">${matches[20].ascore}</span>
@@ -3721,9 +3721,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152401/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[20].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051310034152401&amp;tab=game&amp;date=2023-05-13&amp;sort=date"
+                                                    href="${matches[20].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3746,14 +3746,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[21].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[21].hname}</span> <span class="score">${matches[21].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[21].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[21].ateam}</span> <span class="score">${matches[21].ascore}</span> <span class="win">승리팀</span>
@@ -3763,7 +3763,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051310034152403/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[21].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3784,14 +3784,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[22].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[22].hname}</span> <span class="score">${matches[22].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[22].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[22].ateam}</span> <span class="score">${matches[22].ascore}</span>
@@ -3801,7 +3801,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051410034152389/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[22].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3819,14 +3819,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[23].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[23].hname}</span> <span class="score">${matches[23].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[23].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[23].ateam}</span> <span class="score">${matches[23].ascore}</span> <span class="win">승리팀</span>
@@ -3836,9 +3836,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051410034152395/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[23].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051410034152395&amp;tab=game&amp;date=2023-05-14&amp;sort=date"
+                                                    href="${matches[23].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3864,14 +3864,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[24].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[24].hname}</span> <span class="score">${matches[24].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[24].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[24].ateam}</span> <span class="score">${matches[24].ascore}</span> <span class="win">승리팀</span>
@@ -3881,9 +3881,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051510034152385/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[24].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023051510034152385&amp;tab=game&amp;date=2023-05-15&amp;sort=date"
+                                                    href="${matches[24].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -3909,14 +3909,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[25].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[25].hname}</span> <span class="score">${matches[25].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[25].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[25].ateam}</span> <span class="score">${matches[25].ascore}</span> <span class="win">승리팀</span>
@@ -3926,7 +3926,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051610040531401/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[25].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -3967,14 +3967,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[26].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[26].hname}</span> <span class="score">${matches[26].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[26].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[26].ateam}</span> <span class="score">${matches[26].ascore}</span>
@@ -3984,7 +3984,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023051910040795213/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[26].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4005,14 +4005,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[27].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[27].hname}</span> <span class="score">${matches[27].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[27].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[27].ateam}</span> <span class="score">${matches[27].ascore}</span> <span class="win">승리팀</span>
@@ -4022,9 +4022,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052010034152419/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[27].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152419&amp;tab=game&amp;date=2023-05-20&amp;sort=date"
+                                                    href="${matches[27].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4047,14 +4047,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[28].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[28].hname}</span> <span class="score">${matches[28].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[28].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[28].ateam}</span> <span class="score">${matches[28].ascore}</span> <span class="win">승리팀</span>
@@ -4064,7 +4064,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052010034152405/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[28].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4082,14 +4082,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[29].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[29].hname}</span> <span class="score">${matches[29].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[29].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[29].ateam}</span> <span class="score">${matches[29].ascore}</span>
@@ -4099,7 +4099,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052010034152409/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[29].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4117,14 +4117,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[30].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[30].hname}</span> <span class="score">${matches[30].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[30].ateam_logo }" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[30].ateam}</span> <span class="score">${matches[30].ascore}</span>
@@ -4134,9 +4134,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052010034152411/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[30].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152411&amp;tab=game&amp;date=2023-05-20&amp;sort=date"
+                                                    href="${matches[30].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4159,14 +4159,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[31].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[31].hname}</span> <span class="score">${matches[31].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[31].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[31].ateam}</span> <span class="score">${matches[31].ascore}</span>
@@ -4176,9 +4176,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052010034152423/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[31].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052010034152423&amp;tab=game&amp;date=2023-05-20&amp;sort=date"
+                                                    href="${matches[31].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4204,14 +4204,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[32].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[32].hname}</span> <span class="score">${matches[32].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[32].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[32].ateam}</span> <span class="score">${matches[32].ascore}</span>
@@ -4221,9 +4221,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052110034152417/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[32].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052110034152417&amp;tab=game&amp;date=2023-05-21&amp;sort=date"
+                                                    href="${matches[32].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4246,14 +4246,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[33].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[33].hname}</span> <span class="score">${matches[33].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[33].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[33].ateam}</span> <span class="score">${matches[33].ascore}</span>
@@ -4263,7 +4263,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052110034152421/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[33].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4281,14 +4281,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[34].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[34].hname}</span> <span class="score">${matches[34].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[34].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[34].ateam}</span> <span class="score">${matches[34].ascore}</span>
@@ -4298,9 +4298,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052110034152407/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[34].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052110034152407&amp;tab=game&amp;date=2023-05-21&amp;sort=date"
+                                                    href="${matches[34].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4326,14 +4326,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[35].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[35].hname}</span> <span class="score">${matches[35].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[35].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[35].ateam}</span> <span class="score">${matches[35].ascore}</span>
@@ -4343,9 +4343,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052210034152413/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[35].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052210034152413&amp;tab=game&amp;date=2023-05-22&amp;sort=date"
+                                                    href="${matches[35].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4371,14 +4371,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[36].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[36].hname}</span> <span class="score">${matches[36].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[36].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[36].ateam}</span> <span class="score">${matches[36].ascore}</span>
@@ -4388,7 +4388,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052310040795215/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[36].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4419,14 +4419,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[37].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[37].hname}</span> <span class="score">${matches[37].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[37].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[37].ateam}</span> <span class="score">${matches[37].ascore}</span>
@@ -4436,7 +4436,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052510040821741/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[37].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4457,14 +4457,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[38].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[38].hname}</span> <span class="score">${matches[38].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[38].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[38].ateam}</span> <span class="score">${matches[38].ascore}</span>
@@ -4474,9 +4474,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052610040821743/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[38].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052610040821743&amp;tab=game&amp;date=2023-05-26&amp;sort=date"
+                                                    href="${matches[38].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4522,14 +4522,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/1006.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[39].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[39].hname}</span> <span class="score">${matches[39].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/44.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[39].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[39].ateam}</span> <span class="score">${matches[39].ascore}</span>
@@ -4539,7 +4539,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152425/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[39].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4557,14 +4557,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/2.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[40].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[40].hname}</span> <span class="score">${matches[40].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/6795.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[40].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[40].ateam}</span> <span class="score">${matches[40].ascore}</span>
@@ -4574,7 +4574,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152427/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[40].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4592,14 +4592,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/48.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[41].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[41].hname}</span> <span class="score">${matches[41].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/11.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[41].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[41].ateam}</span> <span class="score">${matches[41].ascore}</span>
@@ -4609,7 +4609,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152429/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[41].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4627,14 +4627,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/4.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[42].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[42].hname}</span> <span class="score">${matches[42].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/31.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[42].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[42].ateam}</span> <span class="score">${matches[42].ascore}</span>
@@ -4644,7 +4644,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152431/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[42].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4662,14 +4662,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/5.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[43].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[43].hname}</span> <span class="score">${matches[43].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/15.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[43].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[43].ateam}</span> <span class="score">${matches[43].ascore}</span>
@@ -4679,7 +4679,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152433/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[43].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4697,14 +4697,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/8.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[44].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[44].hname}</span> <span class="score">${matches[44].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/23.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[44].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[44].ateam}</span> <span class="score">${matches[44].ascore}</span>
@@ -4714,7 +4714,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152435/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[44].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4732,14 +4732,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/28.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[45].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[45].hname}</span> <span class="score">${matches[45].hscore}</span>
                                                 </span>
                                                 <span class="team_right winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/19.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[45].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[45].ateam}</span> <span class="score">${matches[45].ascore}</span> <span class="win">승리팀</span>
@@ -4749,9 +4749,9 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152437/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[45].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                                 <a
-                                                    href="https://m.sports.naver.com/wfootball/video?category=epl&amp;gameId=2023052910034152437&amp;tab=game&amp;date=2023-05-29&amp;sort=date"
+                                                    href="${matches[45].vlink}"
                                                     class="btn"
                                                     onclick="clickcr(this, 'sch*b.epllive', '', '', event);"
                                                 >
@@ -4774,14 +4774,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/29.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[46].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[46].hname}</span> <span class="score">${matches[46].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/43.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[46].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[46].ateam}</span> <span class="score">${matches[46].ascore}</span>
@@ -4791,7 +4791,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152439/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[46].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4809,14 +4809,14 @@
                                             <div class="inner">
                                                 <span class="team_left winner">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/12.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[47].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[47].hname}</span> <span class="score">${matches[47].hscore}</span> <span class="win">승리팀</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/55.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[47].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[47].ateam}</span> <span class="score">${matches[47].ascore}</span>
@@ -4826,7 +4826,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152441/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[47].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4844,14 +4844,14 @@
                                             <div class="inner">
                                                 <span class="team_left">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/18.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[48].hname_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[48].hname}</span> <span class="score">${matches[48].hscore}</span>
                                                 </span>
                                                 <span class="team_right">
                                                     <span class="emblem">
-                                                        <img src="https://dthumb-phinf.pstatic.net?src=https://sports-phinf.pstatic.net/team/wfootball/default/9.png&amp;type=f25_25" width="25" height="25" onerror="imageOnError(this);" />
+                                                        <img src="${matches[48].ateam_logo}" width="25" height="25" onerror="imageOnError(this);" />
                                                     </span>
 
                                                     <span class="name">${matches[48].ateam}</span> <span class="score">${matches[48].ascore}</span>
@@ -4861,7 +4861,7 @@
 
                                         <td class="broadcast">
                                             <div class="inner">
-                                                <a href="/game/2023052910034152443/record" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
+                                                <a href="${matches[48].mlink}" class="btn" onclick="clickcr(this, 'sch*b.eplwar', '', '', event);">경기기록</a>
                                             </div>
                                         </td>
 
@@ -4894,8 +4894,11 @@
                                 </tbody>
                             </table>
                         </div>
+                
+            
+                 
                     </div>
-
+                  
                     <div class="schedule_info">
                         네이버 스포츠에서 제공하는 일정, 결과, 기록 등의 데이터는 '제공처'의 사정에 따라 지연되거나 잘못 표시될 수 있습니다.<br />
                         네이버(주)는 그에 따른 스포츠 데이터의 정확성 및 신뢰성을 담보하지 않습니다. 궁금하신 사항은 <a href="https://help.naver.com/support/alias/contents2/sports/sports_5.naver" target="_blank" class="link">고객센터</a>를
@@ -4963,7 +4966,7 @@
                     <div class="sports_info">
                         <div class="link_area">
                             <div class="main_area">
-                                <a href="javascript:moveToLoginForm();" class="link" id="login_status"><strong>로그인</strong></a> <a href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
+                                 <a href="https://www.naver.com/more.html" class="link sitemap">전체서비스</a>
                                 <a target="_blank" onclick="OPS.viewOPS('ops', {url : 'https://help.naver.com/alias/contents2/sports/sports_2.naver'}); clickcr(this, 'fot.shelp', '', '', event); return false;" href="#" class="link">
                                     
                                 </a>
