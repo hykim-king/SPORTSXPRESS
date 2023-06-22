@@ -612,15 +612,178 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             
             
             
-              <div class="sch_nogame">
-          <p class="blind">이 날은 예정된 프로배구 경기가 없습니다. 경기가 없는 날은 고화질 배구영상을 감상하세요!</p>
-          <a href="/volleyball/vod/index?category=kovo" class="lnk_vod"><span class="blind">영상 보러가기</span></a>
-        </div>
+                <div class="inner_lft end ">
+                    <div class="vs_cnt">
+                        <em class="state">
+                            
+                                
+                                
+                                    종료
+                                
+                            
+                        </em>
+                    </div>
+                    <div class="vs_lft">
+                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="흥국생명" title="흥국생명" src="${matches[6].hname_logo}" onerror="imageOnError(this);"></div>
+                        <strong class="vs_lft_name">${matches[6].hname}</strong>
+                        <strong class="vs_num">${matches[6].hscore}</strong>
+                    </div>
+                    <div class="vs_rgt">
+                        <div class="emblem"><img class="sch_emblem" width="64" height="64" alt="한국도로공사" title="한국도로공사" src="${matches[6].ateam_logo}" onerror="imageOnError(this);"></div>
+                        <strong class="vs_rgt_name">${matches[6].ateam}</strong>
+                        <strong class="vs_num">${matches[6].ascore}</strong>
+                    </div>
+                    <div class="vs_btn">
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                                <a class="btn_rst" href="/game/20230406019F269/record">
+                                    <span class="blind">경기결과</span></a>
+                            
+                        
+                        
+                            
+                            
+                            
+                                
+                                    <a class="btn_vod" href="/game/20230406019F269/video">
+                                        <span class="blind">영상</span></a>
+                                
+                                
+                            
+                            
+                            
+                        
+                    </div>
+                    <div class="sch_vs_tbl">
+                        <table cellspacing="0" cellpadding="0">
+                            <caption>경기기록</caption>
+                            <thead>
+                            <tr><th scope="col">
+                                    
+                                        
+                                            <span class="event_w">여자부</span>
+                                        
+                                        
+                                    
+                                </th>
+                                <th scope="col"><span class="set1">1</span></th>
+                                <th scope="col"><span class="set2">2</span></th>
+                                <th scope="col"><span class="set3">3</span></th>
+                                <th scope="col"><span class="set4">4</span></th>
+                                <th scope="col"><span class="set5">5</span></th>
+                                <th class="on" scope="col"><span class="set">세트</span></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row"><span>${matches[6].hname}</span></th>
+                                    
+                                        
+                                            
+                                                <td><span>25</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>23</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>23</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>25</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>13</span></td>
+                                            
+                                            
+                                        
+                                    
+                                    <td class="on"><span>2</span></td>
+                                </tr>
+                                <tr><th scope="row"><span>${matches[6].ateam}</span></th>
+                                    
+                                        
+                                            
+                                                <td><span>23</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>25</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>25</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>23</span></td>
+                                            
+                                            
+                                        
+                                    
+                                        
+                                            
+                                                <td><span>15</span></td>
+                                            
+                                            
+                                        
+                                    
+                                    <td class="on"><span>3</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                    <div class="inner_rgt">
+                        <div class="sch_empty">
+                            <div class="kovo"></div>
+                            <p>5월 07일(일)
+                                
+                                    
+                                    
+                                        에는 한 경기만 있습니다.
+                                    
+                                
+                            </p>
+                        </div>
+                    </div>
+                
+                
+            
+            
             
         </div>
         
-    </div>
-                        </div>
+    </div></div>  
                     
                 
                 
@@ -703,7 +866,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         ul.date_list 가 열려있다면 aria-expanded="true" 로 적용 해 주세요.
        -->
             <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="월 선택" id="_currentMonthButton" onclick="toggleMonthList();">
-                <em class="now_selected"><span class="blind">선택된 월</span>06</em>
+                <em class="now_selected"><span class="blind">선택된 월</span>05</em>
             </button>
             <!-- [D] ul.date_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
             <ul class="option_list" role="listbox" id="_monthList">
@@ -854,7 +1017,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 	              </c:choose>
                     
                     <td><span class="td_hour">19:00</span></td>
-                    <td><span class="td_event"></span></td>
+                    <td><span class="td_event">전체</span></td>
                     <td><span class="team_lft">${matches.hname}</span>
                         <span class="emblem"><img src="${matches.hname_logo}" onerror="imageOnError(this);" width="25" height="25" alt="한국도로공사" title="한국도로공사"></span>
                         

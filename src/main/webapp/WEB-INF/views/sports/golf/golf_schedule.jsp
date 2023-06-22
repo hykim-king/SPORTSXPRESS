@@ -793,7 +793,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </div>
     <div class="select_box _month_select_box"> <!-- 월 선택-->
       <button class="btn_toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="월 선택" id="_currentMonthButton">
-        <em class="now_selected"><span class="blind">선택된 월</span>06</em>
+        <em class="now_selected"><span class="blind">선택된 월</span>04</em>
       </button>
       <!-- [D] ul.date_list 가 열릴 때 .on 클래스를 추가 해 주세요. -->
       <ul class="option_list" role="listbox">
@@ -848,20 +848,26 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
       <!-- schedule_list_area -->
       <ul class="schedule_list" id="_monthlyScheduleList">
     <!-- [D] 오늘 날짜의 경기인 경우, .is_today 를 추가해주세요. -->
+    <c:forEach var="matches" items="${matches}" varStatus="loop">
     <li class="schedule_item" data-game-id="kpga202311000010M">
       <div class="schedule_type">
-        <span class="date">06.01 - 06.04</span>
-        <span class="league">KPGA</span>
+        <span class="date">06.04 - 06.04</span>
+        <span class="league">${matches.lname}</span>
       </div>
       <div class="schedule_info">
         <div class="title_area">
-          <span class="title">제13회 데상트코리아 매치플레이</span>
+          <span class="title">${matches.cname}</span>
           <span class="sub_title">
             <!-- 라운드 정보 nR 종료/경기중 추가-->
           </span>
         </div>
 
         <!-- result_area -->
+            <div class="result_area">
+              <span class="winner">우승</span>
+              <span class="winner_name">${matches.winner}</span>
+              <span class="winner_score">${matches.score}</span>
+            </div>
         <!-- //result_area -->
 
         <!-- [D] 리더보드로 이동 가능할 때, 추가해주세요 -->
@@ -887,6 +893,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
           </a>
         </div>
     </li>
+    </c:forEach>
     <!-- [D] 오늘 날짜의 경기인 경우, .is_today 를 추가해주세요. -->
     <li class="schedule_item" data-game-id="lpga203587143">
       <div class="schedule_type">
@@ -903,13 +910,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
           </span>
         </div>
 
-        <!-- result_area -->
-            <div class="result_area">
-              <span class="winner">우승</span>
-              <span class="winner_name">로즈 장</span>
-              <span class="winner_score">279타(-9), 70-69-66-74</span>
-            </div>
-        <!-- //result_area -->
+
 
         <!-- [D] 리더보드로 이동 가능할 때, 추가해주세요 -->
           <a href="/game/lpga203587143/leaderboard" class="link_area" onclick="clickcr(this, 'date.leader', '', '', event);">

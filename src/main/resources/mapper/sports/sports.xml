@@ -203,13 +203,13 @@
 			golfno,
 			lname,
 			cname,
-			sdate,
-			edate,
+			TO_CHAR(sdate, 'MM.dd') AS sdate,
+			TO_CHAR(edate, 'MM.dd') AS edate,
 			winner,
 			score
 		FROM
 		  golf_match
-	<!-- <where> <![CDATA[ golfno <= #{golfno}]]> </where> -->
+		ORDER BY sdate asc
 	</select>
 
 	<select id="selectVolleyballPlayerInfo" parameterType="VolleyballInfoVO" resultType="VolleyballInfoVO">
