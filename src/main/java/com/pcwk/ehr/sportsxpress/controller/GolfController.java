@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pcwk.ehr.sportsxpress.VO.ArticleVO;
 import com.pcwk.ehr.sportsxpress.VO.GolfMatchVO;
+import com.pcwk.ehr.sportsxpress.VO.GolfRankVO;
 import com.pcwk.ehr.sportsxpress.VO.TeamVO;
 import com.pcwk.ehr.sportsxpress.VO.VideoVO;
 import com.pcwk.ehr.sportsxpress.service.ArticleService;
@@ -61,12 +62,21 @@ public class GolfController {
 	}
 	
 	// 일정 결과
-	@RequestMapping(value = "/golf_Schedule.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/golf_schedule.do", method = RequestMethod.GET)
 	public String ScheduleInfo(GolfMatchVO getMatch, Model model) throws SQLException {
 		List<GolfMatchVO> matchList = golfService.getMatchInfo(getMatch);
 		model.addAttribute("matches", matchList);
 
 		return "sports/golf/golf_schedule";
+	}
+	
+	// 기록_순위
+	@RequestMapping(value = "/golf_record.do", method = RequestMethod.GET)
+	public String golfRecordRankInfo(GolfRankVO getRank, Model model) throws SQLException {
+		List<GolfRankVO> matchList = golfService.getPlayerInfo(getRank);
+		model.addAttribute("players", matchList);
+
+		return "sports/golf/golf_record";
 	}
 	// -------------------------------------------------------------------------//
 }

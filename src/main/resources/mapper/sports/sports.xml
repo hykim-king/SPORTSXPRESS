@@ -230,6 +230,7 @@
 	</select>
 
 	<select id="selectVolleyballPlayerInfo" parameterType="VolleyballInfoVO" resultType="VolleyballInfoVO">
+	
 		SELECT
 			volleyid,
 			name,
@@ -241,9 +242,14 @@
 			defense,
 			sets,
 			recieve_ef
-		FROM
-		  volleyball_info
-	<!-- <where> <![CDATA[ volleyid <= #{volleyid}]]> </where> -->
+		FROM (
+		    SELECT *
+			  FROM volleyball_info
+			  ORDER BY score DESC
+			)
+	    <where>
+	        <![CDATA[ ROWNUM <= 20]]> 
+	    </where>
 	</select>
 
 	<select id="selectVolleyballMatchInfo" parameterType="VolleyballMatchVO" resultType="VolleyballMatchVO">

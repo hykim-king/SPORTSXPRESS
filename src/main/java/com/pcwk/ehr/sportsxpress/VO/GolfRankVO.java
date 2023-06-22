@@ -9,20 +9,20 @@ public class GolfRankVO extends DTO {
 	private String profile  ;
 	private String nation   ;
 	private String ernings  ;
-	private int point    ;
-	private int savg     ;
-	private int ddavg    ;
-	private int appgrn   ;
-	private int pavg     ;
-	private int fhit     ;
+	private double point    ;
+	private double savg     ;
+	private double ddavg    ;
+	private double appgrn   ;
+	private double pavg     ;
+	private double fhit     ;
 	private int top10f   ;
 	
 	public GolfRankVO() {
 
 	}
 
-	public GolfRankVO(int golfid, String lname, String name, String profile, String nation, String ernings, int point,
-			int savg, int ddavg, int appgrn, int pavg, int fhit, int top10f) {
+	public GolfRankVO(int golfid, String lname, String name, String profile, String nation, String ernings,
+			double point, double savg, double ddavg, double appgrn, double pavg, double fhit, int top10f) {
 		super();
 		this.golfid = golfid;
 		this.lname = lname;
@@ -43,113 +43,106 @@ public class GolfRankVO extends DTO {
 		return golfid;
 	}
 
-	public String getLname() {
-		return lname;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public String getProfile() {
-		return profile;
-	}
-
-	public String getNation() {
-		return nation;
-	}
-
-	public String getErnings() {
-		return ernings;
-	}
-
-	public int getPoint() {
-		return point;
-	}
-
-	public int getSavg() {
-		return savg;
-	}
-
-	public int getDdavg() {
-		return ddavg;
-	}
-
-	public int getAppgrn() {
-		return appgrn;
-	}
-
-	public int getPavg() {
-		return pavg;
-	}
-
-	public int getFhit() {
-		return fhit;
-	}
-
-	public int getTop10f() {
-		return top10f;
-	}
-
 	public void setGolfid(int golfid) {
 		this.golfid = golfid;
+	}
+
+	public String getLname() {
+		return lname;
 	}
 
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
 
+	public String getName() {
+		return name;
+	}
+
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getProfile() {
+		return profile;
 	}
 
 	public void setProfile(String profile) {
 		this.profile = profile;
 	}
 
+	public String getNation() {
+		return nation;
+	}
+
 	public void setNation(String nation) {
 		this.nation = nation;
+	}
+
+	public String getErnings() {
+		return ernings;
 	}
 
 	public void setErnings(String ernings) {
 		this.ernings = ernings;
 	}
 
-	public void setPoint(int point) {
+	public double getPoint() {
+		return point;
+	}
+
+	public void setPoint(double point) {
 		this.point = point;
 	}
 
-	public void setSavg(int savg) {
+	public double getSavg() {
+		return savg;
+	}
+
+	public void setSavg(double savg) {
 		this.savg = savg;
 	}
 
-	public void setDdavg(int ddavg) {
+	public double getDdavg() {
+		return ddavg;
+	}
+
+	public void setDdavg(double ddavg) {
 		this.ddavg = ddavg;
 	}
 
-	public void setAppgrn(int appgrn) {
+	public double getAppgrn() {
+		return appgrn;
+	}
+
+	public void setAppgrn(double appgrn) {
 		this.appgrn = appgrn;
 	}
 
-	public void setPavg(int pavg) {
+	public double getPavg() {
+		return pavg;
+	}
+
+	public void setPavg(double pavg) {
 		this.pavg = pavg;
 	}
 
-	public void setFhit(int fhit) {
+	public double getFhit() {
+		return fhit;
+	}
+
+	public void setFhit(double fhit) {
 		this.fhit = fhit;
+	}
+
+	public int getTop10f() {
+		return top10f;
 	}
 
 	public void setTop10f(int top10f) {
 		this.top10f = top10f;
 	}
-
-	@Override
-	public String toString() {
-		return "Golf_RankVO [golfid=" + golfid + ", lname=" + lname + ", name=" + name + ", profile=" + profile
-				+ ", nation=" + nation + ", ernings=" + ernings + ", point=" + point + ", savg=" + savg + ", ddavg="
-				+ ddavg + ", appgrn=" + appgrn + ", pavg=" + pavg + ", fhit=" + fhit + ", top10f=" + top10f
-				+ ", toString()=" + super.toString() + "]";
-	}
+		
 	
 	
 	

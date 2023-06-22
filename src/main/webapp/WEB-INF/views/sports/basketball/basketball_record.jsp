@@ -552,7 +552,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
         <!-- [D] 비활성화 되어야 하는 button.btn_option 에 disabled 속성을 추가 해 주세요. -->
        
           <li class="list" role="presentation">
-            <button class="btn_option" type="button" role="option" aria-selected="true" onclick="location.href='/basketball/record/index?category=kbl&amp;year=2023'">2022-23</button>
+            <button class="btn_option" type="button" role="option" aria-selected="true">2022-23</button>
           </li>
         
       </ul>
@@ -608,12 +608,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 </table>
 
 </div>
-      
 
-  
-    
-    
-    
 
     <a name="playerRanking"></a>
   <div class="tit_box">
@@ -637,7 +632,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 	              <td>
                        <div class="ph">   
 	                     <span class="image">
-	                       <img width="63" height="88" alt="" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/player/kbl/default/291248.jpg&amp;type=ff63_88" onerror="javaScript:noImg(this);">
+	                       <img width="63" height="88" src="${bestplayers.profile}" onerror="javaScript:noImg(this);">
 	                       <span class="mask"></span>
 	                     </span>
 		                 <p class="ph_info">
@@ -665,8 +660,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
     </table>
   </div>
 
-      
-
 <script>
     
 </script>
@@ -674,7 +667,6 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 <div class="tit_box">
     <h4 class="h_player"><span class="blind">선수 기록</span></h4>
 </div>
-
 
 
 <div class="tbl_box type2">
@@ -722,7 +714,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
             </c:choose>
                         <td class="ply">
                             <div>
-                                <span class="emblem"><img width="25" height="25" src="https://dthumb-phinf.pstatic.net/?src=https://sports-phinf.pstatic.net/team/kbl/default/55.png&amp;type=f25_25&amp;refresh=1" alt="구단 로고" onerror="imageOnError(this);"></span>
+                                <span class="emblem"><img width="25" height="25" src="${players.profile}" alt="구단 로고" onerror="imageOnError(this);"></span>
                                 <span>${players.name}</span>
                             </div>
                         </td>
