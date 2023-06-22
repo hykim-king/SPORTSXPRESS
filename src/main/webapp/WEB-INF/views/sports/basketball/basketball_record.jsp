@@ -440,7 +440,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
   <ul id="lnb_sub_list" class="lnb_sub_list" role="menubar">
   
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/baseball_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
+    <a href="/ehr/sportsxpress/basketball_news.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.news', 'news', '', event); ">
     <span class="menu">최신뉴스</span>
     </a>
   </li>
@@ -449,7 +449,7 @@ a.gnb_service_all:hover, a.gnb_service_all:visited, a.gnb_service_all:active, a.
 
   </li>
   <li class="lnb_sub_item " role="presentation">
-    <a href="/ehr/sportsxpress/basketball_Schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
+    <a href="/ehr/sportsxpress/basketball_schedule.do" class="link_lnb_sub" role="menuitem" onclick="clickcr(this, 'LNB.schedule', 'schedule', '', event); ">
     <span class="menu">일정/결과</span>
     </a>
   </li>
