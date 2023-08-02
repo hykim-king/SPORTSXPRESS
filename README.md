@@ -10,6 +10,7 @@ sportsXpress는 사용자들에게 다양한 스포츠 경기의 실시간 결�
 
 <h3>팀 및 선수 정보</h3>
 사용자들은 sportsXpress를 통해 자신이 관심 있는 팀과 선수들에 대한 정보를 얻을 수 있습니다. 각 팀의 기록, 선수 프로필, 경기 통계 등 다양한 정보를 쉽게 탐색할 수 있습니다.
+
 # 개발환경
 ![14](https://github.com/hykim-king/SPORTSXPRESS/assets/77008882/a94c602a-d845-4903-85bb-eda6493de3a2)
 
